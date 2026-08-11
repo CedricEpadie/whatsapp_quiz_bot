@@ -1,0 +1,135 @@
+{
+  "theme": "🎵 Musique",
+  "questions": [
+    {
+      "question": "Quel artiste est surnommé le 'Roi de la Pop' ?",
+      "choices": [
+        "Prince",
+        "Elvis Presley",
+        "Michael Jackson",
+        "Stevie Wonder"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel compositeur classique est l'auteur de la 9e Symphonie et de l'Hymne à la Joie ?",
+      "choices": [
+        "Chopin",
+        "Mozart",
+        "Beethoven",
+        "Bach"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "De quel pays est originaire le groupe de rock légendaire 'The Beatles' ?",
+      "choices": [
+        "Australie",
+        "États-Unis",
+        "Irlande",
+        "Royaume-Uni"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel genre musical est né en Jamaïque à la fin des années 1960 avec Bob Marley ?",
+      "choices": [
+        "Ska",
+        "Reggae",
+        "Calypso",
+        "Ragga"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument à cordes possède généralement 6 cordes ?",
+      "choices": [
+        "Violon",
+        "Guitare",
+        "Ukulélé",
+        "Harpe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel style musical traditionnel et urbain est emblématique du Cameroun (porté par Manu Dibango) ?",
+      "choices": [
+        "Makossa",
+        "Bikutsi",
+        "Coupé-Décalé",
+        "Ndombolo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel rythme traditionnel du centre du Cameroun est caractérisé par un tempo rapide et saccadé ?",
+      "choices": [
+        "Bend-skin",
+        "Assiko",
+        "Makossa",
+        "Bikutsi"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Qui est l'auteur du tube mondial 'Soul Makossa' sorti en 1972 ?",
+      "choices": [
+        "Petit Pays",
+        "Erico",
+        "Manu Dibango",
+        "Francis Bebey"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel célèbre chanteur jamaïcain est l'auteur des titres 'No Woman No Cry' et 'One Love' ?",
+      "choices": [
+        "Burning Spear",
+        "Jimmy Cliff",
+        "Peter Tosh",
+        "Bob Marley"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel groupe de pop suédois a remporté l'Eurovision en 1974 avec la chanson 'Waterloo' ?",
+      "choices": [
+        "ABBA",
+        "Ace of Base",
+        "A-ha",
+        "Roxette"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien de clés différentes trouve-t-on en solfège traditionnel (Sol, Fa, Ut) ?",
+      "choices": [
+        "12",
+        "3",
+        "5",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument de musique est muni de touches noires et blanches ?",
+      "choices": [
+        "La guitare",
+        "La flûte",
+        "Le piano",
+        "La batterie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "De quel pays est originaire le genre musical Bossa Nova ?",
+      "choices": [
+        "Argentine",
+        "Brésil",
+        "Cuba",
+        "Mexique"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

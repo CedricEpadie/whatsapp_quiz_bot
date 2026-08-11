@@ -1,0 +1,245 @@
+{
+  "theme": "🧪 Sciences",
+  "questions": [
+    {
+      "question": "Quel est le symbole chimique de l'eau ?",
+      "choices": [
+        "CO2",
+        "H2O",
+        "NaCl",
+        "O2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le symbole chimique du fer ?",
+      "choices": [
+        "Cu",
+        "Fe",
+        "Ag",
+        "Au"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le gaz le plus abondant dans l'atmosphère terrestre ?",
+      "choices": [
+        "Dioxyde de carbone",
+        "Oxygène (O2)",
+        "Azote (N2)",
+        "Argon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien d'os compte le corps humain adulte ?",
+      "choices": [
+        "206",
+        "106",
+        "300",
+        "250"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le plus grand organe du corps humain ?",
+      "choices": [
+        "Le foie",
+        "Les poumons",
+        "Le cerveau",
+        "La peau"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle est l'unité de mesure de la force dans le Système International ?",
+      "choices": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle est l'unité de mesure de la puissance électrique ?",
+      "choices": [
+        "Ohm",
+        "Ampère",
+        "Volt",
+        "Watt"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle molécule porte l'information génétique dans les cellules ?",
+      "choices": [
+        "ARN",
+        "Protéine",
+        "Glucose",
+        "ADN"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le PH d'une solution neutre à 25°C ?",
+      "choices": [
+        "0",
+        "7",
+        "14",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe est responsable du pompage du sang dans le corps ?",
+      "choices": [
+        "Le cœur",
+        "Le foie",
+        "Le poumon",
+        "Le rein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le composé chimique responsable de la couleur verte des plantes ?",
+      "choices": [
+        "Le carotène",
+        "La chlorophylle",
+        "L'hémoglobine",
+        "La mélanine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la vitesse de la lumière dans le vide ?",
+      "choices": [
+        "150 000 km/s",
+        "30 000 km/s",
+        "300 000 km/s",
+        "1 000 km/s"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est l'élément chimique le plus léger de la classification périodique ?",
+      "choices": [
+        "Le carbone",
+        "L'hélium",
+        "Le lithium",
+        "L'hydrogène"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Comment appelle-t-on la division cellulaire assurant la croissance et le renouvellement des tissus ?",
+      "choices": [
+        "Méiose",
+        "Mitose",
+        "Osmose",
+        "Phagocytose"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chercheur a formulé la théorie de la relativité restreinte et générale ?",
+      "choices": [
+        "Niels Bohr",
+        "Isaac Newton",
+        "Galilée",
+        "Albert Einstein"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle est la loi fondamentale qui régit la gravitation universelle ?",
+      "choices": [
+        "Loi de Boyle-Mariotte",
+        "Loi de Newton",
+        "Loi de Kepler",
+        "Loi d'Ohm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle particule de l'atome possède une charge négative ?",
+      "choices": [
+        "Électron",
+        "Neutron",
+        "Proton",
+        "Quark"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Où se trouve le fémur dans le corps humain ?",
+      "choices": [
+        "Dans le dos",
+        "Dans la cuisse",
+        "Dans le bras",
+        "Dans le pied"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de chambres compte le cœur humain ?",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "6"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la formule chimique du sel de table ?",
+      "choices": [
+        "CaCl2",
+        "KCl",
+        "NaCl",
+        "NaOH"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel organe produit l'insuline ?",
+      "choices": [
+        "Le rein",
+        "La rate",
+        "Le pancréas",
+        "Le foie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la vitesse du son dans l'air à 20°C ?",
+      "choices": [
+        "343 m/s",
+        "100 m/s",
+        "1500 m/s",
+        "300 000 km/s"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle est la plus petite unité du vivant ?",
+      "choices": [
+        "La cellule",
+        "Le tissu",
+        "L'atome",
+        "La molécule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel gaz les plantes absorbent-elles lors de la photosynthèse ?",
+      "choices": [
+        "Oxygène (O2)",
+        "Dioxyde de carbone (CO2)",
+        "Azote (N2)",
+        "Méthane (CH4)"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

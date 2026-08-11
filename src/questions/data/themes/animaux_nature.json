@@ -1,0 +1,135 @@
+{
+  "theme": "🐾 Animaux et nature",
+  "questions": [
+    {
+      "question": "Quel est le plus grand animal vivant actuellement sur Terre ?",
+      "choices": [
+        "L'éléphant d'Afrique",
+        "La baleine bleue",
+        "Le giga-dinosaure",
+        "Le requin-baleine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est l'animal terrestre le plus rapide au monde ?",
+      "choices": [
+        "Le léopard",
+        "Le lion",
+        "L'antilope",
+        "Le guépard"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel mammifère est le seul capable de voler activement ?",
+      "choices": [
+        "Le lémurien",
+        "L'ornithorynque",
+        "L'écureuil volant",
+        "La chauve-souris"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le plus grand oiseau vivant au monde ?",
+      "choices": [
+        "Le condor",
+        "L'autruche",
+        "Le albatros",
+        "L'aigle royal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est célèbre pour changer de couleur pour se camoufler ?",
+      "choices": [
+        "L'iguane",
+        "Le gecko",
+        "Le varan",
+        "Le caméléon"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Comment appelle-t-on un groupe de loups ?",
+      "choices": [
+        "Un troupeau",
+        "Une meute",
+        "Une colonie",
+        "Une horde"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de pattes ont les arachnides ?",
+      "choices": [
+        "10",
+        "6",
+        "12",
+        "8"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le plus grand félin du monde ?",
+      "choices": [
+        "Le lion",
+        "Le tigre",
+        "Le léopard",
+        "Le jaguar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le seul continent où vivent les kangourous à l'état sauvage ?",
+      "choices": [
+        "L'Asie",
+        "L'Amérique du Sud",
+        "L'Afrique",
+        "L'Australie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Comment appelle-t-on les arbres qui gardent leurs feuilles toute l'année ?",
+      "choices": [
+        "Caduques",
+        "Evergreen / Persistants",
+        "Feuillus",
+        "Résineux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de cœurs possède une pieuvre ?",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le plus grand serpent venimeux du monde ?",
+      "choices": [
+        "Le mamba noir",
+        "Le cobra royal",
+        "Le taïpan",
+        "Le anaconda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le nom du petit de la vache ?",
+      "choices": [
+        "Le veau",
+        "Le chevreau",
+        "Le agneau",
+        "Le poulin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

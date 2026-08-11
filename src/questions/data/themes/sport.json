@@ -1,0 +1,185 @@
+{
+  "theme": "⚽ Sport",
+  "questions": [
+    {
+      "question": "Tous les combien d'années ont lieu les Jeux Olympiques d'été ?",
+      "choices": [
+        "2 ans",
+        "4 ans",
+        "3 ans",
+        "5 ans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle nation a remporté la Coupe du Monde de football de la FIFA en 2022 ?",
+      "choices": [
+        "Croatie",
+        "France",
+        "Brésil",
+        "Argentine"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel pays a remporté la Coupe d'Afrique des Nations (CAN) de football en 2024 ?",
+      "choices": [
+        "Nigeria",
+        "Cameroun",
+        "Côte d'Ivoire",
+        "Sénégal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien de joueurs composent une équipe de football sur le terrain ?",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "9"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur de tennis détient le record du nombre de titres du Grand Chelem chez les hommes ?",
+      "choices": [
+        "Novak Djokovic",
+        "Roger Federer",
+        "Pete Sampras",
+        "Rafael Nadal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays a inventé le jeu du rugby ?",
+      "choices": [
+        "Angleterre",
+        "Australie",
+        "Écosse",
+        "Nouvelle-Zélande"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien de points vaut un essai au rugby à XV sans la transformation ?",
+      "choices": [
+        "3 points",
+        "2 points",
+        "6 points",
+        "5 points"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Dans quel sport s'illustre le basketteur américain LeBron James ?",
+      "choices": [
+        "Football américain",
+        "Athlétisme",
+        "Basket-ball",
+        "Baseball"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le temps réglementaire d'un match de football hors prolongations ?",
+      "choices": [
+        "80 minutes",
+        "90 minutes",
+        "100 minutes",
+        "60 minutes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Sur quelle distance s'affronte-t-on lors de la course reine du sprint en athlétisme ?",
+      "choices": [
+        "80 mètres",
+        "100 mètres",
+        "400 mètres",
+        "200 mètres"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète est détenteur du record du monde du 100m (9,58s) ?",
+      "choices": [
+        "Yohan Blake",
+        "Tyson Gay",
+        "Usain Bolt",
+        "Carl Lewis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien de fois l'équipe nationale du Cameroun (Les Lions Indomptables) a-t-elle remporté la CAN ?",
+      "choices": [
+        "3 fois",
+        "5 fois",
+        "6 fois",
+        "4 fois"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "En quelle année le Cameroun a-t-il atteint les quarts de finale de la Coupe du Monde de football ?",
+      "choices": [
+        "1982",
+        "1994",
+        "2002",
+        "1990"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel golfeur est considéré comme une légende mondiale avec 15 majeurs ?",
+      "choices": [
+        "Rory McIlroy",
+        "Tiger Woods",
+        "Phil Mickelson",
+        "Jack Nicklaus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de joueurs y a-t-il dans une équipe de basket-ball sur le terrain ?",
+      "choices": [
+        "11",
+        "5",
+        "7",
+        "6"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle nation a remporté la première Coupe du monde de football en 1930 ?",
+      "choices": [
+        "Brésil",
+        "Uruguay",
+        "Argentine",
+        "Italie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le style de nage le plus rapide en natation ?",
+      "choices": [
+        "Le crawl",
+        "Le dos crawlé",
+        "La papillon",
+        "La brasse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le nombre de trous sur un parcours de golf standard ?",
+      "choices": [
+        "9",
+        "24",
+        "12",
+        "18"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

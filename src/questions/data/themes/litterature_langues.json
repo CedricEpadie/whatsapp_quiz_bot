@@ -1,0 +1,125 @@
+{
+  "theme": "📚 Littérature et Langues",
+  "questions": [
+    {
+      "question": "Qui a écrit la pièce de théâtre 'Roméo et Juliette' ?",
+      "choices": [
+        "Oscar Wilde",
+        "Voltaire",
+        "Molière",
+        "William Shakespeare"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel écrivain français est l'auteur de 'L'Étranger' ?",
+      "choices": [
+        "Albert Camus",
+        "Marcel Proust",
+        "Victor Hugo",
+        "Jean-Paul Sartre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel roman de Miguel de Cervantès met en scène un chevalier luttant contre des moulins à vent ?",
+      "choices": [
+        "Le Cid",
+        "Madame Bovary",
+        "Don Quichotte",
+        "L'Odyssée"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel auteur est le célèbre créateur du détective Sherlock Holmes ?",
+      "choices": [
+        "Agatha Christie",
+        "Jules Verne",
+        "Arthur Conan Doyle",
+        "Edgar Allan Poe"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien de lettres compte l'alphabet français de base ?",
+      "choices": [
+        "28",
+        "24",
+        "26",
+        "25"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Dans quelle langue le roman original '1984' de George Orwell a-t-il été écrit ?",
+      "choices": [
+        "Anglais",
+        "Espagnol",
+        "Français",
+        "Allemand"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel écrivain camerounais est l'auteur du roman 'Le Vieux Nègre et la Médaille' ?",
+      "choices": [
+        "Mongo Beti",
+        "Ferdinand Oyono",
+        "Calixthe Beyala",
+        "Guillaume Oyônô Mbia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain camerounais a écrit 'Ville cruelle' sous le pseudonyme d'Eza Boto ?",
+      "choices": [
+        "Mongo Beti",
+        "Ferdinand Oyono",
+        "Francis Bebey",
+        "Léonora Miano"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel auteur antique est l'auteur des poèmes épiques 'L'Iliade' et 'L'Odyssée' ?",
+      "choices": [
+        "Platon",
+        "Sophocle",
+        "Virgile",
+        "Homère"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Comment appelle-t-on une figure de style qui consiste en une exagération ?",
+      "choices": [
+        "Une oxymore",
+        "Une métaphore",
+        "Une litote",
+        "Une hyperbole"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Qui a écrit 'Le Petit Prince' ?",
+      "choices": [
+        "Marcel Pagnol",
+        "Antoine de Saint-Exupéry",
+        "Jules Verne",
+        "Jean de La Fontaine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la langue maternelle de la majorité des habitants d'Amérique latine ?",
+      "choices": [
+        "Le français",
+        "Le portugais",
+        "L'anglais",
+        "L'espagnol"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

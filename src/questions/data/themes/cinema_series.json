@@ -1,0 +1,135 @@
+{
+  "theme": "🎬 Cinéma et Séries",
+  "questions": [
+    {
+      "question": "Quel film a remporté 11 Oscars dont celui du Meilleur Film en 1997 ?",
+      "choices": [
+        "Forrest Gump",
+        "Avatar",
+        "Gladiator",
+        "Titanic"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Qui a réalisé le film 'Inception' et 'Interstellar' ?",
+      "choices": [
+        "Martin Scorsese",
+        "Christopher Nolan",
+        "Steven Spielberg",
+        "Quentin Tarantino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne le personnage de Tony Stark / Iron Man dans le MCU ?",
+      "choices": [
+        "Mark Ruffalo",
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Robert Downey Jr."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Dans quelle série télévisée retrouve-t-on les maisons Stark, Lannister et Targaryen ?",
+      "choices": [
+        "Le Seigneur des Anneaux",
+        "Game of Thrones",
+        "The Witcher",
+        "House of Cards"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'animation des studios Disney raconte l'histoire de Simba ?",
+      "choices": [
+        "Tarzan",
+        "Aladdin",
+        "La Petite Sirène",
+        "Le Roi Lion"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Qui est le réalisateur de la trilogie 'Le Seigneur des Anneaux' ?",
+      "choices": [
+        "Peter Jackson",
+        "George Lucas",
+        "James Cameron",
+        "Ridley Scott"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle série suit les aventures de Walter White, un professeur de chimie reconverti ?",
+      "choices": [
+        "Breaking Bad",
+        "Better Call Saul",
+        "The Wire",
+        "Ozark"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Dans quel film entend-on la réplique 'Que la Force soit avec toi' ?",
+      "choices": [
+        "Star Trek",
+        "Dune",
+        "Matrix",
+        "Star Wars"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel acteur joue le rôle de Jack Sparrow dans 'Pirates des Caraïbes' ?",
+      "choices": [
+        "Brad Pitt",
+        "Tom Cruise",
+        "Johnny Depp",
+        "Orlando Bloom"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel film de James Cameron est le plus gros succès au box-office mondial de tous les temps ?",
+      "choices": [
+        "Avatar",
+        "Star Wars 7",
+        "Titanic",
+        "Avengers: Endgame"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "uel est le nom du sorcier ennemi juré de Harry Potter ?",
+      "choices": [
+        "Voldemort",
+        "Grindelwald",
+        "Snape",
+        "Malefoy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "ans quelle série animée voit-on le personnage d'Homer Simpson ?",
+      "choices": [
+        "Family Guy",
+        "Les Simpson",
+        "Futurama",
+        "South Park"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "uel film d'animation présente le personnage de Elsa et Anna ?",
+      "choices": [
+        "Raiponce",
+        "La Reine des Neiges",
+        "Vaiana",
+        "Rebelle"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+# Dépendances (ne jamais inclure le dossier node_modules)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Logs et débogage
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Fichiers d'environnement et secrets (à garder privés)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers de build / compilation (si vous utilisez TypeScript, Babel, etc.)
+dist/
+build/
+out/
+.next/
+.nuxt/
+*.tsbuildinfo
+
+# Fichiers et dossiers système / Éditeurs de code
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configuration des IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tests et couverture de code
+coverage/
+.nyc_output/
+.jest/
+
+# Caches de gestionnaires de paquets / frameworks
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz

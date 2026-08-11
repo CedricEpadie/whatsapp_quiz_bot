@@ -1,0 +1,125 @@
+{
+  "theme": "🏛️ Mythologie",
+  "questions": [
+    {
+      "question": "Qui est le roi des dieux dans la mythologie grecque ?",
+      "choices": [
+        "Poséidon",
+        "Hadès",
+        "Ares",
+        "Zeus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est l'équivalent romain du dieu grec Zeus ?",
+      "choices": [
+        "Mars",
+        "Jupiter",
+        "Neptune",
+        "Vulcain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans la mythologie nordique, qui est le dieu du tonnerre armé de son marteau Mjöllnir ?",
+      "choices": [
+        "Freyr",
+        "Loki",
+        "Odin",
+        "Thor"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Qui est le dieu égyptien de la mort et de l'embaumement à tête de jackal ?",
+      "choices": [
+        "Osiris",
+        "Anubis",
+        "Ra",
+        "Horus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros grec est célèbre pour avoir accompli 12 travaux ?",
+      "choices": [
+        "Héraclès (Hercule)",
+        "Persée",
+        "Thésée",
+        "Achille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le nom du dieu grec de la mer ?",
+      "choices": [
+        "Hadès",
+        "Poséidon",
+        "Hephaïstos",
+        "Apollon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse grecque est associée à la sagesse, à la stratégie militaire et aux arts ?",
+      "choices": [
+        "Aphrodite",
+        "Héra",
+        "Artémis",
+        "Athéna"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Dans la mythologie grecque, quel titan a volé le feu aux dieux pour le donner aux hommes ?",
+      "choices": [
+        "Prométhée",
+        "Chronos",
+        "Atlas",
+        "Épiméthée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel monstre de la mythologie grecque avait des serpents en guise de cheveux et pétrifiait d'un regard ?",
+      "choices": [
+        "Le Minotaure",
+        "Méduse",
+        "Le Sphinx",
+        "La Chimère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu romain de la guerre correspond au dieu grec Arès ?",
+      "choices": [
+        "Jupiter",
+        "Mercure",
+        "Mars",
+        "Pluton"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Qui est la déesse grecque de l'amour et de la beauté ?",
+      "choices": [
+        "Artémis",
+        "Héra",
+        "Athéna",
+        "Aphrodite"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Dans la mythologie grecque, qui transporte les âmes des morts sur le fleuve Styx ?",
+      "choices": [
+        "Hadès",
+        "Hermès",
+        "Charon",
+        "Cerbère"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

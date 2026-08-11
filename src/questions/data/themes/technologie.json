@@ -1,0 +1,135 @@
+{
+  "theme": "💻 Technologie",
+  "questions": [
+    {
+      "question": "Que signifient les lettres 'WWW' dans une adresse web ?",
+      "choices": [
+        "World Wide Waves",
+        "Wide World Web",
+        "World Wide Web",
+        "Web World Wide"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel système d'exploitation mobile est développé par Google ?",
+      "choices": [
+        "Android",
+        "Windows Phone",
+        "iOS",
+        "Symbian"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Qui est le cofondateur de Microsoft aux côtés de Paul Allen ?",
+      "choices": [
+        "Jeff Bezos",
+        "Mark Zuckerberg",
+        "Bill Gates",
+        "Steve Jobs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Qui a fondé l'entreprise sociale et réseau social Facebook (Meta) ?",
+      "choices": [
+        "Larry Page",
+        "Jack Dorsey",
+        "Mark Zuckerberg",
+        "Elon Musk"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Que signifie l'acronyme 'IA' dans le domaine informatique ?",
+      "choices": [
+        "Interface Automatisée",
+        "Intelligence Artificielle",
+        "Information Accessible",
+        "Informatique Avancée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel composant est considéré comme le 'cerveau' d'un ordinateur ?",
+      "choices": [
+        "La carte graphique",
+        "Le disque dur",
+        "La mémoire RAM",
+        "Le processeur (CPU)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Que signifie l'acronyme 'RAM' ?",
+      "choices": [
+        "Rapid Action Memory",
+        "Run Access Module",
+        "Random Access Memory",
+        "Read Access Memory"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel langage de programmation est représenté par un serpent comme logo ?",
+      "choices": [
+        "Python",
+        "C++",
+        "Java",
+        "Ruby"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel jeu vidéo de construction de blocs est le plus vendu de tous les temps ?",
+      "choices": [
+        "Super Mario Bros",
+        "Tetris",
+        "GTA V",
+        "Minecraft"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle société américaine a créé le smartphone iPhone ?",
+      "choices": [
+        "Nokia",
+        "Apple",
+        "Sony",
+        "Samsung"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "ue signifie 'HTML' ?",
+      "choices": [
+        "HyperTransfer Mark Language",
+        "HighText Machine Language",
+        "Home Tool Markup Language",
+        "HyperText Markup Language"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "uel est le nom du premier navigateur web grand public ?",
+      "choices": [
+        "Mosaic",
+        "Firefox",
+        "Chrome",
+        "Internet Explorer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "uel protocole sécurise les échanges web (cadenas vert) ?",
+      "choices": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

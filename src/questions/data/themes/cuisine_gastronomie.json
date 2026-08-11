@@ -1,0 +1,125 @@
+{
+  "theme": "🍔 Cuisine et Gastronomie",
+  "questions": [
+    {
+      "question": "Quel est l'ingrédient principal du guacamole ?",
+      "choices": [
+        "L'avocat",
+        "Le concombre",
+        "La tomate",
+        "Le poivron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "De quel pays la pizza Margherita est-elle originaire ?",
+      "choices": [
+        "Les États-Unis",
+        "La Grèce",
+        "La France",
+        "L'Italie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel plat traditionnel camerounais est préparé à base de feuilles de vernonia et d'arachide ?",
+      "choices": [
+        "Taro sauce jaune",
+        "Eru",
+        "Le Ndolé",
+        "Le Koki"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel plat de l'Ouest du Cameroun est composé de pilé de macabo/taro et d'une sauce à l'huile de palme jaune ?",
+      "choices": [
+        "Kondre",
+        "Okok",
+        "Taro sauce jaune",
+        "Ndolé"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "De quel pays est originaire le sushi ?",
+      "choices": [
+        "La Chine",
+        "La Thaïlande",
+        "Le Japon",
+        "La Corée"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel épice précieuse est obtenue à partir du stigmate d'une fleur de crocus ?",
+      "choices": [
+        "Le cardamome",
+        "La vanille",
+        "Le safran",
+        "Le curcuma"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel type de fromage est traditionnellement utilisé dans la vraie recette de la fondue savoyarde ?",
+      "choices": [
+        "Le camembert",
+        "Le comté / beaufort",
+        "Le roquefort",
+        "La mozzarella"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel ingrédient donne la couleur jaune au riz de la paëlla espagnole ?",
+      "choices": [
+        "Le paprika",
+        "Le curry",
+        "Le safran",
+        "La moutarde"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle boisson est obtenue par fermentation du jus de raisin ?",
+      "choices": [
+        "La bière",
+        "Le rhum",
+        "Le cidre",
+        "Le vin"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel fruit est le composant principal du plat camerounais appelé 'Kondré' ?",
+      "choices": [
+        "Le manioc",
+        "La patate douce",
+        "L'igname",
+        "La banane plantain"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "e quel pays provient le plat appelé 'Paëlla' ?",
+      "choices": [
+        "L'Espagne",
+        "Le Portugal",
+        "La Grèce",
+        "L'Italie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "uel est le légume principal de la moussaka grecque ?",
+      "choices": [
+        "L'aubergine",
+        "La tomate",
+        "La pomme de terre",
+        "La courgette"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

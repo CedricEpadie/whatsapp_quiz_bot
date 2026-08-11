@@ -1,0 +1,315 @@
+{
+  "theme": "📜 Histoire",
+  "questions": [
+    {
+      "question": "En quelle année le Cameroun a-t-il accédé à l'indépendance de sa partie sous tutelle française ?",
+      "choices": [
+        "1960",
+        "1958",
+        "1961",
+        "1972"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Qui a été le premier président de la République du Cameroun ?",
+      "choices": [
+        "Ahmadou Ahidjo",
+        "Paul Biya",
+        "Ruben Um Nyobè",
+        "Ernest Ouandié"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "En quelle année Paul Biya est-il devenu président du Cameroun ?",
+      "choices": [
+        "1982",
+        "1980",
+        "1984",
+        "1990"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel leader indépendantiste camerounais, figure de l'UPC, a été assassiné en 1958 ?",
+      "choices": [
+        "Ruben Um Nyobè",
+        "Felix Moumié",
+        "Ernest Ouandié",
+        "King Akwa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle puissance européenne a colonisé le Cameroun en premier (1884-1916) ?",
+      "choices": [
+        "Allemagne",
+        "France",
+        "Royaume-Uni",
+        "Portugal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel traité signé en 1884 marque le début de la colonisation allemande au Cameroun ?",
+      "choices": [
+        "Le traité germano-douala",
+        "Le traité de Berlin",
+        "Le traité de Versailles",
+        "Le traité de Foumban"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "En quelle année a eu lieu la réunification des deux parties (orientale et occidentale) du Cameroun ?",
+      "choices": [
+        "1961",
+        "1960",
+        "1972",
+        "1984"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle date marque l'avènement de l'État unitaire au Cameroun (Fête Nationale) ?",
+      "choices": [
+        "20 mai 1972",
+        "1er janvier 1960",
+        "1er octobre 1961",
+        "11 février 1966"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel explorateur allemand a hissé le drapeau allemand à Douala en 1884 ?",
+      "choices": [
+        "Gustav Nachtigal",
+        "Karl Peters",
+        "Heinrich Barth",
+        "Otto von Bismarck"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel sultan du royaume Bamoun est célèbre pour avoir inventé une écriture originale (Shümom) ?",
+      "choices": [
+        "Sultan Njoya",
+        "Sultan Ibrahim",
+        "Sultan Seidou",
+        "Sultan Mbombo Njoya"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "En quelle année a eu lieu la prise de la Bastille ?",
+      "choices": [
+        "1789",
+        "1799",
+        "1804",
+        "1815"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Qui était le premier empereur romain ?",
+      "choices": [
+        "Auguste",
+        "Jules César",
+        "Néron",
+        "Trajan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "choices": [
+        "Traité de Versailles",
+        "Traité de Rome",
+        "Traité de Vienne",
+        "Traité de Paris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle civilisation a construit Machu Picchu ?",
+      "choices": [
+        "Inca",
+        "Maya",
+        "Aztèque",
+        "Olmèque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "En quelle année le mur de Berlin est-il tombé ?",
+      "choices": [
+        "1989",
+        "1985",
+        "1991",
+        "1993"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Qui a été le premier président des États-Unis ?",
+      "choices": [
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams",
+        "Benjamin Franklin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle bataille marque la défaite finale de Napoléon Ier ?",
+      "choices": [
+        "Waterloo",
+        "Austerlitz",
+        "Iéna",
+        "Trafalgar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "De quel pays la Grèce a-t-elle obtenu son indépendance au 19e siècle ?",
+      "choices": [
+        "Empire ottoman",
+        "Empire austro-hongrois",
+        "Empire russe",
+        "Empire perse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pharaon est associé au trésor découvert intact en 1922 ?",
+      "choices": [
+        "Toutânkhamon",
+        "Ramsès II",
+        "Akhenaton",
+        "Khéops"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle explosion volcanique a détruit Pompéi en 79 apr. J.-C. ?",
+      "choices": [
+        "Le Vésuve",
+        "L'Etna",
+        "Le Stromboli",
+        "Le Vulcano"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "En quelle année a débuté la Seconde Guerre mondiale ?",
+      "choices": [
+        "1939",
+        "1914",
+        "1941",
+        "1936"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Qui fut le célèbre leader de la Révolution russe de 1917 ?",
+      "choices": [
+        "Lénine",
+        "Staline",
+        "Trotski",
+        "Khrouchtchev"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel navigateur est le premier à avoir accompli un tour du monde (son équipage) ?",
+      "choices": [
+        "Fernand de Magellan",
+        "Christophe Colomb",
+        "Vasco de Gama",
+        "Jacques Cartier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "En quelle année Christophe Colomb a-t-il atteint l'Amérique ?",
+      "choices": [
+        "1492",
+        "1498",
+        "1500",
+        "1488"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle reine a régné sur l'Angleterre pendant plus de 63 ans au 19e siècle ?",
+      "choices": [
+        "Reine Victoria",
+        "Élisabeth Ier",
+        "Reine Anne",
+        "Marie Stuart"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel empire était dirigé par Gengis Khan ?",
+      "choices": [
+        "L'Empire mongol",
+        "L'Empire ottoman",
+        "L'Empire persan",
+        "L'Empire byzantin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "En quelle année a eu lieu la Déclaration d'indépendance des États-Unis ?",
+      "choices": [
+        "1776",
+        "1789",
+        "1812",
+        "1750"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel roi de France a été exécuté pendant la Révolution française en 1793 ?",
+      "choices": [
+        "Louis XVI",
+        "Louis XIV",
+        "Louis XV",
+        "Charles X"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel événement s'est produit le 11 septembre 2001 aux États-Unis ?",
+      "choices": [
+        "Attentats du World Trade Center",
+        "Guerre du Golfe",
+        "Crise des missiles",
+        "Chute de la bourse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Qui était le leader de la lutte contre l'Apartheid en Afrique du Sud ?",
+      "choices": [
+        "Nelson Mandela",
+        "Desmond Tutu",
+        "Thabo Mbeki",
+        "Steve Biko"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "n quelle année a eu lieu le traité international de référence n°1 ?",
+      "choices": [
+        "1945",
+        "1919",
+        "1815",
+        "1789"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

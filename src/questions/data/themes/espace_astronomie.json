@@ -1,0 +1,125 @@
+{
+  "theme": "🚀 Espace et Astronomie",
+  "questions": [
+    {
+      "question": "Quelle est la planète la plus proche du Soleil ?",
+      "choices": [
+        "Mercure",
+        "Mars",
+        "La Terre",
+        "Vénus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle est la plus grande planète du Système solaire ?",
+      "choices": [
+        "Uranus",
+        "Saturne",
+        "Neptune",
+        "Jupiter"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle planète est surnommée la 'Planète Rouge' ?",
+      "choices": [
+        "Jupiter",
+        "Vénus",
+        "Mercure",
+        "Mars"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+      "choices": [
+        "1959",
+        "1969",
+        "1965",
+        "1972"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Qui fut le premier homme à effectuer un vol dans l'espace en 1961 ?",
+      "choices": [
+        "Buzz Aldrin",
+        "John Glenn",
+        "Youri Gagarine",
+        "Neil Armstrong"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle galaxie est la plus proche de la Voie Lactée ?",
+      "choices": [
+        "Le Sombrero",
+        "Le Tourbillon",
+        "Centaurus A",
+        "Andromède"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel instrument spatial lancé en 1990 puis remplacé par James Webb a révolutionné l'astronomie ?",
+      "choices": [
+        "Spitzer",
+        "Chandra",
+        "Kepler",
+        "Hubble"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle planète possède les anneaux les plus visibles et spectaculaires ?",
+      "choices": [
+        "Jupiter",
+        "Uranus",
+        "Saturne",
+        "Neptune"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le nom de l'étoile au centre de notre système solaire ?",
+      "choices": [
+        "Le Soleil",
+        "Sirius",
+        "Proxima du Centaure",
+        "Polaris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien de temps met la lumière du Soleil pour parvenir jusqu'à la Terre ?",
+      "choices": [
+        "Instantanné",
+        "1 heure",
+        "Environ 8 minutes",
+        "8 secondes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "uel nom donne-t-on à l'explosion d'une étoile en fin de vie ?",
+      "choices": [
+        "Pulsar",
+        "Supernova",
+        "Trou noir",
+        "Nébuleuse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "uelle planète possède la plus grande tache rouge ?",
+      "choices": [
+        "Mars",
+        "Neptune",
+        "Jupiter",
+        "Saturne"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

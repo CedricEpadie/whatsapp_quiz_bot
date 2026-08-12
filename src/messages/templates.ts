@@ -46,8 +46,8 @@ export const templates = {
     `${pickRandom(config.registrationEncouragements)}\n` +
     `Tapez *Partant* pour rejoindre !`,
 
-  playerRegistered: (name: string, count: number): string =>
-    `✅ *${name}* rejoint la partie ! (${count} inscrit${count > 1 ? 's' : ''})`,
+  playerRegistered: (jid: string, count: number): string =>
+    `✅ *${mentionOf(jid)}* rejoint la partie ! (${count} inscrit${count > 1 ? 's' : ''})`,
 
   alreadyRegistered: (): string => `ℹ️ Tu es déjà inscrit, patience 😉`,
 

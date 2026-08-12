@@ -5,121 +5,2001 @@
       "question": "Qui est le roi des dieux dans la mythologie grecque ?",
       "choices": [
         "Poséidon",
+        "Zeus",
         "Hadès",
-        "Ares",
-        "Zeus"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel est l'équivalent romain du dieu grec Zeus ?",
-      "choices": [
-        "Mars",
-        "Jupiter",
-        "Neptune",
-        "Vulcain"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Dans la mythologie nordique, qui est le dieu du tonnerre armé de son marteau Mjöllnir ?",
-      "choices": [
-        "Freyr",
-        "Loki",
-        "Odin",
-        "Thor"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Qui est le dieu égyptien de la mort et de l'embaumement à tête de jackal ?",
-      "choices": [
-        "Osiris",
-        "Anubis",
-        "Ra",
-        "Horus"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel héros grec est célèbre pour avoir accompli 12 travaux ?",
-      "choices": [
-        "Héraclès (Hercule)",
-        "Persée",
-        "Thésée",
-        "Achille"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le nom du dieu grec de la mer ?",
-      "choices": [
-        "Hadès",
-        "Poséidon",
-        "Hephaïstos",
         "Apollon"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quelle déesse grecque est associée à la sagesse, à la stratégie militaire et aux arts ?",
+      "question": "Qui est le roi des dieux dans la mythologie romaine ?",
       "choices": [
-        "Aphrodite",
-        "Héra",
-        "Artémis",
-        "Athéna"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Dans la mythologie grecque, quel titan a volé le feu aux dieux pour le donner aux hommes ?",
-      "choices": [
-        "Prométhée",
-        "Chronos",
-        "Atlas",
-        "Épiméthée"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel monstre de la mythologie grecque avait des serpents en guise de cheveux et pétrifiait d'un regard ?",
-      "choices": [
-        "Le Minotaure",
-        "Méduse",
-        "Le Sphinx",
-        "La Chimère"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel dieu romain de la guerre correspond au dieu grec Arès ?",
-      "choices": [
-        "Jupiter",
-        "Mercure",
+        "Neptune",
         "Mars",
+        "Jupiter",
         "Pluton"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Qui est la déesse grecque de l'amour et de la beauté ?",
+      "question": "Qui est le dieu de la mer dans la mythologie grecque ?",
       "choices": [
-        "Artémis",
+        "Zeus",
+        "Poséidon",
+        "Hadès",
+        "Hermès"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Qui est le dieu des enfers dans la mythologie grecque ?",
+      "choices": [
+        "Zeus",
+        "Poséidon",
+        "Hadès",
+        "Arès"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Qui est la déesse de la sagesse dans la mythologie grecque ?",
+      "choices": [
         "Héra",
         "Athéna",
-        "Aphrodite"
+        "Aphrodite",
+        "Artémis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Qui est la déesse de l'amour dans la mythologie grecque ?",
+      "choices": [
+        "Athéna",
+        "Héra",
+        "Aphrodite",
+        "Artémis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Qui est le dieu de la guerre dans la mythologie grecque ?",
+      "choices": [
+        "Hermès",
+        "Arès",
+        "Apollon",
+        "Héphaïstos"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Qui est le messager des dieux dans la mythologie grecque ?",
+      "choices": [
+        "Hermès",
+        "Apollon",
+        "Dionysos",
+        "Hadès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Qui est le dieu du soleil et des arts dans la mythologie grecque ?",
+      "choices": [
+        "Arès",
+        "Apollon",
+        "Poséidon",
+        "Hermès"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Qui est la déesse de la chasse dans la mythologie grecque ?",
+      "choices": [
+        "Aphrodite",
+        "Artémis",
+        "Déméter",
+        "Héra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros grec est célèbre pour ses douze travaux ?",
+      "choices": [
+        "Achille",
+        "Héraclès (Hercule)",
+        "Ulysse",
+        "Persée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros grec a combattu la Méduse et lui a tranché la tête ?",
+      "choices": [
+        "Thésée",
+        "Persée",
+        "Jason",
+        "Achille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros grec est le protagoniste de l'Odyssée d'Homère ?",
+      "choices": [
+        "Achille",
+        "Ulysse",
+        "Hector",
+        "Ajax"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros grec est le protagoniste de l'Iliade, tué par une flèche au talon ?",
+      "choices": [
+        "Ulysse",
+        "Achille",
+        "Priam",
+        "Ménélas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle créature grecque a une tête de femme et le corps d'un lion ailé, posant des énigmes ?",
+      "choices": [
+        "Le Minotaure",
+        "Le Sphinx",
+        "La Chimère",
+        "Le Cerbère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle créature grecque a un corps d'homme et une tête de taureau ?",
+      "choices": [
+        "Le Sphinx",
+        "Le Minotaure",
+        "Le Centaure",
+        "Le Cyclope"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu égyptien a une tête de faucon et est associé au soleil ?",
+      "choices": [
+        "Anubis",
+        "Horus",
+        "Osiris",
+        "Seth"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu égyptien a une tête de chacal et guide les âmes des morts ?",
+      "choices": [
+        "Horus",
+        "Anubis",
+        "Thot",
+        "Rê"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu égyptien est le souverain des morts et de la renaissance ?",
+      "choices": [
+        "Horus",
+        "Osiris",
+        "Seth",
+        "Anubis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse égyptienne est associée à la magie et à la maternité ?",
+      "choices": [
+        "Isis",
+        "Bastet",
+        "Hathor",
+        "Nephtys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu nordique est le roi des dieux, père d'Odin ? (Attention : Odin est le roi)",
+      "choices": [
+        "Thor",
+        "Odin",
+        "Loki",
+        "Balder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu nordique est associé au tonnerre et possède un marteau nommé Mjöllnir ?",
+      "choices": [
+        "Odin",
+        "Thor",
+        "Loki",
+        "Tyr"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu nordique est connu pour sa ruse et ses tours malicieux ?",
+      "choices": [
+        "Odin",
+        "Thor",
+        "Loki",
+        "Heimdall"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle créature nordique gigantesque entoure le monde en se mordant la queue ?",
+      "choices": [
+        "Fenrir",
+        "Le serpent Jörmungandr",
+        "Nidhogg",
+        "Sleipnir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel loup géant nordique est destiné à tuer Odin lors du Ragnarök ?",
+      "choices": [
+        "Jörmungandr",
+        "Fenrir",
+        "Sköll",
+        "Garm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel royaume nordique des dieux est parfois appelé la « demeure des braves guerriers morts » ?",
+      "choices": [
+        "Asgard",
+        "Valhalla",
+        "Midgard",
+        "Niflheim"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre gigantesque relie les neuf mondes dans la mythologie nordique ?",
+      "choices": [
+        "Le chêne sacré",
+        "Yggdrasil",
+        "L'arbre de vie égyptien",
+        "Le frêne de Zeus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage mythologique grec a volé le feu des dieux pour le donner aux hommes ?",
+      "choices": [
+        "Épiméthée",
+        "Prométhée",
+        "Atlas",
+        "Hermès"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel titan grec porte le ciel sur ses épaules en punition ?",
+      "choices": [
+        "Cronos",
+        "Atlas",
+        "Prométhée",
+        "Océan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle créature de la mythologie grecque a des serpents à la place des cheveux et pétrifie ceux qui la regardent ?",
+      "choices": [
+        "Le Sphinx",
+        "Méduse",
+        "L'Hydre",
+        "La Chimère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel monstre grec à plusieurs têtes de serpent repousse deux têtes quand on en coupe une ?",
+      "choices": [
+        "Le Minotaure",
+        "L'Hydre de Lerne",
+        "Cerbère",
+        "La Chimère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chien à plusieurs têtes garde les portes des enfers dans la mythologie grecque ?",
+      "choices": [
+        "Cerbère",
+        "Fenrir",
+        "Argos",
+        "Orthos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu grec est le forgeron des dieux, créateur d'armes et objets magiques ?",
+      "choices": [
+        "Arès",
+        "Héphaïstos",
+        "Hermès",
+        "Apollon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse grecque est l'épouse de Zeus et déesse du mariage ?",
+      "choices": [
+        "Aphrodite",
+        "Héra",
+        "Athéna",
+        "Déméter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu grec règne sur le vin et les festivités ?",
+      "choices": [
+        "Apollon",
+        "Dionysos",
+        "Hermès",
+        "Pan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse grecque est associée aux moissons et à l'agriculture ?",
+      "choices": [
+        "Perséphone",
+        "Déméter",
+        "Héra",
+        "Artémis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse grecque, fille de Déméter, passe une partie de l'année aux enfers ?",
+      "choices": [
+        "Athéna",
+        "Perséphone",
+        "Artémis",
+        "Hestia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu romain équivaut au dieu grec Zeus ?",
+      "choices": [
+        "Mars",
+        "Jupiter",
+        "Neptune",
+        "Pluton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu romain équivaut au dieu grec Arès, dieu de la guerre ?",
+      "choices": [
+        "Mercure",
+        "Mars",
+        "Vulcain",
+        "Bacchus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu romain équivaut au dieu grec Hermès, messager des dieux ?",
+      "choices": [
+        "Mercure",
+        "Mars",
+        "Apollon",
+        "Vulcain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle déesse romaine équivaut à Aphrodite, déesse de l'amour ?",
+      "choices": [
+        "Junon",
+        "Vénus",
+        "Minerve",
+        "Diane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse romaine équivaut à Athéna, déesse de la sagesse ?",
+      "choices": [
+        "Vénus",
+        "Minerve",
+        "Junon",
+        "Cérès"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel demi-dieu grec, fils de Zeus, est réputé pour sa force surhumaine ?",
+      "choices": [
+        "Persée",
+        "Héraclès",
+        "Thésée",
+        "Bellérophon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros grec a vaincu le Minotaure dans le labyrinthe de Crète ?",
+      "choices": [
+        "Persée",
+        "Thésée",
+        "Jason",
+        "Ulysse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros grec a mené la quête de la Toison d'or avec les Argonautes ?",
+      "choices": [
+        "Thésée",
+        "Jason",
+        "Persée",
+        "Achille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle magicienne de la mythologie grecque aide puis trahit Jason ?",
+      "choices": [
+        "Circé",
+        "Médée",
+        "Calypso",
+        "Pandore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle première femme, selon la mythologie grecque, a ouvert une boîte libérant tous les maux du monde ?",
+      "choices": [
+        "Hélène",
+        "Pandore",
+        "Perséphone",
+        "Ariane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel géant à cent yeux de la mythologie grecque est chargé de surveiller Io ?",
+      "choices": [
+        "Argos",
+        "Typhon",
+        "Atlas",
+        "Briarée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel personnage biblique, souvent mentionné avec des mythes de déluge, construit une arche pour survivre à une inondation universelle ?",
+      "choices": [
+        "Moïse",
+        "Noé",
+        "Abraham",
+        "Adam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi mythique sumérien est le héros de l'une des plus anciennes épopées connues, l'Épopée de Gilgamesh ?",
+      "choices": [
+        "Sargon",
+        "Gilgamesh",
+        "Hammurabi",
+        "Enkidu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel Titan grec, père de Zeus, a été renversé par ses propres enfants ?",
+      "choices": [
+        "Ouranos",
+        "Cronos",
+        "Océan",
+        "Hypérion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu primordial grec représente le ciel et est le père des Titans ?",
+      "choices": [
+        "Chaos",
+        "Ouranos",
+        "Cronos",
+        "Érèbe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entité primordiale grecque représente le vide originel d'où tout est né ?",
+      "choices": [
+        "Gaïa",
+        "Chaos",
+        "Tartare",
+        "Nyx"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse primordiale grecque représente la Terre-Mère ?",
+      "choices": [
+        "Rhéa",
+        "Gaïa",
+        "Héra",
+        "Thémis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fleuve des enfers grecs faut-il traverser pour entrer dans le royaume des morts, guidé par Charon ?",
+      "choices": [
+        "Le Léthé",
+        "Le Styx",
+        "L'Achéron",
+        "Le Cocyte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fleuve des enfers grecs fait oublier la mémoire aux âmes qui en boivent l'eau ?",
+      "choices": [
+        "Le Styx",
+        "Le Léthé",
+        "Le Phlégéthon",
+        "L'Achéron"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Qui est le passeur qui conduit les âmes des morts à travers le Styx dans la mythologie grecque ?",
+      "choices": [
+        "Hadès",
+        "Charon",
+        "Thanatos",
+        "Hermès"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelles créatures ailées grecques, mi-femmes mi-oiseaux, charmaient les marins par leur chant pour les faire naufrager ?",
+      "choices": [
+        "Les Harpies",
+        "Les Sirènes",
+        "Les Gorgones",
+        "Les Furies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelles déesses grecques vengeresses poursuivent les criminels, notamment les parricides ?",
+      "choices": [
+        "Les Moires",
+        "Les Érinyes (Furies)",
+        "Les Muses",
+        "Les Grâces"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelles déesses grecques du destin tissent, mesurent et coupent le fil de la vie humaine ?",
+      "choices": [
+        "Les Érinyes",
+        "Les Moires (Parques)",
+        "Les Muses",
+        "Les Charites"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelles déesses grecques inspirent les arts, la musique et la poésie, au nombre de neuf ?",
+      "choices": [
+        "Les Muses",
+        "Les Nymphes",
+        "Les Grâces",
+        "Les Moires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel titan grec porte le nom de la prévoyance, frère de celui puni pour avoir donné le feu aux hommes ?",
+      "choices": [
+        "Épiméthée",
+        "Atlas",
+        "Prométhée",
+        "Japet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle guerre légendaire, racontée par Homère, oppose Grecs et Troyens autour de la belle Hélène ?",
+      "choices": [
+        "La guerre des Titans",
+        "La guerre de Troie",
+        "La gigantomachie",
+        "La guerre du Péloponnèse (historique)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel prince troyen a enlevé Hélène, déclenchant la guerre de Troie ?",
+      "choices": [
+        "Hector",
+        "Pâris",
+        "Énée",
+        "Priam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel stratagème grec, un cheval de bois géant, a permis de vaincre Troie ?",
+      "choices": [
+        "Le Cheval de Troie",
+        "Le bouclier d'Achille",
+        "La lance de Pallas",
+        "Le talon d'Achille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel héros troyen fuit la ville en flammes et devient, selon la légende, un ancêtre des Romains ?",
+      "choices": [
+        "Hector",
+        "Énée",
+        "Pâris",
+        "Priam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi mythique de Rome, selon la légende, a été élevé par une louve avec son frère jumeau ?",
+      "choices": [
+        "Numa Pompilius",
+        "Romulus",
+        "Tarquin",
+        "Ancus Marcius"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel frère jumeau de Romulus a été tué lors de la fondation légendaire de Rome ?",
+      "choices": [
+        "Rémus",
+        "Énée",
+        "Ascagne",
+        "Titus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu égyptien du soleil est souvent représenté voyageant sur une barque à travers le ciel ?",
+      "choices": [
+        "Osiris",
+        "Rê (Râ)",
+        "Thot",
+        "Amon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse égyptienne à tête de lionne ou de chat est associée à la protection et à la fertilité ?",
+      "choices": [
+        "Sekhmet ou Bastet",
+        "Isis uniquement",
+        "Nout",
+        "Maât"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu égyptien du chaos et de la tempête a tué son frère Osiris ?",
+      "choices": [
+        "Horus",
+        "Seth",
+        "Anubis",
+        "Thot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse égyptienne personnifie la vérité, l'ordre cosmique et la justice ?",
+      "choices": [
+        "Isis",
+        "Maât",
+        "Hathor",
+        "Nephtys"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu égyptien, à tête d'ibis, est associé à l'écriture et à la sagesse ?",
+      "choices": [
+        "Horus",
+        "Thot",
+        "Khnoum",
+        "Sobek"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel monstre nordique, serpent de mer géant, encercle Midgard et combattra Thor au Ragnarök ?",
+      "choices": [
+        "Fenrir",
+        "Jörmungandr",
+        "Nidhogg",
+        "Garm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu nordique borgne, associé à la sagesse et à la guerre, dirige Asgard ?",
+      "choices": [
+        "Thor",
+        "Odin",
+        "Tyr",
+        "Baldr"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cheval nordique à huit pattes appartient à Odin ?",
+      "choices": [
+        "Svaðilfari",
+        "Sleipnir",
+        "Skinfaxi",
+        "Hrímfaxi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelles femmes guerrières nordiques choisissent les héros tombés au combat pour les emmener au Valhalla ?",
+      "choices": [
+        "Les Nornes",
+        "Les Valkyries",
+        "Les Disir",
+        "Les Vættir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelles déesses nordiques du destin tissent le sort des hommes, souvent comparées aux Moires grecques ?",
+      "choices": [
+        "Les Valkyries",
+        "Les Nornes",
+        "Les Disir",
+        "Les Vættir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel événement eschatologique nordique désigne la fin du monde et le combat final des dieux ?",
+      "choices": [
+        "Le Ragnarök",
+        "Le Valhalla",
+        "Le Ginnungagap",
+        "Le Yggdrasil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu nordique de la lumière et de la beauté meurt tué par une flèche de gui, provoquant le deuil des dieux ?",
+      "choices": [
+        "Heimdall",
+        "Baldr",
+        "Tyr",
+        "Njord"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu nordique gardien du pont arc-en-ciel Bifröst peut voir et entendre à de très grandes distances ?",
+      "choices": [
+        "Heimdall",
+        "Njord",
+        "Frey",
+        "Tyr"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu inca est le dieu suprême du soleil, particulièrement vénéré par les empereurs ?",
+      "choices": [
+        "Viracocha",
+        "Inti",
+        "Pachamama",
+        "Mama Quilla"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse inca personnifie la Terre-Mère et la fertilité ?",
+      "choices": [
+        "Mama Quilla",
+        "Pachamama",
+        "Illapa",
+        "Chasca"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu aztèque du soleil et de la guerre exigeait des sacrifices humains selon la mythologie ?",
+      "choices": [
+        "Quetzalcóatl",
+        "Huitzilopochtli",
+        "Tláloc",
+        "Tezcatlipoca"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu aztèque, le « serpent à plumes », est associé à la sagesse, au vent et à la création ?",
+      "choices": [
+        "Huitzilopochtli",
+        "Quetzalcóatl",
+        "Xipe Totec",
+        "Mictlantecuhtli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu aztèque de la pluie était vénéré pour assurer de bonnes récoltes ?",
+      "choices": [
+        "Tláloc",
+        "Tezcatlipoca",
+        "Xochiquetzal",
+        "Camaxtli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel héros culturel maya, jumeau divin, affronte les seigneurs du monde souterrain Xibalba dans le Popol Vuh ?",
+      "choices": [
+        "Kukulkán",
+        "Hunahpú (et son frère Ixbalanqué)",
+        "Itzamná",
+        "Chaac"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu maya du ciel et de la création est parfois comparé au serpent à plumes aztèque ?",
+      "choices": [
+        "Chaac",
+        "Kukulkán",
+        "Ah Puch",
+        "Ixchel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu chinois est souvent considéré comme l'empereur de Jade, souverain suprême du ciel ?",
+      "choices": [
+        "Yu Huang (Empereur de Jade)",
+        "Guan Yu",
+        "Fu Xi",
+        "Pangu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel être primordial chinois, selon la mythologie, a créé le monde en séparant le ciel et la terre ?",
+      "choices": [
+        "Nüwa",
+        "Pangu",
+        "Fuxi",
+        "Houyi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse chinoise est créditée d'avoir façonné les humains à partir d'argile et réparé le ciel ?",
+      "choices": [
+        "Nüwa",
+        "Chang'e",
+        "Xiwangmu",
+        "Mazu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle déesse chinoise de la Lune est associée à un mythe où elle s'envole après avoir bu un élixir d'immortalité ?",
+      "choices": [
+        "Nüwa",
+        "Chang'e",
+        "Guanyin",
+        "Mazu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel archer légendaire chinois a abattu neuf des dix soleils qui brûlaient la terre ?",
+      "choices": [
+        "Houyi",
+        "Yu le Grand",
+        "Fu Xi",
+        "Shennong"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu japonais du shintoïsme, déesse du soleil, est considérée comme l'ancêtre de la lignée impériale ?",
+      "choices": [
+        "Susanoo",
+        "Amaterasu",
+        "Tsukuyomi",
+        "Izanami"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu japonais des tempêtes et de la mer est le frère turbulent d'Amaterasu ?",
+      "choices": [
+        "Tsukuyomi",
+        "Susanoo",
+        "Inari",
+        "Hachiman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel couple divin japonais est crédité d'avoir créé les îles du Japon selon le shintoïsme ?",
+      "choices": [
+        "Izanagi et Izanami",
+        "Amaterasu et Susanoo",
+        "Tsukuyomi et Inari",
+        "Raijin et Fujin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu celte irlandais est associé à la lumière, aux arts et à la guerre, chef des Tuatha Dé Danann ?",
+      "choices": [
+        "Dagda",
+        "Lugh",
+        "Morrigan (déesse)",
+        "Nuada"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse celte irlandaise de la guerre annonce souvent la mort par ses présages ?",
+      "choices": [
+        "Brigid",
+        "Morrigan",
+        "Danu",
+        "Airmid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu celte, dit « le bon dieu », possède un chaudron d'abondance inépuisable ?",
+      "choices": [
+        "Lugh",
+        "Dagda",
+        "Ogma",
+        "Manannán"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel titan grec, associé au temps, a dévoré ses propres enfants par crainte d'une prophétie ?",
+      "choices": [
+        "Ouranos",
+        "Cronos",
+        "Océan",
+        "Hypérion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel enfant de Cronos a échappé à ce sort et a finalement renversé son père ?",
+      "choices": [
+        "Poséidon",
+        "Zeus",
+        "Hadès",
+        "Héra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle guerre mythologique grecque oppose les dieux olympiens aux Titans pour le contrôle du cosmos ?",
+      "choices": [
+        "La Gigantomachie",
+        "La Titanomachie",
+        "La guerre de Troie",
+        "La guerre des Sept contre Thèbes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle guerre mythologique grecque oppose les Olympiens à des géants nés de la Terre ?",
+      "choices": [
+        "La Titanomachie",
+        "La Gigantomachie",
+        "La guerre des Amazones",
+        "La Typhonomachie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel monstre grec, fils de Gaïa et Tartare, a défié Zeus et a été enfermé sous l'Etna ?",
+      "choices": [
+        "Typhon",
+        "Briarée",
+        "Campé",
+        "Encelade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quels géants aux cent bras grecs ont aidé Zeus pendant la Titanomachie ?",
+      "choices": [
+        "Les Cyclopes",
+        "Les Hécatonchires",
+        "Les Géants",
+        "Les Telchines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quels géants grecs à un seul œil ont forgé la foudre de Zeus ?",
+      "choices": [
+        "Les Hécatonchires",
+        "Les Cyclopes",
+        "Les Telchines",
+        "Les Curètes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oracle grec, siège d'Apollon, était réputé pour ses prophéties énigmatiques rendues par la Pythie ?",
+      "choices": [
+        "L'oracle de Dodone",
+        "L'oracle de Delphes",
+        "L'oracle d'Ammon",
+        "L'oracle de Trophonios"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi de Thèbes, selon la légende, a tué son père et épousé sa mère sans le savoir, réalisant une prophétie ?",
+      "choices": [
+        "Créon",
+        "Œdipe",
+        "Laïos",
+        "Étéocle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle créature grecque, mi-lion mi-chèvre avec une queue de serpent crachant du feu, a été tuée par Bellérophon ?",
+      "choices": [
+        "L'Hydre",
+        "La Chimère",
+        "Le Sphinx",
+        "Le sanglier de Calydon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cheval ailé grec, né du sang de Méduse, a été monté par Bellérophon pour vaincre la Chimère ?",
+      "choices": [
+        "Pégase",
+        "Arion",
+        "Balios",
+        "Xanthos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel roi légendaire de Crète a fait construire le labyrinthe pour enfermer le Minotaure ?",
+      "choices": [
+        "Égée",
+        "Minos",
+        "Dédale (architecte, pas roi)",
+        "Priam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel inventeur grec a construit le labyrinthe crétois et des ailes de cire pour s'échapper avec son fils ?",
+      "choices": [
+        "Icare",
+        "Dédale",
+        "Talos",
+        "Prométhée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fils de Dédale est mort en volant trop près du soleil, faisant fondre ses ailes de cire ?",
+      "choices": [
+        "Dédale lui-même",
+        "Icare",
+        "Talos",
+        "Persée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle princesse crétoise a aidé Thésée à sortir du labyrinthe grâce à un fil ?",
+      "choices": [
+        "Phèdre",
+        "Ariane",
+        "Europe",
+        "Pasiphaé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros grec, roi d'Ithaque, met dix ans à rentrer chez lui après la guerre de Troie ?",
+      "choices": [
+        "Agamemnon",
+        "Ulysse",
+        "Ménélas",
+        "Nestor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle magicienne grecque transforme les compagnons d'Ulysse en porcs sur son île ?",
+      "choices": [
+        "Calypso",
+        "Circé",
+        "Médée",
+        "Sirène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle nymphe grecque retient Ulysse prisonnier sur son île pendant sept ans par amour ?",
+      "choices": [
+        "Circé",
+        "Calypso",
+        "Écho",
+        "Thétis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cyclope grec, fils de Poséidon, est aveuglé par Ulysse dans l'Odyssée ?",
+      "choices": [
+        "Polyphème",
+        "Argos",
+        "Briarée",
+        "Talos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel roi grec, chef de l'expédition contre Troie, est assassiné par sa femme à son retour ?",
+      "choices": [
+        "Ménélas",
+        "Agamemnon",
+        "Nestor",
+        "Diomède"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle épouse d'Agamemnon complote son assassinat avec son amant à son retour de Troie ?",
+      "choices": [
+        "Hélène",
+        "Clytemnestre",
+        "Cassandre",
+        "Iphigénie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle prophétesse troyenne, condamnée à ne jamais être crue, prédit la chute de Troie ?",
+      "choices": [
+        "Andromaque",
+        "Cassandre",
+        "Hécube",
+        "Polyxène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fils d'Agamemnon venge le meurtre de son père en tuant sa mère et son amant ?",
+      "choices": [
+        "Oreste",
+        "Ménélas",
+        "Pylade (son compagnon)",
+        "Télémaque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle déesse grecque de la discorde a jeté la pomme d'or déclenchant indirectement la guerre de Troie ?",
+      "choices": [
+        "Héra",
+        "Éris",
+        "Aphrodite",
+        "Athéna"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel berger troyen a dû juger quelle déesse était la plus belle, menant au « Jugement de Pâris » ?",
+      "choices": [
+        "Hector",
+        "Pâris",
+        "Priam",
+        "Anténor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel géant Antée, fils de Gaïa et Poséidon, puisait sa force du contact avec la terre et a été vaincu par Héraclès ?",
+      "choices": [
+        "Atlas",
+        "Antée",
+        "Géryon",
+        "Cacus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel monstre à trois corps, gardé par le chien Orthos, a été vaincu par Héraclès pour voler ses bœufs ?",
+      "choices": [
+        "Géryon",
+        "Typhon",
+        "Cerbère",
+        "Ladon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dragon grec gardait les pommes d'or du jardin des Hespérides ?",
+      "choices": [
+        "Python",
+        "Ladon",
+        "Typhon",
+        "Campé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel serpent/dragon a été tué par Apollon près de Delphes pour établir son oracle ?",
+      "choices": [
+        "Python",
+        "Ladon",
+        "Typhon",
+        "Ophion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle nymphe grecque, poursuivie par Apollon, a été transformée en laurier pour lui échapper ?",
+      "choices": [
+        "Écho",
+        "Daphné",
+        "Syrinx",
+        "Callisto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle nymphe grecque, punie par Héra, ne peut que répéter les derniers mots des autres ?",
+      "choices": [
+        "Daphné",
+        "Écho",
+        "Syrinx",
+        "Io"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel jeune homme grec, amoureux de son propre reflet, s'est noyé en tentant de l'atteindre ?",
+      "choices": [
+        "Adonis",
+        "Narcisse",
+        "Ganymède",
+        "Hyacinthe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel jeune berger troyen a été enlevé par Zeus pour devenir l'échanson des dieux sur l'Olympe ?",
+      "choices": [
+        "Ganymède",
+        "Adonis",
+        "Narcisse",
+        "Endymion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel roi de Phrygie, célèbre pour son « toucher d'or », a transformé accidentellement sa fille en or ?",
+      "choices": [
+        "Midas",
+        "Tantale",
+        "Sisyphe",
+        "Ixion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel roi grec est condamné pour l'éternité à pousser un rocher qui redescend sans cesse ?",
+      "choices": [
+        "Tantale",
+        "Sisyphe",
+        "Ixion",
+        "Prométhée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi grec est condamné à rester éternellement affamé et assoiffé près de nourriture et d'eau inaccessibles ?",
+      "choices": [
+        "Sisyphe",
+        "Tantale",
+        "Ixion",
+        "Tityos"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu égyptien de l'air, père d'Osiris et Isis, est associé au vide entre ciel et terre ?",
+      "choices": [
+        "Geb",
+        "Shou",
+        "Nout",
+        "Atoum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse égyptienne du ciel forme une voûte au-dessus de son époux, le dieu de la terre Geb ?",
+      "choices": [
+        "Nout",
+        "Maât",
+        "Sekhmet",
+        "Neith"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu égyptien créateur primordial, associé au soleil couchant et à l'auto-création, est vénéré à Héliopolis ?",
+      "choices": [
+        "Atoum",
+        "Ptah",
+        "Khnoum",
+        "Amon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu égyptien, à tête de bélier, façonne les êtres humains sur un tour de potier selon certains mythes ?",
+      "choices": [
+        "Khnoum",
+        "Sobek",
+        "Min",
+        "Bès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle version égyptienne du mythe de la création attribue la genèse du monde au dieu Ptah à Memphis ?",
+      "choices": [
+        "La théologie héliopolitaine",
+        "La théologie memphite (Ptah)",
+        "La théologie hermopolitaine",
+        "La théologie thébaine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu nordique de la fertilité, associé à la paix et à la prospérité, appartient au clan des Vanes ?",
+      "choices": [
+        "Frey",
+        "Njord (son père)",
+        "Tyr",
+        "Ull"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle déesse nordique de l'amour et de la fertilité, sœur de Frey, possède un manteau de plumes de faucon ?",
+      "choices": [
+        "Frigg",
+        "Freyja",
+        "Idunn",
+        "Sif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse nordique garde les pommes d'or de jouvence qui maintiennent les dieux jeunes ?",
+      "choices": [
+        "Freyja",
+        "Idunn",
+        "Sif",
+        "Frigg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu nordique manchot, dieu de la guerre et de la justice, a sacrifié sa main pour enchaîner Fenrir ?",
+      "choices": [
+        "Tyr",
+        "Vidar",
+        "Heimdall",
+        "Ull"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel forgeron des dieux nordiques, réputé pour son habileté, apparaît dans plusieurs mythes de fabrication d'objets magiques ?",
+      "choices": [
+        "Les nains Brokk et Eitri",
+        "Loki",
+        "Volund (Wayland)",
+        "Les deux : nains et Volund"
       ],
       "correctIndex": 3
     },
     {
-      "question": "Dans la mythologie grecque, qui transporte les âmes des morts sur le fleuve Styx ?",
+      "question": "Quel serpent nordique ronge sans cesse les racines de l'arbre-monde Yggdrasil ?",
       "choices": [
-        "Hadès",
-        "Hermès",
-        "Charon",
-        "Cerbère"
+        "Jörmungandr",
+        "Nidhogg",
+        "Fafnir",
+        "Ratatosk (écureuil, pas serpent)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écureuil nordique court le long d'Yggdrasil en portant des messages injurieux entre l'aigle et le serpent ?",
+      "choices": [
+        "Ratatosk",
+        "Nidhogg",
+        "Sköll",
+        "Hati"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu inca créateur suprême, associé au chaos primordial, a créé le soleil, la lune et les étoiles ?",
+      "choices": [
+        "Inti",
+        "Viracocha",
+        "Illapa",
+        "Supay"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu inca de la foudre et du tonnerre était particulièrement invoqué lors des sécheresses ?",
+      "choices": [
+        "Viracocha",
+        "Illapa",
+        "Inti",
+        "Kon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel théogonie grecque, œuvre d'Hésiode, retrace la généalogie des dieux depuis le Chaos originel ?",
+      "choices": [
+        "L'Iliade",
+        "La Théogonie",
+        "Les Travaux et les Jours",
+        "Les Métamorphoses"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète latin est l'auteur des « Métamorphoses », vaste recueil de mythes grecs et romains transformés en récits poétiques ?",
+      "choices": [
+        "Virgile",
+        "Ovide",
+        "Horace",
+        "Lucrèce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète latin est l'auteur de l'Énéide, racontant le voyage d'Énée depuis Troie jusqu'à la fondation de Rome ?",
+      "choices": [
+        "Ovide",
+        "Virgile",
+        "Catulle",
+        "Properce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel concept grec, la « hybris », désigne la démesure et l'orgueil qui provoquent souvent la chute des héros ?",
+      "choices": [
+        "La némésis (déesse)",
+        "L'hybris (démesure)",
+        "L'ate (aveuglement)",
+        "Le kairos (moment opportun)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse grecque personnifie la vengeance divine punissant l'hybris des mortels ?",
+      "choices": [
+        "Éris",
+        "Némésis",
+        "Hécate",
+        "Thémis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse grecque triple, associée à la magie, aux carrefours et à la lune, est souvent invoquée dans la sorcellerie antique ?",
+      "choices": [
+        "Circé",
+        "Hécate",
+        "Séléné",
+        "Perséphone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel titan grec associé au soleil, père d'Hélios, Séléné et Éos, précède Apollon dans ce rôle ?",
+      "choices": [
+        "Hypérion",
+        "Cronos",
+        "Océan",
+        "Japet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle déesse grecque personnifie l'aurore et enlève plusieurs jeunes mortels dont elle tombe amoureuse ?",
+      "choices": [
+        "Séléné",
+        "Éos",
+        "Iris",
+        "Hébé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse grecque personnifie l'arc-en-ciel et sert de messagère, notamment pour Héra ?",
+      "choices": [
+        "Éos",
+        "Iris",
+        "Hébé",
+        "Nyx"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu grec primordial personnifie l'obscurité et les ténèbres, associé à la nuit Nyx ?",
+      "choices": [
+        "Érèbe",
+        "Tartare",
+        "Chaos",
+        "Hypnos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel abîme primordial grec, situé sous les enfers, sert de prison pour les Titans vaincus ?",
+      "choices": [
+        "Le Styx",
+        "Le Tartare",
+        "L'Achéron",
+        "L'Élysée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel lieu de la mythologie grecque est réservé aux âmes vertueuses et héroïques après la mort, opposé au Tartare ?",
+      "choices": [
+        "L'Élysée (Champs Élysées)",
+        "L'Averne",
+        "Le Cocyte",
+        "L'Asphodèle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu grec du sommeil, fils de Nyx et frère de Thanatos (la Mort), habite près des enfers ?",
+      "choices": [
+        "Morphée (son fils)",
+        "Hypnos",
+        "Oneiros",
+        "Somnus (nom romain)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu grec des rêves, fils d'Hypnos, apparaît sous forme humaine dans les songes ?",
+      "choices": [
+        "Hypnos lui-même",
+        "Morphée",
+        "Phobétor",
+        "Phantasos"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle triade capitoline romaine regroupait les trois divinités principales vénérées sur le Capitole ?",
+      "choices": [
+        "Jupiter, Junon, Minerve",
+        "Jupiter, Mars, Quirinus (triade archaïque)",
+        "Vesta, Cérès, Diane",
+        "Mars, Vénus, Vulcain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle triade romaine archaïque, antérieure à la triade capitoline, regroupait Jupiter, Mars et Quirinus ?",
+      "choices": [
+        "Triade capitoline",
+        "Triade archaïque (précapitoline)",
+        "Triade plébéienne",
+        "Triade étrusque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle triade plébéienne romaine était vénérée notamment par la plèbe, regroupant Cérès, Liber et Libera ?",
+      "choices": [
+        "Triade capitoline",
+        "Triade archaïque",
+        "Triade plébéienne (aventine)",
+        "Triade étrusque"
       ],
       "correctIndex": 2
+    },
+    {
+      "question": "Quelle déesse romaine du foyer, dont le culte était entretenu par des prêtresses vierges, avait un temple au Forum ?",
+      "choices": [
+        "Junon",
+        "Vesta",
+        "Cérès",
+        "Minerve"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelles prêtresses romaines entretenaient le feu sacré de Vesta et faisaient vœu de chasteté ?",
+      "choices": [
+        "Les Sibylles",
+        "Les Vestales",
+        "Les Flaminicae",
+        "Les Augustales"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi légendaire étrusque-romain, selon la tradition, a introduit de nombreuses institutions religieuses à Rome après Romulus ?",
+      "choices": [
+        "Tarquin l'Ancien",
+        "Numa Pompilius",
+        "Servius Tullius",
+        "Ancus Marcius"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu babylonien, héros de l'Enuma Elish, vainc la déesse primordiale du chaos Tiamat pour créer le monde ?",
+      "choices": [
+        "Enlil",
+        "Marduk",
+        "Anu",
+        "Ea"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse babylonienne primordiale du chaos marin est vaincue et découpée pour former ciel et terre ?",
+      "choices": [
+        "Ishtar",
+        "Tiamat",
+        "Ninhursag",
+        "Ereshkigal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu sumérien du ciel est considéré comme le père des dieux dans le panthéon mésopotamien ?",
+      "choices": [
+        "Enki",
+        "Anu (An)",
+        "Enlil",
+        "Nanna"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse mésopotamienne de l'amour, de la guerre et de la fertilité descend aux enfers pour retrouver sa sœur ?",
+      "choices": [
+        "Ishtar (Inanna)",
+        "Ereshkigal",
+        "Ninhursag",
+        "Gula"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle déesse mésopotamienne règne sur le monde souterrain, sœur d'Ishtar/Inanna ?",
+      "choices": [
+        "Ninhursag",
+        "Ereshkigal",
+        "Nisaba",
+        "Bau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros mésopotamien, sauvage créé par les dieux, devient l'ami de Gilgamesh après un combat ?",
+      "choices": [
+        "Enkidu",
+        "Utnapishtim",
+        "Humbaba",
+        "Shamhat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel personnage de l'épopée de Gilgamesh survit à un déluge envoyé par les dieux, préfigurant le mythe de Noé ?",
+      "choices": [
+        "Enkidu",
+        "Utnapishtim",
+        "Humbaba",
+        "Siduri"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel concept zoroastrien iranien oppose un principe du bien (Ahura Mazda) à un principe du mal (Angra Mainyu) ?",
+      "choices": [
+        "Le dualisme zoroastrien",
+        "Le monothéisme védique",
+        "Le panthéisme perse",
+        "Le polythéisme achéménide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu védique indien du tonnerre et de la guerre, roi des dieux dans les textes les plus anciens, est progressivement supplanté par Vishnu et Shiva ?",
+      "choices": [
+        "Agni",
+        "Indra",
+        "Varuna",
+        "Surya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle triade hindoue majeure (Trimurti) regroupe les fonctions de création, préservation et destruction ?",
+      "choices": [
+        "Brahma, Vishnu, Shiva",
+        "Indra, Agni, Varuna",
+        "Ganesh, Hanuman, Kali",
+        "Rama, Krishna, Vishnu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dieu hindou à tête d'éléphant est invoqué en premier pour lever les obstacles ?",
+      "choices": [
+        "Hanuman",
+        "Ganesh",
+        "Kartikeya",
+        "Vishnu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel avatar de Vishnu est le héros du Ramayana, incarnation de la vertu et du devoir ?",
+      "choices": [
+        "Krishna",
+        "Rama",
+        "Narasimha",
+        "Parashurama"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel avatar de Vishnu est un personnage central de la Bhagavad-Gita, conseiller du guerrier Arjuna ?",
+      "choices": [
+        "Rama",
+        "Krishna",
+        "Vamana",
+        "Matsya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle épopée hindoue, l'une des plus longues au monde, raconte le conflit entre les Pandava et les Kaurava ?",
+      "choices": [
+        "Le Ramayana",
+        "Le Mahabharata",
+        "Les Puranas",
+        "Les Vedas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel démon aztèque/mésoaméricain du monde souterrain, seigneur des morts, règne sur le Mictlan ?",
+      "choices": [
+        "Xolotl",
+        "Mictlantecuhtli",
+        "Tezcatlipoca",
+        "Ah Puch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu maya de la mort règne également sur le monde souterrain Xibalba, équivalent au Mictlantecuhtli aztèque ?",
+      "choices": [
+        "Chaac",
+        "Ah Puch (Yum Kimil)",
+        "Itzamná",
+        "Kukulkán"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel concept mythologique polynésien désigne une force spirituelle et sacrée présente dans les personnes, objets et lieux ?",
+      "choices": [
+        "Le tapu",
+        "Le mana",
+        "Le tiki",
+        "Le marae"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel héros polynésien légendaire est crédité d'avoir pêché des îles depuis le fond de l'océan avec un hameçon magique ?",
+      "choices": [
+        "Tāne",
+        "Māui",
+        "Tangaroa",
+        "Rongo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu polynésien de la mer et des poissons est vénéré par les navigateurs du Pacifique ?",
+      "choices": [
+        "Tāne",
+        "Tangaroa",
+        "Rongo",
+        "Tū"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle déesse égyptienne, épouse d'Osiris, a rassemblé les morceaux de son corps démembré par Seth pour le ressusciter ?",
+      "choices": [
+        "Nephtys",
+        "Isis",
+        "Hathor",
+        "Sekhmet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu égyptien à tête de crocodile est associé au Nil, à la fertilité et à la puissance militaire des pharaons ?",
+      "choices": [
+        "Khnoum",
+        "Sobek",
+        "Amon",
+        "Anubis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe de neuf divinités égyptiennes, centré à Héliopolis, comprend Atoum, Shou, Tefnout, Geb, Nout, Osiris, Isis, Seth et Nephtys ?",
+      "choices": [
+        "L'Ogdoade",
+        "L'Ennéade héliopolitaine",
+        "La triade thébaine",
+        "Le cercle memphite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe de huit divinités primordiales égyptiennes, vénéré à Hermopolis, représente les forces du chaos avant la création ?",
+      "choices": [
+        "L'Ennéade",
+        "L'Ogdoade hermopolitaine",
+        "La triade memphite",
+        "Le cercle d'Héliopolis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel rituel funéraire égyptien, jugement de l'âme après la mort, pesait le cœur du défunt contre la plume de Maât ?",
+      "choices": [
+        "La pesée du cœur (psychostasie)",
+        "L'embaumement",
+        "L'ouverture de la bouche",
+        "Le rite d'Osiris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel monstre égyptien, dévoreuse d'âmes, attendait au jugement des morts pour engloutir les cœurs jugés impurs ?",
+      "choices": [
+        "Apophis",
+        "Ammit",
+        "Sekhmet",
+        "Taouret"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel serpent chaotique égyptien, ennemi éternel de Rê, tentait chaque nuit d'empêcher la barque solaire de traverser les enfers ?",
+      "choices": [
+        "Ouadjet",
+        "Apophis",
+        "Mehen",
+        "Nehebkau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle rébellion des Titans grecs, décrite par Hésiode, s'est déroulée pendant dix ans avant leur défaite ?",
+      "choices": [
+        "La Gigantomachie",
+        "La Titanomachie",
+        "La Typhonomachie",
+        "La guerre des Sept"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel monstre grec, dernier né de Gaïa pour venger les Titans, a failli vaincre Zeus avant d'être scellé sous l'Etna ?",
+      "choices": [
+        "Encelade",
+        "Typhon",
+        "Briarée",
+        "Campé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle œuvre attribuée à Hésiode, distincte de la Théogonie, décrit les âges de l'humanité (âge d'or, d'argent, de bronze, etc.) ?",
+      "choices": [
+        "L'Iliade",
+        "Les Travaux et les Jours",
+        "La Théogonie",
+        "L'Odyssée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel philosophe grec antique a critiqué les mythes traditionnels sur les dieux comme immoraux dans sa République ?",
+      "choices": [
+        "Aristote",
+        "Platon",
+        "Socrate (via les dialogues)",
+        "Épicure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dieu grec des vents est gardien des vents dans une outre offerte à Ulysse dans l'Odyssée ?",
+      "choices": [
+        "Zéphyr",
+        "Éole",
+        "Borée",
+        "Notos"
+      ],
+      "correctIndex": 1
     }
   ]
 }

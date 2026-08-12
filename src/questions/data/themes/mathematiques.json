@@ -1,465 +1,2005 @@
 {
-  "theme": "🧮 Mathématiques",
+  "theme": "🧮 Mathématique",
   "questions": [
     {
-      "question": "Combien font 2 × 10 ?",
+      "question": "Combien font 6 × 5 ?",
       "choices": [
-        "20",
-        "17",
-        "22",
-        "25"
+        "30",
+        "42",
+        "27",
+        "24"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Combien font 10 × 12 ?",
+      "question": "Combien font 2 + 1 ?",
       "choices": [
-        "117",
-        "122",
-        "125",
-        "120"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Combien font 7 × 8 ?",
-      "choices": [
-        "56",
-        "58",
-        "53",
-        "61"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Combien font 9 × 16 ?",
-      "choices": [
-        "149",
-        "146",
-        "144",
-        "141"
+        "1",
+        "-1",
+        "3",
+        "2"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Combien font 18 × 10 ?",
+      "question": "Combien font 6 × 2 ?",
       "choices": [
-        "185",
-        "182",
-        "177",
-        "180"
+        "14",
+        "16",
+        "11",
+        "12"
       ],
       "correctIndex": 3
     },
     {
-      "question": "Combien font 8 × 2 ?",
+      "question": "Combien font 7 + 11 ?",
+      "choices": [
+        "18",
+        "19",
+        "15",
+        "21"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 3 × 8 ?",
       "choices": [
         "16",
-        "21",
+        "24",
+        "20",
+        "26"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 5 × 6 ?",
+      "choices": [
+        "24",
+        "30",
+        "27",
+        "36"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 12 - 6 ?",
+      "choices": [
+        "5",
+        "7",
+        "6",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 18 + 8 ?",
+      "choices": [
+        "26",
+        "31",
+        "36",
+        "28"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 2 + 8 ?",
+      "choices": [
+        "8",
+        "12",
+        "11",
+        "10"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 16 - 7 ?",
+      "choices": [
+        "9",
+        "13",
+        "8",
+        "11"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 18 - 18 ?",
+      "choices": [
+        "4",
+        "0",
+        "2",
+        "-4"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 17 - 5 ?",
+      "choices": [
+        "16",
+        "12",
+        "11",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 20 - 3 ?",
+      "choices": [
         "18",
+        "20",
+        "11",
+        "17"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 7 × 3 ?",
+      "choices": [
+        "21",
+        "19",
+        "25",
+        "23"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 3 × 12 ?",
+      "choices": [
+        "22",
+        "39",
+        "50",
+        "36"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 2 × 11 ?",
+      "choices": [
+        "22",
+        "18",
+        "26",
+        "24"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 8 + 2 ?",
+      "choices": [
+        "10",
+        "6",
+        "8",
+        "14"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 4 × 6 ?",
+      "choices": [
+        "24",
+        "22",
+        "28",
+        "16"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 13 - 12 ?",
+      "choices": [
+        "-1",
+        "-3",
+        "1",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 10 × 5 ?",
+      "choices": [
+        "50",
+        "30",
+        "45",
+        "40"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 8 + 3 ?",
+      "choices": [
+        "9",
+        "12",
+        "7",
+        "11"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 7 + 18 ?",
+      "choices": [
+        "25",
+        "30",
+        "15",
+        "35"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 7 + 4 ?",
+      "choices": [
+        "11",
+        "13",
+        "12",
+        "15"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 2 + 4 ?",
+      "choices": [
+        "10",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 18 - 7 ?",
+      "choices": [
+        "11",
+        "12",
+        "10",
         "13"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Combien font 3 × 3 ?",
+      "question": "Combien font 15 + 18 ?",
       "choices": [
-        "14",
-        "11",
-        "6",
-        "9"
+        "21",
+        "27",
+        "45",
+        "33"
       ],
       "correctIndex": 3
     },
     {
-      "question": "Combien font 14 × 2 ?",
+      "question": "Combien font 14 - 6 ?",
       "choices": [
+        "6",
+        "8",
+        "7",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 13 - 9 ?",
+      "choices": [
+        "4",
+        "5",
+        "8",
+        "6"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 10 + 7 ?",
+      "choices": [
+        "11",
+        "23",
+        "17",
+        "14"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 10 × 4 ?",
+      "choices": [
+        "24",
+        "36",
+        "32",
+        "40"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 8 + 13 ?",
+      "choices": [
+        "21",
+        "19",
+        "13",
+        "17"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 7 × 5 ?",
+      "choices": [
+        "32",
+        "38",
+        "42",
+        "35"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 3 - 1 ?",
+      "choices": [
+        "-2",
+        "1",
+        "0",
+        "2"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 8 - 3 ?",
+      "choices": [
+        "5",
+        "4",
+        "7",
+        "6"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 3 × 4 ?",
+      "choices": [
+        "16",
+        "12",
+        "13",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 7 × 5 ?",
+      "choices": [
+        "21",
+        "49",
+        "35",
+        "38"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 14 - 3 ?",
+      "choices": [
+        "12",
+        "10",
+        "9",
+        "11"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 2 × 3 ?",
+      "choices": [
+        "5",
+        "6",
+        "4",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 14 + 5 ?",
+      "choices": [
+        "20",
+        "16",
+        "19",
+        "18"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 18 - 12 ?",
+      "choices": [
+        "6",
+        "5",
+        "2",
+        "10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 14 + 1 ?",
+      "choices": [
+        "21",
+        "16",
+        "15",
+        "18"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 4 + 13 ?",
+      "choices": [
+        "17",
+        "20",
+        "16",
+        "18"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 7 - 1 ?",
+      "choices": [
+        "10",
+        "4",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 4 - 1 ?",
+      "choices": [
+        "4",
+        "3",
+        "-1",
+        "2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 12 - 11 ?",
+      "choices": [
+        "-3",
+        "1",
+        "-1",
+        "3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 10 × 12 ?",
+      "choices": [
+        "108",
+        "132",
+        "120",
+        "168"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 3 × 6 ?",
+      "choices": [
+        "24",
+        "19",
+        "18",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 10 + 18 ?",
+      "choices": [
+        "26",
         "33",
+        "28",
+        "38"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien font 20 - 19 ?",
+      "choices": [
+        "-1",
+        "1",
+        "3",
+        "-3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 12 × 7 ?",
+      "choices": [
+        "116",
+        "100",
+        "84",
+        "76"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le résultat de 12 × 3 ?",
+      "choices": [
+        "48",
+        "39",
+        "24",
+        "36"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le résultat de 12 × 6 ?",
+      "choices": [
+        "84",
+        "60",
+        "66",
+        "72"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le résultat de 12 × 11 ?",
+      "choices": [
+        "154",
+        "176",
+        "121",
+        "132"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le résultat de 4 × 12 ?",
+      "choices": [
+        "40",
+        "64",
+        "48",
+        "56"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le résultat de 2 × 10 ?",
+      "choices": [
+        "17",
+        "20",
+        "23",
+        "19"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le résultat de 9 × 11 ?",
+      "choices": [
+        "99",
+        "67",
+        "115",
+        "131"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le résultat de 9 × 6 ?",
+      "choices": [
+        "50",
+        "72",
+        "58",
+        "54"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le résultat de 6 × 9 ?",
+      "choices": [
+        "72",
+        "45",
+        "54",
+        "58"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le résultat de 7 × 10 ?",
+      "choices": [
+        "70",
+        "81",
+        "59",
+        "65"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le résultat de 3 × 8 ?",
+      "choices": [
+        "26",
+        "24",
+        "16",
+        "28"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le résultat de 5 × 8 ?",
+      "choices": [
+        "52",
+        "28",
+        "46",
+        "40"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le résultat de 9 × 2 ?",
+      "choices": [
+        "12",
+        "18",
+        "21",
+        "19"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le résultat de 6 × 8 ?",
+      "choices": [
+        "56",
+        "48",
+        "40",
+        "52"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le résultat de 9 × 4 ?",
+      "choices": [
+        "36",
+        "42",
         "30",
-        "25",
+        "24"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le résultat de 4 × 9 ?",
+      "choices": [
+        "30",
+        "33",
+        "36",
+        "39"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le résultat de 9 × 7 ?",
+      "choices": [
+        "68",
+        "53",
+        "73",
+        "63"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le résultat de 7 × 5 ?",
+      "choices": [
+        "30",
+        "45",
+        "33",
+        "35"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le résultat de 5 × 4 ?",
+      "choices": [
+        "17",
+        "20",
+        "23",
+        "26"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le résultat de 7 × 4 ?",
+      "choices": [
+        "20",
+        "24",
+        "36",
         "28"
       ],
       "correctIndex": 3
     },
     {
-      "question": "Combien font 5 × 18 ?",
+      "question": "Quel est le résultat de 11 × 2 ?",
       "choices": [
-        "87",
-        "95",
-        "92",
-        "90"
+        "22",
+        "16",
+        "28",
+        "23"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 50% de 20 ?",
+      "choices": [
+        "9",
+        "8",
+        "14",
+        "10"
       ],
       "correctIndex": 3
     },
     {
-      "question": "Combien font 16 × 5 ?",
-      "choices": [
-        "80",
-        "85",
-        "77",
-        "82"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Combien font 17 × 19 ?",
-      "choices": [
-        "320",
-        "328",
-        "325",
-        "323"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Combien font 20 × 9 ?",
-      "choices": [
-        "185",
-        "180",
-        "182",
-        "177"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Combien font 7 × 11 ?",
-      "choices": [
-        "77",
-        "79",
-        "82",
-        "74"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Combien font 16 × 20 ?",
-      "choices": [
-        "325",
-        "317",
-        "322",
-        "320"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Combien font 15 × 14 ?",
-      "choices": [
-        "210",
-        "212",
-        "207",
-        "215"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Combien font 8 × 17 ?",
-      "choices": [
-        "133",
-        "136",
-        "138",
-        "141"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Combien font 10 × 3 ?",
-      "choices": [
-        "30",
-        "27",
-        "35",
-        "32"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Combien font 3 × 20 ?",
-      "choices": [
-        "62",
-        "60",
-        "65",
-        "57"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Combien font 17 × 4 ?",
-      "choices": [
-        "65",
-        "73",
-        "68",
-        "70"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Combien font 16 × 16 ?",
-      "choices": [
-        "258",
-        "261",
-        "256",
-        "253"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Combien font 11 × 15 ?",
-      "choices": [
-        "162",
-        "165",
-        "170",
-        "167"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Combien font 13 × 8 ?",
-      "choices": [
-        "104",
-        "109",
-        "101",
-        "106"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Résoudre l'équation : 5x + 17 = 37. Quelle est la valeur de x ?",
+      "question": "Combien font 20% de 10 ?",
       "choices": [
         "4",
+        "2",
+        "0",
+        "3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 25% de 10 ?",
+      "choices": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 10% de 400 ?",
+      "choices": [
+        "40",
+        "60",
+        "45",
+        "20"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 20% de 100 ?",
+      "choices": [
+        "22",
+        "20",
+        "18",
+        "15"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 20% de 400 ?",
+      "choices": [
+        "90",
+        "80",
+        "60",
+        "100"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 20% de 200 ?",
+      "choices": [
+        "20",
+        "40",
+        "60",
+        "45"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 10% de 1000 ?",
+      "choices": [
+        "100",
+        "88",
+        "75",
+        "150"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 75% de 500 ?",
+      "choices": [
+        "468",
+        "375",
+        "282",
+        "561"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 75% de 400 ?",
+      "choices": [
+        "337",
+        "263",
+        "450",
+        "300"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 75% de 400 ?",
+      "choices": [
+        "337",
+        "300",
+        "450",
+        "150"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien font 10% de 100 ?",
+      "choices": [
+        "9",
+        "14",
+        "8",
+        "10"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien font 10% de 50 ?",
+      "choices": [
         "5",
+        "7",
         "3",
         "6"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Résoudre l'équation : 2x + 20 = 24. Quelle est la valeur de x ?",
+      "question": "Combien font 10% de 100 ?",
       "choices": [
+        "10",
+        "8",
+        "11",
+        "9"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien font 50% de 10 ?",
+      "choices": [
+        "5",
+        "6",
         "4",
-        "3",
-        "1",
-        "2"
+        "7"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien vaut 5/10 en décimal ?",
+      "choices": [
+        "-0.5",
+        "1.5",
+        "0.75",
+        "0.5"
       ],
       "correctIndex": 3
     },
     {
-      "question": "Résoudre l'équation : 3x + 5 = 11. Quelle est la valeur de x ?",
+      "question": "Combien vaut 2/2 en décimal ?",
       "choices": [
-        "2",
-        "1",
-        "4",
-        "3"
+        "1.0",
+        "1.25",
+        "0.5",
+        "0.75"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quelle est la somme des angles intérieurs d'un triangle ?",
+      "question": "Combien vaut 5/2 en décimal ?",
       "choices": [
-        "180°",
-        "360°",
-        "90°",
-        "270°"
+        "1.5",
+        "2.0",
+        "2.5",
+        "2.25"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien vaut 9/10 en décimal ?",
+      "choices": [
+        "1.9",
+        "0.9",
+        "1.15",
+        "0.4"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien vaut 2/4 en décimal ?",
+      "choices": [
+        "1.0",
+        "-0.5",
+        "1.5",
+        "0.5"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien vaut 3/2 en décimal ?",
+      "choices": [
+        "0.5",
+        "1.5",
+        "1.25",
+        "1.75"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien vaut 5/2 en décimal ?",
+      "choices": [
+        "3.0",
+        "1.5",
+        "3.5",
+        "2.5"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Combien vaut 2/4 en décimal ?",
+      "choices": [
+        "1.0",
+        "0.5",
+        "0.0",
+        "1.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien vaut 9/4 en décimal ?",
+      "choices": [
+        "2.75",
+        "2.25",
+        "3.25",
+        "1.25"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien vaut 3/5 en décimal ?",
+      "choices": [
+        "0.1",
+        "1.1",
+        "0.6",
+        "1.6"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien vaut 5/10 en décimal ?",
+      "choices": [
+        "1.5",
+        "0.0",
+        "0.5",
+        "0.75"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien vaut 7/5 en décimal ?",
+      "choices": [
+        "1.4",
+        "2.4",
+        "1.15",
+        "0.9"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Combien de côtés possède un hexagone ?",
+      "question": "Combien vaut 5/2 en décimal ?",
+      "choices": [
+        "2.5",
+        "2.0",
+        "1.5",
+        "2.75"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien vaut 7/10 en décimal ?",
+      "choices": [
+        "0.7",
+        "0.45",
+        "0.95",
+        "1.7"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien vaut 2/4 en décimal ?",
+      "choices": [
+        "0.5",
+        "0.75",
+        "1.5",
+        "1.0"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Résoudre : 2x + 3 = 19. Que vaut x ?",
       "choices": [
         "6",
-        "5",
-        "7",
+        "9",
+        "10",
         "8"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
-      "question": "Quelle est la formule de l'aire d'un cercle de rayon r ?",
+      "question": "Résoudre : 8x + 7 = 15. Que vaut x ?",
       "choices": [
-        "π × r²",
-        "2 × π × r",
-        "π × d",
-        "4/3 × π × r³"
+        "2",
+        "3",
+        "1",
+        "-3"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
-      "question": "Quel théorème permet de calculer la longueur de l'hypoténuse dans un triangle rectangle ?",
+      "question": "Résoudre : 6x + 5 = 59. Que vaut x ?",
       "choices": [
-        "Théorème de Pythagore",
-        "Théorème de Thalès",
-        "Théorème d'Al-Kashi",
-        "Théorème de Gauss"
+        "10",
+        "11",
+        "9",
+        "13"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
-      "question": "Comment appelle-t-on un triangle ayant trois côtés égaux ?",
+      "question": "Résoudre : 5x + 6 = 66. Que vaut x ?",
       "choices": [
-        "Équilatéral",
-        "Isocèle",
-        "Rectangle",
-        "Scalène"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la formule du périmètre d'un rectangle de longueur L et largeur l ?",
-      "choices": [
-        "2 × (L + l)",
-        "L × l",
-        "L + l",
-        "2 × L × l"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Combien de faces possède un cube ?",
-      "choices": [
-        "6",
-        "8",
+        "10",
         "12",
+        "8",
+        "13"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Résoudre : 3x + 4 = 28. Que vaut x ?",
+      "choices": [
+        "8",
+        "10",
+        "7",
+        "12"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Résoudre : 8x + 16 = 128. Que vaut x ?",
+      "choices": [
+        "13",
+        "16",
+        "14",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Résoudre : 4x + 3 = 59. Que vaut x ?",
+      "choices": [
+        "15",
+        "10",
+        "16",
+        "14"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Résoudre : 6x + 19 = 103. Que vaut x ?",
+      "choices": [
+        "16",
+        "18",
+        "14",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Résoudre : 7x + 18 = 60. Que vaut x ?",
+      "choices": [
+        "7",
+        "8",
+        "6",
+        "2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Résoudre : 8x + 14 = 46. Que vaut x ?",
+      "choices": [
+        "8",
+        "2",
+        "4",
+        "5"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Résoudre : 8x + 5 = 93. Que vaut x ?",
+      "choices": [
+        "13",
+        "10",
+        "9",
+        "11"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Résoudre : 3x + 15 = 42. Que vaut x ?",
+      "choices": [
+        "9",
+        "8",
+        "13",
+        "7"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Résoudre : 3x + 9 = 33. Que vaut x ?",
+      "choices": [
+        "9",
+        "8",
+        "4",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Résoudre : 7x + 18 = 116. Que vaut x ?",
+      "choices": [
+        "18",
+        "16",
+        "14",
+        "15"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Résoudre : 3x + 10 = 22. Que vaut x ?",
+      "choices": [
+        "2",
+        "3",
+        "8",
         "4"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
-      "question": "Quel est le nom d'un polygon à 8 côtés ?",
+      "question": "Quel est le carré de 9 ?",
       "choices": [
-        "Octogone",
-        "Pentagone",
-        "Heptagone",
-        "Décagone"
+        "75",
+        "81",
+        "87",
+        "107"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le carré de 14 ?",
+      "choices": [
+        "196",
+        "228",
+        "164",
+        "212"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quelle est la valeur approximative du nombre Pi (π) ?",
+      "question": "Quel est le carré de 11 ?",
       "choices": [
-        "3,14",
-        "2,71",
-        "1,61",
-        "3,41"
+        "161",
+        "121",
+        "101",
+        "111"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le carré de 9 ?",
+      "choices": [
+        "81",
+        "55",
+        "75",
+        "94"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Comment appelle-t-on la droite qui coupe un segment en son milieu perpendiculairement ?",
+      "question": "Quel est le carré de 12 ?",
       "choices": [
-        "Médiatrice",
-        "Médiane",
-        "Bissectrice",
-        "Hauteur"
+        "120",
+        "168",
+        "144",
+        "156"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "question": "Quel est le carré de 7 ?",
       "choices": [
+        "65",
         "49",
-        "56",
-        "47",
-        "54"
+        "53",
+        "33"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le carré de 9 ?",
+      "choices": [
+        "75",
+        "94",
+        "81",
+        "87"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le carré de 8 ?",
+      "choices": [
+        "84",
+        "44",
+        "64",
+        "69"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le carré de 6 ?",
+      "choices": [
+        "30",
+        "48",
+        "36",
+        "24"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le carré de 15 ?",
+      "choices": [
+        "225",
+        "207",
+        "151",
+        "243"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quel est le seul nombre premier pair ?",
+      "question": "Quelle est la racine carrée de 121 ?",
       "choices": [
-        "2",
-        "0",
-        "4",
-        "1"
+        "11",
+        "15",
+        "12",
+        "10"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Que vaut x⁰ (pour tout x non nul) ?",
+      "question": "Quelle est la racine carrée de 36 ?",
       "choices": [
-        "1",
-        "0",
-        "x",
-        "Infini"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Comment appelle-t-on la dérivée de la position par rapport au temps ?",
-      "choices": [
-        "La vitesse",
-        "L'accélération",
-        "La force",
-        "L'énergie"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel mathématicien est célèbre pour son théorème sur les triangles rectangles ?",
-      "choices": [
-        "Pythagore",
-        "Thalès",
-        "Euler",
-        "Newton"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la base du système décimal ?",
-      "choices": [
-        "10",
         "2",
         "8",
-        "16"
+        "6",
+        "4"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
-      "question": "Quelle est la base du système binaire ?",
+      "question": "Quelle est la racine carrée de 9 ?",
       "choices": [
-        "2",
+        "7",
+        "5",
+        "3",
+        "4"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la racine carrée de 196 ?",
+      "choices": [
         "10",
-        "8",
-        "16"
+        "15",
+        "13",
+        "14"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
-      "question": "Quel est le résultat de 5! (5 factorielle) ?",
+      "question": "Quelle est la racine carrée de 169 ?",
       "choices": [
-        "120",
-        "60",
-        "24",
-        "100"
+        "13",
+        "14",
+        "15",
+        "11"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Que vaut la racine carrée de 144 ?",
+      "question": "Quelle est la racine carrée de 225 ?",
+      "choices": [
+        "15",
+        "17",
+        "11",
+        "19"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle est la racine carrée de 4 ?",
+      "choices": [
+        "0",
+        "3",
+        "2",
+        "-2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la racine carrée de 121 ?",
       "choices": [
         "12",
-        "14",
+        "15",
+        "13",
+        "11"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle est la racine carrée de 81 ?",
+      "choices": [
+        "7",
+        "9",
+        "5",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la racine carrée de 144 ?",
+      "choices": [
+        "12",
+        "13",
+        "16",
+        "14"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 4 et largeur 2 ?",
+      "choices": [
         "10",
+        "12",
+        "14",
+        "11"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 14 et largeur 12 ?",
+      "choices": [
+        "52",
+        "48",
+        "36",
+        "68"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 18 et largeur 11 ?",
+      "choices": [
+        "62",
+        "58",
+        "49",
+        "76"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 17 et largeur 5 ?",
+      "choices": [
+        "47",
+        "44",
+        "58",
+        "37"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est l'aire d'un rectangle de longueur 11 et largeur 5 ?",
+      "choices": [
+        "55",
+        "64",
+        "46",
+        "73"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 4 et largeur 14 ?",
+      "choices": [
+        "30",
+        "24",
+        "36",
+        "33"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est l'aire d'un rectangle de longueur 10 et largeur 7 ?",
+      "choices": [
+        "59",
+        "70",
+        "48",
+        "75"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est l'aire d'un rectangle de longueur 8 et largeur 3 ?",
+      "choices": [
+        "24",
+        "22",
+        "20",
+        "26"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 3 et largeur 4 ?",
+      "choices": [
+        "12",
+        "18",
+        "13",
+        "14"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 5 et largeur 9 ?",
+      "choices": [
+        "28",
+        "24",
+        "20",
+        "30"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 4 et largeur 13 ?",
+      "choices": [
+        "39",
+        "29",
+        "44",
+        "34"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle est l'aire d'un rectangle de longueur 16 et largeur 12 ?",
+      "choices": [
+        "256",
+        "160",
+        "224",
+        "192"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 5 et largeur 4 ?",
+      "choices": [
+        "24",
+        "18",
+        "19",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 17 et largeur 10 ?",
+      "choices": [
+        "72",
+        "45",
+        "54",
+        "36"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle de longueur 10 et largeur 8 ?",
+      "choices": [
+        "48",
+        "30",
+        "42",
+        "36"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle est la valeur de π arrondie à deux décimales ?",
+      "choices": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la somme des angles d'un triangle ?",
+      "choices": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la somme des angles d'un quadrilatère ?",
+      "choices": [
+        "180°",
+        "270°",
+        "360°",
+        "450°"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le nombre d'or, arrondi à 3 décimales ?",
+      "choices": [
+        "1.414",
+        "1.618",
+        "1.732",
+        "2.718"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la dérivée de x² ?",
+      "choices": [
+        "x",
+        "2x",
+        "x²",
+        "2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la dérivée de sin(x) ?",
+      "choices": [
+        "cos(x)",
+        "-cos(x)",
+        "-sin(x)",
+        "tan(x)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle est l'intégrale de 2x dx ?",
+      "choices": [
+        "x²+C",
+        "2x²+C",
+        "x+C",
+        "2+C"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien vaut sin(90°) ?",
+      "choices": [
+        "0",
+        "0.5",
+        "1",
+        "-1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien vaut cos(0°) ?",
+      "choices": [
+        "0",
+        "0.5",
+        "1",
+        "-1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien vaut tan(45°) ?",
+      "choices": [
+        "0",
+        "0.5",
+        "1",
+        "2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le théorème reliant les côtés d'un triangle rectangle ?",
+      "choices": [
+        "Thalès",
+        "Pythagore",
+        "Euler",
+        "Fermat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans un triangle rectangle de côtés 3 et 4, quelle est l'hypoténuse ?",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "12"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle est la valeur de e (nombre d'Euler) arrondie à 2 décimales ?",
+      "choices": [
+        "2.71",
+        "2.81",
+        "3.14",
+        "1.61"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Combien de faces a un icosaèdre ?",
+      "choices": [
+        "12",
+        "16",
+        "20",
+        "24"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien de faces a un dodécaèdre ?",
+      "choices": [
+        "8",
+        "10",
+        "12",
         "16"
       ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la formule du volume d'une sphère de rayon r ?",
+      "choices": [
+        "4πr²",
+        "(4/3)πr³",
+        "πr²h",
+        "2πr"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la formule de l'aire d'un cercle de rayon r ?",
+      "choices": [
+        "2πr",
+        "πr²",
+        "πd",
+        "4πr²"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien vaut 2 puissance 10 ?",
+      "choices": [
+        "512",
+        "1024",
+        "2048",
+        "256"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien vaut 5 factorielle (5!) ?",
+      "choices": [
+        "60",
+        "100",
+        "120",
+        "125"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le 10e nombre de la suite de Fibonacci (1,1,2,3,5,8...) ?",
+      "choices": [
+        "34",
+        "55",
+        "89",
+        "21"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans une classe de 30 élèves, on tire un nom au hasard : quelle est la probabilité que ce soit une fille s'il y a 12 filles ?",
+      "choices": [
+        "1/3",
+        "2/5",
+        "12/30 (=2/5)",
+        "1/2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le résultat de log10(1000) ?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la solution de x² = 16 ?",
+      "choices": [
+        "x = 4 uniquement",
+        "x = -4 uniquement",
+        "x = 4 ou x = -4",
+        "x = 8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le discriminant de ax²+bx+c ?",
+      "choices": [
+        "b²-4ac",
+        "b²+4ac",
+        "4ac-b²",
+        "a²-4bc"
+      ],
       "correctIndex": 0
     },
     {
-      "question": "Quel est le logarithme décimal de 100 ?",
+      "question": "Combien de diagonales possède un hexagone ?",
+      "choices": [
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la somme des angles intérieurs d'un hexagone ?",
+      "choices": [
+        "540°",
+        "600°",
+        "720°",
+        "900°"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le PGCD de 24 et 36 ?",
+      "choices": [
+        "6",
+        "8",
+        "12",
+        "18"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le PPCM de 4 et 6 ?",
+      "choices": [
+        "8",
+        "12",
+        "24",
+        "36"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la valeur de √2 arrondie à 2 décimales ?",
+      "choices": [
+        "1.32",
+        "1.41",
+        "1.52",
+        "1.61"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Un cube a une arête de 3 cm. Quel est son volume ?",
+      "choices": [
+        "9 cm³",
+        "18 cm³",
+        "27 cm³",
+        "36 cm³"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le résultat de 3⁴ ?",
+      "choices": [
+        "12",
+        "64",
+        "81",
+        "243"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien vaut la somme des 10 premiers entiers naturels (1 à 10) ?",
+      "choices": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la formule de la vitesse moyenne ?",
+      "choices": [
+        "distance × temps",
+        "distance / temps",
+        "temps / distance",
+        "distance + temps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mathématicien est associé au théorème sur les triangles rectangles ?",
+      "choices": [
+        "Euclide",
+        "Pythagore",
+        "Archimède",
+        "Thalès"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le rôle du nombre π dans un cercle ?",
+      "choices": [
+        "Rapport rayon/diamètre",
+        "Rapport circonférence/diamètre",
+        "Rapport aire/rayon",
+        "Rapport diamètre/aire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la probabilité d'obtenir 'pile' en lançant une pièce équilibrée ?",
+      "choices": [
+        "1/4",
+        "1/3",
+        "1/2",
+        "1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la probabilité d'obtenir un 6 en lançant un dé à 6 faces ?",
+      "choices": [
+        "1/6",
+        "1/5",
+        "1/4",
+        "1/3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le résultat de (-3)² ?",
+      "choices": [
+        "-9",
+        "-6",
+        "6",
+        "9"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel est le résultat de -3² (sans parenthèses) ?",
+      "choices": [
+        "-9",
+        "-6",
+        "6",
+        "9"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle est la pente d'une droite d'équation y = 3x + 2 ?",
       "choices": [
         "2",
-        "10",
-        "1",
-        "3"
+        "3",
+        "5",
+        "-3"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "question": "Comment appelle-t-on une fonction de la forme f(x) = ax + b ?",
+      "question": "Quel est l'ordonnée à l'origine de y = 3x + 2 ?",
       "choices": [
-        "Affines",
-        "Quadratique",
-        "Exponentielle",
-        "Logarithmique"
+        "0",
+        "2",
+        "3",
+        "5"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de sommets a un cube ?",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien d'arêtes a un cube ?",
+      "choices": [
+        "6",
+        "8",
+        "12",
+        "16"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le nombre premier suivant après 7 ?",
+      "choices": [
+        "9",
+        "10",
+        "11",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien y a-t-il de nombres premiers entre 1 et 20 ?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la valeur absolue de -15 ?",
+      "choices": [
+        "-15",
+        "0",
+        "15",
+        "30"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le résultat de 7 modulo 3 ?",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la moyenne de 4, 8, 15, 16, 23 ?",
+      "choices": [
+        "11.2",
+        "12.4",
+        "13.2",
+        "14.6"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le résultat de 100 - 37 ?",
+      "choices": [
+        "53",
+        "63",
+        "73",
+        "83"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le résultat de 15 × 15 ?",
+      "choices": [
+        "215",
+        "225",
+        "235",
+        "245"
+      ],
+      "correctIndex": 1
     }
   ]
 }

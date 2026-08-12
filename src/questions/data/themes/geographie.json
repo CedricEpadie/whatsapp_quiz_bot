@@ -2,694 +2,74 @@
   "theme": "🌍 Géographie",
   "questions": [
     {
-      "question": "Quelle est la capitale politique du Cameroun ?",
+      "question": "Quelle est la capitale de la France ?",
       "choices": [
-        "Yaoundé",
-        "Douala",
-        "Garoua",
-        "Bamenda"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la capitale économique du Cameroun ?",
-      "choices": [
-        "Douala",
-        "Yaoundé",
-        "Bafoussam",
-        "Kribi"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le plus haut sommet du Cameroun (et de l'Afrique de l'Ouest) ?",
-      "choices": [
-        "Mont Cameroun",
-        "Mont Mbang",
-        "Mont Oku",
-        "Mont Nlonako"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le chef-lieu de la région de l'Adamaoua ?",
-      "choices": [
-        "Ngaoundéré",
-        "Garoua",
-        "Maroua",
-        "Bertoua"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le chef-lieu de la région de l'Extrême-Nord ?",
-      "choices": [
-        "Maroua",
-        "Garoua",
-        "Kousséri",
-        "Yagoua"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le chef-lieu de la région du Nord ?",
-      "choices": [
-        "Garoua",
-        "Guider",
-        "Figuil",
-        "Poli"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le chef-lieu de la région de l'Est ?",
-      "choices": [
-        "Bertoua",
-        "Batouri",
-        "Abong-Mbang",
-        "Yokadouma"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le chef-lieu de la région du Littoral ?",
-      "choices": [
-        "Douala",
-        "Edéa",
-        "Nkongsamba",
-        "Yabassi"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le chef-lieu de la région du Sud-Ouest ?",
-      "choices": [
-        "Buea",
-        "Limbe",
-        "Kumba",
-        "Mamfe"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Combien de régions administratives compte le Cameroun ?",
-      "choices": [
-        "10",
-        "8",
-        "12",
-        "15"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel fleuve se jette dans l'océan Atlantique près de Kribi en formant des chutes célèbres ?",
-      "choices": [
-        "La Lobé",
-        "Le Sanaga",
-        "Le Nyong",
-        "Le Wouri"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le plus long fleuve se trouvant entièrement au Cameroun ?",
-      "choices": [
-        "Le Sanaga",
-        "Le Wouri",
-        "Le Benoué",
-        "Le Nyong"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Dans quel golfe le Cameroun possède-t-il son ouverture maritime ?",
-      "choices": [
-        "Golfe de Guinée",
-        "Golfe d'Aden",
-        "Golfe de Gabès",
-        "Golfe de Syrte"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Avec combien de pays le Cameroun partage-t-il ses frontières terrestres ?",
-      "choices": [
-        "6",
-        "5",
-        "7",
-        "4"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Lequel de ces pays ne partage PAS de frontière avec le Cameroun ?",
-      "choices": [
-        "Gabon",
-        "Tchad",
-        "Nigeria",
-        "Sénégal"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel lac est situé à l'extrême nord du Cameroun et partagé avec trois autres pays ?",
-      "choices": [
-        "Lac Tchad",
-        "Lac Nyos",
-        "Lac Monoun",
-        "Lac Oku"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle ville camerounaise est réputée pour ses plages de sable noir d'origine volcanique ?",
-      "choices": [
-        "Limbe",
-        "Kribi",
-        "Douala",
-        "Campo"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle ville camerounaise est réputée pour ses plages de sable blanc ?",
-      "choices": [
-        "Kribi",
-        "Limbe",
-        "Douala",
-        "Tiko"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Dans quelle région se trouve le parc national de Waza ?",
-      "choices": [
-        "Extrême-Nord",
-        "Adamaoua",
-        "Est",
-        "Nord-Ouest"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Dans quelle région se trouve la réserve de faune du Dja, inscrite au patrimoine mondial ?",
-      "choices": [
-        "Est / Sud",
-        "Extrême-Nord",
-        "Nord-Ouest",
-        "Littoral"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel mont du Cameroun abrite un lac de cratère tristement célèbre pour une émanation de gaz en 1986 ?",
-      "choices": [
-        "Mont Nyos",
-        "Mont Cameroun",
-        "Mont Kupe",
-        "Mont Oku"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la deuxième plus grande ville du Cameroun en termes de population ?",
-      "choices": [
-        "Yaoundé",
-        "Douala",
-        "Garoua",
-        "Bafoussam"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Dans quel département se trouve la ville de Dschang ?",
-      "choices": [
-        "Ménoua",
-        "Hauts-Plateaux",
-        "Mifi",
-        "Ndé"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le nom du port en eau profonde inauguré au Cameroun dans les années 2010 ?",
-      "choices": [
-        "Port de Kribi",
-        "Port de Douala",
-        "Port de Limbe",
-        "Port de Garoua"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel cours d'eau forme une frontière naturelle entre le Cameroun et le Nigeria au sud-ouest ?",
-      "choices": [
-        "La Cross River",
-        "Le Sanaga",
-        "Le Benoué",
-        "Le Logone"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Dans quelle région se trouve le parc national de Bouba Ndjida ?",
-      "choices": [
-        "Nord",
-        "Extrême-Nord",
-        "Adamaoua",
-        "Est"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle chaîne de montagnes s'étend du sud-ouest au nord-ouest du Cameroun ?",
-      "choices": [
-        "La ligne du Cameroun",
-        "Les Atlas",
-        "Les Drakensberg",
-        "Les Rwenzori"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la capitale de : France ?",
-      "choices": [
-        "New York",
+        "Lyon",
+        "Marseille",
         "Paris",
-        "Barcelone",
-        "Istanbul"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Espagne ?",
-      "choices": [
-        "Rio de Janeiro",
-        "Madrid",
-        "Toronto",
-        "Shanghai"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Italie ?",
-      "choices": [
-        "Milan",
-        "Rome",
-        "Casablanca",
-        "Johannesburg"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Allemagne ?",
-      "choices": [
-        "Berlin",
-        "Genève",
-        "Sydney",
-        "Toronto"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la capitale de : Royaume-Uni ?",
-      "choices": [
-        "Toronto",
-        "Londres",
-        "Casablanca",
-        "Johannesburg"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Portugal ?",
-      "choices": [
-        "Genève",
-        "Rio de Janeiro",
-        "Lisbonne",
-        "Johannesburg"
+        "Toulouse"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Quelle est la capitale de : Japon ?",
+      "question": "Quel est le plus grand océan du monde ?",
       "choices": [
-        "Tokyo",
-        "Casablanca",
-        "Genève",
-        "Rio de Janeiro"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la capitale de : Chine ?",
-      "choices": [
-        "New York",
-        "Johannesburg",
-        "Casablanca",
-        "Pékin"
+        "Atlantique",
+        "Indien",
+        "Arctique",
+        "Pacifique"
       ],
       "correctIndex": 3
-    },
-    {
-      "question": "Quelle est la capitale de : Canada ?",
-      "choices": [
-        "Istanbul",
-        "Ottawa",
-        "Shanghai",
-        "New York"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Brésil ?",
-      "choices": [
-        "Istanbul",
-        "Barcelone",
-        "Shanghai",
-        "Brasília"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quelle est la capitale de : Argentine ?",
-      "choices": [
-        "Rio de Janeiro",
-        "Buenos Aires",
-        "Milan",
-        "Johannesburg"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Égypte ?",
-      "choices": [
-        "Le Caire",
-        "Lagos",
-        "New York",
-        "Casablanca"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la capitale de : Nigeria ?",
-      "choices": [
-        "Toronto",
-        "Genève",
-        "New York",
-        "Abuja"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quelle est la capitale de : Sénégal ?",
-      "choices": [
-        "Shanghai",
-        "Barcelone",
-        "New York",
-        "Dakar"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quelle est la capitale de : Côte d'Ivoire ?",
-      "choices": [
-        "Istanbul",
-        "Yamoussoukro",
-        "New York",
-        "Barcelone"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Maroc ?",
-      "choices": [
-        "Rabat",
-        "Rio de Janeiro",
-        "Sydney",
-        "Toronto"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la capitale de : Afrique du Sud ?",
-      "choices": [
-        "Pretoria",
-        "Barcelone",
-        "Sydney",
-        "Rio de Janeiro"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la capitale de : Kenya ?",
-      "choices": [
-        "Toronto",
-        "Johannesburg",
-        "Nairobi",
-        "Rio de Janeiro"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quelle est la capitale de : Russie ?",
-      "choices": [
-        "Johannesburg",
-        "Moscou",
-        "Shanghai",
-        "Genève"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Mexique ?",
-      "choices": [
-        "Toronto",
-        "Istanbul",
-        "Mexico",
-        "Casablanca"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quelle est la capitale de : Colombie ?",
-      "choices": [
-        "Sydney",
-        "Johannesburg",
-        "New York",
-        "Bogota"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quelle est la capitale de : Pérou ?",
-      "choices": [
-        "Barcelone",
-        "New York",
-        "Lima",
-        "Toronto"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quelle est la capitale de : Pays-Bas ?",
-      "choices": [
-        "Amsterdam",
-        "Lagos",
-        "Milan",
-        "Johannesburg"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la capitale de : Suède ?",
-      "choices": [
-        "Casablanca",
-        "Stockholm",
-        "Genève",
-        "Shanghai"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Norvège ?",
-      "choices": [
-        "Rio de Janeiro",
-        "Shanghai",
-        "Johannesburg",
-        "Oslo"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quelle est la capitale de : Finlande ?",
-      "choices": [
-        "New York",
-        "Lagos",
-        "Helsinki",
-        "Casablanca"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quelle est la capitale de : Turquie ?",
-      "choices": [
-        "Istanbul",
-        "Genève",
-        "Ankara",
-        "Lagos"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quelle est la capitale de : Arabie saoudite ?",
-      "choices": [
-        "Rio de Janeiro",
-        "Genève",
-        "Lagos",
-        "Riyad"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quelle est la capitale de : Vietnam ?",
-      "choices": [
-        "Shanghai",
-        "Hanoï",
-        "Toronto",
-        "Casablanca"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Indonésie ?",
-      "choices": [
-        "Jakarta",
-        "Genève",
-        "New York",
-        "Sydney"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle est la capitale de : Corée du Sud ?",
-      "choices": [
-        "Istanbul",
-        "Séoul",
-        "Toronto",
-        "Sydney"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la capitale de : Nouvelle-Zélande ?",
-      "choices": [
-        "Barcelone",
-        "Wellington",
-        "Casablanca",
-        "Genève"
-      ],
-      "correctIndex": 1
     },
     {
       "question": "Quel est le plus long fleuve du monde ?",
       "choices": [
-        "Le Nil",
-        "L'Amazone",
-        "Le Mississippi",
-        "Le Yangtze"
+        "Amazone",
+        "Nil",
+        "Yangtsé",
+        "Mississippi"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quel est le plus grand océan de la Terre ?",
+      "question": "Quelle est la capitale du Cameroun ?",
       "choices": [
-        "Océan Pacifique",
-        "Océan Atlantique",
-        "Océan Indien",
-        "Océan Arctique"
+        "Douala",
+        "Yaoundé",
+        "Bafoussam",
+        "Garoua"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "question": "Quel est le plus haut sommet du monde ?",
+      "question": "Quel est le plus grand pays du monde par superficie ?",
       "choices": [
-        "Mont Everest",
-        "K2",
-        "Kangchenjunga",
-        "Makalu"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le plus grand désert chaud du monde ?",
-      "choices": [
-        "Désert du Sahara",
-        "Désert de Gobi",
-        "Désert du Kalahari",
-        "Désert d'Atacama"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le plus grand pays du monde par sa superficie ?",
-      "choices": [
-        "Russie",
         "Canada",
         "Chine",
-        "États-Unis"
+        "États-Unis",
+        "Russie"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
-      "question": "Quel est le plus petit État indépendant du monde ?",
+      "question": "Quel continent abrite le Sahara ?",
       "choices": [
-        "Le Vatican",
-        "Monaco",
-        "Nauru",
-        "Saint-Marin"
+        "Asie",
+        "Afrique",
+        "Amérique du Sud",
+        "Australie"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "question": "Dans quel océan se trouve l'île de Madagascar ?",
+      "question": "Quelle est la capitale de l'Italie ?",
       "choices": [
-        "Océan Indien",
-        "Océan Atlantique",
-        "Océan Pacifique",
-        "Océan Arctique"
+        "Milan",
+        "Naples",
+        "Rome",
+        "Turin"
       ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel détroit sépare l'Espagne du Maroc ?",
-      "choices": [
-        "Détroit de Gibraltar",
-        "Détroit du Bosphore",
-        "Détroit de Bering",
-        "Détroit de Magellan"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?",
-      "choices": [
-        "L'Oural",
-        "Les Alpes",
-        "Les Caucase",
-        "Les Carpates"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le lac le plus profond du monde ?",
-      "choices": [
-        "Lac Baïkal",
-        "Lac Tanganika",
-        "Lac Supérieur",
-        "Lac Victoria"
-      ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "question": "Quel est le pays le plus peuplé du monde ?",
@@ -702,104 +82,1924 @@
       "correctIndex": 0
     },
     {
-      "question": "Sur quel continent se trouve le fleuve Mékong ?",
+      "question": "Quelle est la plus haute montagne du monde ?",
       "choices": [
-        "Asie",
+        "K2",
+        "Mont Blanc",
+        "Everest",
+        "Kilimandjaro"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel océan borde la côte est des États-Unis ?",
+      "choices": [
+        "Pacifique",
+        "Atlantique",
+        "Indien",
+        "Arctique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la capitale du Japon ?",
+      "choices": [
+        "Osaka",
+        "Kyoto",
+        "Tokyo",
+        "Yokohama"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel désert est le plus grand désert chaud du monde ?",
+      "choices": [
+        "Désert de Gobi",
+        "Désert du Sahara",
+        "Désert du Kalahari",
+        "Désert d'Atacama"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la capitale du Royaume-Uni ?",
+      "choices": [
+        "Manchester",
+        "Liverpool",
+        "Londres",
+        "Birmingham"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays a la forme d'une botte en Europe ?",
+      "choices": [
+        "Espagne",
+        "Italie",
+        "Grèce",
+        "Portugal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fleuve traverse l'Égypte ?",
+      "choices": [
+        "Congo",
+        "Niger",
+        "Nil",
+        "Zambèze"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la capitale de l'Allemagne ?",
+      "choices": [
+        "Munich",
+        "Francfort",
+        "Berlin",
+        "Hambourg"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays est entouré par l'Afrique du Sud, appelé un « pays enclave » ?",
+      "choices": [
+        "Lesotho",
+        "Botswana",
+        "Namibie",
+        "Zimbabwe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "choices": [
+        "Barcelone",
+        "Madrid",
+        "Séville",
+        "Valence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel continent est le plus peuplé du monde ?",
+      "choices": [
         "Afrique",
-        "Amérique du Sud",
-        "Europe"
+        "Europe",
+        "Asie",
+        "Amérique"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
-      "question": "Dans quel pays se trouve le volcan Fudiyama (Mont Fuji) ?",
+      "question": "Quelle mer sépare l'Europe de l'Afrique au niveau du détroit de Gibraltar ?",
       "choices": [
-        "Japon",
-        "Chine",
-        "Corée du Sud",
-        "Philippines"
+        "Mer Rouge",
+        "Mer Méditerranée",
+        "Mer Noire",
+        "Mer Baltique"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "question": "Quelle est la plus grande île du monde ?",
+      "question": "Quel pays possède la Grande Barrière de corail ?",
       "choices": [
-        "Groenland",
-        "Madagascar",
-        "Bornéo",
-        "Nouvelle-Guinée"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel pays possède le plus grand nombre d'îles au monde ?",
-      "choices": [
-        "Suède",
-        "Norvège",
+        "Nouvelle-Zélande",
+        "Australie",
         "Indonésie",
         "Philippines"
       ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la capitale du Canada ?",
+      "choices": [
+        "Toronto",
+        "Vancouver",
+        "Ottawa",
+        "Montréal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le plus petit pays du monde ?",
+      "choices": [
+        "Monaco",
+        "Vatican",
+        "Saint-Marin",
+        "Liechtenstein"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la capitale du Nigeria ?",
+      "choices": [
+        "Lagos",
+        "Abuja",
+        "Kano",
+        "Ibadan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a pour capitale Le Caire ?",
+      "choices": [
+        "Maroc",
+        "Égypte",
+        "Tunisie",
+        "Libye"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fleuve traverse le Cameroun et se jette dans le golfe de Guinée ?",
+      "choices": [
+        "Le Sanaga",
+        "Le Niger",
+        "Le Congo",
+        "Le Sénégal"
+      ],
       "correctIndex": 0
+    },
+    {
+      "question": "Quelle chaîne de montagnes sépare l'Europe et l'Asie en Russie ?",
+      "choices": [
+        "Alpes",
+        "Andes",
+        "Oural",
+        "Himalaya"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la capitale de la Chine ?",
+      "choices": [
+        "Shanghai",
+        "Pékin",
+        "Hong Kong",
+        "Canton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel océan est situé entre l'Afrique et l'Australie ?",
+      "choices": [
+        "Atlantique",
+        "Pacifique",
+        "Indien",
+        "Arctique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays est célèbre pour ses pyramides et ses pharaons ?",
+      "choices": [
+        "Soudan",
+        "Égypte",
+        "Libye",
+        "Éthiopie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la capitale du Brésil ?",
+      "choices": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Brasilia",
+        "Salvador"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel continent abrite le Kilimandjaro ?",
+      "choices": [
+        "Asie",
+        "Amérique du Sud",
+        "Afrique",
+        "Océanie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la capitale du Sénégal ?",
+      "choices": [
+        "Thiès",
+        "Dakar",
+        "Touba",
+        "Saint-Louis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la ville de Venise ?",
+      "choices": [
+        "Espagne",
+        "Grèce",
+        "Italie",
+        "France"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la capitale de la Russie ?",
+      "choices": [
+        "Saint-Pétersbourg",
+        "Moscou",
+        "Novossibirsk",
+        "Kazan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays africain est traversé par l'équateur et porte ce nom ?",
+      "choices": [
+        "Kenya",
+        "Équateur",
+        "Gabon",
+        "Ouganda"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle est la capitale de l'Inde ?",
+      "choices": [
+        "Bombay",
+        "New Delhi",
+        "Calcutta",
+        "Bangalore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel désert se situe en Mongolie et en Chine ?",
+      "choices": [
+        "Sahara",
+        "Kalahari",
+        "Gobi",
+        "Namib"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la capitale du Maroc ?",
+      "choices": [
+        "Casablanca",
+        "Marrakech",
+        "Rabat",
+        "Fès"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays a pour capitale Abidjan (capitale économique) ?",
+      "choices": [
+        "Ghana",
+        "Côte d'Ivoire",
+        "Mali",
+        "Bénin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la capitale de la Côte d'Ivoire (capitale politique) ?",
+      "choices": [
+        "Abidjan",
+        "Yamoussoukro",
+        "Bouaké",
+        "San Pédro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays est traversé par la ligne de changement de date dans le Pacifique ?",
+      "choices": [
+        "Fidji",
+        "Nouvelle-Zélande",
+        "Kiribati",
+        "Samoa"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la capitale de la Grèce ?",
+      "choices": [
+        "Thessalonique",
+        "Athènes",
+        "Patras",
+        "Corinthe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la plus grande forêt tropicale du monde, l'Amazonie ?",
+      "choices": [
+        "Pérou",
+        "Colombie",
+        "Brésil",
+        "Venezuela"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la capitale de l'Éthiopie ?",
+      "choices": [
+        "Addis-Abeba",
+        "Djibouti",
+        "Asmara",
+        "Mogadiscio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays est constitué d'un archipel de plus de 17 000 îles en Asie du Sud-Est ?",
+      "choices": [
+        "Philippines",
+        "Indonésie",
+        "Malaisie",
+        "Thaïlande"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la capitale de la République démocratique du Congo ?",
+      "choices": [
+        "Brazzaville",
+        "Kinshasa",
+        "Lubumbashi",
+        "Kisangani"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays est séparé de la France par les Pyrénées ?",
+      "choices": [
+        "Portugal",
+        "Espagne",
+        "Andorre",
+        "Italie"
+      ],
+      "correctIndex": 1
     },
     {
       "question": "Quelle est la capitale de l'Australie ?",
       "choices": [
-        "Canberra",
         "Sydney",
         "Melbourne",
+        "Canberra",
         "Brisbane"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays a pour capitale Washington D.C. ?",
+      "choices": [
+        "Canada",
+        "États-Unis",
+        "Mexique",
+        "Royaume-Uni"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le plus grand désert froid du monde ?",
+      "choices": [
+        "Sahara",
+        "Antarctique",
+        "Gobi",
+        "Kalahari"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle chaîne de montagnes traverse l'Amérique du Sud sur toute sa longueur ?",
+      "choices": [
+        "Rocheuses",
+        "Andes",
+        "Alpes",
+        "Sierra Madre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel lac est le plus grand lac d'eau douce du monde par volume ?",
+      "choices": [
+        "Lac Victoria",
+        "Lac Baïkal",
+        "Lac Supérieur",
+        "Lac Tanganyika"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fleuve est le plus long d'Afrique ?",
+      "choices": [
+        "Congo",
+        "Niger",
+        "Nil",
+        "Zambèze"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays possède le plus grand nombre de fuseaux horaires ?",
+      "choices": [
+        "Russie",
+        "États-Unis",
+        "France",
+        "Chine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel détroit sépare l'Espagne du Maroc ?",
+      "choices": [
+        "Détroit de Bering",
+        "Détroit de Gibraltar",
+        "Détroit de Malacca",
+        "Détroit d'Ormuz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mer est la plus salée du monde et permet de flotter facilement ?",
+      "choices": [
+        "Mer Morte",
+        "Mer Rouge",
+        "Mer Noire",
+        "Mer Caspienne"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quelle mer sépare l'Europe de l'Afrique ?",
+      "question": "Quel pays d'Amérique du Sud n'a pas d'accès à la mer ?",
       "choices": [
-        "Mer Méditerranée",
-        "Mer Rouge",
+        "Chili",
+        "Bolivie",
+        "Pérou",
+        "Équateur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale africaine est située sur la côte atlantique et proche de l'équateur, capitale du Gabon ?",
+      "choices": [
+        "Libreville",
+        "Malabo",
+        "Bangui",
+        "Yaoundé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays est bordé par la mer Rouge et la mer Méditerranée ?",
+      "choices": [
+        "Jordanie",
+        "Égypte",
+        "Israël",
+        "Arabie saoudite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle île est la plus grande île du monde ?",
+      "choices": [
+        "Madagascar",
+        "Bornéo",
+        "Groenland",
+        "Nouvelle-Guinée"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays possède le plus de volcans actifs au monde ?",
+      "choices": [
+        "Japon",
+        "Indonésie",
+        "Islande",
+        "Philippines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle rivière forme la frontière naturelle entre les États-Unis et le Mexique ?",
+      "choices": [
+        "Rio Grande",
+        "Colorado",
+        "Mississippi",
+        "Sacramento"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays africain est enclavé entre le Sénégal et n'a pas d'accès direct à la mer ?",
+      "choices": [
+        "Le Mali",
+        "La Gambie",
+        "La Guinée-Bissau",
+        "La Mauritanie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle chaîne de montagnes abrite le mont Everest ?",
+      "choices": [
+        "Andes",
+        "Alpes",
+        "Himalaya",
+        "Rocheuses"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays a pour capitale Kinshasa et partage son nom avec un fleuve ?",
+      "choices": [
+        "Congo-Brazzaville",
+        "République démocratique du Congo",
+        "Zambie",
+        "Angola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel canal relie la mer Méditerranée à la mer Rouge ?",
+      "choices": [
+        "Canal de Panama",
+        "Canal de Suez",
+        "Canal de Corinthe",
+        "Canal du Nord"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel canal relie l'océan Atlantique à l'océan Pacifique en Amérique centrale ?",
+      "choices": [
+        "Canal de Suez",
+        "Canal de Panama",
+        "Canal du Nicaragua",
+        "Canal de Kiel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région désertique s'étend au sud du Sahara et au nord des zones tropicales africaines ?",
+      "choices": [
+        "Le Sahel",
+        "Le Kalahari",
+        "Le Karoo",
+        "Le Namib"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le plus long littoral du monde ?",
+      "choices": [
+        "Russie",
+        "Canada",
+        "Indonésie",
+        "Norvège"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale est située sur deux continents, Europe et Asie ?",
+      "choices": [
+        "Moscou",
+        "Istanbul",
+        "Le Caire",
+        "Athènes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays d'Asie centrale est le plus grand sans accès à la mer ?",
+      "choices": [
+        "Kazakhstan",
+        "Ouzbékistan",
+        "Turkménistan",
+        "Kirghizstan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle montagne est le plus haut sommet d'Afrique ?",
+      "choices": [
+        "Mont Kenya",
+        "Kilimandjaro",
+        "Ras Dashen",
+        "Mont Cameroun"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le mont Cameroun, plus haut sommet d'Afrique de l'Ouest ?",
+      "choices": [
+        "Nigeria",
+        "Cameroun",
+        "Gabon",
+        "Guinée équatoriale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fleuve traverse Paris ?",
+      "choices": [
+        "Le Rhône",
+        "La Loire",
+        "La Seine",
+        "La Garonne"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle capitale sud-américaine est la plus haute du monde en altitude ?",
+      "choices": [
+        "Bogota",
+        "Quito",
+        "La Paz",
+        "Lima"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays possède l'Atacama, le désert le plus aride du monde ?",
+      "choices": [
+        "Pérou",
+        "Bolivie",
+        "Chili",
+        "Argentine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle mer intérieure borde la Russie, l'Iran et plusieurs pays d'Asie centrale ?",
+      "choices": [
         "Mer Noire",
+        "Mer Caspienne",
+        "Mer d'Aral",
+        "Mer Baltique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays africain compte le plus grand nombre d'habitants ?",
+      "choices": [
+        "Éthiopie",
+        "Nigeria",
+        "Égypte",
+        "République démocratique du Congo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale se situe au bord du lac Léman ?",
+      "choices": [
+        "Berne",
+        "Genève",
+        "Zurich",
+        "Lausanne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la ville de Tombouctou ?",
+      "choices": [
+        "Niger",
+        "Mali",
+        "Burkina Faso",
+        "Mauritanie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région est connue comme le « bassin du Congo », deuxième plus grande forêt tropicale au monde ?",
+      "choices": [
+        "Bassin du Congo",
+        "Bassin amazonien",
+        "Bassin du Niger",
+        "Bassin du Nil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays est traversé par le cercle polaire arctique et compte de nombreux fjords ?",
+      "choices": [
+        "Suède",
+        "Norvège",
+        "Finlande",
+        "Islande"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale asiatique est construite sur plusieurs îles au bord du fleuve Han ?",
+      "choices": [
+        "Tokyo",
+        "Séoul",
+        "Pékin",
+        "Bangkok"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède les chutes Victoria, sur le fleuve Zambèze ?",
+      "choices": [
+        "Frontière Zambie-Zimbabwe",
+        "Frontière Kenya-Tanzanie",
+        "Frontière Malawi-Mozambique",
+        "Frontière Botswana-Namibie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel océan borde la côte ouest de l'Afrique, y compris le Cameroun ?",
+      "choices": [
+        "Océan Indien",
+        "Océan Atlantique",
+        "Océan Pacifique",
+        "Océan Arctique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays d'Océanie est constitué de deux îles principales, du Nord et du Sud ?",
+      "choices": [
+        "Australie",
+        "Nouvelle-Zélande",
+        "Fidji",
+        "Papouasie-Nouvelle-Guinée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la plus grande ville d'Afrique par population ?",
+      "choices": [
+        "Le Caire",
+        "Lagos",
+        "Kinshasa",
+        "Johannesburg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la vallée du Rift, une grande fracture géologique est-africaine ?",
+      "choices": [
+        "Kenya",
+        "Nigeria",
+        "Ghana",
+        "Sénégal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale se trouve sur les rives du Danube en Hongrie ?",
+      "choices": [
+        "Vienne",
+        "Budapest",
+        "Bratislava",
+        "Belgrade"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fleuve traverse plusieurs pays d'Europe centrale, dont l'Allemagne, l'Autriche et la Hongrie ?",
+      "choices": [
+        "Le Rhin",
+        "Le Danube",
+        "L'Elbe",
+        "L'Oder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le plus grand nombre de lacs au monde ?",
+      "choices": [
+        "Finlande",
+        "Canada",
+        "Russie",
+        "Suède"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale d'Afrique de l'Ouest est un port important sur le golfe de Guinée, capitale du Ghana ?",
+      "choices": [
+        "Kumasi",
+        "Accra",
+        "Tamale",
+        "Cape Coast"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la région autonome du Groenland ?",
+      "choices": [
+        "Norvège",
+        "Islande",
+        "Danemark",
+        "Suède"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle capitale se situe sur la rivière Congo, face à Kinshasa ?",
+      "choices": [
+        "Brazzaville",
+        "Luanda",
+        "Bangui",
+        "Libreville"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le lac Tchad, partagé avec le Cameroun, le Niger et le Nigeria ?",
+      "choices": [
+        "Tchad",
+        "Soudan",
+        "Niger",
+        "Mali"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle île méditerranéenne est le siège d'un petit État indépendant, Malte ?",
+      "choices": [
+        "Sicile",
+        "Sardaigne",
+        "Malte",
+        "Chypre"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays possède la région du Katanga, riche en minerais ?",
+      "choices": [
+        "Zambie",
+        "République démocratique du Congo",
+        "Angola",
+        "Mozambique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale se trouve à plus de 2 300 mètres d'altitude, capitale de l'Éthiopie ?",
+      "choices": [
+        "Nairobi",
+        "Addis-Abeba",
+        "Kampala",
+        "Kigali"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le désert du Namib, l'un des plus vieux déserts du monde ?",
+      "choices": [
+        "Afrique du Sud",
+        "Botswana",
+        "Namibie",
+        "Angola"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le point culminant de l'Europe ?",
+      "choices": [
+        "Mont Blanc",
+        "Mont Elbrouz",
+        "Cervin",
+        "Grossglockner"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le plus grand nombre de records de superficie forestière tropicale après le Brésil ?",
+      "choices": [
+        "Indonésie",
+        "République démocratique du Congo",
+        "Pérou",
+        "Colombie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mer sépare la Corée du Japon ?",
+      "choices": [
+        "Mer Jaune",
+        "Mer du Japon",
+        "Mer de Chine orientale",
+        "Mer d'Okhotsk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays est bordé par 14 pays, un record mondial partagé avec la Russie ?",
+      "choices": [
+        "Chine",
+        "Brésil",
+        "Inde",
+        "États-Unis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel fleuve américain est le plus long d'Amérique du Nord ?",
+      "choices": [
+        "Mississippi-Missouri",
+        "Colorado",
+        "Rio Grande",
+        "Columbia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale est la plus proche du cercle polaire arctique en Europe continentale ?",
+      "choices": [
+        "Helsinki",
+        "Reykjavik",
+        "Oslo",
+        "Stockholm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la région du Darfour ?",
+      "choices": [
+        "Soudan",
+        "Tchad",
+        "Libye",
+        "Égypte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+      "choices": [
+        "Alpes",
+        "Pyrénées",
+        "Massif central",
+        "Jura"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel archipel japonais compte quatre îles principales ?",
+      "choices": [
+        "Honshu, Hokkaido, Kyushu, Shikoku",
+        "Honshu, Okinawa, Kyushu, Shikoku",
+        "Hokkaido, Okinawa, Kyushu, Honshu",
+        "Honshu, Hokkaido, Okinawa, Shikoku"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays africain possède le plus haut sommet du continent après le Kilimandjaro, le mont Kenya ?",
+      "choices": [
+        "Tanzanie",
+        "Kenya",
+        "Ouganda",
+        "Éthiopie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale mondiale est la plus australe (la plus au sud) ?",
+      "choices": [
+        "Canberra",
+        "Wellington",
+        "Buenos Aires",
+        "Santiago"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel détroit sépare l'Asie de l'Amérique du Nord ?",
+      "choices": [
+        "Détroit de Malacca",
+        "Détroit de Béring",
+        "Détroit d'Ormuz",
+        "Détroit de Davis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le plus grand glacier hors des zones polaires, dans l'Himalaya/Karakoram ?",
+      "choices": [
+        "Népal",
+        "Pakistan",
+        "Inde",
+        "Bhoutan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale africaine est traversée par l'équateur ?",
+      "choices": [
+        "Kampala",
+        "Nairobi",
+        "Libreville",
+        "Quito (Amérique)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays est le plus grand par superficie en Afrique ?",
+      "choices": [
+        "République démocratique du Congo",
+        "Algérie",
+        "Soudan",
+        "Libye"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fleuve d'Asie du Sud-Est traverse la Chine, le Laos, le Myanmar, la Thaïlande, le Cambodge et le Vietnam ?",
+      "choices": [
+        "Fleuve Rouge",
+        "Mékong",
+        "Irrawaddy",
+        "Yangtsé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la plus grande partie du bassin de l'Amazone ?",
+      "choices": [
+        "Pérou",
+        "Colombie",
+        "Brésil",
+        "Équateur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle capitale se trouve à la confluence de la Volga et de l'Oka en Russie (pas la capitale nationale) ?",
+      "choices": [
+        "Kazan",
+        "Nijni Novgorod",
+        "Samara",
+        "Volgograd"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le plateau du Djos, situé au centre du Nigeria ?",
+      "choices": [
+        "Ghana",
+        "Nigeria",
+        "Niger",
+        "Cameroun"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle ligne imaginaire traverse le Brésil, le Gabon, le Kenya et l'Indonésie ?",
+      "choices": [
+        "Le tropique du Cancer",
+        "L'équateur",
+        "Le tropique du Capricorne",
+        "Le méridien de Greenwich"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le plus de fuseaux horaires officiels dans le monde après la France ?",
+      "choices": [
+        "Russie",
+        "États-Unis",
+        "Royaume-Uni",
+        "Australie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale sud-américaine porte le nom d'un saint et est la capitale du Chili ?",
+      "choices": [
+        "Santiago",
+        "Lima",
+        "Bogota",
+        "Caracas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays africain possède la plus longue frontière terrestre du continent ?",
+      "choices": [
+        "Algérie",
+        "République démocratique du Congo",
+        "Soudan",
+        "Tchad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mer borde le Kenya, la Tanzanie et la Somalie à l'est de l'Afrique ?",
+      "choices": [
+        "Mer Rouge",
+        "Océan Indien",
+        "Mer d'Arabie",
+        "Golfe d'Aden"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le plus grand nombre de sommets de plus de 7 000 mètres au monde ?",
+      "choices": [
+        "Népal",
+        "Chine",
+        "Pakistan",
+        "Inde"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle capitale d'Amérique centrale se situe près de plusieurs volcans actifs ?",
+      "choices": [
+        "San José",
+        "Managua",
+        "Guatemala Ciudad",
+        "San Salvador"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays possède la dépression du Danakil, l'un des lieux les plus chauds de la planète ?",
+      "choices": [
+        "Djibouti",
+        "Éthiopie",
+        "Érythrée",
+        "Somalie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle rivière africaine se jette dans l'océan Atlantique près de la ville de Douala ?",
+      "choices": [
+        "Le Sanaga",
+        "Le Wouri",
+        "Le Nyong",
+        "Le Logone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la région du Cachemire, disputée avec l'Inde ?",
+      "choices": [
+        "Pakistan",
+        "Bangladesh",
+        "Afghanistan",
+        "Népal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale africaine se situe sur le fleuve Niger ?",
+      "choices": [
+        "Bamako",
+        "Niamey",
+        "Ouagadougou",
+        "Les deux (Bamako et Niamey)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel pays possède la plus grande partie du désert du Kalahari ?",
+      "choices": [
+        "Namibie",
+        "Botswana",
+        "Afrique du Sud",
+        "Angola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale asiatique est bâtie sur des marécages et sujette à l'affaissement des sols ?",
+      "choices": [
+        "Bangkok",
+        "Jakarta",
+        "Manille",
+        "Hô Chi Minh-Ville"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le plus long réseau ferroviaire d'Afrique subsaharienne, historiquement ?",
+      "choices": [
+        "Afrique du Sud",
+        "Nigeria",
+        "Kenya",
+        "Zimbabwe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle chaîne montagneuse sépare l'Italie du reste de l'Europe continentale ?",
+      "choices": [
+        "Alpes",
+        "Apennins",
+        "Dolomites",
+        "Pyrénées"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays est le plus étendu d'Amérique du Sud après le Brésil ?",
+      "choices": [
+        "Argentine",
+        "Pérou",
+        "Colombie",
+        "Bolivie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale se trouve au confluent du Rhône et de la Saône (ce n'est pas une capitale nationale, à retirer) ?",
+      "choices": [
+        "Lyon",
+        "Marseille",
+        "Grenoble",
+        "Nice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le plus grand désert de sel du monde, le Salar d'Uyuni ?",
+      "choices": [
+        "Chili",
+        "Pérou",
+        "Bolivie",
+        "Argentine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle capitale se situe dans la vallée du Rift est-africain ?",
+      "choices": [
+        "Nairobi",
+        "Dar es Salaam",
+        "Kampala",
+        "Lusaka"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède l'île de Zanzibar ?",
+      "choices": [
+        "Kenya",
+        "Tanzanie",
+        "Mozambique",
+        "Comores"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale insulaire se trouve à Madagascar ?",
+      "choices": [
+        "Toamasina",
+        "Antananarivo",
+        "Mahajanga",
+        "Fianarantsoa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le lac Malawi, aussi appelé lac Nyasa ?",
+      "choices": [
+        "Malawi",
+        "Zambie",
+        "Mozambique",
+        "Tanzanie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale se trouve entre deux mers, la Baltique et non loin de la mer du Nord ?",
+      "choices": [
+        "Copenhague",
+        "Stockholm",
+        "Oslo",
+        "Helsinki"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède la péninsule du Sinaï ?",
+      "choices": [
+        "Israël",
+        "Égypte",
+        "Jordanie",
+        "Arabie saoudite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale du Moyen-Orient est construite sur les rives du Tigre ?",
+      "choices": [
+        "Damas",
+        "Bagdad",
+        "Amman",
+        "Beyrouth"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la plus grande partie du désert de Gobi ?",
+      "choices": [
+        "Chine",
+        "Mongolie",
+        "Kazakhstan",
+        "Russie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale se trouve au bord de la mer Caspienne, capitale de l'Azerbaïdjan ?",
+      "choices": [
+        "Bakou",
+        "Erevan",
+        "Tbilissi",
+        "Achgabat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le plus grand nombre de fleuves transfrontaliers en Afrique de l'Ouest, dont le Niger ?",
+      "choices": [
+        "Mali",
+        "Niger",
+        "Nigeria",
+        "Guinée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale se trouve sur l'île de Luzon aux Philippines ?",
+      "choices": [
+        "Cebu",
+        "Manille",
+        "Davao",
+        "Quezon City"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la plus grande partie de la forêt du bassin du Congo après la RDC ?",
+      "choices": [
+        "Cameroun",
+        "Gabon",
+        "République du Congo",
+        "Centrafrique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale se trouve entre les Andes et l'océan Pacifique, capitale du Pérou ?",
+      "choices": [
+        "Lima",
+        "Cusco",
+        "Arequipa",
+        "Trujillo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel est le point le plus bas de la surface terrestre continentale (hors océans) ?",
+      "choices": [
+        "Vallée de la Mort",
+        "Mer Morte",
+        "Dépression de Qattara",
+        "Dépression de Turfan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le plateau du Tibet, souvent surnommé le « toit du monde » ?",
+      "choices": [
+        "Népal",
+        "Chine",
+        "Bhoutan",
+        "Inde"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la fosse océanique la plus profonde du monde ?",
+      "choices": [
+        "Fosse de Porto Rico",
+        "Fosse des Mariannes",
+        "Fosse du Japon",
+        "Fosse des Tonga"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la plus grande partie du plateau du Deccan ?",
+      "choices": [
+        "Sri Lanka",
+        "Inde",
+        "Pakistan",
+        "Bangladesh"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale est située à la plus haute altitude au monde parmi les capitales officielles ?",
+      "choices": [
+        "La Paz (capitale administrative)",
+        "Quito",
+        "Thimphou",
+        "Bogota"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le mont Kilimandjaro, plus haut volcan libre d'Afrique ?",
+      "choices": [
+        "Kenya",
+        "Tanzanie",
+        "Ouganda",
+        "Rwanda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle île volcanique de l'Atlantique Sud est un territoire britannique célèbre pour l'exil de Napoléon ?",
+      "choices": [
+        "Sainte-Hélène",
+        "Ascension",
+        "Tristan da Cunha",
+        "Falkland"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède la fosse des Mariannes dans le Pacifique ?",
+      "choices": [
+        "Territoire des États-Unis (Îles Mariannes)",
+        "Japon",
+        "Philippines",
+        "Guam uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle chaîne de montagnes sous-marine traverse l'océan Atlantique du nord au sud ?",
+      "choices": [
+        "Dorsale médio-atlantique",
+        "Ride est-pacifique",
+        "Fosse des Mariannes",
+        "Dorsale indienne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède la plus grande partie du désert de l'Arabie, le Rub al-Khali ?",
+      "choices": [
+        "Arabie saoudite",
+        "Yémen",
+        "Oman",
+        "Émirats arabes unis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale a été spécialement construite comme capitale planifiée, inaugurée en 1960, capitale du Brésil ?",
+      "choices": [
+        "Rio de Janeiro",
+        "Brasilia",
+        "Salvador",
+        "Belo Horizonte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la ville souterraine de Coober Pedy, connue pour ses habitations troglodytes ?",
+      "choices": [
+        "Afrique du Sud",
+        "Australie",
+        "Turquie",
+        "Tunisie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région désertique namibienne abrite les dunes de sable parmi les plus hautes du monde, à Sossusvlei ?",
+      "choices": [
+        "Désert du Kalahari",
+        "Désert du Namib",
+        "Désert du Karoo",
+        "Désert de Skeleton Coast"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le lac Titicaca, partagé avec la Bolivie ?",
+      "choices": [
+        "Pérou",
+        "Chili",
+        "Équateur",
+        "Colombie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale planifiée d'Afrique de l'Ouest, inaugurée en 1991, est la capitale du Nigeria ?",
+      "choices": [
+        "Lagos",
+        "Abuja",
+        "Kaduna",
+        "Port Harcourt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède l'archipel des Svalbard dans l'Arctique ?",
+      "choices": [
+        "Russie",
+        "Norvège",
+        "Danemark",
+        "Islande"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plaque tectonique est en grande partie responsable de la formation de l'Himalaya par collision avec la plaque eurasienne ?",
+      "choices": [
+        "Plaque africaine",
+        "Plaque indienne",
+        "Plaque pacifique",
+        "Plaque arabique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la région autonome du Xinjiang, dans l'extrême ouest ?",
+      "choices": [
+        "Mongolie",
+        "Chine",
+        "Kazakhstan",
+        "Russie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale est traversée par le méridien de Greenwich ?",
+      "choices": [
+        "Paris",
+        "Londres",
+        "Madrid",
+        "Lisbonne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le point culminant de l'Océanie, le Puncak Jaya ?",
+      "choices": [
+        "Papouasie-Nouvelle-Guinée",
+        "Indonésie",
+        "Fidji",
+        "Australie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mer intérieure a considérablement rétréci depuis les années 1960 en raison de l'irrigation intensive en Asie centrale ?",
+      "choices": [
+        "Mer Caspienne",
+        "Mer d'Aral",
+        "Lac Balkhach",
+        "Mer Morte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la région du Katanga, connue pour ses réserves de cobalt et de cuivre ?",
+      "choices": [
+        "Zambie",
+        "République démocratique du Congo",
+        "Angola",
+        "Tanzanie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale se trouve à l'intersection de trois pays limitrophes très proches, capitale de la Bosnie-Herzégovine ?",
+      "choices": [
+        "Sarajevo",
+        "Zagreb",
+        "Belgrade",
+        "Podgorica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le plus grand glacier du monde en superficie, hors calottes polaires, le Vatnajökull ?",
+      "choices": [
+        "Norvège",
+        "Islande",
+        "Suède",
+        "Groenland (Danemark)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle dépression tectonique traverse l'Afrique de l'Est du Mozambique jusqu'à la mer Rouge ?",
+      "choices": [
+        "Rift est-africain",
+        "Fossé rhénan",
+        "Bassin du Congo",
+        "Dépression de Turkana uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le plus grand nombre de lacs de cratère volcanique en Afrique, dont le lac Nyos ?",
+      "choices": [
+        "Cameroun",
+        "Ouganda",
+        "Rwanda",
+        "Kenya"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale se trouve à proximité immédiate de l'équateur en Amérique du Sud et porte son nom espagnol ?",
+      "choices": [
+        "Quito",
+        "Bogota",
+        "Lima",
+        "Caracas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède la région du Pantanal, plus grande zone humide tropicale du monde ?",
+      "choices": [
+        "Argentine",
+        "Brésil",
+        "Paraguay",
+        "Bolivie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale africaine se situe à plus de 1 600 mètres d'altitude sur les hauts plateaux, capitale du Rwanda ?",
+      "choices": [
+        "Kigali",
+        "Bujumbura",
+        "Kampala",
+        "Goma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le désert de Simpson, un désert de dunes rouges ?",
+      "choices": [
+        "Australie",
+        "Namibie",
+        "Chili",
+        "Mongolie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale est bâtie sur sept collines, tout comme Rome, et est la capitale de la Turquie ?",
+      "choices": [
+        "Istanbul",
+        "Ankara",
+        "Izmir",
+        "Bursa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède la plus grande partie de la forêt boréale (taïga) au monde ?",
+      "choices": [
+        "Canada",
+        "Russie",
+        "États-Unis",
+        "Finlande"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale se situe sur l'isthme reliant deux masses continentales, capitale du Panama ?",
+      "choices": [
+        "Panama",
+        "San José",
+        "Managua",
+        "Colón"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le plus long fjord du monde, le Scoresby Sund ?",
+      "choices": [
+        "Norvège",
+        "Groenland (Danemark)",
+        "Islande",
+        "Canada"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région volcanique active se trouve entre plusieurs plaques tectoniques dans le Pacifique, formant une ceinture ?",
+      "choices": [
+        "Ceinture de feu du Pacifique",
+        "Dorsale médio-atlantique",
+        "Rift est-africain",
+        "Ceinture alpine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le plus grand nombre d'États fédérés parmi les grandes fédérations mondiales ?",
+      "choices": [
+        "États-Unis (50)",
+        "Inde (28 États)",
+        "Brésil (26 États)",
+        "Nigeria (36 États)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle capitale se trouve sur la rive du fleuve Amour, à la frontière russo-chinoise (grande ville, pas capitale nationale) ?",
+      "choices": [
+        "Khabarovsk",
+        "Vladivostok",
+        "Blagovechtchensk",
+        "Irkoutsk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède l'atoll de Bikini, célèbre pour des essais nucléaires ?",
+      "choices": [
+        "Kiribati",
+        "Îles Marshall",
+        "Palaos",
+        "Micronésie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale est officiellement la capitale la plus septentrionale (la plus au nord) du monde ?",
+      "choices": [
+        "Reykjavik",
+        "Oslo",
+        "Helsinki",
+        "Nuuk (Groenland)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel pays possède la région autonome du Somaliland, non reconnue internationalement ?",
+      "choices": [
+        "Somalie",
+        "Éthiopie",
+        "Djibouti",
+        "Kenya"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle rivière africaine traverse l'Angola et se jette dans l'océan Atlantique, formant une frontière avec la RDC ?",
+      "choices": [
+        "Le Congo",
+        "Le Cunene",
+        "Le Zambèze",
+        "L'Okavango"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le plus grand glacier tropical du monde, sur le mont Jaya en Indonésie ?",
+      "choices": [
+        "Indonésie",
+        "Papouasie-Nouvelle-Guinée",
+        "Philippines",
+        "Malaisie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale se trouve littéralement au centre géographique de son pays, capitale de l'Australie ?",
+      "choices": [
+        "Sydney",
+        "Canberra",
+        "Alice Springs",
+        "Melbourne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays possède le plus grand nombre de volcans du continent africain, sur son territoire insulaire ?",
+      "choices": [
+        "Comores",
+        "Cap-Vert",
+        "Madagascar",
+        "Maurice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle capitale d'Amérique centrale a été reconstruite après avoir été détruite par un séisme en 1972 ?",
+      "choices": [
+        "Managua",
+        "Tegucigalpa",
+        "San Salvador",
+        "Guatemala Ciudad"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède le plus long réseau de canyons, dont le Grand Canyon ?",
+      "choices": [
+        "États-Unis",
+        "Mexique",
+        "Canada",
+        "Pérou"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle mer est en réalité un lac salé sans exutoire, situé entre l'Europe et l'Asie ?",
+      "choices": [
+        "Mer Caspienne",
+        "Mer Noire",
+        "Mer d'Azov",
         "Mer Baltique"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Dans quel pays se trouve la région de la Bavière ?",
+      "question": "Quel pays possède la plus grande partie du plateau de l'Ennedi, connu pour ses formations rocheuses ?",
       "choices": [
-        "Allemagne",
-        "Autriche",
-        "Suisse",
-        "Pologne"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel fleuve traverse la ville de Londres ?",
-      "choices": [
-        "La Tamise",
-        "La Seine",
-        "Le Rhin",
-        "Le Danube"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel fleuve traverse la ville de Rome ?",
-      "choices": [
-        "Le Tibre",
-        "Le Pô",
-        "L'Arno",
-        "Le Rhône"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "ans quel continent se trouve la région géologique 1 ?",
-      "choices": [
-        "Afrique",
-        "Asie",
-        "Europe",
-        "Amérique"
+        "Niger",
+        "Tchad",
+        "Soudan",
+        "Libye"
       ],
       "correctIndex": 1
+    },
+    {
+      "question": "Quelle capitale se trouve la plus proche du pôle Sud parmi les capitales officielles ?",
+      "choices": [
+        "Wellington",
+        "Canberra",
+        "Buenos Aires",
+        "Santiago"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays possède la plus grande diversité de climats sur un seul territoire national, du désert à la forêt amazonienne, en Amérique du Sud ?",
+      "choices": [
+        "Brésil",
+        "Pérou",
+        "Chili",
+        "Argentine"
+      ],
+      "correctIndex": 2
     }
   ]
 }

@@ -1,0 +1,2005 @@
+{
+  "theme": "🧬 Biologie",
+  "questions": [
+    {
+      "question": "Combien d'os compte le squelette humain adulte ?",
+      "choices": [
+        "156",
+        "186",
+        "206",
+        "226"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel organe pompe le sang dans le corps humain ?",
+      "choices": [
+        "Le foie",
+        "Le cœur",
+        "Les poumons",
+        "Les reins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe permet de respirer ?",
+      "choices": [
+        "Le cœur",
+        "Le foie",
+        "Les poumons",
+        "L'estomac"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien de pattes possède une araignée ?",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de pattes possède un insecte ?",
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est le plus grand mammifère du monde ?",
+      "choices": [
+        "L'éléphant",
+        "La baleine bleue",
+        "La girafe",
+        "Le rhinocéros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est surnommé le « roi de la jungle » ?",
+      "choices": [
+        "Le tigre",
+        "Le lion",
+        "L'éléphant",
+        "Le léopard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle partie de la plante absorbe l'eau du sol ?",
+      "choices": [
+        "Les feuilles",
+        "Les racines",
+        "Les fleurs",
+        "Les fruits"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle partie de la plante réalise la photosynthèse principalement ?",
+      "choices": [
+        "Les racines",
+        "Les feuilles",
+        "Les fruits",
+        "Les graines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le plus grand organe du corps humain ?",
+      "choices": [
+        "Le foie",
+        "Le cerveau",
+        "La peau",
+        "Le cœur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien de chambres possède le cœur humain ?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel groupe d'animaux pond des œufs et a des plumes ?",
+      "choices": [
+        "Les mammifères",
+        "Les oiseaux",
+        "Les reptiles",
+        "Les amphibiens"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe d'animaux allaite ses petits ?",
+      "choices": [
+        "Les oiseaux",
+        "Les poissons",
+        "Les mammifères",
+        "Les reptiles"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel organe filtre le sang et produit l'urine ?",
+      "choices": [
+        "Le foie",
+        "Les reins",
+        "La rate",
+        "Le pancréas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est l'organe responsable de la digestion des aliments principalement ?",
+      "choices": [
+        "Le cœur",
+        "L'estomac",
+        "Les poumons",
+        "Les reins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de dents possède un adulte humain en général ?",
+      "choices": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel animal est connu pour changer de couleur pour se camoufler ?",
+      "choices": [
+        "Le lézard commun",
+        "Le caméléon",
+        "Le serpent",
+        "La tortue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin est un mammifère et non un poisson ?",
+      "choices": [
+        "Le requin",
+        "Le dauphin",
+        "La raie",
+        "La méduse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle partie du corps humain contrôle les pensées et les actions ?",
+      "choices": [
+        "Le cœur",
+        "Le cerveau",
+        "Le foie",
+        "Les poumons"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet aux plantes de fabriquer leur nourriture grâce à la lumière ?",
+      "choices": [
+        "La respiration",
+        "La photosynthèse",
+        "La transpiration",
+        "La germination"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal africain a un très long cou pour atteindre les feuilles des arbres ?",
+      "choices": [
+        "L'éléphant",
+        "La girafe",
+        "Le zèbre",
+        "Le buffle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel insecte produit du miel ?",
+      "choices": [
+        "La fourmi",
+        "L'abeille",
+        "La guêpe",
+        "Le papillon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est connu pour ses rayures noires et blanches ?",
+      "choices": [
+        "Le tigre",
+        "Le zèbre",
+        "Le panda",
+        "La pie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle partie de la fleur produit le pollen ?",
+      "choices": [
+        "Le pistil",
+        "L'étamine",
+        "Le pétale",
+        "Le sépale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe humain permet de voir ?",
+      "choices": [
+        "Le nez",
+        "L'oreille",
+        "L'œil",
+        "La langue"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel organe humain permet d'entendre ?",
+      "choices": [
+        "L'œil",
+        "L'oreille",
+        "Le nez",
+        "La peau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe humain permet de sentir les odeurs ?",
+      "choices": [
+        "La langue",
+        "Le nez",
+        "L'oreille",
+        "La peau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'animal est la grenouille : elle vit à la fois dans l'eau et sur terre ?",
+      "choices": [
+        "Reptile",
+        "Amphibien",
+        "Poisson",
+        "Mammifère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le plus grand animal terrestre actuel ?",
+      "choices": [
+        "Le rhinocéros",
+        "L'éléphant d'Afrique",
+        "La girafe",
+        "L'hippopotame"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est célèbre pour dormir la tête en bas, accroché par les pieds ?",
+      "choices": [
+        "Le paresseux",
+        "La chauve-souris",
+        "Le koala",
+        "Le singe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gaz les êtres humains expirent-ils principalement ?",
+      "choices": [
+        "Oxygène",
+        "Azote",
+        "Dioxyde de carbone",
+        "Hydrogène"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle cellule sanguine transporte l'oxygène dans le corps ?",
+      "choices": [
+        "Globule blanc",
+        "Globule rouge",
+        "Plaquette",
+        "Plasma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle cellule sanguine aide à combattre les infections ?",
+      "choices": [
+        "Globule rouge",
+        "Globule blanc",
+        "Plaquette",
+        "Plasma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe végétal permet à la plante de se reproduire par les graines ?",
+      "choices": [
+        "La racine",
+        "La tige",
+        "Le fruit",
+        "La feuille"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel animal est le plus rapide sur terre sur de courtes distances ?",
+      "choices": [
+        "Le lion",
+        "Le guépard",
+        "Le cheval",
+        "L'antilope"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal africain est connu pour sa grande taille et ses défenses en ivoire ?",
+      "choices": [
+        "Le rhinocéros",
+        "L'éléphant",
+        "L'hippopotame",
+        "Le buffle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plante est connue pour attirer et digérer des insectes ?",
+      "choices": [
+        "Le tournesol",
+        "La plante carnivore (dionée)",
+        "Le rosier",
+        "Le cactus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal aquatique respire grâce à des branchies ?",
+      "choices": [
+        "Le dauphin",
+        "La baleine",
+        "Le poisson",
+        "La tortue de mer"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel animal est le plus proche parent génétique de l'être humain ?",
+      "choices": [
+        "Le gorille",
+        "Le chimpanzé",
+        "L'orang-outan",
+        "Le bonobo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe humain stocke la bile et aide à digérer les graisses ?",
+      "choices": [
+        "Le pancréas",
+        "La vésicule biliaire",
+        "La rate",
+        "Le foie uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet à une chenille de se transformer en papillon ?",
+      "choices": [
+        "La mue",
+        "La métamorphose",
+        "La photosynthèse",
+        "La pollinisation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin possède huit bras et peut changer de couleur ?",
+      "choices": [
+        "La pieuvre",
+        "Le calamar",
+        "L'étoile de mer",
+        "Le crabe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle partie du corps humain protège le cerveau ?",
+      "choices": [
+        "La colonne vertébrale",
+        "Le crâne",
+        "Les côtes",
+        "Le bassin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle partie du corps humain protège le cœur et les poumons ?",
+      "choices": [
+        "Le crâne",
+        "La cage thoracique (côtes)",
+        "Le bassin",
+        "La colonne vertébrale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'aliment les herbivores consomment-ils principalement ?",
+      "choices": [
+        "De la viande",
+        "Des plantes",
+        "Des insectes",
+        "Du poisson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'animal se nourrit à la fois de plantes et de viande ?",
+      "choices": [
+        "Carnivore",
+        "Herbivore",
+        "Omnivore",
+        "Insectivore"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel organe humain produit l'insuline pour réguler le taux de sucre dans le sang ?",
+      "choices": [
+        "Le foie",
+        "Le pancréas",
+        "La rate",
+        "Les reins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est connu pour sa carapace protectrice et sa lenteur ?",
+      "choices": [
+        "Le crabe",
+        "La tortue",
+        "L'escargot",
+        "Le hérisson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe humain est responsable de la mémoire et de la coordination des mouvements, faisant partie de l'encéphale ?",
+      "choices": [
+        "Le cervelet",
+        "La moelle épinière",
+        "Le nerf optique",
+        "L'hypophyse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel type de plante ne produit pas de fleurs et se reproduit par des spores, comme les fougères ?",
+      "choices": [
+        "Angiospermes",
+        "Gymnospermes",
+        "Ptéridophytes (fougères)",
+        "Mousses uniquement"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien de paires de chromosomes possède une cellule humaine normale ?",
+      "choices": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle molécule porte l'information génétique dans les cellules ?",
+      "choices": [
+        "ARN uniquement",
+        "ADN",
+        "Protéine",
+        "Lipide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet à une cellule de se diviser en deux cellules identiques ?",
+      "choices": [
+        "La méiose",
+        "La mitose",
+        "La fécondation",
+        "La photosynthèse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus de division cellulaire produit les cellules sexuelles (gamètes) ?",
+      "choices": [
+        "La mitose",
+        "La méiose",
+        "La fission binaire",
+        "La bourgeonnement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique est considéré comme le père de la théorie de l'évolution par sélection naturelle ?",
+      "choices": [
+        "Gregor Mendel",
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Carl Linné"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique est considéré comme le père de la génétique moderne grâce à ses expériences sur les pois ?",
+      "choices": [
+        "Charles Darwin",
+        "Gregor Mendel",
+        "James Watson",
+        "Francis Crick"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quels scientifiques ont découvert la structure en double hélice de l'ADN ?",
+      "choices": [
+        "Darwin et Mendel",
+        "Watson et Crick",
+        "Pasteur et Koch",
+        "Fleming et Florey"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure cellulaire est le « centre de contrôle » contenant l'ADN ?",
+      "choices": [
+        "La mitochondrie",
+        "Le noyau",
+        "Le ribosome",
+        "Le cytoplasme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure cellulaire est appelée la « centrale énergétique » de la cellule ?",
+      "choices": [
+        "Le noyau",
+        "La mitochondrie",
+        "Le réticulum endoplasmique",
+        "L'appareil de Golgi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure est présente chez les cellules végétales mais absente chez les cellules animales ?",
+      "choices": [
+        "Le noyau",
+        "La paroi cellulaire",
+        "La membrane plasmique",
+        "La mitochondrie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pigment vert des plantes capte la lumière pour la photosynthèse ?",
+      "choices": [
+        "La mélanine",
+        "La chlorophylle",
+        "L'hémoglobine",
+        "La kératine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle protéine du sang transporte l'oxygène dans les globules rouges ?",
+      "choices": [
+        "L'insuline",
+        "L'hémoglobine",
+        "La kératine",
+        "Le collagène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel système du corps humain comprend le cœur, les artères et les veines ?",
+      "choices": [
+        "Système nerveux",
+        "Système circulatoire",
+        "Système digestif",
+        "Système respiratoire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel système du corps humain comprend le cerveau, la moelle épinière et les nerfs ?",
+      "choices": [
+        "Système circulatoire",
+        "Système nerveux",
+        "Système endocrinien",
+        "Système immunitaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel système du corps humain défend l'organisme contre les infections ?",
+      "choices": [
+        "Système digestif",
+        "Système immunitaire",
+        "Système musculaire",
+        "Système squelettique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle glande régule de nombreuses hormones et est souvent appelée « glande maîtresse » ?",
+      "choices": [
+        "La thyroïde",
+        "L'hypophyse",
+        "Le pancréas",
+        "Les surrénales"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle glande produit des hormones régulant le métabolisme, située dans le cou ?",
+      "choices": [
+        "L'hypophyse",
+        "La thyroïde",
+        "Le thymus",
+        "L'épiphyse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet aux plantes de perdre de l'eau par évaporation via les feuilles ?",
+      "choices": [
+        "La photosynthèse",
+        "La transpiration",
+        "La respiration",
+        "La germination"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de reproduction végétale n'implique pas de graines, comme le bouturage ?",
+      "choices": [
+        "Reproduction sexuée",
+        "Reproduction asexuée (végétative)",
+        "Pollinisation",
+        "Germination"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet le transfert de pollen des étamines vers le pistil ?",
+      "choices": [
+        "La germination",
+        "La pollinisation",
+        "La fécondation uniquement",
+        "La photosynthèse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle classification biologique regroupe les organismes en règnes, embranchements, classes, etc. ?",
+      "choices": [
+        "La taxonomie",
+        "L'écologie",
+        "La physiologie",
+        "L'anatomie comparée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel scientifique a créé le système de classification binomiale des espèces (genre + espèce) ?",
+      "choices": [
+        "Charles Darwin",
+        "Carl Linné",
+        "Gregor Mendel",
+        "Louis Pasteur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'animal vertébré a la peau couverte d'écailles et pond des œufs sur la terre ferme ?",
+      "choices": [
+        "Amphibien",
+        "Reptile",
+        "Poisson",
+        "Oiseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'animal vertébré possède une peau perméable et se reproduit souvent dans l'eau ?",
+      "choices": [
+        "Reptile",
+        "Amphibien",
+        "Mammifère",
+        "Oiseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus microbiologique a été étudié par Louis Pasteur pour réfuter la génération spontanée ?",
+      "choices": [
+        "La fermentation uniquement",
+        "Les expériences sur la génération spontanée",
+        "La vaccination uniquement",
+        "La mutation génétique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique a développé le premier vaccin contre la rage ?",
+      "choices": [
+        "Edward Jenner",
+        "Louis Pasteur",
+        "Robert Koch",
+        "Alexander Fleming"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique a développé le premier vaccin, contre la variole ?",
+      "choices": [
+        "Louis Pasteur",
+        "Edward Jenner",
+        "Robert Koch",
+        "Jonas Salk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique a découvert la pénicilline, premier antibiotique ?",
+      "choices": [
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Robert Koch",
+        "Paul Ehrlich"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel muscle du corps humain travaille sans arrêt pour pomper le sang ?",
+      "choices": [
+        "Le biceps",
+        "Le myocarde (muscle cardiaque)",
+        "Le diaphragme uniquement",
+        "Le quadriceps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel muscle principal permet la respiration en se contractant et se relâchant ?",
+      "choices": [
+        "Le myocarde",
+        "Le diaphragme",
+        "Le biceps",
+        "Le triceps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de dents humaines sert principalement à couper les aliments ?",
+      "choices": [
+        "Les molaires",
+        "Les incisives",
+        "Les canines",
+        "Les prémolaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de dents humaines sert principalement à déchirer les aliments ?",
+      "choices": [
+        "Les incisives",
+        "Les canines",
+        "Les molaires",
+        "Les prémolaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de dents humaines sert principalement à broyer les aliments ?",
+      "choices": [
+        "Les incisives",
+        "Les canines",
+        "Les molaires",
+        "Aucune"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle partie du système digestif absorbe la majorité des nutriments ?",
+      "choices": [
+        "L'estomac",
+        "L'intestin grêle",
+        "Le gros intestin",
+        "L'œsophage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle partie du système digestif absorbe principalement l'eau des résidus alimentaires ?",
+      "choices": [
+        "L'intestin grêle",
+        "Le gros intestin (côlon)",
+        "L'estomac",
+        "L'œsophage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est un exemple classique de métamorphose complète (œuf, larve, pupe, adulte) ?",
+      "choices": [
+        "La sauterelle",
+        "Le papillon",
+        "La libellule",
+        "Le criquet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de relation biologique bénéficie aux deux espèces impliquées ?",
+      "choices": [
+        "Le parasitisme",
+        "Le mutualisme",
+        "La compétition",
+        "Le commensalisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de relation biologique profite à une espèce au détriment de l'autre ?",
+      "choices": [
+        "Le mutualisme",
+        "Le parasitisme",
+        "Le commensalisme",
+        "La symbiose neutre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet à certaines bactéries de survivre sans oxygène ?",
+      "choices": [
+        "La respiration aérobie",
+        "La fermentation (respiration anaérobie)",
+        "La photosynthèse",
+        "La mitose"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organite cellulaire est responsable de la synthèse des protéines ?",
+      "choices": [
+        "Le ribosome",
+        "La mitochondrie",
+        "Le lysosome",
+        "Le noyau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel organite cellulaire digère les déchets et les substances indésirables dans la cellule ?",
+      "choices": [
+        "Le ribosome",
+        "Le lysosome",
+        "L'appareil de Golgi",
+        "Le réticulum endoplasmique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organite cellulaire modifie, trie et expédie les protéines dans la cellule ?",
+      "choices": [
+        "Le lysosome",
+        "L'appareil de Golgi",
+        "La mitochondrie",
+        "Le noyau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de cellule ne possède pas de noyau délimité, comme les bactéries ?",
+      "choices": [
+        "Cellule eucaryote",
+        "Cellule procaryote",
+        "Cellule végétale",
+        "Cellule animale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de cellule possède un noyau délimité par une membrane ?",
+      "choices": [
+        "Cellule procaryote",
+        "Cellule eucaryote",
+        "Bactérie uniquement",
+        "Virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe d'organismes n'est pas considéré comme vivant selon la définition stricte, car il a besoin d'un hôte pour se répliquer ?",
+      "choices": [
+        "Les bactéries",
+        "Les virus",
+        "Les champignons",
+        "Les protozoaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel règne biologique regroupe les champignons ?",
+      "choices": [
+        "Règne végétal",
+        "Règne animal",
+        "Règne fongique (Fungi)",
+        "Règne bactérien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel type d'animal respire par la peau en complément de ses poumons, comme la grenouille ?",
+      "choices": [
+        "Reptile",
+        "Amphibien",
+        "Poisson",
+        "Oiseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet à un os cassé de se réparer naturellement ?",
+      "choices": [
+        "La mitose osseuse et formation de cal osseux",
+        "La méiose",
+        "La photosynthèse osseuse",
+        "La fermentation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel type de muscle est attaché aux os et permet les mouvements volontaires ?",
+      "choices": [
+        "Muscle lisse",
+        "Muscle squelettique (strié)",
+        "Muscle cardiaque",
+        "Muscle involontaire uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de muscle se trouve dans les parois des organes internes comme l'intestin et est involontaire ?",
+      "choices": [
+        "Muscle squelettique",
+        "Muscle lisse",
+        "Muscle cardiaque uniquement",
+        "Muscle strié volontaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus cellulaire produit de l'énergie (ATP) à partir du glucose en présence d'oxygène ?",
+      "choices": [
+        "La photosynthèse",
+        "La respiration cellulaire aérobie",
+        "La fermentation",
+        "La glycolyse anaérobie uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle étape initiale de la respiration cellulaire a lieu dans le cytoplasme et décompose le glucose ?",
+      "choices": [
+        "Le cycle de Krebs",
+        "La glycolyse",
+        "La chaîne respiratoire",
+        "La photolyse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Où se déroule le cycle de Krebs dans la cellule ?",
+      "choices": [
+        "Dans le noyau",
+        "Dans la matrice mitochondriale",
+        "Dans le cytoplasme",
+        "Dans le réticulum endoplasmique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle molécule est la principale source d'énergie utilisable par les cellules ?",
+      "choices": [
+        "Le glucose",
+        "L'ATP (adénosine triphosphate)",
+        "L'ADN",
+        "L'oxygène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet aux plantes de convertir l'énergie lumineuse en énergie chimique stockée dans le glucose ?",
+      "choices": [
+        "La respiration cellulaire",
+        "La photosynthèse",
+        "La fermentation",
+        "La transpiration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans quel organite cellulaire se déroule la photosynthèse chez les plantes ?",
+      "choices": [
+        "La mitochondrie",
+        "Le chloroplaste",
+        "Le noyau",
+        "Le vacuole"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle loi de Mendel décrit la ségrégation des allèles lors de la formation des gamètes ?",
+      "choices": [
+        "Loi de dominance",
+        "Loi de ségrégation",
+        "Loi d'assortiment indépendant",
+        "Loi de Hardy-Weinberg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle loi de Mendel décrit la transmission indépendante de plusieurs caractères ?",
+      "choices": [
+        "Loi de dominance",
+        "Loi de ségrégation",
+        "Loi d'assortiment indépendant",
+        "Loi de liaison génétique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel terme désigne un caractère génétique qui s'exprime même en présence d'un seul allèle ?",
+      "choices": [
+        "Récessif",
+        "Dominant",
+        "Codominant",
+        "Hétérozygote"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un caractère génétique qui ne s'exprime que si les deux allèles sont identiques ?",
+      "choices": [
+        "Dominant",
+        "Récessif",
+        "Codominant",
+        "Hémizygote"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un individu possédant deux allèles identiques pour un gène donné ?",
+      "choices": [
+        "Hétérozygote",
+        "Homozygote",
+        "Hémizygote",
+        "Polyploïde"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un individu possédant deux allèles différents pour un gène donné ?",
+      "choices": [
+        "Homozygote",
+        "Hétérozygote",
+        "Aneuploïde",
+        "Haploïde"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de mutation génétique change un seul nucléotide dans la séquence d'ADN ?",
+      "choices": [
+        "Mutation ponctuelle",
+        "Translocation",
+        "Duplication chromosomique",
+        "Polyploïdie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel processus permet la synthèse d'une molécule d'ARN à partir d'un brin d'ADN matrice ?",
+      "choices": [
+        "La traduction",
+        "La transcription",
+        "La réplication",
+        "La mutation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet la synthèse d'une protéine à partir de l'ARN messager ?",
+      "choices": [
+        "La transcription",
+        "La traduction",
+        "La réplication",
+        "L'épissage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'ARN transporte les acides aminés vers le ribosome pendant la synthèse protéique ?",
+      "choices": [
+        "ARN messager (ARNm)",
+        "ARN de transfert (ARNt)",
+        "ARN ribosomique (ARNr)",
+        "Micro-ARN"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'ARN constitue une partie structurelle des ribosomes ?",
+      "choices": [
+        "ARN messager",
+        "ARN de transfert",
+        "ARN ribosomique (ARNr)",
+        "ARN interférent"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel organe humain fait partie du système endocrinien et régule la glycémie via l'insuline et le glucagon ?",
+      "choices": [
+        "Le foie uniquement",
+        "Le pancréas",
+        "La thyroïde",
+        "Les surrénales"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle hormone, produite par le pancréas, abaisse le taux de sucre dans le sang ?",
+      "choices": [
+        "Le glucagon",
+        "L'insuline",
+        "L'adrénaline",
+        "Le cortisol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle hormone, produite par le pancréas, augmente le taux de sucre dans le sang ?",
+      "choices": [
+        "L'insuline",
+        "Le glucagon",
+        "La mélatonine",
+        "La thyroxine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle hormone est libérée en réponse au stress et prépare le corps à « combattre ou fuir » ?",
+      "choices": [
+        "L'insuline",
+        "L'adrénaline",
+        "La mélatonine",
+        "L'ocytocine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle hormone régule le cycle veille-sommeil, sécrétée par la glande pinéale (épiphyse) ?",
+      "choices": [
+        "L'adrénaline",
+        "La mélatonine",
+        "Le cortisol",
+        "La testostérone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de sélection naturelle favorise les individus aux caractéristiques extrêmes plutôt que moyennes ?",
+      "choices": [
+        "Sélection stabilisatrice",
+        "Sélection directionnelle",
+        "Sélection disruptive",
+        "Dérive génétique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel mécanisme évolutif décrit un changement aléatoire de fréquence des allèles, surtout dans les petites populations ?",
+      "choices": [
+        "Sélection naturelle",
+        "Dérive génétique",
+        "Flux génétique",
+        "Mutation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mécanisme évolutif décrit l'échange de gènes entre différentes populations par migration ?",
+      "choices": [
+        "Dérive génétique",
+        "Flux génétique",
+        "Sélection naturelle",
+        "Spéciation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus conduit à la formation de nouvelles espèces à partir d'une population ancestrale ?",
+      "choices": [
+        "La spéciation",
+        "La mutation ponctuelle",
+        "La transcription",
+        "La méiose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel type de spéciation se produit lorsque des populations sont séparées par une barrière géographique ?",
+      "choices": [
+        "Spéciation sympatrique",
+        "Spéciation allopatrique",
+        "Spéciation parapatrique",
+        "Spéciation instantanée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel niveau trophique d'un écosystème regroupe les organismes qui produisent leur propre nourriture ?",
+      "choices": [
+        "Consommateurs primaires",
+        "Producteurs",
+        "Décomposeurs",
+        "Consommateurs secondaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel niveau trophique regroupe les organismes qui décomposent la matière organique morte ?",
+      "choices": [
+        "Producteurs",
+        "Consommateurs",
+        "Décomposeurs",
+        "Prédateurs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel type de cycle biogéochimique décrit le mouvement du carbone entre atmosphère, êtres vivants et sols ?",
+      "choices": [
+        "Cycle de l'azote",
+        "Cycle du carbone",
+        "Cycle du phosphore",
+        "Cycle de l'eau uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus bactérien convertit l'azote atmosphérique en une forme utilisable par les plantes ?",
+      "choices": [
+        "La dénitrification",
+        "La fixation de l'azote",
+        "La nitrification uniquement",
+        "L'ammonification"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel système immunitaire humain reconnaît spécifiquement les agents pathogènes après une première exposition ?",
+      "choices": [
+        "Immunité innée",
+        "Immunité adaptative (acquise)",
+        "Immunité passive uniquement",
+        "Immunité congénitale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de globule blanc produit des anticorps spécifiques contre les antigènes ?",
+      "choices": [
+        "Les macrophages",
+        "Les lymphocytes B",
+        "Les neutrophiles",
+        "Les éosinophiles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de globule blanc détruit directement les cellules infectées ou cancéreuses ?",
+      "choices": [
+        "Les lymphocytes B",
+        "Les lymphocytes T cytotoxiques",
+        "Les basophiles",
+        "Les plaquettes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle protéine produite par le système immunitaire neutralise spécifiquement un antigène ?",
+      "choices": [
+        "L'hémoglobine",
+        "L'anticorps (immunoglobuline)",
+        "L'insuline",
+        "Le collagène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de vaccin contient un agent pathogène affaibli ou inactivé pour stimuler l'immunité ?",
+      "choices": [
+        "Vaccin à ARN messager uniquement",
+        "Vaccin atténué ou inactivé classique",
+        "Antibiotique",
+        "Antiviral"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plan d'organisation corporelle caractérise les animaux à symétrie identique de part et d'autre d'un axe ?",
+      "choices": [
+        "Symétrie radiale",
+        "Symétrie bilatérale",
+        "Asymétrie",
+        "Symétrie sphérique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe d'invertébrés possède un squelette externe rigide (exosquelette) en chitine ?",
+      "choices": [
+        "Les mollusques",
+        "Les arthropodes",
+        "Les échinodermes",
+        "Les annélides"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe d'invertébrés comprend les étoiles de mer et les oursins, avec une symétrie radiale à l'âge adulte ?",
+      "choices": [
+        "Les mollusques",
+        "Les échinodermes",
+        "Les arthropodes",
+        "Les cnidaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe d'invertébrés comprend les escargots, les moules et les pieuvres ?",
+      "choices": [
+        "Les arthropodes",
+        "Les mollusques",
+        "Les échinodermes",
+        "Les cnidaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure anatomique végétale transporte la sève brute (eau et minéraux) des racines vers les feuilles ?",
+      "choices": [
+        "Le phloème",
+        "Le xylème",
+        "L'épiderme",
+        "Le méristème"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure anatomique végétale transporte la sève élaborée (sucres) dans toute la plante ?",
+      "choices": [
+        "Le xylème",
+        "Le phloème",
+        "Le cambium",
+        "La cuticule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel tissu végétal, situé aux extrémités des tiges et racines, permet la croissance de la plante ?",
+      "choices": [
+        "Le parenchyme",
+        "Le méristème",
+        "Le collenchyme",
+        "Le sclérenchyme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de plante produit des graines nues, non enfermées dans un fruit, comme les conifères ?",
+      "choices": [
+        "Angiospermes",
+        "Gymnospermes",
+        "Ptéridophytes",
+        "Bryophytes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de plante produit des graines enfermées dans un fruit (fleurs) ?",
+      "choices": [
+        "Gymnospermes",
+        "Angiospermes",
+        "Ptéridophytes",
+        "Bryophytes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe humain synthétise la plupart des protéines plasmatiques et détoxifie le sang ?",
+      "choices": [
+        "Le pancréas",
+        "Le foie",
+        "La rate",
+        "Les reins uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe humain stocke et recycle les globules rouges usagés et fait partie du système immunitaire ?",
+      "choices": [
+        "Le foie",
+        "La rate",
+        "Le pancréas",
+        "Le thymus uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure de l'oreille interne est responsable de l'équilibre ?",
+      "choices": [
+        "La cochlée",
+        "Le vestibule et les canaux semi-circulaires",
+        "Le tympan",
+        "Le marteau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure de l'oreille interne est responsable de l'audition en transformant les vibrations en signaux nerveux ?",
+      "choices": [
+        "Le vestibule",
+        "La cochlée",
+        "Le pavillon",
+        "La trompe d'Eustache"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle partie de l'œil contient les cellules photoréceptrices (bâtonnets et cônes) ?",
+      "choices": [
+        "La cornée",
+        "La rétine",
+        "L'iris",
+        "Le cristallin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus épigénétique modifie l'expression des gènes sans changer la séquence d'ADN, par ajout de groupes méthyle ?",
+      "choices": [
+        "Acétylation des histones",
+        "Méthylation de l'ADN",
+        "Phosphorylation",
+        "Ubiquitination"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de mutation chromosomique correspond au déplacement d'un segment d'un chromosome vers un autre chromosome non homologue ?",
+      "choices": [
+        "Inversion",
+        "Translocation",
+        "Délétion",
+        "Duplication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de mutation chromosomique correspond à la perte d'un segment de chromosome ?",
+      "choices": [
+        "Duplication",
+        "Délétion",
+        "Translocation",
+        "Inversion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet l'épissage alternatif de l'ARN pré-messager, produisant plusieurs protéines à partir d'un même gène ?",
+      "choices": [
+        "Transcription inverse",
+        "Épissage alternatif",
+        "Réplication semi-conservative",
+        "Traduction croisée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle enzyme est responsable de la réplication de l'ADN en ajoutant des nucléotides complémentaires ?",
+      "choices": [
+        "L'ARN polymérase",
+        "L'ADN polymérase",
+        "La ligase uniquement",
+        "L'hélicase uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle enzyme sépare les deux brins de la double hélice d'ADN pendant la réplication ?",
+      "choices": [
+        "L'ADN polymérase",
+        "L'hélicase",
+        "La ligase",
+        "La topoisomérase uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel modèle décrit la réplication de l'ADN où chaque nouvelle molécule contient un brin ancien et un brin nouveau ?",
+      "choices": [
+        "Modèle conservatif",
+        "Modèle semi-conservatif",
+        "Modèle dispersif",
+        "Modèle discontinu uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel équilibre théorique décrit une population dont les fréquences alléliques restent constantes en l'absence de forces évolutives ?",
+      "choices": [
+        "Équilibre de Hardy-Weinberg",
+        "Équilibre de Lotka-Volterra",
+        "Équilibre écologique",
+        "Homéostasie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel modèle mathématique décrit les interactions cycliques entre populations de prédateurs et de proies ?",
+      "choices": [
+        "Modèle de Hardy-Weinberg",
+        "Modèle de Lotka-Volterra",
+        "Modèle de Punnett",
+        "Modèle de Malthus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus immunitaire permet à des cellules présentatrices d'antigènes d'activer les lymphocytes T ?",
+      "choices": [
+        "Phagocytose uniquement",
+        "Présentation de l'antigène via le complexe majeur d'histocompatibilité (CMH)",
+        "Opsonisation uniquement",
+        "Chimiotaxie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de récepteur immunitaire reconnaît des motifs moléculaires associés aux pathogènes dans l'immunité innée ?",
+      "choices": [
+        "Récepteurs des lymphocytes B",
+        "Récepteurs de type Toll (TLR)",
+        "Récepteurs des lymphocytes T",
+        "Récepteurs olfactifs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle voie métabolique anaérobie convertit le glucose en acide lactique dans les muscles en effort intense ?",
+      "choices": [
+        "Cycle de Krebs",
+        "Fermentation lactique",
+        "Bêta-oxydation",
+        "Cycle de Calvin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cycle métabolique végétal fixe le dioxyde de carbone lors de la phase indépendante de la lumière de la photosynthèse ?",
+      "choices": [
+        "Cycle de Krebs",
+        "Cycle de Calvin",
+        "Cycle de l'urée",
+        "Cycle de l'acide citrique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus catabolique dégrade les acides gras en unités d'acétyl-CoA pour produire de l'énergie ?",
+      "choices": [
+        "Glycolyse",
+        "Bêta-oxydation",
+        "Gluconéogenèse",
+        "Glycogénolyse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus métabolique synthétise du glucose à partir de précurseurs non glucidiques dans le foie ?",
+      "choices": [
+        "Glycolyse",
+        "Gluconéogenèse",
+        "Glycogénolyse uniquement",
+        "Lipogenèse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure protéique quaternaire décrit l'assemblage de plusieurs sous-unités polypeptidiques, comme dans l'hémoglobine ?",
+      "choices": [
+        "Structure primaire",
+        "Structure secondaire",
+        "Structure tertiaire",
+        "Structure quaternaire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel type de liaison stabilise la structure secondaire des protéines en hélice alpha et feuillet bêta ?",
+      "choices": [
+        "Liaisons ioniques",
+        "Liaisons hydrogène",
+        "Ponts disulfure uniquement",
+        "Interactions hydrophobes uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique de biologie moléculaire amplifie de courtes séquences d'ADN in vitro ?",
+      "choices": [
+        "Le séquençage Sanger",
+        "La PCR (réaction en chaîne par polymérase)",
+        "L'électrophorèse uniquement",
+        "Le clonage cellulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique révolutionnaire permet l'édition ciblée du génome grâce à un système bactérien adapté ?",
+      "choices": [
+        "La PCR",
+        "CRISPR-Cas9",
+        "Le séquençage Sanger",
+        "L'hybridation in situ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de cellules souches peut se différencier en n'importe quel type cellulaire de l'organisme ?",
+      "choices": [
+        "Cellules souches multipotentes",
+        "Cellules souches pluripotentes/totipotentes",
+        "Cellules souches unipotentes",
+        "Cellules différenciées"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus programmé de mort cellulaire est essentiel au développement normal et à l'élimination des cellules endommagées ?",
+      "choices": [
+        "La nécrose",
+        "L'apoptose",
+        "L'autophagie uniquement",
+        "La sénescence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus cellulaire dégrade et recycle les composants cellulaires endommagés à l'intérieur de vésicules ?",
+      "choices": [
+        "Apoptose",
+        "Autophagie",
+        "Nécrose",
+        "Phagocytose uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle hypothèse évolutive propose que les mitochondries et chloroplastes proviennent de bactéries englobées par une cellule hôte ?",
+      "choices": [
+        "Théorie de la sélection de groupe",
+        "Théorie endosymbiotique",
+        "Théorie de la panspermie",
+        "Théorie synthétique de l'évolution"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de reproduction implique la fusion de deux gamètes pour former un nouvel individu génétiquement unique ?",
+      "choices": [
+        "Reproduction asexuée",
+        "Reproduction sexuée",
+        "Bourgeonnement",
+        "Fragmentation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène génétique décrit la tendance de gènes physiquement proches sur un chromosome à être hérités ensemble ?",
+      "choices": [
+        "Assortiment indépendant",
+        "Liaison génétique",
+        "Codominance",
+        "Épistasie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène génétique décrit l'interaction entre gènes non alléliques, où un gène masque l'effet d'un autre ?",
+      "choices": [
+        "Pléiotropie",
+        "Épistasie",
+        "Polygénie",
+        "Liaison génétique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène génétique décrit un gène unique influençant plusieurs caractères phénotypiques différents ?",
+      "choices": [
+        "Épistasie",
+        "Pléiotropie",
+        "Codominance",
+        "Polygénie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'hérédité caractérise des caractères contrôlés par plusieurs gènes, produisant une variation continue comme la taille ?",
+      "choices": [
+        "Hérédité monogénique",
+        "Hérédité polygénique",
+        "Hérédité liée au sexe uniquement",
+        "Hérédité cytoplasmique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organite végétal stocke l'eau, les nutriments et les déchets, occupant souvent une grande partie du volume cellulaire ?",
+      "choices": [
+        "Le chloroplaste",
+        "La vacuole",
+        "Le plaste amylifère uniquement",
+        "Le peroxysome"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de photosynthèse, adapté aux climats chauds et secs, limite la photorespiration en séparant spatialement les réactions (ex. maïs) ?",
+      "choices": [
+        "Photosynthèse C3",
+        "Photosynthèse C4",
+        "Photosynthèse CAM uniquement",
+        "Chimiosynthèse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de métabolisme végétal, adapté aux plantes succulentes, ouvre les stomates la nuit pour limiter la perte d'eau ?",
+      "choices": [
+        "Métabolisme C3",
+        "Métabolisme C4",
+        "Métabolisme CAM (acide crassulacéen)",
+        "Métabolisme anaérobie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel système sensoriel des insectes leur permet de détecter les phéromones à grande distance ?",
+      "choices": [
+        "Les yeux composés",
+        "Les antennes (chimiorécepteurs)",
+        "Les stigmates",
+        "Les palpes labiaux uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de respiration caractérise les insectes, utilisant un réseau de tubes appelés trachées ?",
+      "choices": [
+        "Respiration branchiale",
+        "Respiration trachéenne",
+        "Respiration cutanée uniquement",
+        "Respiration pulmonaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus de développement embryonnaire forme les trois feuillets germinatifs primaires (ectoderme, mésoderme, endoderme) ?",
+      "choices": [
+        "La segmentation",
+        "La gastrulation",
+        "La neurulation",
+        "L'organogenèse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel feuillet embryonnaire donne naissance au système nerveux et à l'épiderme ?",
+      "choices": [
+        "Le mésoderme",
+        "L'ectoderme",
+        "L'endoderme",
+        "Le trophoblaste"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel feuillet embryonnaire donne naissance aux muscles, au squelette et au système circulatoire ?",
+      "choices": [
+        "L'ectoderme",
+        "Le mésoderme",
+        "L'endoderme",
+        "L'amnios"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel feuillet embryonnaire donne naissance au tube digestif et aux poumons ?",
+      "choices": [
+        "L'ectoderme",
+        "Le mésoderme",
+        "L'endoderme",
+        "Le chorion"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel type de symbiose caractérise la relation entre les mycorhizes fongiques et les racines des plantes ?",
+      "choices": [
+        "Parasitisme",
+        "Mutualisme",
+        "Commensalisme",
+        "Compétition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'immunité est transmise passivement de la mère à l'enfant via le placenta ou le lait maternel ?",
+      "choices": [
+        "Immunité active naturelle",
+        "Immunité passive naturelle",
+        "Immunité active artificielle",
+        "Immunité passive artificielle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle enzyme salivaire commence la digestion des glucides dans la bouche ?",
+      "choices": [
+        "La pepsine",
+        "L'amylase salivaire (ptyaline)",
+        "La lipase",
+        "La trypsine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle enzyme gastrique digère les protéines dans l'estomac en milieu acide ?",
+      "choices": [
+        "L'amylase",
+        "La pepsine",
+        "La lipase pancréatique",
+        "La lactase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle enzyme pancréatique digère les lipides dans l'intestin grêle ?",
+      "choices": [
+        "La pepsine",
+        "La lipase pancréatique",
+        "L'amylase salivaire",
+        "La trypsine uniquement pour protéines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus physiologique régule la température corporelle constante malgré les variations externes ?",
+      "choices": [
+        "L'osmorégulation",
+        "La thermorégulation (homéostasie thermique)",
+        "La chimiorégulation",
+        "La photorégulation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organe joue un rôle central dans l'osmorégulation en filtrant le sang et ajustant l'excrétion d'eau ?",
+      "choices": [
+        "Le foie",
+        "Les reins (néphrons)",
+        "La rate",
+        "Le pancréas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure du néphron filtre initialement le sang sous pression pour former l'urine primitive ?",
+      "choices": [
+        "Le tube collecteur",
+        "Le glomérule (capsule de Bowman)",
+        "L'anse de Henlé",
+        "Le tube contourné distal uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure du néphron est responsable de la concentration de l'urine par un mécanisme à contre-courant ?",
+      "choices": [
+        "Le glomérule",
+        "L'anse de Henlé",
+        "La capsule de Bowman",
+        "L'artériole afférente"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de neurone transmet l'information des récepteurs sensoriels vers le système nerveux central ?",
+      "choices": [
+        "Neurone moteur",
+        "Neurone sensoriel (afférent)",
+        "Interneurone",
+        "Neurone efférent uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de neurone transmet l'information du système nerveux central vers les muscles ou glandes ?",
+      "choices": [
+        "Neurone sensoriel",
+        "Neurone moteur (efférent)",
+        "Interneurone",
+        "Neurone afférent uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure synaptique libère des neurotransmetteurs pour transmettre l'influx nerveux entre deux neurones ?",
+      "choices": [
+        "Le corps cellulaire",
+        "La terminaison axonale (bouton synaptique)",
+        "Les dendrites",
+        "La gaine de myéline"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle gaine isolante autour des axones accélère la conduction de l'influx nerveux ?",
+      "choices": [
+        "La membrane plasmique seule",
+        "La gaine de myéline",
+        "Le cytosquelette",
+        "La matrice extracellulaire"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

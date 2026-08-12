@@ -1,125 +1,2005 @@
 {
-  "theme": "🚀 Espace et Astronomie",
+  "theme": "🚀 Astrologie",
   "questions": [
     {
-      "question": "Quelle est la planète la plus proche du Soleil ?",
+      "question": "Combien de signes astrologiques composent le zodiaque ?",
       "choices": [
-        "Mercure",
-        "Mars",
-        "La Terre",
-        "Vénus"
+        "10",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est représenté par un lion ?",
+      "choices": [
+        "Bélier",
+        "Lion",
+        "Taureau",
+        "Scorpion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est représenté par une balance ?",
+      "choices": [
+        "Vierge",
+        "Balance",
+        "Scorpion",
+        "Sagittaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est représenté par un taureau ?",
+      "choices": [
+        "Bélier",
+        "Taureau",
+        "Gémeaux",
+        "Cancer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est représenté par des jumeaux ?",
+      "choices": [
+        "Cancer",
+        "Gémeaux",
+        "Lion",
+        "Vierge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est représenté par un crabe ?",
+      "choices": [
+        "Cancer",
+        "Lion",
+        "Poissons",
+        "Scorpion"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quelle est la plus grande planète du Système solaire ?",
+      "question": "Quel signe astrologique est représenté par un scorpion ?",
       "choices": [
-        "Uranus",
-        "Saturne",
-        "Neptune",
-        "Jupiter"
+        "Sagittaire",
+        "Scorpion",
+        "Capricorne",
+        "Verseau"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "Quelle planète est surnommée la 'Planète Rouge' ?",
+      "question": "Quel signe astrologique est représenté par un archer ou centaure ?",
+      "choices": [
+        "Sagittaire",
+        "Capricorne",
+        "Verseau",
+        "Bélier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel signe astrologique est représenté par une chèvre marine ?",
+      "choices": [
+        "Verseau",
+        "Capricorne",
+        "Poissons",
+        "Taureau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est représenté par un porteur d'eau ?",
+      "choices": [
+        "Poissons",
+        "Verseau",
+        "Cancer",
+        "Gémeaux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est représenté par des poissons ?",
+      "choices": [
+        "Poissons",
+        "Cancer",
+        "Verseau",
+        "Balance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel signe astrologique est représenté par un bélier ?",
+      "choices": [
+        "Taureau",
+        "Bélier",
+        "Lion",
+        "Vierge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique correspond généralement à la période du 21 mars au 19 avril ?",
+      "choices": [
+        "Bélier",
+        "Taureau",
+        "Poissons",
+        "Gémeaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle planète est la plus grande du système solaire ?",
+      "choices": [
+        "Saturne",
+        "Jupiter",
+        "Neptune",
+        "Uranus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète est connue pour ses célèbres anneaux ?",
       "choices": [
         "Jupiter",
+        "Saturne",
+        "Uranus",
+        "Mars"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète est surnommée la « planète rouge » ?",
+      "choices": [
         "Vénus",
+        "Mars",
+        "Mercure",
+        "Jupiter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "choices": [
+        "Vénus",
+        "Terre",
         "Mercure",
         "Mars"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
-      "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+      "question": "Quelle planète est la plus chaude du système solaire malgré sa distance du Soleil ?",
       "choices": [
-        "1959",
-        "1969",
-        "1965",
-        "1972"
+        "Mercure",
+        "Vénus",
+        "Mars",
+        "Jupiter"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Qui fut le premier homme à effectuer un vol dans l'espace en 1961 ?",
+      "question": "Combien y a-t-il de planètes dans le système solaire selon la classification actuelle ?",
       "choices": [
-        "Buzz Aldrin",
-        "John Glenn",
-        "Youri Gagarine",
-        "Neil Armstrong"
+        "7",
+        "8",
+        "9",
+        "10"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
-      "question": "Quelle galaxie est la plus proche de la Voie Lactée ?",
-      "choices": [
-        "Le Sombrero",
-        "Le Tourbillon",
-        "Centaurus A",
-        "Andromède"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel instrument spatial lancé en 1990 puis remplacé par James Webb a révolutionné l'astronomie ?",
-      "choices": [
-        "Spitzer",
-        "Chandra",
-        "Kepler",
-        "Hubble"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quelle planète possède les anneaux les plus visibles et spectaculaires ?",
-      "choices": [
-        "Jupiter",
-        "Uranus",
-        "Saturne",
-        "Neptune"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quel est le nom de l'étoile au centre de notre système solaire ?",
+      "question": "Quel astre est le plus proche de la Terre dans l'espace ?",
       "choices": [
         "Le Soleil",
-        "Sirius",
-        "Proxima du Centaure",
-        "Polaris"
+        "La Lune",
+        "Mars",
+        "Vénus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astre est au centre de notre système solaire ?",
+      "choices": [
+        "La Terre",
+        "Le Soleil",
+        "La Lune",
+        "Jupiter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de temps la Terre met-elle pour faire le tour du Soleil ?",
+      "choices": [
+        "24 heures",
+        "1 mois",
+        "1 an",
+        "10 ans"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien de temps la Terre met-elle pour faire un tour sur elle-même ?",
+      "choices": [
+        "1 heure",
+        "24 heures",
+        "1 semaine",
+        "1 mois"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel objet céleste change de forme apparente au fil du mois : pleine lune, croissant, etc. ?",
+      "choices": [
+        "Le Soleil",
+        "La Lune",
+        "Mars",
+        "Une comète"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel élément astrologique est associé au signe du Bélier ?",
+      "choices": [
+        "Eau",
+        "Feu",
+        "Terre",
+        "Air"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel élément astrologique est associé au signe du Taureau ?",
+      "choices": [
+        "Feu",
+        "Terre",
+        "Air",
+        "Eau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel élément astrologique est associé au signe des Gémeaux ?",
+      "choices": [
+        "Air",
+        "Terre",
+        "Feu",
+        "Eau"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Combien de temps met la lumière du Soleil pour parvenir jusqu'à la Terre ?",
+      "question": "Quel élément astrologique est associé au signe du Cancer ?",
       "choices": [
-        "Instantanné",
-        "1 heure",
-        "Environ 8 minutes",
-        "8 secondes"
+        "Eau",
+        "Feu",
+        "Air",
+        "Terre"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
-      "question": "uel nom donne-t-on à l'explosion d'une étoile en fin de vie ?",
+      "question": "Quelle planète est souvent associée à l'amour en astrologie ?",
       "choices": [
-        "Pulsar",
-        "Supernova",
-        "Trou noir",
-        "Nébuleuse"
+        "Mars",
+        "Vénus",
+        "Jupiter",
+        "Saturne"
       ],
       "correctIndex": 1
     },
     {
-      "question": "uelle planète possède la plus grande tache rouge ?",
+      "question": "Quelle planète est souvent associée à la guerre en astrologie ?",
+      "choices": [
+        "Vénus",
+        "Mars",
+        "Mercure",
+        "Neptune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astre est associé aux émotions et à l'intuition en astrologie ?",
+      "choices": [
+        "Le Soleil",
+        "La Lune",
+        "Mercure",
+        "Saturne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astre est associé à l'identité et à l'ego en astrologie ?",
+      "choices": [
+        "La Lune",
+        "Le Soleil",
+        "Vénus",
+        "Mars"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est symbolisé par la Vierge ?",
+      "choices": [
+        "Vierge",
+        "Balance",
+        "Lion",
+        "Cancer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel document présente les prévisions astrologiques quotidiennes selon les signes ?",
+      "choices": [
+        "Le zodiaque",
+        "L'horoscope",
+        "L'almanach uniquement",
+        "Le thème natal uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne la carte astrologique établie à partir de la date, l'heure et le lieu de naissance ?",
+      "choices": [
+        "L'horoscope quotidien",
+        "Le thème (ou ciel) natal",
+        "L'ascendant uniquement",
+        "Le zodiaque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe du zodiaque est associé à la période du 23 juillet au 22 août environ ?",
+      "choices": [
+        "Cancer",
+        "Lion",
+        "Vierge",
+        "Balance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe du zodiaque est associé à la période du 23 septembre au 22 octobre environ ?",
+      "choices": [
+        "Vierge",
+        "Balance",
+        "Scorpion",
+        "Lion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe du zodiaque est le premier de l'année astrologique, commençant vers le 21 mars ?",
+      "choices": [
+        "Poissons",
+        "Bélier",
+        "Taureau",
+        "Verseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe du zodiaque est le dernier de l'année astrologique, se terminant vers le 20 mars ?",
+      "choices": [
+        "Verseau",
+        "Poissons",
+        "Capricorne",
+        "Sagittaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle étoile est la plus proche de la Terre après le Soleil (au sens d'étoile visible la nuit la plus proche) ?",
+      "choices": [
+        "Sirius",
+        "Proxima du Centaure",
+        "Alpha du Centaure A",
+        "Étoile polaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle constellation est utilisée pour trouver le nord grâce à l'étoile polaire ?",
+      "choices": [
+        "La Grande Ourse",
+        "Orion",
+        "Cassiopée",
+        "Le Cygne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel phénomène céleste se produit lorsque la Lune passe entre le Soleil et la Terre ?",
+      "choices": [
+        "Éclipse lunaire",
+        "Éclipse solaire",
+        "Pleine lune",
+        "Nouvelle lune uniquement sans éclipse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène céleste se produit lorsque la Terre passe entre le Soleil et la Lune ?",
+      "choices": [
+        "Éclipse solaire",
+        "Éclipse lunaire",
+        "Nouvelle lune",
+        "Solstice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'objet céleste brillant traverse parfois le ciel nocturne avec une traînée lumineuse, souvent appelé « étoile filante » ?",
+      "choices": [
+        "Une comète",
+        "Un météore",
+        "Une planète",
+        "Une nébuleuse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel objet céleste possède une longue queue lumineuse visible depuis la Terre, comme la comète de Halley ?",
+      "choices": [
+        "Un astéroïde",
+        "Une comète",
+        "Un météore",
+        "Une étoile naine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle galaxie abrite notre système solaire ?",
+      "choices": [
+        "Andromède",
+        "La Voie lactée",
+        "Le Triangle",
+        "La galaxie du Sombrero"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'objet céleste est le Soleil ?",
+      "choices": [
+        "Une planète",
+        "Une étoile",
+        "Une comète",
+        "Un satellite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel satellite naturel orbite autour de la Terre ?",
+      "choices": [
+        "Phobos",
+        "La Lune",
+        "Europe",
+        "Titan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète est la troisième la plus proche du Soleil, celle où nous vivons ?",
       "choices": [
         "Mars",
-        "Neptune",
+        "Vénus",
+        "Terre",
+        "Mercure"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel signe astrologique est représenté par une balance de justice, symbole d'équilibre ?",
+      "choices": [
+        "Vierge",
+        "Balance",
+        "Sagittaire",
+        "Verseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astrologue et astronome grec antique a compilé un traité fondateur d'astrologie occidentale, le Tetrabiblos ?",
+      "choices": [
+        "Hipparque",
+        "Ptolémée",
+        "Pythagore",
+        "Aristote"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe du Bélier en astrologie ?",
+      "choices": [
+        "Vénus",
+        "Mars",
+        "Mercure",
+        "Lune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe du Taureau en astrologie ?",
+      "choices": [
+        "Mars",
+        "Vénus",
         "Jupiter",
         "Saturne"
       ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe des Gémeaux en astrologie ?",
+      "choices": [
+        "Mercure",
+        "Vénus",
+        "Mars",
+        "Lune"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel astre régit traditionnellement le signe du Cancer en astrologie ?",
+      "choices": [
+        "Le Soleil",
+        "La Lune",
+        "Mercure",
+        "Vénus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astre régit traditionnellement le signe du Lion en astrologie ?",
+      "choices": [
+        "La Lune",
+        "Le Soleil",
+        "Mars",
+        "Jupiter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe de la Vierge en astrologie ?",
+      "choices": [
+        "Mercure",
+        "Vénus",
+        "Mars",
+        "Saturne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe de la Balance en astrologie ?",
+      "choices": [
+        "Mars",
+        "Vénus",
+        "Jupiter",
+        "Mercure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe du Scorpion en astrologie moderne ?",
+      "choices": [
+        "Mars",
+        "Pluton",
+        "Vénus",
+        "Mercure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe du Sagittaire en astrologie ?",
+      "choices": [
+        "Saturne",
+        "Jupiter",
+        "Mars",
+        "Neptune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe du Capricorne en astrologie ?",
+      "choices": [
+        "Jupiter",
+        "Saturne",
+        "Uranus",
+        "Mars"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe du Verseau en astrologie moderne ?",
+      "choices": [
+        "Saturne",
+        "Uranus",
+        "Neptune",
+        "Mercure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète régit traditionnellement le signe des Poissons en astrologie moderne ?",
+      "choices": [
+        "Jupiter",
+        "Neptune",
+        "Saturne",
+        "Vénus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme astrologique désigne le signe qui se levait à l'horizon au moment précis de la naissance ?",
+      "choices": [
+        "Le signe solaire",
+        "L'ascendant",
+        "Le milieu du ciel",
+        "Le descendant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme astrologique désigne les quatre grands groupes de signes : feu, terre, air, eau ?",
+      "choices": [
+        "Les modalités",
+        "Les éléments",
+        "Les maisons",
+        "Les aspects"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme astrologique désigne les trois qualités des signes : cardinal, fixe, mutable ?",
+      "choices": [
+        "Les éléments",
+        "Les modalités (qualités)",
+        "Les maisons",
+        "Les décans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est considéré comme « cardinal » et associé au feu ?",
+      "choices": [
+        "Bélier",
+        "Taureau",
+        "Gémeaux",
+        "Lion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel signe astrologique est considéré comme « fixe » et associé à la terre ?",
+      "choices": [
+        "Bélier",
+        "Taureau",
+        "Gémeaux",
+        "Balance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe astrologique est considéré comme « mutable » et associé à l'air ?",
+      "choices": [
+        "Balance",
+        "Gémeaux",
+        "Lion",
+        "Cancer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astronome polonais a proposé le modèle héliocentrique plaçant le Soleil au centre du système solaire ?",
+      "choices": [
+        "Galilée",
+        "Nicolas Copernic",
+        "Johannes Kepler",
+        "Tycho Brahe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astronome italien a perfectionné le télescope et observé les lunes de Jupiter au 17e siècle ?",
+      "choices": [
+        "Nicolas Copernic",
+        "Galilée",
+        "Johannes Kepler",
+        "Isaac Newton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astronome allemand a formulé les lois du mouvement des planètes autour du Soleil ?",
+      "choices": [
+        "Galilée",
+        "Johannes Kepler",
+        "Copernic",
+        "Newton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mission spatiale a permis à l'être humain de marcher sur la Lune pour la première fois en 1969 ?",
+      "choices": [
+        "Apollo 11",
+        "Apollo 13",
+        "Gemini 4",
+        "Vostok 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel astronaute a été le premier homme à marcher sur la Lune ?",
+      "choices": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Youri Gagarine",
+        "Michael Collins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cosmonaute soviétique a été le premier être humain dans l'espace en 1961 ?",
+      "choices": [
+        "Valentina Terechkova",
+        "Youri Gagarine",
+        "Alexeï Leonov",
+        "Sergueï Korolev"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle astronaute a été la première femme dans l'espace en 1963 ?",
+      "choices": [
+        "Sally Ride",
+        "Valentina Terechkova",
+        "Mae Jemison",
+        "Peggy Whitson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel télescope spatial, lancé en 1990, a fourni des images célèbres de l'univers profond ?",
+      "choices": [
+        "Le télescope James Webb",
+        "Le télescope Hubble",
+        "Le télescope Kepler",
+        "Le télescope Spitzer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel télescope spatial, lancé en 2021, observe l'univers principalement en infrarouge ?",
+      "choices": [
+        "Hubble",
+        "James Webb",
+        "Kepler",
+        "Chandra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète possède la plus grande tempête connue du système solaire, la Grande Tache rouge ?",
+      "choices": [
+        "Saturne",
+        "Jupiter",
+        "Neptune",
+        "Uranus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète est surnommée la « jumelle » de la Terre en raison de sa taille similaire ?",
+      "choices": [
+        "Mars",
+        "Vénus",
+        "Mercure",
+        "Saturne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète possède le plus grand nombre de lunes connues à ce jour dans le système solaire ?",
+      "choices": [
+        "Jupiter",
+        "Saturne",
+        "Uranus",
+        "Neptune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'étoile est notre Soleil dans la classification stellaire ?",
+      "choices": [
+        "Géante rouge",
+        "Naine jaune",
+        "Naine blanche",
+        "Supergéante bleue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'objet stellaire résulte de l'effondrement gravitationnel d'une étoile massive en fin de vie ?",
+      "choices": [
+        "Naine blanche uniquement",
+        "Trou noir ou étoile à neutrons",
+        "Nébuleuse planétaire uniquement",
+        "Naine brune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène marque la mort explosive d'une étoile massive ?",
+      "choices": [
+        "Une nova",
+        "Une supernova",
+        "Une éclipse",
+        "Un pulsar uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'astre dense et compact émet des impulsions régulières de radiation, souvent appelé « étoile à impulsions » ?",
+      "choices": [
+        "Quasar",
+        "Pulsar",
+        "Magnétar uniquement sans rotation",
+        "Naine brune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle ceinture d'astéroïdes se situe entre les orbites de Mars et de Jupiter ?",
+      "choices": [
+        "Ceinture de Kuiper",
+        "Ceinture principale d'astéroïdes",
+        "Nuage d'Oort",
+        "Ceinture de Van Allen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région du système solaire, au-delà de Neptune, contient Pluton et d'autres objets glacés ?",
+      "choices": [
+        "Ceinture principale d'astéroïdes",
+        "Ceinture de Kuiper",
+        "Nuage d'Oort",
+        "Héliosphère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région théorique très éloignée entoure le système solaire et serait à l'origine des comètes à longue période ?",
+      "choices": [
+        "Ceinture de Kuiper",
+        "Nuage d'Oort",
+        "Ceinture principale",
+        "Magnétosphère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astre naine a été reclassé de planète à « planète naine » en 2006 ?",
+      "choices": [
+        "Éris",
+        "Pluton",
+        "Cérès",
+        "Makémaké"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle constellation zodiacale contient l'amas d'étoiles des Pléiades ?",
+      "choices": [
+        "Le Taureau",
+        "Le Bélier",
+        "Les Gémeaux",
+        "Le Cancer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle constellation est représentée par un chasseur avec une ceinture de trois étoiles alignées ?",
+      "choices": [
+        "Orion",
+        "Cassiopée",
+        "Le Cygne",
+        "Le Scorpion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel phénomène cyclique décrit les changements de forme apparente de la Lune (nouvelle lune, premier quartier, pleine lune...) ?",
+      "choices": [
+        "Les éclipses",
+        "Les phases de la Lune",
+        "Les marées uniquement",
+        "La précession"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène naturel est principalement causé par l'attraction gravitationnelle de la Lune sur les océans terrestres ?",
+      "choices": [
+        "Les courants marins",
+        "Les marées",
+        "Les vagues",
+        "Le vent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel jour de l'année marque le solstice d'été dans l'hémisphère nord, jour le plus long ?",
+      "choices": [
+        "Vers le 21 mars",
+        "Vers le 21 juin",
+        "Vers le 23 septembre",
+        "Vers le 21 décembre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel jour de l'année marque le solstice d'hiver dans l'hémisphère nord, jour le plus court ?",
+      "choices": [
+        "Vers le 21 juin",
+        "Vers le 23 septembre",
+        "Vers le 21 décembre",
+        "Vers le 21 mars"
+      ],
       "correctIndex": 2
+    },
+    {
+      "question": "Quel jour de l'année marque l'équinoxe de printemps, où jour et nuit ont une durée égale ?",
+      "choices": [
+        "Vers le 21 mars",
+        "Vers le 21 juin",
+        "Vers le 23 septembre",
+        "Vers le 21 décembre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle mission spatiale internationale héberge en permanence des astronautes en orbite terrestre basse depuis 2000 ?",
+      "choices": [
+        "Station Mir",
+        "Station spatiale internationale (ISS)",
+        "Skylab",
+        "Tiangong uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle agence spatiale américaine a mené le programme Apollo ?",
+      "choices": [
+        "ESA",
+        "NASA",
+        "Roscosmos",
+        "JAXA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle agence spatiale européenne coordonne les missions spatiales de plusieurs pays européens ?",
+      "choices": [
+        "NASA",
+        "ESA",
+        "Roscosmos",
+        "ISRO"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle sonde spatiale a quitté le système solaire et continue d'envoyer des données depuis l'espace interstellaire, lancée en 1977 ?",
+      "choices": [
+        "Voyager 1",
+        "Cassini",
+        "New Horizons",
+        "Pioneer 10 uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel décalage astronomique fait que le Soleil zodiacal réel ne correspond plus exactement aux dates traditionnelles des signes ?",
+      "choices": [
+        "L'aberration de la lumière",
+        "La précession des équinoxes",
+        "L'effet Doppler",
+        "La parallaxe stellaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle durée approximative met l'axe terrestre pour accomplir un cycle complet de précession ?",
+      "choices": [
+        "Environ 260 ans",
+        "Environ 2 600 ans",
+        "Environ 26 000 ans",
+        "Environ 260 000 ans"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel système astrologique, distinct du système occidental, se base sur des animaux et des cycles de 12 ans ?",
+      "choices": [
+        "Astrologie védique",
+        "Astrologie chinoise",
+        "Astrologie maya",
+        "Astrologie égyptienne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal du zodiaque chinois ouvre le cycle des douze animaux ?",
+      "choices": [
+        "Le buffle",
+        "Le rat",
+        "Le tigre",
+        "Le dragon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal du zodiaque chinois est associé à la force et au courage, souvent placé en 3e position ?",
+      "choices": [
+        "Le lapin",
+        "Le tigre",
+        "Le serpent",
+        "Le cheval"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel système astrologique originaire d'Inde utilise un zodiaque sidéral plutôt que tropical ?",
+      "choices": [
+        "Astrologie chinoise",
+        "Astrologie védique (jyotisha)",
+        "Astrologie celtique",
+        "Astrologie maya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle différence principale distingue le zodiaque tropical du zodiaque sidéral ?",
+      "choices": [
+        "Le nombre de signes",
+        "Le point de référence (équinoxe vs position réelle des étoiles)",
+        "Le nombre de planètes utilisées",
+        "La direction de rotation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme astrologique désigne les douze secteurs du ciel représentant des domaines de vie (maison de l'amour, du travail, etc.) ?",
+      "choices": [
+        "Les éléments",
+        "Les maisons astrologiques",
+        "Les décans",
+        "Les aspects"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme astrologique désigne l'angle géométrique entre deux planètes dans un thème natal (ex. conjonction, opposition) ?",
+      "choices": [
+        "Les maisons",
+        "Les aspects",
+        "Les décans",
+        "Les dignités"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel aspect astrologique correspond à un angle de 0° entre deux planètes, considéré comme une fusion d'énergies ?",
+      "choices": [
+        "L'opposition",
+        "La conjonction",
+        "Le carré",
+        "Le trigone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel aspect astrologique correspond à un angle de 180° entre deux planètes, souvent associé à la tension ?",
+      "choices": [
+        "La conjonction",
+        "L'opposition",
+        "Le sextile",
+        "Le trigone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel aspect astrologique correspond à un angle de 120°, généralement considéré comme harmonieux ?",
+      "choices": [
+        "Le carré",
+        "Le trigone",
+        "L'opposition",
+        "La quinconce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel aspect astrologique correspond à un angle de 90°, souvent associé à des défis ou tensions ?",
+      "choices": [
+        "Le trigone",
+        "Le carré",
+        "Le sextile",
+        "La conjonction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astronome danois a réalisé des observations précises des positions planétaires sans télescope au 16e siècle ?",
+      "choices": [
+        "Nicolas Copernic",
+        "Tycho Brahe",
+        "Johannes Kepler",
+        "Galilée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle loi de Kepler énonce que les planètes se déplacent sur des orbites elliptiques avec le Soleil à l'un des foyers ?",
+      "choices": [
+        "Première loi de Kepler",
+        "Deuxième loi de Kepler",
+        "Troisième loi de Kepler",
+        "Loi de Newton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle loi de Kepler relie la période orbitale d'une planète au cube de sa distance moyenne au Soleil ?",
+      "choices": [
+        "Première loi de Kepler",
+        "Deuxième loi de Kepler",
+        "Troisième loi de Kepler",
+        "Loi de Titius-Bode"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle étoile est la plus brillante du ciel nocturne vue depuis la Terre ?",
+      "choices": [
+        "Bételgeuse",
+        "Sirius",
+        "Véga",
+        "Rigel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle étoile géante rouge fait partie de la constellation d'Orion et pourrait exploser en supernova ?",
+      "choices": [
+        "Antarès",
+        "Bételgeuse",
+        "Aldébaran",
+        "Arcturus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle galaxie est la plus proche de la Voie lactée parmi les grandes galaxies spirales, visible à l'œil nu ?",
+      "choices": [
+        "Galaxie du Triangle",
+        "Galaxie d'Andromède",
+        "Grand Nuage de Magellan",
+        "Galaxie du Sombrero"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de galaxie est notre Voie lactée ?",
+      "choices": [
+        "Galaxie elliptique",
+        "Galaxie spirale barrée",
+        "Galaxie irrégulière",
+        "Galaxie lenticulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mission spatiale a été la première à envoyer des images rapprochées de Pluton, en 2015 ?",
+      "choices": [
+        "Voyager 2",
+        "New Horizons",
+        "Cassini",
+        "Juno"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mission spatiale a étudié Saturne et ses lunes pendant plus d'une décennie avant de se désintégrer volontairement dans l'atmosphère de la planète ?",
+      "choices": [
+        "Galileo",
+        "Cassini-Huygens",
+        "Juno",
+        "Voyager 1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle sonde a été la première à se poser sur Titan, une lune de Saturne ?",
+      "choices": [
+        "Huygens",
+        "Curiosity",
+        "Philae",
+        "Viking 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel rover martien de la NASA a atterri en 2012 pour étudier l'habitabilité passée de Mars ?",
+      "choices": [
+        "Opportunity",
+        "Curiosity",
+        "Spirit",
+        "Perseverance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel rover martien, plus récent, a atterri en 2021 et recherche des traces de vie microbienne ancienne ?",
+      "choices": [
+        "Curiosity",
+        "Perseverance",
+        "Sojourner",
+        "Opportunity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle constellation zodiacale contient l'étoile Antarès, souvent comparée à Mars par sa couleur rouge ?",
+      "choices": [
+        "Sagittaire",
+        "Scorpion",
+        "Balance",
+        "Vierge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel décan astrologique désigne chacune des trois subdivisions de 10° au sein d'un signe zodiacal ?",
+      "choices": [
+        "Aspect",
+        "Décan",
+        "Maison",
+        "Dignité"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme astrologique désigne une planète particulièrement puissante dans le signe qu'elle régit (domicile) ?",
+      "choices": [
+        "Exil",
+        "Domicile (dignité essentielle)",
+        "Chute",
+        "Exaltation partielle uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme astrologique désigne une planète affaiblie dans le signe opposé à son domicile ?",
+      "choices": [
+        "Exaltation",
+        "Exil (détriment)",
+        "Domicile",
+        "Chute uniquement pour le Soleil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète naine, découverte en 2005, a initialement conduit à la redéfinition du terme « planète » ?",
+      "choices": [
+        "Cérès",
+        "Éris",
+        "Makémaké",
+        "Hauméa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète naine se trouve dans la ceinture principale d'astéroïdes, entre Mars et Jupiter ?",
+      "choices": [
+        "Pluton",
+        "Cérès",
+        "Éris",
+        "Makémaké"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène optique atmosphérique polaire est causé par l'interaction du vent solaire avec le champ magnétique terrestre ?",
+      "choices": [
+        "L'arc-en-ciel",
+        "Les aurores polaires (boréales/australes)",
+        "Le halo lunaire",
+        "Les nuages noctulescents uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région de la haute atmosphère est principalement impliquée dans la formation des aurores polaires ?",
+      "choices": [
+        "La troposphère",
+        "L'ionosphère (thermosphère)",
+        "La stratosphère",
+        "La mésosphère uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de rayonnement solaire, dévié par le champ magnétique terrestre, provoque les aurores polaires ?",
+      "choices": [
+        "Rayons X",
+        "Vent solaire (particules chargées)",
+        "Rayons gamma",
+        "Ondes radio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète possède une inclinaison axiale extrême proche de 98°, la faisant presque « rouler » sur son orbite ?",
+      "choices": [
+        "Neptune",
+        "Uranus",
+        "Saturne",
+        "Vénus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète tourne sur elle-même dans le sens rétrograde, contrairement à la plupart des autres planètes ?",
+      "choices": [
+        "Mars",
+        "Vénus",
+        "Jupiter",
+        "Saturne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'astre binaire est constitué de deux étoiles orbitant autour d'un centre de masse commun ?",
+      "choices": [
+        "Étoile variable",
+        "Étoile binaire",
+        "Étoile double optique uniquement",
+        "Nébuleuse binaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel événement astronomique se produit quand plusieurs planètes semblent alignées dans le ciel vu de la Terre ?",
+      "choices": [
+        "Une occultation",
+        "Une conjonction planétaire",
+        "Un transit uniquement",
+        "Une opposition uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène se produit lorsqu'une planète comme Vénus ou Mercure passe devant le disque solaire vu de la Terre ?",
+      "choices": [
+        "Une éclipse",
+        "Un transit planétaire",
+        "Une conjonction uniquement",
+        "Une occultation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel outil ancien, utilisé en astrologie et en navigation, mesurait la position des étoiles et planètes ?",
+      "choices": [
+        "Le sextant uniquement moderne",
+        "L'astrolabe",
+        "Le théodolite",
+        "Le cadran solaire uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle civilisation antique est créditée de l'une des premières observations systématiques des mouvements planétaires liées à l'astrologie ?",
+      "choices": [
+        "Les Mayas uniquement",
+        "Les Babyloniens",
+        "Les Vikings",
+        "Les Aztèques uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel calendrier maya complexe combinait des cycles astronomiques et rituels, dont le Tzolk'in ?",
+      "choices": [
+        "Calendrier grégorien",
+        "Calendrier maya (Tzolk'in et Haab')",
+        "Calendrier julien",
+        "Calendrier hébraïque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle configuration astrologique désigne la présence de plusieurs planètes concentrées dans un même signe ou une même maison ?",
+      "choices": [
+        "Un carré en T",
+        "Un amas planétaire (stellium)",
+        "Une opposition",
+        "Un grand trigone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle configuration astrologique relie trois planètes en aspects de carré et opposition, formant un « T » ?",
+      "choices": [
+        "Grand trigone",
+        "Carré en T (T-square)",
+        "Yod",
+        "Cerf-volant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle configuration astrologique rare, en forme de triangle isocèle formé de deux quinconces et un sextile, est surnommée « doigt de Dieu » ?",
+      "choices": [
+        "Grand trigone",
+        "Yod",
+        "Carré en T",
+        "Stellium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne le mouvement apparent rétrograde d'une planète vue depuis la Terre, souvent évoqué en astrologie (ex. Mercure rétrograde) ?",
+      "choices": [
+        "Précession",
+        "Rétrogradation",
+        "Occultation",
+        "Libration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène cause l'apparence de mouvement rétrograde des planètes, en réalité une illusion due aux positions relatives orbitales ?",
+      "choices": [
+        "Un ralentissement réel de la planète",
+        "La différence de vitesse orbitale entre la Terre et la planète observée",
+        "Un changement de direction réel de l'orbite",
+        "Une éclipse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle étoile guide historiquement les marins et voyageurs dans l'hémisphère nord car proche du pôle céleste ?",
+      "choices": [
+        "Sirius",
+        "L'étoile polaire (Polaris)",
+        "Véga",
+        "Alpha du Centaure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène désigne la « libration » de la Lune, permettant de voir légèrement plus de 50% de sa surface depuis la Terre ?",
+      "choices": [
+        "Une éclipse partielle",
+        "La libration lunaire",
+        "La phase gibbeuse",
+        "La syzygie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne l'alignement de trois corps célestes (Soleil, Terre, Lune) en ligne quasi droite ?",
+      "choices": [
+        "Une syzygie",
+        "Une quadrature",
+        "Une élongation",
+        "Une culmination"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel astrologue et médecin français du 16e siècle est célèbre pour ses prophéties publiées dans les « Centuries » ?",
+      "choices": [
+        "Michel de Nostradame (Nostradamus)",
+        "Tycho Brahe",
+        "Jean-Baptiste Morin",
+        "Girolamo Cardano"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel astrologue français du 17e siècle, Jean-Baptiste Morin, est connu pour son traité d'astrologie « Astrologia Gallica » ?",
+      "choices": [
+        "Jean-Baptiste Morin",
+        "Nostradamus",
+        "Claude Ptolémée",
+        "Alan Leo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel astrologue britannique du début du 20e siècle est souvent considéré comme le père de l'astrologie moderne populaire ?",
+      "choices": [
+        "William Lilly",
+        "Alan Leo",
+        "Evangeline Adams",
+        "Dane Rudhyar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astrologue du 17e siècle anglais, William Lilly, est célèbre pour ses prédictions et son manuel « Christian Astrology » ?",
+      "choices": [
+        "William Lilly",
+        "John Dee",
+        "Nostradamus",
+        "Robert Fludd"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel terme technique désigne, en astronomie, l'angle entre l'écliptique et l'équateur céleste, à l'origine des saisons ?",
+      "choices": [
+        "La parallaxe",
+        "L'obliquité de l'écliptique",
+        "La précession",
+        "La nutation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène astronomique périodique désigne les petites oscillations de l'axe terrestre en plus de la précession ?",
+      "choices": [
+        "La nutation",
+        "La libration",
+        "L'aberration",
+        "La réfraction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel terme astronomique désigne le déplacement apparent d'un objet céleste proche dû au changement de position de l'observateur (utilisé pour mesurer les distances stellaires) ?",
+      "choices": [
+        "L'aberration de la lumière",
+        "La parallaxe",
+        "La précession",
+        "La libration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle unité astronomique de distance correspond à la distance moyenne Terre-Soleil ?",
+      "choices": [
+        "L'année-lumière",
+        "L'unité astronomique (UA)",
+        "Le parsec",
+        "Le kilomètre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle unité de distance astronomique est définie par la parallaxe d'une seconde d'arc et vaut environ 3,26 années-lumière ?",
+      "choices": [
+        "L'unité astronomique",
+        "Le parsec",
+        "L'année-lumière",
+        "Le mégaparsec uniquement pour galaxies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène observé par Edwin Hubble a démontré que l'univers est en expansion ?",
+      "choices": [
+        "La radiation fossile",
+        "Le décalage vers le rouge des galaxies lointaines",
+        "La précession des équinoxes",
+        "L'aberration stellaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle théorie cosmologique décrit l'origine de l'univers à partir d'un état extrêmement dense et chaud il y a environ 13,8 milliards d'années ?",
+      "choices": [
+        "La théorie de l'état stationnaire",
+        "La théorie du Big Bang",
+        "La théorie de l'univers oscillant uniquement",
+        "La théorie de la relativité restreinte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel rayonnement résiduel du Big Bang, découvert en 1965, constitue une preuve majeure de cette théorie ?",
+      "choices": [
+        "Les rayons cosmiques",
+        "Le fond diffus cosmologique (rayonnement fossile)",
+        "Les rayons gamma",
+        "Le vent solaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle forme de matière hypothétique, invisible mais détectée par ses effets gravitationnels, composerait une grande partie de l'univers ?",
+      "choices": [
+        "L'antimatière",
+        "La matière noire",
+        "Les neutrinos uniquement",
+        "Le plasma primordial"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle forme d'énergie hypothétique serait responsable de l'accélération de l'expansion de l'univers ?",
+      "choices": [
+        "L'énergie noire",
+        "L'énergie nucléaire",
+        "L'énergie cinétique cosmique",
+        "Le rayonnement fossile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel objet astronomique extrêmement dense possède un champ gravitationnel si fort que même la lumière ne peut s'en échapper ?",
+      "choices": [
+        "Une naine blanche",
+        "Un trou noir",
+        "Un pulsar uniquement",
+        "Un quasar uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'objet extrêmement lumineux et distant, alimenté par un trou noir supermassif accrétant de la matière, est visible à des distances cosmologiques ?",
+      "choices": [
+        "Une nova",
+        "Un quasar",
+        "Une nébuleuse planétaire",
+        "Un amas globulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel télescope a permis de capturer la première image directe d'un trou noir supermassif en 2019 ?",
+      "choices": [
+        "Hubble",
+        "Event Horizon Telescope",
+        "James Webb",
+        "Chandra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle planète possède la lune Europa, considérée comme un site potentiel de vie en raison de son océan sous-glaciaire ?",
+      "choices": [
+        "Saturne",
+        "Jupiter",
+        "Uranus",
+        "Neptune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle lune de Saturne possède une atmosphère dense et des lacs de méthane liquide à sa surface ?",
+      "choices": [
+        "Encelade",
+        "Titan",
+        "Mimas",
+        "Rhéa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle lune de Saturne présente des geysers de glace jaillissant de son pôle sud, suggérant un océan sous-terrain ?",
+      "choices": [
+        "Titan",
+        "Encelade",
+        "Japet",
+        "Téthys"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel concept astrologique hellénistique désigne les « temps » ou périodes planétaires attribuées à chaque planète pour dominer une phase de vie ?",
+      "choices": [
+        "Les profections",
+        "Les périodes planétaires (chronocratories)",
+        "Les décans",
+        "Les termes uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique astrologique hellénistique fait avancer le thème natal d'un signe par année de vie pour déterminer les thèmes annuels ?",
+      "choices": [
+        "Les transits",
+        "Les profections",
+        "Les révolutions solaires uniquement",
+        "Les progressions secondaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique astrologique fait progresser symboliquement chaque jour après la naissance pour représenter une année de vie ?",
+      "choices": [
+        "Les transits",
+        "Les progressions secondaires",
+        "Les profections",
+        "Les directions primaires uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique astrologique médiévale calcule le mouvement réel (en degrés) des planètes projeté sur des années, très complexe mathématiquement ?",
+      "choices": [
+        "Les progressions secondaires",
+        "Les directions primaires",
+        "Les profections",
+        "Les révolutions lunaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel concept, central dans l'astrologie hellénistique, attribue à chaque planète une force selon sa position (domicile, exaltation, triplicité, terme, décan) ?",
+      "choices": [
+        "Les dignités essentielles",
+        "Les aspects majeurs",
+        "Les maisons dérivées",
+        "Les parts arabes uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel point calculé (et non observé), issu de l'astrologie antique, combine la position du Soleil, de la Lune et de l'Ascendant, appelé « Part de Fortune » ?",
+      "choices": [
+        "Le Nœud lunaire",
+        "La Part de Fortune (lot de Fortune)",
+        "Le Midheaven",
+        "Le Vertex"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel point astronomique/astrologique désigne l'intersection entre l'orbite lunaire et l'écliptique, utilisé pour prédire les éclipses ?",
+      "choices": [
+        "Le Vertex",
+        "Les nœuds lunaires (nœud nord et sud)",
+        "Le zénith",
+        "L'apogée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle étoile variable pulse en luminosité de façon régulière et sert de « chandelle standard » pour mesurer les distances cosmiques ?",
+      "choices": [
+        "Une naine brune",
+        "Une céphéide",
+        "Une géante rouge uniquement",
+        "Un pulsar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de rayonnement électromagnétique, émis par les pulsars, est détecté à intervalles extrêmement réguliers ?",
+      "choices": [
+        "Rayons X uniquement",
+        "Ondes radio (émissions périodiques)",
+        "Rayons ultraviolets",
+        "Rayons infrarouges uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène décrit la fusion apparente de deux corps célestes vus depuis la Terre alors qu'ils sont en réalité très éloignés l'un de l'autre ?",
+      "choices": [
+        "Une conjonction",
+        "Une occultation",
+        "Une éclipse",
+        "Un transit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel phénomène se produit lorsqu'un corps céleste passe exactement devant un autre, le masquant totalement à la vue depuis la Terre ?",
+      "choices": [
+        "Une conjonction",
+        "Une occultation",
+        "Une élongation",
+        "Une opposition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mission spatiale a exploré la ceinture de Kuiper après son survol de Pluton, visitant l'objet Arrokoth ?",
+      "choices": [
+        "Voyager 2",
+        "New Horizons",
+        "Juno",
+        "Cassini"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument astronomique mesure le spectre lumineux des étoiles pour déterminer leur composition chimique ?",
+      "choices": [
+        "Le photomètre",
+        "Le spectroscope (spectromètre)",
+        "L'interféromètre uniquement",
+        "Le radiomètre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle méthode de détection d'exoplanètes repose sur la légère diminution de luminosité d'une étoile lorsqu'une planète passe devant elle ?",
+      "choices": [
+        "Méthode des vitesses radiales",
+        "Méthode des transits",
+        "Méthode de l'imagerie directe",
+        "Méthode de microlentille gravitationnelle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle méthode de détection d'exoplanètes repose sur les infimes oscillations de vitesse d'une étoile causées par l'attraction gravitationnelle d'une planète ?",
+      "choices": [
+        "Méthode des transits",
+        "Méthode des vitesses radiales",
+        "Méthode astrométrique uniquement",
+        "Méthode chronométrique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel télescope spatial, lancé en 2009, a été spécifiquement conçu pour rechercher des exoplanètes par la méthode des transits ?",
+      "choices": [
+        "Hubble",
+        "Kepler",
+        "Spitzer",
+        "TESS uniquement plus récent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle constellation australe contient la Croix du Sud, importante pour la navigation dans l'hémisphère sud ?",
+      "choices": [
+        "Le Centaure",
+        "La Croix du Sud (Crux)",
+        "Le Paon",
+        "L'Autel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel objet céleste diffus, nuage de gaz et de poussière, est souvent le lieu de formation d'étoiles nouvelles ?",
+      "choices": [
+        "Un amas globulaire",
+        "Une nébuleuse",
+        "Un quasar",
+        "Une naine brune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'amas d'étoiles, très dense et sphérique, contient souvent des étoiles très anciennes en orbite autour d'une galaxie ?",
+      "choices": [
+        "Amas ouvert",
+        "Amas globulaire",
+        "Amas galactique uniquement",
+        "Superamas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'amas d'étoiles, plus lâche et jeune, se trouve typiquement dans le disque d'une galaxie spirale comme les Pléiades ?",
+      "choices": [
+        "Amas globulaire",
+        "Amas ouvert",
+        "Amas de galaxies",
+        "Superamas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle constante fondamentale de la cosmologie mesure le taux d'expansion actuel de l'univers ?",
+      "choices": [
+        "La constante de Planck",
+        "La constante de Hubble",
+        "La constante gravitationnelle",
+        "La constante cosmologique uniquement Einstein"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel physicien a introduit une « constante cosmologique » dans ses équations de relativité générale, initialement pour un univers statique ?",
+      "choices": [
+        "Edwin Hubble",
+        "Albert Einstein",
+        "Georges Lemaître",
+        "Alexander Friedmann"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel astronome et prêtre belge est souvent crédité comme l'un des premiers à proposer l'idée d'un univers en expansion issu d'un « atome primitif » ?",
+      "choices": [
+        "Edwin Hubble",
+        "Georges Lemaître",
+        "Fred Hoyle",
+        "Arno Penzias"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quels chercheurs ont découvert accidentellement le fond diffus cosmologique en 1965 avec une antenne radio ?",
+      "choices": [
+        "Hubble et Slipher",
+        "Penzias et Wilson",
+        "Einstein et de Sitter",
+        "Friedmann et Lemaître"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mission a cartographié avec précision le fond diffus cosmologique, confirmant les paramètres du modèle cosmologique standard (COBE, WMAP, Planck) ?",
+      "choices": [
+        "Programme Apollo",
+        "Missions COBE, WMAP et Planck",
+        "Programme Voyager",
+        "Mission Kepler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel modèle standard de la cosmologie moderne combine matière noire froide et énergie noire, souvent abrégé « Lambda-CDM » ?",
+      "choices": [
+        "Modèle de l'état stationnaire",
+        "Modèle Lambda-CDM",
+        "Modèle de l'univers oscillant",
+        "Modèle de Milne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène astrophysique, prédit par Einstein, a été détecté pour la première fois directement en 2015 par les détecteurs LIGO ?",
+      "choices": [
+        "Les ondes radio cosmiques",
+        "Les ondes gravitationnelles",
+        "Le rayonnement Hawking",
+        "L'effet Doppler cosmologique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de rayonnement théorique un trou noir émettrait-il selon Stephen Hawking, entraînant potentiellement son évaporation ?",
+      "choices": [
+        "Rayonnement de Hawking",
+        "Rayonnement synchrotron",
+        "Rayonnement de freinage (bremsstrahlung)",
+        "Rayonnement Cherenkov"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle mission chinoise a fait atterrir un rover sur la face cachée de la Lune en 2019, une première mondiale ?",
+      "choices": [
+        "Chang'e 3",
+        "Chang'e 4",
+        "Chang'e 5",
+        "Tianwen-1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mission a réussi à faire atterrir un rover sur un astéroïde/comète, avec le module Philae en 2014 ?",
+      "choices": [
+        "Mission Rosetta (module Philae sur la comète Tchourioumov-Guérassimenko)",
+        "Mission Hayabusa",
+        "Mission OSIRIS-REx",
+        "Mission Dawn"
+      ],
+      "correctIndex": 0
     }
   ]
 }

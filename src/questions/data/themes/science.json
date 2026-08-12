@@ -1,243 +1,2003 @@
 {
-  "theme": "🧪 Sciences",
+  "theme": "🧪 Science (Physique/Chimie)",
   "questions": [
     {
       "question": "Quel est le symbole chimique de l'eau ?",
       "choices": [
-        "CO2",
+        "O2",
         "H2O",
-        "NaCl",
-        "O2"
+        "CO2",
+        "H2"
       ],
       "correctIndex": 1
+    },
+    {
+      "question": "Quel est l'état de la matière de la glace ?",
+      "choices": [
+        "Liquide",
+        "Gazeux",
+        "Solide",
+        "Plasma"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "choices": [
+        "Vénus",
+        "Mercure",
+        "Mars",
+        "Terre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gaz respirons-nous principalement pour vivre ?",
+      "choices": [
+        "Dioxyde de carbone",
+        "Azote",
+        "Oxygène",
+        "Hydrogène"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle force nous maintient au sol ?",
+      "choices": [
+        "Le magnétisme",
+        "La gravité",
+        "La friction",
+        "L'électricité"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le symbole chimique de l'or ?",
+      "choices": [
+        "Ag",
+        "Au",
+        "Or",
+        "Go"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de temps la lumière du Soleil met-elle pour atteindre la Terre, environ ?",
+      "choices": [
+        "8 secondes",
+        "8 minutes",
+        "8 heures",
+        "8 jours"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument mesure la température ?",
+      "choices": [
+        "Baromètre",
+        "Thermomètre",
+        "Hygromètre",
+        "Anémomètre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est l'unité de mesure de la masse dans le système international ?",
+      "choices": [
+        "Le litre",
+        "Le kilogramme",
+        "Le mètre",
+        "Le newton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est l'état de la matière de la vapeur d'eau ?",
+      "choices": [
+        "Solide",
+        "Liquide",
+        "Gazeux",
+        "Plasma"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle planète est surnommée la « planète rouge » ?",
+      "choices": [
+        "Vénus",
+        "Jupiter",
+        "Mars",
+        "Saturne"
+      ],
+      "correctIndex": 2
     },
     {
       "question": "Quel est le symbole chimique du fer ?",
       "choices": [
-        "Cu",
         "Fe",
-        "Ag",
-        "Au"
+        "Fr",
+        "F",
+        "Ir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel phénomène produit un arc-en-ciel ?",
+      "choices": [
+        "La réflexion de la lumière",
+        "La réfraction de la lumière",
+        "L'absorption de la lumière",
+        "La diffusion sonore"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quel est le gaz le plus abondant dans l'atmosphère terrestre ?",
+      "question": "Quelle unité mesure la vitesse ?",
+      "choices": [
+        "Le watt",
+        "Le kilomètre par heure",
+        "Le kilogramme",
+        "Le degré"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le symbole chimique du sodium ?",
+      "choices": [
+        "So",
+        "Sd",
+        "Na",
+        "S"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Combien de planètes compte notre système solaire ?",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est l'état de la matière du sable ?",
+      "choices": [
+        "Liquide",
+        "Solide",
+        "Gazeux",
+        "Plasma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est l'unité de mesure de l'électricité (intensité) ?",
+      "choices": [
+        "Le volt",
+        "L'ampère",
+        "Le watt",
+        "L'ohm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel objet céleste illumine la nuit et tourne autour de la Terre ?",
+      "choices": [
+        "Le Soleil",
+        "La Lune",
+        "Mars",
+        "Vénus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le symbole chimique de l'oxygène ?",
+      "choices": [
+        "Ox",
+        "O",
+        "Og",
+        "Oy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle force permet à un aimant d'attirer le fer ?",
+      "choices": [
+        "La gravité",
+        "Le magnétisme",
+        "La friction",
+        "L'électricité statique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus transforme l'eau liquide en vapeur ?",
+      "choices": [
+        "La condensation",
+        "L'évaporation",
+        "La solidification",
+        "La fusion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus transforme la vapeur en eau liquide ?",
+      "choices": [
+        "L'évaporation",
+        "La condensation",
+        "La sublimation",
+        "La fusion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le nom de la couche d'air qui entoure la Terre ?",
+      "choices": [
+        "L'hydrosphère",
+        "L'atmosphère",
+        "La lithosphère",
+        "La biosphère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la vitesse de la lumière dans le vide, environ ?",
+      "choices": [
+        "300 000 km/s",
+        "300 000 km/h",
+        "3 000 km/s",
+        "30 000 km/s"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel outil sert à mesurer le poids ou la masse ?",
+      "choices": [
+        "Le thermomètre",
+        "La balance",
+        "Le baromètre",
+        "Le chronomètre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le principal composant de l'air que nous respirons ?",
+      "choices": [
+        "Oxygène",
+        "Azote",
+        "Dioxyde de carbone",
+        "Hydrogène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène provoque le jour et la nuit ?",
+      "choices": [
+        "La révolution de la Terre autour du Soleil",
+        "La rotation de la Terre sur elle-même",
+        "Les phases de la Lune",
+        "Les saisons"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène provoque les saisons ?",
+      "choices": [
+        "La rotation de la Terre",
+        "L'inclinaison de l'axe terrestre",
+        "La distance Terre-Soleil constante",
+        "Les marées"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel état de la matière n'a ni forme ni volume propre ?",
+      "choices": [
+        "Solide",
+        "Liquide",
+        "Gazeux",
+        "Aucun"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel est le symbole chimique du carbone ?",
+      "choices": [
+        "Ca",
+        "Cb",
+        "C",
+        "Co"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle planète possède des anneaux visibles très marqués ?",
+      "choices": [
+        "Jupiter",
+        "Saturne",
+        "Uranus",
+        "Neptune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'énergie provient du Soleil ?",
+      "choices": [
+        "Énergie éolienne",
+        "Énergie solaire",
+        "Énergie hydraulique",
+        "Énergie géothermique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle unité mesure la force ?",
+      "choices": [
+        "Le newton",
+        "Le joule",
+        "Le watt",
+        "Le pascal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel liquide est essentiel à toute forme de vie connue ?",
+      "choices": [
+        "L'huile",
+        "L'eau",
+        "L'alcool",
+        "Le mercure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène fait qu'un objet flotte sur l'eau ?",
+      "choices": [
+        "La gravité",
+        "La poussée d'Archimède",
+        "La tension superficielle uniquement",
+        "Le magnétisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gaz les plantes absorbent-elles pour la photosynthèse ?",
+      "choices": [
+        "Oxygène",
+        "Azote",
+        "Dioxyde de carbone",
+        "Hydrogène"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel gaz les plantes libèrent-elles pendant la photosynthèse ?",
       "choices": [
         "Dioxyde de carbone",
-        "Oxygène (O2)",
-        "Azote (N2)",
-        "Argon"
+        "Oxygène",
+        "Azote",
+        "Méthane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est l'unité de mesure de l'énergie ?",
+      "choices": [
+        "Le watt",
+        "Le joule",
+        "L'ampère",
+        "Le volt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène cause le tonnerre après un éclair ?",
+      "choices": [
+        "La dilatation rapide de l'air chauffé",
+        "Le vent fort",
+        "La pluie",
+        "Le frottement des nuages"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel matériau conduit bien l'électricité ?",
+      "choices": [
+        "Le bois",
+        "Le caoutchouc",
+        "Le cuivre",
+        "Le plastique"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Combien d'os compte le corps humain adulte ?",
+      "question": "Quel matériau est un bon isolant électrique ?",
       "choices": [
-        "206",
-        "106",
-        "300",
-        "250"
+        "Le cuivre",
+        "L'aluminium",
+        "Le caoutchouc",
+        "L'argent"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est la température de congélation de l'eau au niveau de la mer, en Celsius ?",
+      "choices": [
+        "-10°C",
+        "0°C",
+        "10°C",
+        "100°C"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la température d'ébullition de l'eau au niveau de la mer, en Celsius ?",
+      "choices": [
+        "50°C",
+        "75°C",
+        "90°C",
+        "100°C"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel instrument sert à observer les étoiles et planètes ?",
+      "choices": [
+        "Le microscope",
+        "Le télescope",
+        "Le stéthoscope",
+        "Le périscope"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument sert à observer de très petits objets ?",
+      "choices": [
+        "Le télescope",
+        "Le microscope",
+        "Le baromètre",
+        "Le sismographe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène naturel est mesuré par un sismographe ?",
+      "choices": [
+        "Les tempêtes",
+        "Les tremblements de terre",
+        "La pluie",
+        "Le vent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène naturel est mesuré par un baromètre ?",
+      "choices": [
+        "La température",
+        "La pression atmosphérique",
+        "L'humidité",
+        "Le vent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est l'état de la matière du fer à température ambiante ?",
+      "choices": [
+        "Solide",
+        "Liquide",
+        "Gazeux",
+        "Plasma"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quel est le plus grand organe du corps humain ?",
+      "question": "Quelle planète est la plus grande du système solaire ?",
       "choices": [
-        "Le foie",
-        "Les poumons",
-        "Le cerveau",
-        "La peau"
+        "Saturne",
+        "Jupiter",
+        "Neptune",
+        "Uranus"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "Quelle est l'unité de mesure de la force dans le Système International ?",
+      "question": "Quel scientifique a formulé la théorie de la relativité ?",
       "choices": [
-        "Newton",
-        "Joule",
-        "Pascal",
-        "Watt"
+        "Isaac Newton",
+        "Albert Einstein",
+        "Niels Bohr",
+        "Max Planck"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique a énoncé les lois du mouvement et de la gravitation universelle ?",
+      "choices": [
+        "Galilée",
+        "Isaac Newton",
+        "Kepler",
+        "Copernic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est l'unité de mesure de la pression ?",
+      "choices": [
+        "Le pascal",
+        "Le newton",
+        "Le joule",
+        "Le watt"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quelle est l'unité de mesure de la puissance électrique ?",
-      "choices": [
-        "Ohm",
-        "Ampère",
-        "Volt",
-        "Watt"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quelle molécule porte l'information génétique dans les cellules ?",
-      "choices": [
-        "ARN",
-        "Protéine",
-        "Glucose",
-        "ADN"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel est le PH d'une solution neutre à 25°C ?",
+      "question": "Quel est le nombre atomique de l'hydrogène ?",
       "choices": [
         "0",
-        "7",
-        "14",
-        "5"
+        "1",
+        "2",
+        "8"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quel organe est responsable du pompage du sang dans le corps ?",
+      "question": "Quelle particule subatomique porte une charge négative ?",
       "choices": [
-        "Le cœur",
-        "Le foie",
-        "Le poumon",
-        "Le rein"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel est le composé chimique responsable de la couleur verte des plantes ?",
-      "choices": [
-        "Le carotène",
-        "La chlorophylle",
-        "L'hémoglobine",
-        "La mélanine"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle est la vitesse de la lumière dans le vide ?",
-      "choices": [
-        "150 000 km/s",
-        "30 000 km/s",
-        "300 000 km/s",
-        "1 000 km/s"
+        "Le proton",
+        "Le neutron",
+        "L'électron",
+        "Le photon"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Quel est l'élément chimique le plus léger de la classification périodique ?",
+      "question": "Quelle particule subatomique porte une charge positive ?",
       "choices": [
-        "Le carbone",
-        "L'hélium",
-        "Le lithium",
-        "L'hydrogène"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Comment appelle-t-on la division cellulaire assurant la croissance et le renouvellement des tissus ?",
-      "choices": [
-        "Méiose",
-        "Mitose",
-        "Osmose",
-        "Phagocytose"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel chercheur a formulé la théorie de la relativité restreinte et générale ?",
-      "choices": [
-        "Niels Bohr",
-        "Isaac Newton",
-        "Galilée",
-        "Albert Einstein"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quelle est la loi fondamentale qui régit la gravitation universelle ?",
-      "choices": [
-        "Loi de Boyle-Mariotte",
-        "Loi de Newton",
-        "Loi de Kepler",
-        "Loi d'Ohm"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle particule de l'atome possède une charge négative ?",
-      "choices": [
-        "Électron",
-        "Neutron",
-        "Proton",
-        "Quark"
+        "Le proton",
+        "Le neutron",
+        "L'électron",
+        "Le photon"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Où se trouve le fémur dans le corps humain ?",
+      "question": "Quelle particule subatomique n'a pas de charge électrique ?",
       "choices": [
-        "Dans le dos",
-        "Dans la cuisse",
-        "Dans le bras",
-        "Dans le pied"
+        "Le proton",
+        "Le neutron",
+        "L'électron",
+        "Le positron"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Combien de chambres compte le cœur humain ?",
+      "question": "Quel tableau classe tous les éléments chimiques connus ?",
       "choices": [
-        "3",
-        "4",
-        "2",
-        "6"
+        "Le tableau de Mendeleïev (tableau périodique)",
+        "Le tableau de Bohr",
+        "Le tableau de Newton",
+        "Le tableau d'Avogadro"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "question": "Quelle est la formule chimique du sel de table ?",
       "choices": [
-        "CaCl2",
-        "KCl",
         "NaCl",
+        "KCl",
+        "CaCl2",
         "NaOH"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
-      "question": "Quel organe produit l'insuline ?",
+      "question": "Quel gaz est essentiel pour la combustion ?",
       "choices": [
-        "Le rein",
-        "La rate",
-        "Le pancréas",
-        "Le foie"
+        "Azote",
+        "Oxygène",
+        "Hélium",
+        "Argon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle loi physique énonce que pour chaque action il y a une réaction égale et opposée ?",
+      "choices": [
+        "Première loi de Newton",
+        "Deuxième loi de Newton",
+        "Troisième loi de Newton",
+        "Loi de Kepler"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Quelle est la vitesse du son dans l'air à 20°C ?",
+      "question": "Quelle loi énonce qu'un objet reste au repos ou en mouvement uniforme sauf force extérieure ?",
       "choices": [
-        "343 m/s",
-        "100 m/s",
-        "1500 m/s",
-        "300 000 km/s"
+        "Loi d'inertie (1ère loi de Newton)",
+        "Loi de la gravitation",
+        "Loi d'Ohm",
+        "Loi de Boyle-Mariotte"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quelle est la plus petite unité du vivant ?",
+      "question": "Quelle est l'unité de mesure de la fréquence ?",
       "choices": [
-        "La cellule",
-        "Le tissu",
-        "L'atome",
-        "La molécule"
+        "Le hertz",
+        "Le décibel",
+        "Le watt",
+        "Le volt"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quel gaz les plantes absorbent-elles lors de la photosynthèse ?",
+      "question": "Quel phénomène explique pourquoi le ciel est bleu ?",
       "choices": [
-        "Oxygène (O2)",
-        "Dioxyde de carbone (CO2)",
-        "Azote (N2)",
-        "Méthane (CH4)"
+        "Réflexion totale",
+        "Diffusion de Rayleigh",
+        "Réfraction simple",
+        "Absorption totale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la charge électrique d'un atome neutre ?",
+      "choices": [
+        "Positive",
+        "Négative",
+        "Nulle",
+        "Variable"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel élément chimique a pour symbole « Fe » ?",
+      "choices": [
+        "Fluor",
+        "Fer",
+        "Francium",
+        "Fermium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel élément chimique a pour symbole « K » ?",
+      "choices": [
+        "Krypton",
+        "Potassium",
+        "Kalium (autre nom)",
+        "Calcium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel élément chimique a pour symbole « Pb » ?",
+      "choices": [
+        "Plomb",
+        "Phosphore",
+        "Palladium",
+        "Platine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel élément chimique a pour symbole « Ag » ?",
+      "choices": [
+        "Or",
+        "Argent",
+        "Aluminium",
+        "Argon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle réaction chimique libère de l'énergie sous forme de chaleur ?",
+      "choices": [
+        "Réaction endothermique",
+        "Réaction exothermique",
+        "Réaction neutre",
+        "Réaction catalytique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle réaction chimique absorbe de l'énergie ?",
+      "choices": [
+        "Réaction exothermique",
+        "Réaction endothermique",
+        "Réaction spontanée",
+        "Réaction d'oxydation uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de liaison chimique implique le partage d'électrons ?",
+      "choices": [
+        "Liaison ionique",
+        "Liaison covalente",
+        "Liaison métallique",
+        "Liaison hydrogène uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de liaison chimique implique un transfert d'électrons entre atomes ?",
+      "choices": [
+        "Liaison covalente",
+        "Liaison ionique",
+        "Liaison métallique",
+        "Liaison de van der Waals"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle échelle mesure l'acidité ou la basicité d'une solution ?",
+      "choices": [
+        "Échelle de Richter",
+        "Échelle de pH",
+        "Échelle Beaufort",
+        "Échelle de Mohs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pH correspond à une solution neutre ?",
+      "choices": [
+        "0",
+        "7",
+        "14",
+        "1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le nom du processus de séparation des couleurs de la lumière blanche par un prisme ?",
+      "choices": [
+        "Réflexion",
+        "Dispersion",
+        "Diffraction",
+        "Polarisation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle unité mesure la quantité de matière en chimie ?",
+      "choices": [
+        "Le gramme",
+        "La mole",
+        "Le litre",
+        "Le mètre cube"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel savant a découvert la radioactivité naturelle ?",
+      "choices": [
+        "Marie Curie",
+        "Henri Becquerel",
+        "Albert Einstein",
+        "Ernest Rutherford"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle scientifique a reçu deux prix Nobel pour ses travaux sur la radioactivité ?",
+      "choices": [
+        "Rosalind Franklin",
+        "Marie Curie",
+        "Lise Meitner",
+        "Dorothy Hodgkin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène décrit le passage direct d'un solide à un gaz sans phase liquide ?",
+      "choices": [
+        "Fusion",
+        "Sublimation",
+        "Condensation",
+        "Solidification"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle force maintient les planètes en orbite autour du Soleil ?",
+      "choices": [
+        "Le magnétisme",
+        "La gravité",
+        "La force nucléaire",
+        "La force électromagnétique uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le nom de la force qui s'oppose au mouvement entre deux surfaces ?",
+      "choices": [
+        "La gravité",
+        "La friction",
+        "La tension",
+        "La poussée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est l'unité de mesure de la résistance électrique ?",
+      "choices": [
+        "L'ampère",
+        "Le volt",
+        "L'ohm",
+        "Le watt"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle loi relie tension, intensité et résistance électrique (U = R × I) ?",
+      "choices": [
+        "Loi de Coulomb",
+        "Loi d'Ohm",
+        "Loi de Joule",
+        "Loi de Faraday"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène physique explique le fonctionnement d'un aimant permanent ?",
+      "choices": [
+        "Le ferromagnétisme",
+        "La radioactivité",
+        "L'électrolyse",
+        "La fission nucléaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel gaz noble est utilisé pour remplir les ballons qui flottent dans l'air ?",
+      "choices": [
+        "Néon",
+        "Hélium",
+        "Argon",
+        "Krypton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus utilise un courant électrique pour décomposer un composé chimique ?",
+      "choices": [
+        "La distillation",
+        "L'électrolyse",
+        "La filtration",
+        "La chromatographie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle unité mesure le travail ou l'énergie mécanique (identique au joule) ?",
+      "choices": [
+        "Newton-mètre",
+        "Watt-heure",
+        "Ampère-heure",
+        "Pascal-mètre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel scientifique a proposé le modèle planétaire de l'atome ?",
+      "choices": [
+        "Dalton",
+        "Rutherford",
+        "Thomson",
+        "Bohr"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique a introduit les niveaux d'énergie quantifiés de l'atome ?",
+      "choices": [
+        "Rutherford",
+        "Niels Bohr",
+        "Dalton",
+        "Thomson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'onde se propage sans nécessiter de milieu matériel ?",
+      "choices": [
+        "Onde sonore",
+        "Onde électromagnétique",
+        "Onde sismique",
+        "Onde mécanique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'onde a besoin d'un milieu matériel pour se propager ?",
+      "choices": [
+        "Onde lumineuse",
+        "Onde radio",
+        "Onde sonore",
+        "Onde électromagnétique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle est l'unité de mesure du son (intensité perçue) ?",
+      "choices": [
+        "Le hertz",
+        "Le décibel",
+        "Le lux",
+        "Le lumen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grandeur physique le hertz mesure-t-il ?",
+      "choices": [
+        "L'intensité sonore",
+        "La fréquence",
+        "La longueur d'onde",
+        "L'amplitude"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus chimique correspond à la perte d'électrons par un atome ?",
+      "choices": [
+        "Réduction",
+        "Oxydation",
+        "Ionisation neutre",
+        "Polymérisation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus chimique correspond au gain d'électrons par un atome ?",
+      "choices": [
+        "Oxydation",
+        "Réduction",
+        "Sublimation",
+        "Catalyse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle famille d'éléments chimiques est très peu réactive, dite « gaz nobles » ?",
+      "choices": [
+        "Halogènes",
+        "Métaux alcalins",
+        "Gaz nobles",
+        "Métaux de transition"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle famille chimique regroupe le fluor, le chlore, le brome et l'iode ?",
+      "choices": [
+        "Métaux alcalins",
+        "Halogènes",
+        "Gaz nobles",
+        "Métalloïdes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel savant a formulé les lois de l'électromagnétisme unifiant électricité et magnétisme ?",
+      "choices": [
+        "James Clerk Maxwell",
+        "Michael Faraday",
+        "André-Marie Ampère",
+        "Georg Ohm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle particule est responsable de la transmission de la lumière (quantum de lumière) ?",
+      "choices": [
+        "L'électron",
+        "Le photon",
+        "Le neutron",
+        "Le proton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la formule de l'énergie cinétique ?",
+      "choices": [
+        "E = mc²",
+        "E = ½mv²",
+        "E = mgh",
+        "E = Fd"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la formule de l'énergie potentielle de pesanteur ?",
+      "choices": [
+        "E = ½mv²",
+        "E = mgh",
+        "E = mc²",
+        "E = qU"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle équation célèbre relie masse et énergie, formulée par Einstein ?",
+      "choices": [
+        "F = ma",
+        "E = mc²",
+        "E = hf",
+        "PV = nRT"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle loi des gaz parfaits relie pression, volume, quantité de matière et température ?",
+      "choices": [
+        "PV = nRT",
+        "E = mc²",
+        "F = ma",
+        "U = RI"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel isotope de l'hydrogène est utilisé dans la fusion nucléaire avec le tritium ?",
+      "choices": [
+        "Protium",
+        "Deutérium",
+        "Hélium-3",
+        "Hélium-4"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle particule élémentaire n'a pas de sous-structure connue et compose les protons/neutrons ?",
+      "choices": [
+        "L'électron",
+        "Le quark",
+        "Le photon",
+        "Le neutrino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de quarks composent un proton ?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle force fondamentale est responsable de la cohésion du noyau atomique ?",
+      "choices": [
+        "Force électromagnétique",
+        "Force nucléaire forte",
+        "Force gravitationnelle",
+        "Force nucléaire faible"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle force fondamentale est responsable de la désintégration radioactive bêta ?",
+      "choices": [
+        "Force forte",
+        "Force faible",
+        "Gravité",
+        "Électromagnétisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus alimente en énergie le Soleil et les autres étoiles ?",
+      "choices": [
+        "La fission nucléaire",
+        "La fusion nucléaire",
+        "La combustion chimique",
+        "La radioactivité seule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle est la charge électrique élémentaire, en coulombs, approximativement ?",
+      "choices": [
+        "1,6 × 10⁻¹⁹ C",
+        "9,1 × 10⁻³¹ C",
+        "6,6 × 10⁻³⁴ C",
+        "3 × 10⁸ C"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle constante physique relie l'énergie d'un photon à sa fréquence (E=hf) ?",
+      "choices": [
+        "Constante de Boltzmann",
+        "Constante de Planck",
+        "Constante gravitationnelle",
+        "Nombre d'Avogadro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le nombre d'Avogadro, environ ?",
+      "choices": [
+        "6,02 × 10²³",
+        "3,14 × 10²³",
+        "9,8 × 10²³",
+        "1,6 × 10²³"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle théorie décrit le comportement de la matière et de l'énergie à l'échelle atomique ?",
+      "choices": [
+        "La relativité générale",
+        "La mécanique quantique",
+        "La thermodynamique classique",
+        "L'électromagnétisme classique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel principe stipule qu'on ne peut connaître simultanément avec précision la position et la vitesse d'une particule ?",
+      "choices": [
+        "Principe de Pauli",
+        "Principe d'incertitude de Heisenberg",
+        "Principe de superposition",
+        "Principe de complémentarité"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel principe stipule que deux fermions identiques ne peuvent occuper le même état quantique ?",
+      "choices": [
+        "Principe d'exclusion de Pauli",
+        "Principe d'incertitude",
+        "Principe de Le Chatelier",
+        "Principe d'Archimède"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle loi thermodynamique énonce que l'entropie d'un système isolé ne peut que croître ?",
+      "choices": [
+        "Première loi",
+        "Deuxième loi",
+        "Troisième loi",
+        "Loi zéro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle loi thermodynamique correspond à la conservation de l'énergie ?",
+      "choices": [
+        "Première loi",
+        "Deuxième loi",
+        "Troisième loi",
+        "Loi zéro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel type de réaction nucléaire consiste à diviser un noyau lourd en noyaux plus légers ?",
+      "choices": [
+        "Fusion",
+        "Fission",
+        "Désintégration alpha",
+        "Désintégration bêta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de désintégration radioactive émet un noyau d'hélium (2 protons, 2 neutrons) ?",
+      "choices": [
+        "Désintégration alpha",
+        "Désintégration bêta",
+        "Désintégration gamma",
+        "Fission spontanée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel type de désintégration radioactive émet un électron ou un positron ?",
+      "choices": [
+        "Désintégration alpha",
+        "Désintégration bêta",
+        "Désintégration gamma",
+        "Capture électronique uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle unité mesure la radioactivité (activité d'une source) ?",
+      "choices": [
+        "Le sievert",
+        "Le becquerel",
+        "Le gray",
+        "Le rad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle unité mesure la dose de rayonnement absorbée par un organisme ?",
+      "choices": [
+        "Le becquerel",
+        "Le sievert",
+        "Le curie",
+        "Le hertz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel élément chimique a le numéro atomique 6 ?",
+      "choices": [
+        "Azote",
+        "Oxygène",
+        "Carbone",
+        "Bore"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel élément chimique a le numéro atomique 79 ?",
+      "choices": [
+        "Argent",
+        "Or",
+        "Platine",
+        "Plomb"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gaz incolore et inodore, produit par la combustion incomplète, est très toxique ?",
+      "choices": [
+        "Dioxyde de carbone",
+        "Monoxyde de carbone",
+        "Méthane",
+        "Azote"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus chimique catalytique accélère une réaction sans être consommé ?",
+      "choices": [
+        "Catalyse",
+        "Polymérisation",
+        "Distillation",
+        "Hydrolyse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel type de composé organique contient un groupe -OH lié à un carbone saturé ?",
+      "choices": [
+        "Un acide carboxylique",
+        "Un alcool",
+        "Une cétone",
+        "Un aldéhyde"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de composé organique contient un groupe -COOH ?",
+      "choices": [
+        "Un alcool",
+        "Un acide carboxylique",
+        "Un ester",
+        "Un amine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle molécule organique simple, CH4, est le principal composant du gaz naturel ?",
+      "choices": [
+        "Éthane",
+        "Méthane",
+        "Propane",
+        "Butane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel polymère naturel constitue les parois cellulaires des plantes ?",
+      "choices": [
+        "L'amidon",
+        "La cellulose",
+        "Le glycogène",
+        "La chitine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle structure atomique explique la classification des éléments dans le tableau périodique par colonnes ?",
+      "choices": [
+        "Le nombre de neutrons",
+        "La configuration électronique de valence",
+        "La masse atomique uniquement",
+        "La densité"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grandeur physique est conservée dans une collision élastique parfaite ?",
+      "choices": [
+        "Seulement la quantité de mouvement",
+        "Seulement l'énergie cinétique",
+        "La quantité de mouvement et l'énergie cinétique",
+        "Aucune des deux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel physicien a formulé les trois lois du mouvement planétaire ?",
+      "choices": [
+        "Galilée",
+        "Johannes Kepler",
+        "Nicolas Copernic",
+        "Tycho Brahe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle vitesse un objet doit-il atteindre pour échapper à l'attraction gravitationnelle terrestre (vitesse de libération) ?",
+      "choices": [
+        "Environ 7,9 km/s",
+        "Environ 11,2 km/s",
+        "Environ 15 km/s",
+        "Environ 3 km/s"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène optique explique la formation d'un mirage ?",
+      "choices": [
+        "La réflexion totale",
+        "La réfraction due aux variations de température de l'air",
+        "La diffraction",
+        "La polarisation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène explique pourquoi une paille semble « brisée » dans un verre d'eau ?",
+      "choices": [
+        "La réflexion",
+        "La réfraction",
+        "La diffraction",
+        "L'interférence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grandeur exprime la capacité d'un matériau à conduire la chaleur ?",
+      "choices": [
+        "La chaleur spécifique",
+        "La conductivité thermique",
+        "La capacité calorifique",
+        "L'entropie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grandeur exprime l'énergie nécessaire pour élever la température d'un corps d'un degré ?",
+      "choices": [
+        "Conductivité thermique",
+        "Capacité thermique",
+        "Enthalpie",
+        "Entropie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel changement d'état correspond au passage direct d'un gaz à un solide ?",
+      "choices": [
+        "Sublimation",
+        "Condensation solide (déposition)",
+        "Fusion",
+        "Vaporisation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle loi énonce que la pression d'un gaz est inversement proportionnelle à son volume à température constante ?",
+      "choices": [
+        "Loi de Charles",
+        "Loi de Boyle-Mariotte",
+        "Loi de Gay-Lussac",
+        "Loi d'Avogadro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle loi énonce que le volume d'un gaz est proportionnel à sa température à pression constante ?",
+      "choices": [
+        "Loi de Boyle-Mariotte",
+        "Loi de Charles",
+        "Loi de Dalton",
+        "Loi de Graham"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique a formulé la loi de la gravitation universelle ?",
+      "choices": [
+        "Galilée",
+        "Isaac Newton",
+        "Albert Einstein",
+        "Johannes Kepler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle constante universelle relie force gravitationnelle, masses et distance ?",
+      "choices": [
+        "Constante de Planck",
+        "Constante gravitationnelle G",
+        "Constante de Boltzmann",
+        "Constante d'Avogadro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel modèle atomique a été proposé par J.J. Thomson, comparé à un « pudding aux prunes » ?",
+      "choices": [
+        "Modèle de Bohr",
+        "Modèle du pudding de Thomson",
+        "Modèle de Rutherford",
+        "Modèle de Dalton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique a découvert l'électron en 1897 ?",
+      "choices": [
+        "Ernest Rutherford",
+        "J.J. Thomson",
+        "Niels Bohr",
+        "James Chadwick"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scientifique a découvert le neutron en 1932 ?",
+      "choices": [
+        "Ernest Rutherford",
+        "James Chadwick",
+        "J.J. Thomson",
+        "Niels Bohr"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grandeur mesure la résistance d'un objet à changer sa vitesse de rotation ?",
+      "choices": [
+        "La masse",
+        "Le moment d'inertie",
+        "La densité",
+        "Le poids"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'onde électromagnétique a la plus grande longueur d'onde ?",
+      "choices": [
+        "Rayons gamma",
+        "Rayons X",
+        "Ondes radio",
+        "Lumière visible"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel type d'onde électromagnétique a la plus courte longueur d'onde et la plus haute énergie ?",
+      "choices": [
+        "Ondes radio",
+        "Micro-ondes",
+        "Lumière visible",
+        "Rayons gamma"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel principe quantique permet à une particule d'exister dans plusieurs états simultanément avant mesure ?",
+      "choices": [
+        "Principe d'exclusion",
+        "Principe de superposition",
+        "Principe d'incertitude",
+        "Principe de complémentarité"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène quantique relie deux particules de sorte que l'état de l'une dépend instantanément de l'autre ?",
+      "choices": [
+        "La décohérence",
+        "L'intrication quantique",
+        "L'effet tunnel",
+        "La diffraction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel effet permet à une particule de traverser une barrière de potentiel qu'elle ne devrait classiquement pas franchir ?",
+      "choices": [
+        "Effet Compton",
+        "Effet tunnel",
+        "Effet Doppler",
+        "Effet photoélectrique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel effet, expliqué par Einstein, décrit l'émission d'électrons par un métal exposé à la lumière ?",
+      "choices": [
+        "Effet Compton",
+        "Effet photoélectrique",
+        "Effet Joule",
+        "Effet Hall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle particule médiatrice est associée à la force électromagnétique ?",
+      "choices": [
+        "Le gluon",
+        "Le photon",
+        "Le boson W",
+        "Le graviton (hypothétique)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle particule médiatrice est associée à la force nucléaire forte ?",
+      "choices": [
+        "Le photon",
+        "Le gluon",
+        "Le boson Z",
+        "Le neutrino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel boson, découvert en 2012 au CERN, est associé au mécanisme donnant leur masse aux particules ?",
+      "choices": [
+        "Le boson W",
+        "Le boson Z",
+        "Le boson de Higgs",
+        "Le gluon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle théorie décrit la gravité comme une courbure de l'espace-temps ?",
+      "choices": [
+        "Mécanique quantique",
+        "Relativité restreinte",
+        "Relativité générale",
+        "Théorie des cordes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle théorie postule que les particules élémentaires sont en réalité de minuscules cordes vibrantes ?",
+      "choices": [
+        "Mécanique quantique",
+        "Théorie des cordes",
+        "Chromodynamique quantique",
+        "Électrodynamique quantique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel modèle standard de la physique des particules regroupe combien de quarks connus ?",
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle particule composite est formée de trois quarks « up, up, down » ?",
+      "choices": [
+        "Le neutron",
+        "Le proton",
+        "Le méson",
+        "Le pion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle particule composite est formée de trois quarks « up, down, down » ?",
+      "choices": [
+        "Le proton",
+        "Le neutron",
+        "Le pion",
+        "Le kaon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de particule, extrêmement légère et peu interactive, est produite en grande quantité par les réactions nucléaires du Soleil ?",
+      "choices": [
+        "Le photon",
+        "Le neutrino",
+        "Le positron",
+        "Le muon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle réaction en chaîne, contrôlée dans les centrales nucléaires, libère de l'énergie par fission ?",
+      "choices": [
+        "Réaction en chaîne de fission",
+        "Réaction de fusion contrôlée",
+        "Réaction de combustion",
+        "Réaction catalytique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel isotope est couramment utilisé comme combustible dans les réacteurs nucléaires classiques ?",
+      "choices": [
+        "Uranium-235",
+        "Uranium-238",
+        "Plutonium-239 uniquement",
+        "Thorium-232 uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle grandeur physique caractérise la « demi-vie » d'un isotope radioactif ?",
+      "choices": [
+        "Le temps pour que toute la matière se désintègre",
+        "Le temps pour que la moitié des noyaux se désintègrent",
+        "Le temps pour doubler la masse",
+        "La durée de stabilité totale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle spectroscopie analyse la lumière émise ou absorbée par les atomes pour identifier leur composition ?",
+      "choices": [
+        "Spectroscopie de masse",
+        "Spectroscopie atomique/optique",
+        "Spectroscopie RMN uniquement",
+        "Chromatographie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique sépare les molécules selon leur rapport masse/charge ?",
+      "choices": [
+        "Spectroscopie infrarouge",
+        "Spectrométrie de masse",
+        "Chromatographie liquide uniquement",
+        "Résonance magnétique nucléaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de liaison chimique explique les propriétés particulières de l'eau, comme sa tension superficielle élevée ?",
+      "choices": [
+        "Liaison covalente uniquement",
+        "Liaison hydrogène",
+        "Liaison ionique",
+        "Liaison métallique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle règle de chimie organique prédit l'orientation préférée d'une addition électrophile sur un alcène asymétrique ?",
+      "choices": [
+        "Règle de Hund",
+        "Règle de Markovnikov",
+        "Règle de l'octet",
+        "Règle de Zaitsev (pour l'élimination)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle règle prédit le produit majoritaire d'une réaction d'élimination ?",
+      "choices": [
+        "Règle de Markovnikov",
+        "Règle de Zaitsev",
+        "Règle de Hund",
+        "Règle de Pauli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle théorie décrit la répartition des électrons autour du noyau en orbitales définies par des nombres quantiques ?",
+      "choices": [
+        "Modèle de Bohr simple",
+        "Modèle quantique (mécanique ondulatoire)",
+        "Modèle de Rutherford",
+        "Modèle de Dalton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de nombres quantiques décrivent complètement l'état d'un électron dans un atome ?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle hybridation orbitalaire caractérise le carbone dans une liaison double C=C ?",
+      "choices": [
+        "sp",
+        "sp2",
+        "sp3",
+        "sp3d"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle hybridation orbitalaire caractérise le carbone dans une liaison triple C≡C ?",
+      "choices": [
+        "sp",
+        "sp2",
+        "sp3",
+        "sp3d2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel principe de Le Chatelier décrit la réponse d'un système chimique en équilibre à une perturbation ?",
+      "choices": [
+        "Le système annule toujours la perturbation en revenant à l'état initial",
+        "Le système évolue pour s'opposer partiellement à la perturbation",
+        "Le système ne change jamais",
+        "Le système accélère toujours la perturbation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle constante caractérise l'état d'équilibre d'une réaction chimique réversible ?",
+      "choices": [
+        "La constante de vitesse k",
+        "La constante d'équilibre K",
+        "La constante de Planck",
+        "Le nombre d'Avogadro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel ordre de réaction chimique a une vitesse proportionnelle au carré de la concentration d'un réactif ?",
+      "choices": [
+        "Ordre zéro",
+        "Premier ordre",
+        "Deuxième ordre",
+        "Ordre fractionnaire uniquement"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle grandeur thermodynamique combine enthalpie, température et entropie pour prédire la spontanéité d'une réaction (énergie libre) ?",
+      "choices": [
+        "Énergie de Gibbs (G)",
+        "Énergie interne (U)",
+        "Enthalpie (H)",
+        "Entropie (S)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel critère indique qu'une réaction chimique est spontanée en termes d'énergie libre de Gibbs ?",
+      "choices": [
+        "ΔG > 0",
+        "ΔG = 0",
+        "ΔG < 0",
+        "ΔG indéfini"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel phénomène explique la couleur des flammes lors de la combustion de différents sels métalliques ?",
+      "choices": [
+        "Fluorescence",
+        "Émission atomique (transitions électroniques)",
+        "Phosphorescence",
+        "Diffraction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de spectre est produit par un gaz chaud excité, montrant des raies discrètes ?",
+      "choices": [
+        "Spectre continu",
+        "Spectre d'émission de raies",
+        "Spectre d'absorption continu",
+        "Spectre blanc"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle expérience historique a permis de découvrir le noyau atomique dense et chargé positivement ?",
+      "choices": [
+        "Expérience de la goutte d'huile de Millikan",
+        "Expérience de la feuille d'or de Rutherford",
+        "Expérience de Young sur les fentes",
+        "Expérience de Michelson-Morley"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle expérience a mesuré la charge de l'électron avec précision ?",
+      "choices": [
+        "Expérience de Rutherford",
+        "Expérience de la goutte d'huile de Millikan",
+        "Expérience de Franck-Hertz",
+        "Expérience de Stern-Gerlach"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle expérience a démontré la nature ondulatoire de la lumière par interférences ?",
+      "choices": [
+        "Expérience de Rutherford",
+        "Expérience des fentes de Young",
+        "Expérience de Millikan",
+        "Expérience de Michelson-Morley"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle expérience a cherché à détecter l'éther luminifère et a conduit à sa réfutation ?",
+      "choices": [
+        "Expérience de Young",
+        "Expérience de Michelson-Morley",
+        "Expérience de Rutherford",
+        "Expérience de Stern-Gerlach"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel postulat de la relativité restreinte énonce que la vitesse de la lumière est constante pour tous les observateurs inertiels ?",
+      "choices": [
+        "Premier postulat (relativité du mouvement)",
+        "Deuxième postulat (constance de c)",
+        "Principe d'équivalence",
+        "Principe de causalité uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène relativiste prédit qu'un objet en mouvement rapide voit son temps s'écouler plus lentement pour un observateur au repos ?",
+      "choices": [
+        "Contraction des longueurs",
+        "Dilatation du temps",
+        "Effet Doppler relativiste",
+        "Décalage vers le rouge gravitationnel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène décrit le raccourcissement apparent d'un objet en mouvement rapide dans la direction du mouvement ?",
+      "choices": [
+        "Dilatation du temps",
+        "Contraction des longueurs",
+        "Précession",
+        "Aberration de la lumière"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène astrophysique, prédit par la relativité générale, courbe la lumière autour d'objets massifs ?",
+      "choices": [
+        "L'effet Doppler",
+        "La lentille gravitationnelle",
+        "Le décalage vers le bleu",
+        "L'aberration stellaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grandeur caractérise la limite au-delà de laquelle même la lumière ne peut s'échapper d'un trou noir ?",
+      "choices": [
+        "Le rayon de Schwarzschild (horizon des événements)",
+        "Le point de Lagrange",
+        "La limite de Chandrasekhar",
+        "La sphère de Hill"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle masse limite détermine si une étoile naine blanche s'effondrera davantage (limite de Chandrasekhar) ?",
+      "choices": [
+        "Environ 0,5 masse solaire",
+        "Environ 1,4 masse solaire",
+        "Environ 3 masses solaires",
+        "Environ 8 masses solaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle réaction alimente principalement le Soleil, fusionnant l'hydrogène en hélium ?",
+      "choices": [
+        "Cycle CNO uniquement",
+        "Chaîne proton-proton",
+        "Fission de l'uranium",
+        "Réaction de Haber"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus chimique industriel synthétise l'ammoniac à partir d'azote et d'hydrogène ?",
+      "choices": [
+        "Procédé Solvay",
+        "Procédé Haber-Bosch",
+        "Procédé Contact",
+        "Procédé Ostwald"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel procédé industriel produit l'acide sulfurique à grande échelle ?",
+      "choices": [
+        "Procédé Haber-Bosch",
+        "Procédé de contact",
+        "Procédé Solvay",
+        "Électrolyse Hall-Héroult"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel procédé électrolytique permet de produire de l'aluminium à partir de la bauxite ?",
+      "choices": [
+        "Procédé Haber-Bosch",
+        "Procédé Hall-Héroult",
+        "Procédé Solvay",
+        "Procédé Bessemer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel procédé de fabrication de l'acier consiste à souffler de l'air ou de l'oxygène dans de la fonte en fusion ?",
+      "choices": [
+        "Procédé Solvay",
+        "Procédé Bessemer",
+        "Procédé Haber",
+        "Procédé Ostwald"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grandeur mesure la résistance d'un matériau à la déformation élastique (module de Young) ?",
+      "choices": [
+        "Module de cisaillement",
+        "Module de Young",
+        "Coefficient de Poisson",
+        "Module de compressibilité"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel effet piézoélectrique décrit la génération d'une tension électrique par déformation mécanique de certains matériaux ?",
+      "choices": [
+        "Effet Hall",
+        "Effet piézoélectrique",
+        "Effet Joule",
+        "Effet Peltier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel effet thermoélectrique décrit la génération d'une tension par une différence de température entre deux matériaux différents ?",
+      "choices": [
+        "Effet Peltier",
+        "Effet Seebeck",
+        "Effet Hall",
+        "Effet Joule"
       ],
       "correctIndex": 1
     }

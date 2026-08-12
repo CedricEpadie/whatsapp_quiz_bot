@@ -2,106 +2,6 @@
   "theme": "📜 Histoire",
   "questions": [
     {
-      "question": "En quelle année le Cameroun a-t-il accédé à l'indépendance de sa partie sous tutelle française ?",
-      "choices": [
-        "1960",
-        "1958",
-        "1961",
-        "1972"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Qui a été le premier président de la République du Cameroun ?",
-      "choices": [
-        "Ahmadou Ahidjo",
-        "Paul Biya",
-        "Ruben Um Nyobè",
-        "Ernest Ouandié"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "En quelle année Paul Biya est-il devenu président du Cameroun ?",
-      "choices": [
-        "1982",
-        "1980",
-        "1984",
-        "1990"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel leader indépendantiste camerounais, figure de l'UPC, a été assassiné en 1958 ?",
-      "choices": [
-        "Ruben Um Nyobè",
-        "Felix Moumié",
-        "Ernest Ouandié",
-        "King Akwa"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle puissance européenne a colonisé le Cameroun en premier (1884-1916) ?",
-      "choices": [
-        "Allemagne",
-        "France",
-        "Royaume-Uni",
-        "Portugal"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel traité signé en 1884 marque le début de la colonisation allemande au Cameroun ?",
-      "choices": [
-        "Le traité germano-douala",
-        "Le traité de Berlin",
-        "Le traité de Versailles",
-        "Le traité de Foumban"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "En quelle année a eu lieu la réunification des deux parties (orientale et occidentale) du Cameroun ?",
-      "choices": [
-        "1961",
-        "1960",
-        "1972",
-        "1984"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle date marque l'avènement de l'État unitaire au Cameroun (Fête Nationale) ?",
-      "choices": [
-        "20 mai 1972",
-        "1er janvier 1960",
-        "1er octobre 1961",
-        "11 février 1966"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel explorateur allemand a hissé le drapeau allemand à Douala en 1884 ?",
-      "choices": [
-        "Gustav Nachtigal",
-        "Karl Peters",
-        "Heinrich Barth",
-        "Otto von Bismarck"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel sultan du royaume Bamoun est célèbre pour avoir inventé une écriture originale (Shümom) ?",
-      "choices": [
-        "Sultan Njoya",
-        "Sultan Ibrahim",
-        "Sultan Seidou",
-        "Sultan Mbombo Njoya"
-      ],
-      "correctIndex": 0
-    },
-    {
       "question": "En quelle année a eu lieu la prise de la Bastille ?",
       "choices": [
         "1789",
@@ -114,65 +14,65 @@
     {
       "question": "Qui était le premier empereur romain ?",
       "choices": [
-        "Auguste",
         "Jules César",
+        "Auguste",
         "Néron",
         "Trajan"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
       "choices": [
-        "Traité de Versailles",
         "Traité de Rome",
+        "Traité de Versailles",
         "Traité de Vienne",
         "Traité de Paris"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "question": "Quelle civilisation a construit Machu Picchu ?",
       "choices": [
-        "Inca",
         "Maya",
         "Aztèque",
+        "Inca",
         "Olmèque"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "question": "En quelle année le mur de Berlin est-il tombé ?",
       "choices": [
-        "1989",
         "1985",
+        "1989",
         "1991",
         "1993"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "question": "Qui a été le premier président des États-Unis ?",
       "choices": [
-        "George Washington",
         "Thomas Jefferson",
         "John Adams",
+        "George Washington",
         "Benjamin Franklin"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "question": "Quelle bataille marque la défaite finale de Napoléon Ier ?",
       "choices": [
-        "Waterloo",
         "Austerlitz",
         "Iéna",
+        "Waterloo",
         "Trafalgar"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
-      "question": "De quel pays la Grèce a-t-elle obtenu son indépendance au 19e siècle ?",
+      "question": "De quel empire la Grèce a-t-elle obtenu son indépendance au 19e siècle ?",
       "choices": [
         "Empire ottoman",
         "Empire austro-hongrois",
@@ -184,15 +84,15 @@
     {
       "question": "Quel pharaon est associé au trésor découvert intact en 1922 ?",
       "choices": [
-        "Toutânkhamon",
         "Ramsès II",
         "Akhenaton",
+        "Toutânkhamon",
         "Khéops"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
-      "question": "Quelle explosion volcanique a détruit Pompéi en 79 apr. J.-C. ?",
+      "question": "Quelle éruption volcanique a détruit Pompéi en 79 apr. J.-C. ?",
       "choices": [
         "Le Vésuve",
         "L'Etna",
@@ -204,112 +104,1902 @@
     {
       "question": "En quelle année a débuté la Seconde Guerre mondiale ?",
       "choices": [
+        "1937",
         "1939",
-        "1914",
         "1941",
-        "1936"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Qui fut le célèbre leader de la Révolution russe de 1917 ?",
-      "choices": [
-        "Lénine",
-        "Staline",
-        "Trotski",
-        "Khrouchtchev"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel navigateur est le premier à avoir accompli un tour du monde (son équipage) ?",
-      "choices": [
-        "Fernand de Magellan",
-        "Christophe Colomb",
-        "Vasco de Gama",
-        "Jacques Cartier"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "En quelle année Christophe Colomb a-t-il atteint l'Amérique ?",
-      "choices": [
-        "1492",
-        "1498",
-        "1500",
-        "1488"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quelle reine a régné sur l'Angleterre pendant plus de 63 ans au 19e siècle ?",
-      "choices": [
-        "Reine Victoria",
-        "Élisabeth Ier",
-        "Reine Anne",
-        "Marie Stuart"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel empire était dirigé par Gengis Khan ?",
-      "choices": [
-        "L'Empire mongol",
-        "L'Empire ottoman",
-        "L'Empire persan",
-        "L'Empire byzantin"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "En quelle année a eu lieu la Déclaration d'indépendance des États-Unis ?",
-      "choices": [
-        "1776",
-        "1789",
-        "1812",
-        "1750"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel roi de France a été exécuté pendant la Révolution française en 1793 ?",
-      "choices": [
-        "Louis XVI",
-        "Louis XIV",
-        "Louis XV",
-        "Charles X"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel événement s'est produit le 11 septembre 2001 aux États-Unis ?",
-      "choices": [
-        "Attentats du World Trade Center",
-        "Guerre du Golfe",
-        "Crise des missiles",
-        "Chute de la bourse"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Qui était le leader de la lutte contre l'Apartheid en Afrique du Sud ?",
-      "choices": [
-        "Nelson Mandela",
-        "Desmond Tutu",
-        "Thabo Mbeki",
-        "Steve Biko"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "n quelle année a eu lieu le traité international de référence n°1 ?",
-      "choices": [
-        "1945",
-        "1919",
-        "1815",
-        "1789"
+        "1945"
       ],
       "correctIndex": 1
+    },
+    {
+      "question": "En quelle année s'est terminée la Seconde Guerre mondiale ?",
+      "choices": [
+        "1943",
+        "1944",
+        "1945",
+        "1946"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "choices": [
+        "Vasco de Gama",
+        "Christophe Colomb",
+        "Magellan",
+        "Marco Polo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel monument égyptien est l'un des sept merveilles du monde antique ?",
+      "choices": [
+        "Le Sphinx",
+        "Les pyramides de Gizeh",
+        "Le temple de Karnak",
+        "Abou Simbel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a construit la Grande Muraille ?",
+      "choices": [
+        "Japon",
+        "Corée",
+        "Chine",
+        "Mongolie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Qui était le roi de France exécuté pendant la Révolution française ?",
+      "choices": [
+        "Louis XIV",
+        "Louis XV",
+        "Louis XVI",
+        "Charles X"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "En quelle année a eu lieu le débarquement de Normandie ?",
+      "choices": [
+        "1942",
+        "1943",
+        "1944",
+        "1945"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel explorateur a réalisé le premier tour du monde ?",
+      "choices": [
+        "Christophe Colomb",
+        "Vasco de Gama",
+        "Fernand de Magellan",
+        "James Cook"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle reine d'Égypte est célèbre pour sa relation avec Jules César et Marc Antoine ?",
+      "choices": [
+        "Néfertiti",
+        "Cléopâtre",
+        "Hatchepsout",
+        "Néfertari"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel peuple a bâti le Colisée de Rome ?",
+      "choices": [
+        "Les Grecs",
+        "Les Romains",
+        "Les Étrusques",
+        "Les Carthaginois"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a été le premier à envoyer un homme dans l'espace ?",
+      "choices": [
+        "États-Unis",
+        "Union soviétique",
+        "France",
+        "Chine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Qui était Léonard de Vinci ?",
+      "choices": [
+        "Un roi de France",
+        "Un artiste et inventeur italien",
+        "Un général romain",
+        "Un explorateur espagnol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel document fondamental a été signé en 1215 en Angleterre ?",
+      "choices": [
+        "La Magna Carta",
+        "Le Bill of Rights",
+        "La Déclaration d'indépendance",
+        "Le Traité de Westphalie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel empire Gengis Khan a-t-il fondé ?",
+      "choices": [
+        "Empire ottoman",
+        "Empire mongol",
+        "Empire perse",
+        "Empire romain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle ville était la capitale de l'Empire byzantin ?",
+      "choices": [
+        "Rome",
+        "Athènes",
+        "Constantinople",
+        "Alexandrie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel mouvement culturel a suivi le Moyen Âge en Europe ?",
+      "choices": [
+        "Les Lumières",
+        "La Renaissance",
+        "Le Romantisme",
+        "Le Baroque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Qui a écrit la Déclaration d'indépendance des États-Unis ?",
+      "choices": [
+        "George Washington",
+        "Thomas Jefferson",
+        "Benjamin Franklin",
+        "Abraham Lincoln"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pharaon a fait construire la grande pyramide de Gizeh ?",
+      "choices": [
+        "Khéops",
+        "Khéphren",
+        "Mykérinos",
+        "Djéser"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis ?",
+      "choices": [
+        "La guerre d'indépendance",
+        "La guerre de Sécession",
+        "La guerre de 1812",
+        "La guerre hispano-américaine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi anglais est associé à la légende des chevaliers de la Table ronde ?",
+      "choices": [
+        "Henri VIII",
+        "Richard Cœur de Lion",
+        "Le roi Arthur",
+        "Édouard Ier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays a été occupé par l'Allemagne nazie de 1940 à 1944 ?",
+      "choices": [
+        "Espagne",
+        "France",
+        "Suisse",
+        "Portugal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel homme politique sud-africain a lutté contre l'apartheid ?",
+      "choices": [
+        "Kwame Nkrumah",
+        "Nelson Mandela",
+        "Julius Nyerere",
+        "Patrice Lumumba"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle civilisation ancienne a inventé l'écriture cunéiforme ?",
+      "choices": [
+        "Égyptienne",
+        "Sumérienne",
+        "Grecque",
+        "Chinoise"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel empereur français s'est autoproclamé en 1804 ?",
+      "choices": [
+        "Louis XVIII",
+        "Napoléon Bonaparte",
+        "Charles X",
+        "Louis-Philippe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a été le premier à abolir l'esclavage dans ses colonies, en 1794 (avant de le rétablir) ?",
+      "choices": [
+        "Royaume-Uni",
+        "France",
+        "Espagne",
+        "Portugal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel événement a déclenché la Première Guerre mondiale ?",
+      "choices": [
+        "L'invasion de la Pologne",
+        "L'assassinat de l'archiduc François-Ferdinand",
+        "La crise de Cuba",
+        "Le krach de 1929"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel explorateur portugais a atteint l'Inde par voie maritime en 1498 ?",
+      "choices": [
+        "Vasco de Gama",
+        "Pedro Cabral",
+        "Bartolomeu Dias",
+        "Henri le Navigateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle dynastie a régné en Chine juste avant la République ?",
+      "choices": [
+        "Ming",
+        "Tang",
+        "Qing",
+        "Song"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays a construit le canal de Suez, achevé en 1869 ?",
+      "choices": [
+        "Royaume-Uni",
+        "France",
+        "Égypte",
+        "Ottomans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel général carthaginois a traversé les Alpes avec des éléphants ?",
+      "choices": [
+        "Hasdrubal",
+        "Hannibal Barca",
+        "Hamilcar",
+        "Magon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a été divisé par un mur de 1961 à 1989 ?",
+      "choices": [
+        "Corée",
+        "Vietnam",
+        "Allemagne",
+        "Chypre"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle organisation a été créée en 1945 pour maintenir la paix mondiale ?",
+      "choices": [
+        "La SDN",
+        "L'ONU",
+        "L'OTAN",
+        "L'UE"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi de France est appelé le « Roi-Soleil » ?",
+      "choices": [
+        "Louis XIII",
+        "Louis XIV",
+        "Louis XV",
+        "Henri IV"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle bataille de 1815 a mis fin définitivement au règne de Napoléon ?",
+      "choices": [
+        "Trafalgar",
+        "Austerlitz",
+        "Waterloo",
+        "Leipzig"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays a colonisé le Cameroun avant la Première Guerre mondiale ?",
+      "choices": [
+        "France",
+        "Royaume-Uni",
+        "Allemagne",
+        "Belgique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "En quelle année le Cameroun a-t-il obtenu son indépendance ?",
+      "choices": [
+        "1958",
+        "1960",
+        "1962",
+        "1965"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dirigeant a mené le Ghana à l'indépendance en 1957 ?",
+      "choices": [
+        "Kwame Nkrumah",
+        "Julius Nyerere",
+        "Jomo Kenyatta",
+        "Léopold Sédar Senghor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pape a lancé la première croisade en 1095 ?",
+      "choices": [
+        "Grégoire VII",
+        "Urbain II",
+        "Innocent III",
+        "Alexandre III"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle épidémie a tué environ un tiers de la population européenne au 14e siècle ?",
+      "choices": [
+        "Le choléra",
+        "La peste noire",
+        "La grippe espagnole",
+        "La variole"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi anglais a rompu avec l'Église catholique au 16e siècle ?",
+      "choices": [
+        "Édouard VI",
+        "Henri VIII",
+        "Jacques Ier",
+        "Charles Ier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle révolution industrielle a débuté en Angleterre au 18e siècle ?",
+      "choices": [
+        "La première",
+        "La deuxième",
+        "La troisième",
+        "La numérique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel traité a divisé les colonies du Nouveau Monde entre l'Espagne et le Portugal en 1494 ?",
+      "choices": [
+        "Traité de Westphalie",
+        "Traité de Tordesillas",
+        "Traité d'Utrecht",
+        "Traité de Madrid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel empire a été dirigé par Soliman le Magnifique ?",
+      "choices": [
+        "Empire perse",
+        "Empire ottoman",
+        "Empire moghol",
+        "Empire byzantin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle bataille de 1066 a marqué la conquête normande de l'Angleterre ?",
+      "choices": [
+        "Bataille d'Hastings",
+        "Bataille d'Azincourt",
+        "Bataille de Crécy",
+        "Bataille de Bosworth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel philosophe grec a fondé l'Académie d'Athènes ?",
+      "choices": [
+        "Socrate",
+        "Platon",
+        "Aristote",
+        "Épicure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle guerre a opposé Athènes et Sparte dans l'Antiquité ?",
+      "choices": [
+        "Guerres médiques",
+        "Guerre du Péloponnèse",
+        "Guerre de Troie",
+        "Guerres puniques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel empire a été vaincu par Rome lors des guerres puniques ?",
+      "choices": [
+        "Grèce",
+        "Carthage",
+        "Égypte",
+        "Perse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi mongol a créé le plus grand empire terrestre de l'histoire ?",
+      "choices": [
+        "Kubilai Khan",
+        "Tamerlan",
+        "Gengis Khan",
+        "Ögedeï Khan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle dynastie égyptienne a construit les temples d'Abou Simbel ?",
+      "choices": [
+        "18e dynastie",
+        "19e dynastie",
+        "20e dynastie",
+        "21e dynastie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi de France a promulgué l'édit de Nantes en 1598 ?",
+      "choices": [
+        "Henri III",
+        "Henri IV",
+        "Louis XIII",
+        "François Ier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel événement de 1789 symbolise le début de la Révolution française ?",
+      "choices": [
+        "Le Serment du Jeu de paume",
+        "La prise de la Bastille",
+        "La fuite à Varennes",
+        "La Terreur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle période de la Révolution française est marquée par de nombreuses exécutions publiques ?",
+      "choices": [
+        "Le Directoire",
+        "La Terreur",
+        "Le Consulat",
+        "La Restauration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel congrès a redessiné la carte de l'Europe après les guerres napoléoniennes ?",
+      "choices": [
+        "Congrès de Berlin",
+        "Congrès de Vienne",
+        "Congrès de Paris",
+        "Congrès de Vérone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a été unifié par Otto von Bismarck en 1871 ?",
+      "choices": [
+        "L'Italie",
+        "L'Allemagne",
+        "L'Autriche",
+        "La Pologne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a été unifié en 1861 sous la direction de Cavour et Garibaldi ?",
+      "choices": [
+        "L'Allemagne",
+        "L'Italie",
+        "La Grèce",
+        "La Belgique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle crise économique a débuté en 1929 aux États-Unis ?",
+      "choices": [
+        "La crise de 1907",
+        "Le krach de Wall Street",
+        "La crise de 1873",
+        "La bulle des tulipes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel régime politique a dirigé l'Allemagne de 1933 à 1945 ?",
+      "choices": [
+        "La République de Weimar",
+        "Le Troisième Reich",
+        "L'Empire allemand",
+        "La RDA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel accord de 1938 a cédé les Sudètes à l'Allemagne ?",
+      "choices": [
+        "Accords de Munich",
+        "Accords de Locarno",
+        "Pacte germano-soviétique",
+        "Traité de Versailles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle bataille est considérée comme le tournant de la Seconde Guerre mondiale sur le front est ?",
+      "choices": [
+        "Bataille de Moscou",
+        "Bataille de Stalingrad",
+        "Bataille de Koursk",
+        "Bataille de Berlin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel événement a marqué la fin officielle de la Seconde Guerre mondiale en Asie ?",
+      "choices": [
+        "La capitulation de l'Italie",
+        "Les bombardements d'Hiroshima et Nagasaki",
+        "La bataille de Midway",
+        "Le débarquement de Normandie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mur symbolisait la division de l'Europe pendant la guerre froide ?",
+      "choices": [
+        "Mur d'Hadrien",
+        "Mur de Berlin",
+        "Mur de Chine",
+        "Mur de séparation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle crise de 1962 a opposé les États-Unis et l'URSS près de Cuba ?",
+      "choices": [
+        "Crise de Suez",
+        "Crise des missiles de Cuba",
+        "Crise de Berlin",
+        "Crise du canal de Panama"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a organisé la conférence de Bandung en 1955 ?",
+      "choices": [
+        "Inde",
+        "Indonésie",
+        "Égypte",
+        "Chine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dirigeant indien a mené une résistance non-violente contre la colonisation britannique ?",
+      "choices": [
+        "Nehru",
+        "Gandhi",
+        "Bose",
+        "Patel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel événement de 1994 a marqué un génocide en Afrique de l'Est ?",
+      "choices": [
+        "Génocide au Rwanda",
+        "Génocide au Congo",
+        "Génocide en Somalie",
+        "Génocide au Soudan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle organisation panafricaine a été créée en 1963 ?",
+      "choices": [
+        "L'Union africaine",
+        "L'OUA (Organisation de l'unité africaine)",
+        "La CEDEAO",
+        "L'ONU"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roi du Bénin (Dahomey) a résisté à la conquête française à la fin du 19e siècle ?",
+      "choices": [
+        "Béhanzin",
+        "Chaka Zulu",
+        "Samory Touré",
+        "Rabah"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel résistant africain a combattu l'expansion coloniale française en Afrique de l'Ouest à la fin du 19e siècle ?",
+      "choices": [
+        "Samory Touré",
+        "Béhanzin",
+        "Ahmadou Bamba",
+        "El Hadj Omar Tall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel royaume précolonial est associé à la région camerounaise des Grassfields ?",
+      "choices": [
+        "Royaume Bamoun",
+        "Royaume Kongo",
+        "Royaume Ashanti",
+        "Royaume Mali"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel empire ouest-africain était célèbre pour la richesse de son souverain Mansa Moussa ?",
+      "choices": [
+        "Empire du Ghana",
+        "Empire du Mali",
+        "Empire Songhaï",
+        "Empire de Kanem-Bornou"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle ville malienne était un grand centre intellectuel et commercial médiéval ?",
+      "choices": [
+        "Gao",
+        "Tombouctou",
+        "Djenné",
+        "Ségou"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel explorateur européen a cartographié l'embouchure du fleuve Congo au 19e siècle ?",
+      "choices": [
+        "David Livingstone",
+        "Henry Morton Stanley",
+        "René Caillié",
+        "Mungo Park"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle conférence de 1884-1885 a organisé le partage colonial de l'Afrique ?",
+      "choices": [
+        "Conférence de Bruxelles",
+        "Conférence de Berlin",
+        "Conférence de Vienne",
+        "Conférence de Londres"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays africain n'a jamais été colonisé (à l'exception d'une brève occupation) ?",
+      "choices": [
+        "Éthiopie",
+        "Kenya",
+        "Ghana",
+        "Sénégal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dirigeant congolais a été assassiné peu après l'indépendance en 1961 ?",
+      "choices": [
+        "Mobutu Sese Seko",
+        "Patrice Lumumba",
+        "Joseph Kasa-Vubu",
+        "Moïse Tshombé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel traité de 1919 a imposé de lourdes réparations à l'Allemagne ?",
+      "choices": [
+        "Traité de Sèvres",
+        "Traité de Versailles",
+        "Traité de Saint-Germain",
+        "Traité de Neuilly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mouvement littéraire et politique a valorisé l'identité culturelle noire au 20e siècle ?",
+      "choices": [
+        "Le panafricanisme",
+        "La négritude",
+        "L'existentialisme",
+        "Le surréalisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète et homme d'État sénégalais est une figure majeure du mouvement de la négritude ?",
+      "choices": [
+        "Aimé Césaire",
+        "Léopold Sédar Senghor",
+        "Léon-Gontran Damas",
+        "Frantz Fanon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel penseur martiniquais a théorisé la décolonisation dans « Les Damnés de la Terre » ?",
+      "choices": [
+        "Aimé Césaire",
+        "Frantz Fanon",
+        "Édouard Glissant",
+        "C.L.R. James"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel empire précolonial dominait la région du lac Tchad avant la colonisation ?",
+      "choices": [
+        "Empire du Ghana",
+        "Empire du Kanem-Bornou",
+        "Empire Songhaï",
+        "Empire Ashanti"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle guerre a opposé la France à l'Algérie de 1954 à 1962 ?",
+      "choices": [
+        "Guerre du Rif",
+        "Guerre d'Algérie",
+        "Guerre du Sahara",
+        "Guerre de Tunisie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dirigeant a proclamé l'indépendance de la Guinée en 1958, rompant avec la France ?",
+      "choices": [
+        "Ahmed Sékou Touré",
+        "Léopold Sédar Senghor",
+        "Félix Houphouët-Boigny",
+        "Modibo Keïta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel roi zoulou a créé un puissant royaume militaire en Afrique australe au 19e siècle ?",
+      "choices": [
+        "Chaka Zulu",
+        "Cetshwayo",
+        "Dingane",
+        "Moshoeshoe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle route commerciale reliait l'Afrique du Nord à l'Afrique subsaharienne à travers le Sahara ?",
+      "choices": [
+        "La route de la soie",
+        "La route transsaharienne",
+        "La route des épices",
+        "La route de l'ambre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel événement historique est associé à la Boston Tea Party en 1773 ?",
+      "choices": [
+        "Début de la guerre de Sécession",
+        "Protestation contre les taxes britanniques",
+        "Signature de la Constitution",
+        "Fin de la guerre d'indépendance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel document a établi les droits fondamentaux aux États-Unis en 1791 ?",
+      "choices": [
+        "La Constitution",
+        "Le Bill of Rights",
+        "La Déclaration d'indépendance",
+        "Les Articles de la Confédération"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle révolution a renversé le tsar Nicolas II en 1917 ?",
+      "choices": [
+        "Révolution française",
+        "Révolution russe",
+        "Révolution chinoise",
+        "Révolution cubaine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dirigeant a pris le pouvoir en URSS après la mort de Lénine ?",
+      "choices": [
+        "Trotsky",
+        "Staline",
+        "Khrouchtchev",
+        "Brejnev"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a été le théâtre de la révolution de 1949 menée par Mao Zedong ?",
+      "choices": [
+        "Corée",
+        "Vietnam",
+        "Chine",
+        "Cambodge"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle guerre a opposé les États-Unis au Vietnam de 1955 à 1975 ?",
+      "choices": [
+        "Guerre de Corée",
+        "Guerre du Vietnam",
+        "Guerre du Cambodge",
+        "Guerre du Laos"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel philosophe des Lumières a écrit « Du contrat social » ?",
+      "choices": [
+        "Voltaire",
+        "Rousseau",
+        "Montesquieu",
+        "Diderot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel philosophe a théorisé la séparation des pouvoirs dans « De l'esprit des lois » ?",
+      "choices": [
+        "Voltaire",
+        "Rousseau",
+        "Montesquieu",
+        "Locke"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle bataille de 1415 a vu la victoire des Anglais sur les Français pendant la guerre de Cent Ans ?",
+      "choices": [
+        "Bataille de Poitiers",
+        "Bataille d'Azincourt",
+        "Bataille de Crécy",
+        "Bataille d'Orléans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle héroïne française a mené la résistance à Orléans en 1429 ?",
+      "choices": [
+        "Aliénor d'Aquitaine",
+        "Jeanne d'Arc",
+        "Catherine de Médicis",
+        "Blanche de Castille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel schisme a divisé l'Église chrétienne en 1054 ?",
+      "choices": [
+        "Grand Schisme d'Occident",
+        "Schisme d'Orient",
+        "Réforme protestante",
+        "Concile de Trente"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel moine a lancé la Réforme protestante en 1517 ?",
+      "choices": [
+        "Jean Calvin",
+        "Martin Luther",
+        "Érasme",
+        "Ulrich Zwingli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle guerre religieuse a ravagé l'Europe centrale de 1618 à 1648 ?",
+      "choices": [
+        "Guerre de Cent Ans",
+        "Guerre de Trente Ans",
+        "Guerres de religion françaises",
+        "Guerre de Succession d'Espagne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel traité a mis fin à la guerre de Trente Ans en 1648 ?",
+      "choices": [
+        "Traité de Westphalie",
+        "Traité d'Utrecht",
+        "Traité de Nimègue",
+        "Traité de Ryswick"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle dynastie chinoise a envoyé l'amiral Zheng He dans de grandes expéditions maritimes ?",
+      "choices": [
+        "Yuan",
+        "Ming",
+        "Qing",
+        "Song"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel empire précolombien a été conquis par Hernán Cortés ?",
+      "choices": [
+        "Inca",
+        "Aztèque",
+        "Maya",
+        "Zapotèque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel empire précolombien a été conquis par Francisco Pizarro ?",
+      "choices": [
+        "Aztèque",
+        "Maya",
+        "Inca",
+        "Toltèque"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle civilisation a développé un calendrier précis et le concept du zéro en Amérique précolombienne ?",
+      "choices": [
+        "Aztèque",
+        "Inca",
+        "Maya",
+        "Olmèque"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel roi anglais a été exécuté en 1649 pendant la guerre civile anglaise ?",
+      "choices": [
+        "Jacques Ier",
+        "Charles Ier",
+        "Charles II",
+        "Guillaume III"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle révolution de 1688 a instauré une monarchie parlementaire en Angleterre ?",
+      "choices": [
+        "Glorieuse Révolution",
+        "Révolution puritaine",
+        "Révolution industrielle",
+        "Révolution agricole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel savant italien a été jugé par l'Inquisition pour avoir défendu l'héliocentrisme ?",
+      "choices": [
+        "Copernic",
+        "Kepler",
+        "Galilée",
+        "Newton"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle expédition napoléonienne de 1798 a mené à la découverte de la pierre de Rosette ?",
+      "choices": [
+        "Campagne d'Italie",
+        "Campagne d'Égypte",
+        "Campagne de Russie",
+        "Campagne d'Espagne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle bataille de 1812 a marqué le début du déclin militaire de Napoléon ?",
+      "choices": [
+        "Bataille de Wagram",
+        "Campagne de Russie",
+        "Bataille de Leipzig",
+        "Bataille d'Iéna"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel congrès a instauré le principe de l'équilibre des puissances en Europe en 1815 ?",
+      "choices": [
+        "Congrès de Vienne",
+        "Congrès de Berlin",
+        "Congrès d'Aix-la-Chapelle",
+        "Congrès de Paris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle famine a frappé l'Irlande entre 1845 et 1852 ?",
+      "choices": [
+        "La Grande Famine irlandaise",
+        "La famine du Bengale",
+        "La famine chinoise",
+        "La famine russe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel événement de 1857-1858 est considéré comme une révolte majeure contre la domination britannique en Inde ?",
+      "choices": [
+        "La révolte des cipayes",
+        "La marche du sel",
+        "Le massacre d'Amritsar",
+        "La partition des Indes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel accord de 1885 a formalisé la colonisation du bassin du Congo ?",
+      "choices": [
+        "Acte général de Berlin",
+        "Traité de Bruxelles",
+        "Accord de Fachoda",
+        "Traité de Simonstown"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle guerre a opposé le Royaume-Uni aux républiques boers en Afrique du Sud (1899-1902) ?",
+      "choices": [
+        "Guerre des Zoulous",
+        "Guerre des Boers",
+        "Guerre du Mahdi",
+        "Guerre des Matabélé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle réforme a aboli le servage en Russie en 1861 ?",
+      "choices": [
+        "Réforme d'Alexandre II",
+        "Réforme de Pierre le Grand",
+        "Réforme de Catherine II",
+        "Réforme de Nicolas Ier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel empire a été dissous à la fin de la Première Guerre mondiale, donnant naissance à plusieurs États d'Europe centrale ?",
+      "choices": [
+        "Empire russe",
+        "Empire austro-hongrois",
+        "Empire allemand",
+        "Empire ottoman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel accord secret de 1916 a prévu le partage du Moyen-Orient entre la France et le Royaume-Uni ?",
+      "choices": [
+        "Accord Sykes-Picot",
+        "Déclaration Balfour",
+        "Traité de Sèvres",
+        "Accord de Lausanne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle déclaration britannique de 1917 a soutenu la création d'un foyer national juif en Palestine ?",
+      "choices": [
+        "Déclaration Balfour",
+        "Charte de l'Atlantique",
+        "Déclaration de Londres",
+        "Accord Sykes-Picot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel krach financier a précédé la Grande Dépression des années 1930 ?",
+      "choices": [
+        "Krach de 1907",
+        "Krach de 1929",
+        "Krach de 1987",
+        "Krach de 1893"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle politique économique américaine a visé à sortir le pays de la Grande Dépression ?",
+      "choices": [
+        "Le New Deal",
+        "La Great Society",
+        "Le Fair Deal",
+        "Le Square Deal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pacte de non-agression de 1939 a été signé entre l'Allemagne et l'URSS ?",
+      "choices": [
+        "Pacte de Munich",
+        "Pacte germano-soviétique",
+        "Pacte d'acier",
+        "Pacte anti-Komintern"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle opération militaire nazie a envahi l'URSS en 1941 ?",
+      "choices": [
+        "Opération Overlord",
+        "Opération Barbarossa",
+        "Opération Torch",
+        "Opération Market Garden"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel nom porte le débarquement allié en Normandie en juin 1944 ?",
+      "choices": [
+        "Opération Barbarossa",
+        "Opération Overlord",
+        "Opération Dynamo",
+        "Opération Husky"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle conférence de 1945 a réuni Staline, Roosevelt et Churchill pour organiser l'après-guerre ?",
+      "choices": [
+        "Conférence de Téhéran",
+        "Conférence de Yalta",
+        "Conférence de Potsdam",
+        "Conférence de Casablanca"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel tribunal a jugé les criminels de guerre nazis après 1945 ?",
+      "choices": [
+        "Tribunal de La Haye",
+        "Tribunal de Nuremberg",
+        "Tribunal de Tokyo",
+        "Cour pénale internationale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle doctrine américaine de 1947 visait à contenir l'expansion du communisme ?",
+      "choices": [
+        "Doctrine Monroe",
+        "Doctrine Truman",
+        "Doctrine Eisenhower",
+        "Doctrine Nixon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plan américain a financé la reconstruction de l'Europe après 1945 ?",
+      "choices": [
+        "Plan Schuman",
+        "Plan Marshall",
+        "Plan Dawes",
+        "Plan Young"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle organisation militaire occidentale a été fondée en 1949 ?",
+      "choices": [
+        "L'ONU",
+        "L'OTAN",
+        "Le Pacte de Varsovie",
+        "L'UE"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pacte militaire a uni les pays du bloc de l'Est en 1955 ?",
+      "choices": [
+        "OTAN",
+        "Pacte de Varsovie",
+        "Comecon",
+        "Pacte anti-Komintern"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle guerre a opposé la Corée du Nord et la Corée du Sud de 1950 à 1953 ?",
+      "choices": [
+        "Guerre du Vietnam",
+        "Guerre de Corée",
+        "Guerre sino-japonaise",
+        "Guerre froide asiatique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle crise de 1956 a impliqué la nationalisation d'un canal égyptien ?",
+      "choices": [
+        "Crise de Suez",
+        "Crise de Berlin",
+        "Crise du Congo",
+        "Crise algérienne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel mouvement de 1960, année de nombreuses indépendances africaines, est parfois appelé « l'Année de l'Afrique » ?",
+      "choices": [
+        "La décolonisation de 1960",
+        "Le printemps arabe",
+        "La conférence de Bandung",
+        "Le mouvement des non-alignés"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dirigeant chinois a lancé la Révolution culturelle en 1966 ?",
+      "choices": [
+        "Deng Xiaoping",
+        "Mao Zedong",
+        "Zhou Enlai",
+        "Liu Shaoqi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle révolution iranienne de 1979 a instauré une république islamique ?",
+      "choices": [
+        "Révolution iranienne",
+        "Révolution des roses",
+        "Révolution du Caire",
+        "Révolution du Cèdre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dirigeant soviétique a lancé les politiques de perestroïka et de glasnost ?",
+      "choices": [
+        "Brejnev",
+        "Andropov",
+        "Gorbatchev",
+        "Eltsine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel événement de 1991 a mis fin à l'Union soviétique ?",
+      "choices": [
+        "La chute du mur de Berlin",
+        "La dissolution de l'URSS",
+        "Le coup d'État d'août 1991",
+        "La guerre froide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel accord de 1993 a établi une autonomie palestinienne partielle ?",
+      "choices": [
+        "Accords de Camp David",
+        "Accords d'Oslo",
+        "Accords de Taëf",
+        "Accords de Wye River"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel génocide a eu lieu en ex-Yougoslavie à Srebrenica en 1995 ?",
+      "choices": [
+        "Génocide de Srebrenica",
+        "Génocide du Kosovo",
+        "Génocide croate",
+        "Génocide bosniaque de 1992"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel attentat du 11 septembre 2001 a visé les États-Unis ?",
+      "choices": [
+        "Attentats du World Trade Center",
+        "Attentat de Madrid",
+        "Attentat de Londres",
+        "Attentat de Boston"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel traité de 1957 a fondé la Communauté économique européenne ?",
+      "choices": [
+        "Traité de Maastricht",
+        "Traité de Rome",
+        "Traité de Lisbonne",
+        "Traité de Nice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle monnaie unique européenne a été introduite en 2002 ?",
+      "choices": [
+        "Le franc",
+        "L'euro",
+        "L'écu",
+        "Le mark"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a quitté officiellement l'Union européenne en 2020 ?",
+      "choices": [
+        "France",
+        "Royaume-Uni",
+        "Italie",
+        "Grèce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel traité de 1494 a divisé les nouvelles terres découvertes entre l'Espagne et le Portugal, tracé le long d'un méridien ?",
+      "choices": [
+        "Traité de Tordesillas",
+        "Traité de Saragosse",
+        "Traité d'Alcáçovas",
+        "Traité de Cambrai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle bataille de 1571 a vu une coalition chrétienne vaincre la flotte ottomane en Méditerranée ?",
+      "choices": [
+        "Bataille de Lépante",
+        "Bataille de Malte",
+        "Bataille de Vienne",
+        "Bataille de Préveza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel édit de 1685 a révoqué l'édit de Nantes en France ?",
+      "choices": [
+        "Édit de Fontainebleau",
+        "Édit de Nemours",
+        "Édit d'Union",
+        "Édit de Poitiers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle guerre de succession a opposé les puissances européennes de 1701 à 1714 ?",
+      "choices": [
+        "Guerre de Succession d'Autriche",
+        "Guerre de Succession d'Espagne",
+        "Guerre de Sept Ans",
+        "Guerre de la Ligue d'Augsbourg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel traité de 1713 a mis fin à la guerre de Succession d'Espagne ?",
+      "choices": [
+        "Traité de Ryswick",
+        "Traité d'Utrecht",
+        "Traité de Rastatt",
+        "Traité d'Aix-la-Chapelle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle guerre a impliqué la plupart des grandes puissances européennes entre 1756 et 1763, parfois considérée comme la première guerre mondiale ?",
+      "choices": [
+        "Guerre de Sept Ans",
+        "Guerre de Succession d'Autriche",
+        "Guerre de Trente Ans",
+        "Guerres napoléoniennes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel traité de 1763 a cédé la Nouvelle-France à la Grande-Bretagne ?",
+      "choices": [
+        "Traité de Paris (1763)",
+        "Traité de Versailles (1783)",
+        "Traité de Fontainebleau",
+        "Traité de Aix-la-Chapelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle constitution française de 1791 a instauré une monarchie constitutionnelle ?",
+      "choices": [
+        "Constitution de l'an I",
+        "Constitution de 1791",
+        "Constitution de l'an III",
+        "Constitution de l'an VIII"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel épisode de la Révolution française a vu la tentative d'évasion ratée de Louis XVI en 1791 ?",
+      "choices": [
+        "La fuite à Varennes",
+        "Le massacre du Champ-de-Mars",
+        "La journée du 10 août",
+        "La prise des Tuileries"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel comité révolutionnaire a dirigé la Terreur en France (1793-1794) ?",
+      "choices": [
+        "Comité de sûreté générale",
+        "Comité de salut public",
+        "Convention thermidorienne",
+        "Directoire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel coup d'État a porté Napoléon Bonaparte au pouvoir en 1799 ?",
+      "choices": [
+        "Coup d'État du 18 Brumaire",
+        "Coup d'État du 9 Thermidor",
+        "Coup d'État du 18 Fructidor",
+        "Coup d'État du 22 Floréal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle bataille de 1805 est considérée comme l'une des plus grandes victoires de Napoléon ?",
+      "choices": [
+        "Bataille d'Iéna",
+        "Bataille d'Austerlitz",
+        "Bataille de Wagram",
+        "Bataille de Friedland"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel blocus économique Napoléon a-t-il imposé contre le Royaume-Uni à partir de 1806 ?",
+      "choices": [
+        "Le blocus continental",
+        "Le blocus de la Manche",
+        "Le siège de Toulon",
+        "Le blocus baltique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle révolte haïtienne, menée notamment par Toussaint Louverture, a mené à la première indépendance noire en 1804 ?",
+      "choices": [
+        "Révolution haïtienne",
+        "Révolte de Saint-Domingue",
+        "Révolte des esclaves de la Jamaïque",
+        "Révolte de Cuba"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel congrès de 1878 a redessiné les frontières balkaniques après la guerre russo-turque ?",
+      "choices": [
+        "Congrès de Vienne",
+        "Congrès de Berlin",
+        "Congrès de Paris",
+        "Congrès de Londres"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle alliance militaire de 1882 unissait l'Allemagne, l'Autriche-Hongrie et l'Italie ?",
+      "choices": [
+        "Triple Alliance",
+        "Triple Entente",
+        "Ligue des Trois Empereurs",
+        "Pacte d'acier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle alliance opposait la Triple Alliance avant la Première Guerre mondiale ?",
+      "choices": [
+        "Pacte de Varsovie",
+        "Triple Entente",
+        "Ligue hanséatique",
+        "Sainte-Alliance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle bataille de 1916, l'une des plus meurtrières de la Première Guerre mondiale, s'est déroulée en France ?",
+      "choices": [
+        "Bataille de la Somme",
+        "Bataille de Verdun",
+        "Bataille des Flandres",
+        "Bataille de la Marne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel traité de 1920 a démantelé l'Empire ottoman après la Première Guerre mondiale ?",
+      "choices": [
+        "Traité de Sèvres",
+        "Traité de Lausanne",
+        "Traité de Neuilly",
+        "Traité de Trianon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel traité de 1923 a redéfini les frontières de la Turquie moderne ?",
+      "choices": [
+        "Traité de Sèvres",
+        "Traité de Lausanne",
+        "Traité de Versailles",
+        "Traité de Trianon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel soulèvement de 1916 en Irlande a marqué une étape vers l'indépendance irlandaise ?",
+      "choices": [
+        "L'insurrection de Pâques",
+        "La guerre civile irlandaise",
+        "La marche de Dublin",
+        "Le Home Rule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle famine soviétique des années 1930, en Ukraine, est connue sous le nom d'Holodomor ?",
+      "choices": [
+        "La famine de la Volga",
+        "L'Holodomor",
+        "La famine du Kazakhstan",
+        "La famine de Léningrad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle guerre civile a opposé nationalistes et républicains en Espagne de 1936 à 1939 ?",
+      "choices": [
+        "Guerre civile espagnole",
+        "Guerre carliste",
+        "Révolution asturienne",
+        "Guerre du Rif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel général a dirigé le camp nationaliste pendant la guerre civile espagnole ?",
+      "choices": [
+        "Francisco Franco",
+        "José Antonio Primo de Rivera",
+        "Emilio Mola",
+        "Manuel Azaña"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle opération allemande visait l'invasion du Royaume-Uni en 1940, jamais réalisée ?",
+      "choices": [
+        "Opération Sealion",
+        "Opération Barbarossa",
+        "Opération Weserübung",
+        "Opération Fall Gelb"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle bataille aérienne de 1940 a opposé la RAF britannique à la Luftwaffe allemande ?",
+      "choices": [
+        "Bataille de Grande-Bretagne",
+        "Bataille de Dunkerque",
+        "Bataille de Norvège",
+        "Bataille de l'Atlantique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle conférence de janvier 1942 a organisé la « solution finale » nazie ?",
+      "choices": [
+        "Conférence de Wannsee",
+        "Conférence de Casablanca",
+        "Conférence de Téhéran",
+        "Conférence de Yalta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle bataille du Pacifique en 1942 a marqué un tournant en faveur des États-Unis contre le Japon ?",
+      "choices": [
+        "Bataille de Pearl Harbor",
+        "Bataille de Midway",
+        "Bataille de Guadalcanal",
+        "Bataille d'Iwo Jima"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle conférence de 1943 a réuni pour la première fois Roosevelt, Churchill et Staline ?",
+      "choices": [
+        "Conférence de Casablanca",
+        "Conférence de Téhéran",
+        "Conférence de Yalta",
+        "Conférence de Potsdam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel accord de Bretton Woods de 1944 a créé le FMI et la Banque mondiale ?",
+      "choices": [
+        "Accords de Bretton Woods",
+        "Accords du GATT",
+        "Accords de Marrakech",
+        "Plan Marshall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel mouvement de non-alignement a été fondé lors de la conférence de Belgrade en 1961 ?",
+      "choices": [
+        "Le Mouvement des non-alignés",
+        "Le Groupe des 77",
+        "L'OUA",
+        "La Ligue arabe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel massacre a eu lieu à Sharpeville en Afrique du Sud en 1960 ?",
+      "choices": [
+        "Massacre de Sharpeville",
+        "Massacre de Soweto",
+        "Massacre de Marikana",
+        "Massacre de Boipatong"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel soulèvement scolaire de 1976 en Afrique du Sud a marqué la lutte contre l'apartheid ?",
+      "choices": [
+        "Soulèvement de Soweto",
+        "Marche de Durban",
+        "Grève de Sharpeville",
+        "Révolte de Bantoustan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle guerre a opposé le Nigeria à la région sécessionniste du Biafra (1967-1970) ?",
+      "choices": [
+        "Guerre du Biafra",
+        "Guerre du Congo",
+        "Guerre du Katanga",
+        "Guerre civile libérienne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel accord de 1960 a instauré la Communauté française avant les indépendances africaines ?",
+      "choices": [
+        "Loi-cadre Defferre",
+        "Communauté franco-africaine",
+        "Accords d'Évian",
+        "Accords de Brazzaville"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle conférence de Brazzaville en 1944 a esquissé une réforme du système colonial français ?",
+      "choices": [
+        "Conférence de Brazzaville",
+        "Conférence de Dakar",
+        "Conférence d'Alger",
+        "Conférence de Fort-Lamy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dirigeant camerounais a été le premier président de la République du Cameroun indépendant ?",
+      "choices": [
+        "Paul Biya",
+        "Ahmadou Ahidjo",
+        "Ruben Um Nyobè",
+        "John Ngu Foncha"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mouvement nationaliste camerounais, l'UPC, a mené une lutte armée pour l'indépendance dans les années 1950 ?",
+      "choices": [
+        "UPC (Union des populations du Cameroun)",
+        "RDA",
+        "PDCI",
+        "CPP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel accord de 1961 a réunifié le Cameroun oriental francophone et une partie du Cameroun britannique ?",
+      "choices": [
+        "Plébiscite de 1961",
+        "Accords de Foumban",
+        "Accords de Yaoundé",
+        "Conférence de Bamenda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle guerre a opposé l'Éthiopie à l'Italie fasciste en 1935-1936 ?",
+      "choices": [
+        "Seconde guerre italo-éthiopienne",
+        "Guerre du Sahara occidental",
+        "Guerre de l'Ogaden",
+        "Guerre italo-turque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel empereur éthiopien a résisté à l'invasion italienne et prononcé un discours célèbre à la SDN en 1936 ?",
+      "choices": [
+        "Ménélik II",
+        "Hailé Sélassié",
+        "Iyasou V",
+        "Tewodros II"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle bataille de 1896 a vu l'Éthiopie vaincre l'Italie, préservant son indépendance ?",
+      "choices": [
+        "Bataille d'Adoua",
+        "Bataille de Massaoua",
+        "Bataille de Dogali",
+        "Bataille d'Amba Alagi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel traité de 1885 formalise le protectorat allemand sur le territoire du Kamerun ?",
+      "choices": [
+        "Traité germano-douala",
+        "Traité de Berlin",
+        "Traité de Yaoundé",
+        "Traité de Foumban"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel accord de 1911 a cédé une partie du Congo français à l'Allemagne en échange du Maroc ?",
+      "choices": [
+        "Traité de Fez",
+        "Accord franco-allemand de 1911 (Nouveau Kamerun)",
+        "Traité de Berlin",
+        "Accord d'Agadir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle bataille de la Première Guerre mondiale s'est déroulée dans le Kamerun allemand entre forces alliées et allemandes ?",
+      "choices": [
+        "Campagne du Kamerun (1914-1916)",
+        "Bataille de Tanga",
+        "Bataille de Douala uniquement",
+        "Campagne d'Afrique de l'Est"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel roi bamoun a modernisé son royaume et inventé une écriture originale au début du 20e siècle ?",
+      "choices": [
+        "Njoya",
+        "Nsangou",
+        "Mbombo Njoya",
+        "Seidou Njimoluh"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle organisation régionale ouest-africaine a été fondée en 1975 ?",
+      "choices": [
+        "UEMOA",
+        "CEDEAO",
+        "UMOA",
+        "OUA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dirigeant ivoirien a présidé la Côte d'Ivoire de l'indépendance jusqu'en 1993 ?",
+      "choices": [
+        "Félix Houphouët-Boigny",
+        "Laurent Gbagbo",
+        "Henri Konan Bédié",
+        "Alassane Ouattara"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays a connu le génocide de 1994, faisant environ 800 000 victimes en une centaine de jours ?",
+      "choices": [
+        "Burundi",
+        "Rwanda",
+        "République démocratique du Congo",
+        "Ouganda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel traité de 1979 a établi la paix entre l'Égypte et Israël ?",
+      "choices": [
+        "Accords de Camp David",
+        "Accords d'Oslo",
+        "Accords de Taëf",
+        "Accords d'Abraham"
+      ],
+      "correctIndex": 0
     }
   ]
 }

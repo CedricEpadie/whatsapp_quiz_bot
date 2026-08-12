@@ -76,5 +76,5 @@ export async function handleRegistrationMessage(
   }
 
   const count = getPlayerCount(gameId);
-  await actions.send(templates.playerRegistered(jid, count));
+  await actions.send(templates.playerRegistered(displayName, count));
 }

@@ -11,7 +11,7 @@ import { config } from '../config/config';
 import { logger } from '../utils/logger';
 import { cancelAllActiveGamesOnDisconnect } from '../game/gameManager';
 import { handleIncomingMessage } from './commandRouter';
-import { restoreSessionIfNeeded, scheduleReupload } from '../utils/megaSession';
+import { restoreSessionIfNeeded } from '../utils/megaSession';
 
 /**
  * Décision produit : en cas de coupure, on n'essaie PAS de faire
@@ -28,11 +28,6 @@ export async function startBot(): Promise<void> {
     auth: state,
     logger: pino({ level: 'silent' }),
     printQRInTerminal: false,
-  });
-
-  sock.ev.on('creds.update', async () => {
-    await saveCreds();
-    scheduleReupload();
   });
 
   sock.ev.on('connection.update', (update) => {

@@ -20,7 +20,8 @@ export const config = {
   dbPath: process.env.DB_PATH ?? './data/quiz.db',
   megaEmail : process.env.MEGA_EMAIL ?? '',
   megaPassword : process.env.MEGA_PASSWORD ?? '',
-  sessionId : process.env.SESSION_ID ?? '',
+  sessionHandle: process.env.SESSION_HANDLE ?? '',
+  sessionKey: process.env.SESSION_KEY ?? '',
 
   // --- Reconnexion ---
   disconnectCancelTimeoutMs: Number(

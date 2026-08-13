@@ -50,30 +50,21 @@ export async function downloadAuthFolder(sessionId: string): Promise<void> {
 export async function restoreSessionIfNeeded(): Promise<void> {
   const hasLocalSession =
     fs.existsSync(config.authFolder) && fs.readdirSync(config.authFolder).length > 0;
-  if (hasLocalSession) return; // session déjà présente (dev local, ou volume persistant)
+  if (hasLocalSession) return;
 
-  if (!config.sessionId) {
+  if (!config.sessionHandle || !config.sessionKey) {
     logger.warn(
-      "Aucun SESSION_ID configuré et aucune session locale trouvée : un QR code va être demandé."
+      "Aucun SESSION_HANDLE/SESSION_KEY configuré et aucune session locale trouvée : un QR code va être demandé."
     );
     return;
   }
 
+  const sessionId = `https://mega.nz/file/${config.sessionHandle}#${config.sessionKey}`;
   logger.info('Restauration de la session WhatsApp depuis Mega...');
-  await downloadAuthFolder(config.sessionId);
+  await downloadAuthFolder(sessionId);
   logger.info('Session restaurée depuis Mega ✅');
 }
 
 // --- Ré-upload automatique, débounce pour ne pas spammer Mega ---
 let reuploadTimer: ReturnType<typeof setTimeout> | null = null;
 const REUPLOAD_DEBOUNCE_MS = 5000;
-
-/** À appeler à chaque événement creds.update de Baileys. */
-export function scheduleReupload(): void {
-  if (reuploadTimer) clearTimeout(reuploadTimer);
-  reuploadTimer = setTimeout(() => {
-    uploadAuthFolder()
-      .then(() => logger.info('Session ré-uploadée sur Mega ✅'))
-      .catch((err) => logger.warn('Échec du ré-upload de session vers Mega', { error: String(err) }));
-  }, REUPLOAD_DEBOUNCE_MS);
-}

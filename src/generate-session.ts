@@ -25,9 +25,11 @@ async function connect(): Promise<void> {
     if (connection === 'open') {
       console.log('✅ Pairing réussi. Upload vers Mega...');
       const sessionId = await uploadAuthFolder();
-      console.log('\n=== COPIE CETTE VALEUR DANS SESSION_ID ===');
-      console.log(sessionId);
-      console.log('===========================================\n');
+      const [handle, key] = sessionId.split('#');
+      console.log('\n=== COPIE CES DEUX VALEURS ===');
+      console.log('SESSION_HANDLE =', handle.replace('https://mega.nz/file/', ''));
+      console.log('SESSION_KEY    =', key);
+      console.log('================================\n');
       process.exit(0);
     }
 

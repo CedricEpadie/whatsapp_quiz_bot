@@ -3,6 +3,9 @@ node_modules/
 jspm_packages/
 web_modules/
 
+# Dossier d'authentification Whatsapp (à garder privé)
+auth_info/
+
 # Logs et débogage
 logs
 *.log

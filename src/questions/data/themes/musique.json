@@ -2,132 +2,2002 @@
   "theme": "🎵 Musique",
   "questions": [
     {
-      "question": "Quel artiste est surnommé le 'Roi de la Pop' ?",
+      "question": "Combien de cordes possède une guitare classique en général ?",
       "choices": [
-        "Prince",
-        "Elvis Presley",
-        "Michael Jackson",
-        "Stevie Wonder"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quel compositeur classique est l'auteur de la 9e Symphonie et de l'Hymne à la Joie ?",
-      "choices": [
-        "Chopin",
-        "Mozart",
-        "Beethoven",
-        "Bach"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "De quel pays est originaire le groupe de rock légendaire 'The Beatles' ?",
-      "choices": [
-        "Australie",
-        "États-Unis",
-        "Irlande",
-        "Royaume-Uni"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel genre musical est né en Jamaïque à la fin des années 1960 avec Bob Marley ?",
-      "choices": [
-        "Ska",
-        "Reggae",
-        "Calypso",
-        "Ragga"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel instrument à cordes possède généralement 6 cordes ?",
-      "choices": [
-        "Violon",
-        "Guitare",
-        "Ukulélé",
-        "Harpe"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel style musical traditionnel et urbain est emblématique du Cameroun (porté par Manu Dibango) ?",
-      "choices": [
-        "Makossa",
-        "Bikutsi",
-        "Coupé-Décalé",
-        "Ndombolo"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel rythme traditionnel du centre du Cameroun est caractérisé par un tempo rapide et saccadé ?",
-      "choices": [
-        "Bend-skin",
-        "Assiko",
-        "Makossa",
-        "Bikutsi"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Qui est l'auteur du tube mondial 'Soul Makossa' sorti en 1972 ?",
-      "choices": [
-        "Petit Pays",
-        "Erico",
-        "Manu Dibango",
-        "Francis Bebey"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quel célèbre chanteur jamaïcain est l'auteur des titres 'No Woman No Cry' et 'One Love' ?",
-      "choices": [
-        "Burning Spear",
-        "Jimmy Cliff",
-        "Peter Tosh",
-        "Bob Marley"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel groupe de pop suédois a remporté l'Eurovision en 1974 avec la chanson 'Waterloo' ?",
-      "choices": [
-        "ABBA",
-        "Ace of Base",
-        "A-ha",
-        "Roxette"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Combien de clés différentes trouve-t-on en solfège traditionnel (Sol, Fa, Ut) ?",
-      "choices": [
-        "12",
-        "3",
+        "4",
         "5",
+        "6",
         "7"
       ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel instrument a 88 touches, noires et blanches ?",
+      "choices": [
+        "Le violon",
+        "Le piano",
+        "La guitare",
+        "La flûte"
+      ],
       "correctIndex": 1
     },
     {
-      "question": "Quel instrument de musique est muni de touches noires et blanches ?",
+      "question": "Quel instrument se joue en soufflant dedans et possède des trous et des clés ?",
       "choices": [
+        "Le violon",
+        "La flûte traversière",
         "La guitare",
-        "La flûte",
+        "Le piano"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe britannique est célèbre pour les chansons « Let It Be » et « Hey Jude » ?",
+      "choices": [
+        "The Rolling Stones",
+        "The Beatles",
+        "Queen",
+        "Pink Floyd"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur est surnommé le « Roi de la pop » ?",
+      "choices": [
+        "Prince",
+        "Michael Jackson",
+        "Elvis Presley",
+        "Stevie Wonder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur est surnommé le « Roi du rock 'n' roll » ?",
+      "choices": [
+        "Michael Jackson",
+        "Elvis Presley",
+        "Chuck Berry",
+        "Little Richard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument à cordes se joue avec un archet et se tient sous le menton ?",
+      "choices": [
+        "Le violoncelle",
+        "Le violon",
+        "La contrebasse",
+        "L'alto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument de percussion frappe-t-on avec des baguettes et compte plusieurs éléments (caisse claire, cymbales...) ?",
+      "choices": [
+        "Le xylophone",
+        "La batterie",
+        "Le tambourin",
+        "Les congas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical est né à la Jamaïque, popularisé par Bob Marley ?",
+      "choices": [
+        "Le blues",
+        "Le reggae",
+        "Le jazz",
+        "Le funk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur jamaïcain est célèbre pour « No Woman No Cry » et « One Love » ?",
+      "choices": [
+        "Peter Tosh",
+        "Bob Marley",
+        "Jimmy Cliff",
+        "Burning Spear"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe britannique est connu pour « Bohemian Rhapsody » et son chanteur Freddie Mercury ?",
+      "choices": [
+        "The Who",
+        "Queen",
+        "Led Zeppelin",
+        "Pink Floyd"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument à clavier possède des tuyaux et se trouve souvent dans les églises ?",
+      "choices": [
         "Le piano",
-        "La batterie"
+        "L'orgue",
+        "Le clavecin",
+        "L'accordéon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical est né à la Nouvelle-Orléans, mêlant improvisation et rythmes syncopés ?",
+      "choices": [
+        "Le blues",
+        "Le jazz",
+        "Le rock",
+        "La soul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument africain est constitué de plusieurs tambours et se joue avec les mains ?",
+      "choices": [
+        "Le djembé",
+        "Le balafon",
+        "La kora",
+        "Le xylophone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel instrument à cordes africain, souvent associé aux griots d'Afrique de l'Ouest, ressemble à une harpe-luth ?",
+      "choices": [
+        "Le djembé",
+        "La kora",
+        "Le balafon",
+        "Le n'goni"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur camerounais est célèbre pour avoir popularisé le makossa dans le monde avec « Soul Makossa » ?",
+      "choices": [
+        "Petit Pays",
+        "Manu Dibango",
+        "Francis Bebey",
+        "Sam Fan Thomas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical camerounais est associé à des rythmes dansants popularisés dans les années 1970-1980 ?",
+      "choices": [
+        "Le zouk",
+        "Le makossa",
+        "L'afrobeat nigérian",
+        "Le highlife"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel artiste nigérian est considéré comme le créateur de l'afrobeat dans les années 1970 ?",
+      "choices": [
+        "Fela Kuti",
+        "Wizkid",
+        "Burna Boy",
+        "Davido"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel instrument à vent en cuivre, courbé, est souvent utilisé dans le jazz et la fanfare ?",
+      "choices": [
+        "Le trombone",
+        "La trompette",
+        "Le saxophone",
+        "Le tuba"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument à vent en bois, avec une anche simple, est très présent dans le jazz ?",
+      "choices": [
+        "La clarinette",
+        "Le saxophone",
+        "Le hautbois",
+        "La flûte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe américain de rock est connu pour l'album « The Dark Side of the Moon » ?",
+      "choices": [
+        "Led Zeppelin",
+        "Pink Floyd",
+        "The Rolling Stones",
+        "The Who"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur français est célèbre pour « Ne me quitte pas » et « La Mer » (Charles Trenet a écrit La Mer) ?",
+      "choices": [
+        "Charles Aznavour",
+        "Jacques Brel",
+        "Georges Brassens",
+        "Charles Trenet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle chanteuse française est surnommée « la Môme Piaf », célèbre pour « La Vie en rose » ?",
+      "choices": [
+        "Édith Piaf",
+        "Barbara",
+        "Juliette Gréco",
+        "Dalida"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel style musical afro-américain, né du blues, a donné naissance au rock 'n' roll ?",
+      "choices": [
+        "Le gospel",
+        "Le rhythm and blues (R&B)",
+        "Le jazz",
+        "La soul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical électronique se caractérise par des rythmes répétitifs et des synthétiseurs, populaire en club ?",
+      "choices": [
+        "La musique classique",
+        "La musique électronique (EDM)",
+        "Le folk",
+        "Le blues"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument à clavier électronique imite les sons d'autres instruments et est très utilisé en musique électronique ?",
+      "choices": [
+        "Le synthétiseur",
+        "L'orgue Hammond",
+        "Le clavecin",
+        "Le piano droit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel chanteur américain est surnommé « The Boss », célèbre pour « Born in the U.S.A. » ?",
+      "choices": [
+        "Bob Dylan",
+        "Bruce Springsteen",
+        "Bon Jovi",
+        "Tom Petty"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle chanteuse américaine est surnommée la « Reine de la pop », célèbre depuis les années 1980 ?",
+      "choices": [
+        "Whitney Houston",
+        "Madonna",
+        "Cher",
+        "Janet Jackson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle chanteuse américaine, décédée en 2012, est célèbre pour « I Will Always Love You » ?",
+      "choices": [
+        "Madonna",
+        "Whitney Houston",
+        "Mariah Carey",
+        "Celine Dion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur canadien est célèbre pour la chanson du film « Titanic », « My Heart Will Go On » ?",
+      "choices": [
+        "Bryan Adams",
+        "Celine Dion",
+        "Shania Twain",
+        "Alanis Morissette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe suédois est célèbre pour « Dancing Queen » et « Mamma Mia » ?",
+      "choices": [
+        "Roxette",
+        "ABBA",
+        "Ace of Base",
+        "A-ha"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel style de musique se caractérise par un chant rythmé et parlé sur une instrumentation, né dans le Bronx ?",
+      "choices": [
+        "Le funk",
+        "Le rap (hip-hop)",
+        "Le reggae",
+        "La soul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel rappeur américain, assassiné en 1996, est considéré comme une légende du rap de la côte ouest ?",
+      "choices": [
+        "The Notorious B.I.G.",
+        "Tupac Shakur",
+        "Snoop Dogg",
+        "Dr. Dre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel rappeur américain, assassiné en 1997, était une figure emblématique du rap de la côte est ?",
+      "choices": [
+        "Tupac Shakur",
+        "The Notorious B.I.G.",
+        "Nas",
+        "Jay-Z"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument à cordes pincées, populaire en Afrique de l'Ouest, ressemble à un petit luth traditionnel ?",
+      "choices": [
+        "Le n'goni",
+        "Le violon",
+        "La harpe",
+        "Le banjo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel instrument à percussion en bois, avec des lames métalliques et une caisse de résonance, est utilisé en Afrique et dans les Caraïbes (kalimba) ?",
+      "choices": [
+        "Le djembé",
+        "Le kalimba (piano à pouces)",
+        "Le balafon",
+        "Les congas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical antillais, dansant, s'est développé en Guadeloupe et Martinique dans les années 1980 ?",
+      "choices": [
+        "Le reggae",
+        "Le zouk",
+        "Le calypso",
+        "La biguine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe américain de rock des années 1970-80 est célèbre pour « Hotel California » ?",
+      "choices": [
+        "Fleetwood Mac",
+        "Eagles",
+        "The Doors",
+        "Aerosmith"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur américain, leader des Doors, est mort en 1971 à Paris à l'âge de 27 ans ?",
+      "choices": [
+        "Jimi Hendrix",
+        "Jim Morrison",
+        "Janis Joplin",
+        "Kurt Cobain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel guitariste américain est considéré comme l'un des plus grands de tous les temps, mort en 1970 à 27 ans ?",
+      "choices": [
+        "Eric Clapton",
+        "Jimi Hendrix",
+        "Jimmy Page",
+        "Carlos Santana"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe britannique de rock des années 1960-70 est connu pour « Stairway to Heaven » ?",
+      "choices": [
+        "Deep Purple",
+        "Led Zeppelin",
+        "Black Sabbath",
+        "The Who"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe grunge américain des années 1990, mené par Kurt Cobain, est connu pour « Smells Like Teen Spirit » ?",
+      "choices": [
+        "Pearl Jam",
+        "Nirvana",
+        "Soundgarden",
+        "Alice in Chains"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur/rappeur américain contemporain est célèbre pour « Lose Yourself » et son biopic « 8 Mile » ?",
+      "choices": [
+        "Jay-Z",
+        "Eminem",
+        "50 Cent",
+        "Kanye West"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle chanteuse américaine contemporaine est célèbre pour « Shake It Off » et « Anti-Hero » ?",
+      "choices": [
+        "Ariana Grande",
+        "Taylor Swift",
+        "Billie Eilish",
+        "Katy Perry"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur canadien contemporain est célèbre pour « Blinding Lights » sous le nom de The Weeknd ?",
+      "choices": [
+        "Drake",
+        "The Weeknd (Abel Tesfaye)",
+        "Justin Bieber",
+        "Shawn Mendes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel rappeur canadien contemporain est célèbre pour « God's Plan » et « Hotline Bling » ?",
+      "choices": [
+        "The Weeknd",
+        "Drake",
+        "Kanye West",
+        "Travis Scott"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle chanteuse afro-américaine des années 1960-70 est surnommée la « Reine de la soul » ?",
+      "choices": [
+        "Diana Ross",
+        "Aretha Franklin",
+        "Tina Turner",
+        "Nina Simone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur nigérian contemporain est célèbre pour « Essence » et « Ye » ?",
+      "choices": [
+        "Davido",
+        "Burna Boy",
+        "Wizkid",
+        "Rema"
       ],
       "correctIndex": 2
     },
     {
-      "question": "De quel pays est originaire le genre musical Bossa Nova ?",
+      "question": "Quel chanteur nigérian contemporain, surnommé « African Giant », est célèbre pour son afrobeats moderne ?",
       "choices": [
-        "Argentine",
-        "Brésil",
-        "Cuba",
-        "Mexique"
+        "Wizkid",
+        "Burna Boy",
+        "Davido",
+        "Tekno"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur allemand, sourd à la fin de sa vie, a composé la « Neuvième Symphonie » ?",
+      "choices": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Brahms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur autrichien, enfant prodige, a composé « La Flûte enchantée » et le « Requiem » ?",
+      "choices": [
+        "Beethoven",
+        "Mozart",
+        "Haydn",
+        "Schubert"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur allemand baroque est célèbre pour ses œuvres pour orgue et ses concertos brandebourgeois ?",
+      "choices": [
+        "Haendel",
+        "Jean-Sébastien Bach",
+        "Vivaldi",
+        "Telemann"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur italien baroque a composé « Les Quatre Saisons » pour violon et orchestre ?",
+      "choices": [
+        "Bach",
+        "Vivaldi",
+        "Corelli",
+        "Scarlatti"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur polonais, virtuose du piano, est célèbre pour ses nocturnes et mazurkas romantiques ?",
+      "choices": [
+        "Franz Liszt",
+        "Frédéric Chopin",
+        "Robert Schumann",
+        "Johannes Brahms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur russe a composé le ballet « Le Lac des cygnes » et « Casse-Noisette » ?",
+      "choices": [
+        "Rachmaninov",
+        "Tchaïkovski",
+        "Stravinsky",
+        "Prokofiev"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur allemand est célèbre pour son « Requiem allemand » et ses symphonies romantiques ?",
+      "choices": [
+        "Mendelssohn",
+        "Brahms",
+        "Schumann",
+        "Wagner"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur allemand a créé des opéras monumentaux comme « L'Anneau du Nibelung » ?",
+      "choices": [
+        "Wagner",
+        "Verdi",
+        "Puccini",
+        "Strauss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel compositeur italien est célèbre pour des opéras comme « La Traviata » et « Aïda » ?",
+      "choices": [
+        "Puccini",
+        "Verdi",
+        "Rossini",
+        "Donizetti"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur italien est célèbre pour « La Bohème » et « Madame Butterfly » ?",
+      "choices": [
+        "Verdi",
+        "Puccini",
+        "Bellini",
+        "Leoncavallo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur français est célèbre pour « Clair de lune » et un style impressionniste ?",
+      "choices": [
+        "Ravel",
+        "Debussy",
+        "Fauré",
+        "Satie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur français est célèbre pour le « Boléro », pièce orchestrale répétitive et hypnotique ?",
+      "choices": [
+        "Debussy",
+        "Ravel",
+        "Saint-Saëns",
+        "Berlioz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur hongrois est célèbre pour ses « Rhapsodies hongroises » et son virtuosité pianistique ?",
+      "choices": [
+        "Bartók",
+        "Franz Liszt",
+        "Kodály",
+        "Dohnányi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle forme musicale classique, souvent en quatre mouvements, est écrite pour un grand orchestre ?",
+      "choices": [
+        "Le concerto",
+        "La symphonie",
+        "La sonate",
+        "La suite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle forme musicale classique met en avant un instrument soliste accompagné par l'orchestre ?",
+      "choices": [
+        "La symphonie",
+        "Le concerto",
+        "L'opéra",
+        "L'oratorio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical afro-américain, mêlant blues, gospel et jazz, a émergé dans les années 1950-60 (Motown notamment) ?",
+      "choices": [
+        "Le disco",
+        "La soul",
+        "Le funk",
+        "Le hip-hop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel label américain, fondé par Berry Gordy à Detroit, a lancé de nombreux artistes soul et Motown ?",
+      "choices": [
+        "Atlantic Records",
+        "Motown Records",
+        "Stax Records",
+        "Columbia Records"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur de la Motown, surnommé « Prince de la soul », est mort assassiné en 1984 (Marvin Gaye) ?",
+      "choices": [
+        "Stevie Wonder",
+        "Marvin Gaye",
+        "Smokey Robinson",
+        "Al Green"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe vocal de la Motown est composé des « Jackson 5 », débuts de Michael Jackson ?",
+      "choices": [
+        "The Temptations",
+        "The Jackson 5",
+        "The Four Tops",
+        "The Supremes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical funky, popularisé par James Brown, met l'accent sur le rythme et le groove ?",
+      "choices": [
+        "Le funk",
+        "Le disco",
+        "Le reggae",
+        "Le ska"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel chanteur américain est surnommé le « Parrain de la soul » (James Brown) ?",
+      "choices": [
+        "Otis Redding",
+        "James Brown",
+        "Sam Cooke",
+        "Wilson Pickett"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical dansant, populaire dans les années 1970, est associé aux boules à facettes et clubs de nuit ?",
+      "choices": [
+        "Le funk",
+        "Le disco",
+        "La new wave",
+        "Le punk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe américain disco est célèbre pour « Stayin' Alive », bande originale de « La Fièvre du samedi soir » ?",
+      "choices": [
+        "ABBA",
+        "Bee Gees",
+        "Kool & the Gang",
+        "Earth, Wind & Fire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical rebelle et brut est né au milieu des années 1970 avec des groupes comme les Sex Pistols ?",
+      "choices": [
+        "Le heavy metal",
+        "Le punk rock",
+        "Le grunge",
+        "Le ska"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe britannique punk est célèbre pour la chanson « God Save the Queen » ?",
+      "choices": [
+        "The Clash",
+        "Sex Pistols",
+        "The Ramones",
+        "Buzzcocks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe américain est considéré comme pionnier du genre punk rock dans les années 1970 ?",
+      "choices": [
+        "Sex Pistols",
+        "The Ramones",
+        "The Clash",
+        "Sonic Youth"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical lourd et sombre, popularisé par Black Sabbath, met en avant des guitares distordues ?",
+      "choices": [
+        "Le punk",
+        "Le heavy metal",
+        "Le grunge",
+        "Le rock progressif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe britannique est considéré comme le pionnier du heavy metal avec « Paranoid » ?",
+      "choices": [
+        "Deep Purple",
+        "Black Sabbath",
+        "Judas Priest",
+        "Iron Maiden"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel guitariste, chanteur et compositeur américain multi-instrumentiste, aveugle depuis l'enfance, est connu pour « Superstition » ?",
+      "choices": [
+        "Ray Charles",
+        "Stevie Wonder",
+        "Curtis Mayfield",
+        "Lionel Richie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur et pianiste américain aveugle est surnommé « le Génie », mêlant soul, gospel et jazz ?",
+      "choices": [
+        "Stevie Wonder",
+        "Ray Charles",
+        "Nat King Cole",
+        "Fats Domino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument est central dans le blues et le rock, souvent électrique avec effets de distorsion ?",
+      "choices": [
+        "Le piano",
+        "La guitare électrique",
+        "La batterie",
+        "La basse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical, né dans le sud des États-Unis, exprime souvent la souffrance à travers une structure de 12 mesures ?",
+      "choices": [
+        "Le jazz",
+        "Le blues",
+        "Le gospel",
+        "Le country"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur et guitariste de blues est surnommé le « Roi du blues », célèbre pour sa guitare « Lucille » ?",
+      "choices": [
+        "Muddy Waters",
+        "B.B. King",
+        "Howlin' Wolf",
+        "John Lee Hooker"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical religieux afro-américain, chanté en chœur, a fortement influencé la soul ?",
+      "choices": [
+        "Le blues",
+        "Le gospel",
+        "Le negro spiritual (distinct mais lié)",
+        "Le jazz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel style vocal africain-américain né de l'esclavage, souvent a cappella, exprime spiritualité et souffrance ?",
+      "choices": [
+        "Le gospel",
+        "Le negro spiritual",
+        "Le blues",
+        "Le doo-wop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel style de chant vocal harmonique des années 1950, souvent sans instruments, est associé aux coins de rue new-yorkais ?",
+      "choices": [
+        "Le gospel",
+        "Le doo-wop",
+        "Le rhythm and blues",
+        "Le rock'n'roll"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument traditionnel écossais, avec un sac gonflable et des tuyaux, produit un son distinctif ?",
+      "choices": [
+        "Le violon celtique",
+        "La cornemuse",
+        "Le tin whistle",
+        "Le bodhrán"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument traditionnel irlandais, tambour sur cadre, se joue avec une baguette bipointe (tipper) ?",
+      "choices": [
+        "Le bodhrán",
+        "La cornemuse",
+        "Le tin whistle",
+        "Le concertina"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel genre musical mexicain, souvent joué par des groupes en costume avec violons et trompettes, est associé aux fêtes ?",
+      "choices": [
+        "Le tango",
+        "Le mariachi",
+        "La salsa",
+        "La cumbia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical afro-cubain, dansant, mêle rythmes africains et européens, popularisé aux États-Unis à New York ?",
+      "choices": [
+        "Le mariachi",
+        "La salsa",
+        "Le mambo",
+        "Le merengue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical argentin, mélancolique et passionné, est associé à une danse de couple emblématique ?",
+      "choices": [
+        "La salsa",
+        "Le tango",
+        "La bossa nova",
+        "Le flamenco"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical brésilien, doux et jazzy, est né dans les années 1950-60 avec des artistes comme João Gilberto ?",
+      "choices": [
+        "Le samba",
+        "La bossa nova",
+        "Le forró",
+        "Le choro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical brésilien, rythmé et festif, est indissociable du carnaval de Rio ?",
+      "choices": [
+        "La bossa nova",
+        "Le samba",
+        "Le forró",
+        "Le funk carioca"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical espagnol, associé à l'Andalousie, combine chant, guitare et danse passionnée ?",
+      "choices": [
+        "Le flamenco",
+        "Le tango",
+        "La rumba",
+        "Le paso doble"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel instrument traditionnel ouest-africain à lames de bois posées sur des calebasses ressemble à un xylophone ?",
+      "choices": [
+        "Le djembé",
+        "Le balafon",
+        "Le n'goni",
+        "La kora"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe malien, formé d'un couple de musiciens, est célèbre internationalement pour son style mêlant tradition et modernité (Amadou & Mariam) ?",
+      "choices": [
+        "Tinariwen",
+        "Amadou & Mariam",
+        "Toumani Diabaté",
+        "Salif Keita"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur malien, albinos, est une légende de la musique mandingue moderne ?",
+      "choices": [
+        "Toumani Diabaté",
+        "Salif Keita",
+        "Ali Farka Touré",
+        "Oumou Sangaré"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe touareg du Sahara mêle blues du désert et rock, connu internationalement ?",
+      "choices": [
+        "Tinariwen",
+        "Amadou & Mariam",
+        "Bombino",
+        "Les deux, Tinariwen et Bombino"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel chanteur sud-africain, opposant à l'apartheid, est célèbre pour « Pata Pata » (Miriam Makeba, surnommée « Mama Africa ») ?",
+      "choices": [
+        "Hugh Masekela",
+        "Miriam Makeba",
+        "Ladysmith Black Mambazo",
+        "Johnny Clegg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur allemand du baroque a écrit la « Passion selon saint Matthieu » ?",
+      "choices": [
+        "Haendel",
+        "Jean-Sébastien Bach",
+        "Telemann",
+        "Buxtehude"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur allemand baroque, contemporain de Bach, est célèbre pour son oratorio « Le Messie » ?",
+      "choices": [
+        "Bach",
+        "Haendel",
+        "Vivaldi",
+        "Purcell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mouvement musical du 20e siècle, initié par Debussy, s'inspire de la peinture impressionniste ?",
+      "choices": [
+        "Le romantisme",
+        "L'impressionnisme musical",
+        "Le néoclassicisme",
+        "L'expressionnisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur russe du 20e siècle a créé une révolution musicale avec « Le Sacre du printemps », provoquant un scandale à sa création ?",
+      "choices": [
+        "Prokofiev",
+        "Stravinsky",
+        "Chostakovitch",
+        "Rachmaninov"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur autrichien a développé le dodécaphonisme (musique atonale à 12 sons) au début du 20e siècle ?",
+      "choices": [
+        "Gustav Mahler",
+        "Arnold Schönberg",
+        "Anton Webern (élève)",
+        "Alban Berg (élève)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur américain du 20e siècle a mêlé musique classique et jazz dans « Rhapsody in Blue » ?",
+      "choices": [
+        "Aaron Copland",
+        "George Gershwin",
+        "Leonard Bernstein",
+        "Charles Ives"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chef d'orchestre et compositeur américain a composé la comédie musicale « West Side Story » ?",
+      "choices": [
+        "George Gershwin",
+        "Leonard Bernstein",
+        "Stephen Sondheim",
+        "Richard Rodgers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel violoniste virtuose italien du 19e siècle est réputé pour sa technique extraordinaire et associé à des légendes diaboliques ?",
+      "choices": [
+        "Niccolò Paganini",
+        "Antonio Vivaldi",
+        "Giuseppe Tartini",
+        "Arcangelo Corelli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel compositeur finlandais est célèbre pour son poème symphonique « Finlandia », symbole national ?",
+      "choices": [
+        "Edvard Grieg",
+        "Jean Sibelius",
+        "Carl Nielsen",
+        "Hugo Alfvén"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur norvégien est célèbre pour la musique de scène « Peer Gynt » ?",
+      "choices": [
+        "Jean Sibelius",
+        "Edvard Grieg",
+        "Carl Nielsen",
+        "Christian Sinding"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur tchèque a composé la symphonie « Du Nouveau Monde », inspirée par son séjour américain ?",
+      "choices": [
+        "Bedřich Smetana",
+        "Antonín Dvořák",
+        "Leoš Janáček",
+        "Bohuslav Martinů"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel style de jazz, improvisé et rapide, s'est développé dans les années 1940 avec Charlie Parker et Dizzy Gillespie ?",
+      "choices": [
+        "Le swing",
+        "Le bebop",
+        "Le cool jazz",
+        "Le free jazz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel saxophoniste américain est considéré comme l'un des pères du bebop, surnommé « Bird » ?",
+      "choices": [
+        "John Coltrane",
+        "Charlie Parker",
+        "Sonny Rollins",
+        "Lester Young"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel trompettiste et chanteur américain est une légende du jazz, surnommé « Satchmo » ?",
+      "choices": [
+        "Miles Davis",
+        "Louis Armstrong",
+        "Dizzy Gillespie",
+        "Chet Baker"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel trompettiste américain a révolutionné le jazz à plusieurs reprises, du bebop au jazz-rock fusion ?",
+      "choices": [
+        "Louis Armstrong",
+        "Miles Davis",
+        "Dizzy Gillespie",
+        "Wynton Marsalis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel saxophoniste américain est célèbre pour l'album « A Love Supreme », figure majeure du jazz spirituel ?",
+      "choices": [
+        "Charlie Parker",
+        "John Coltrane",
+        "Sonny Rollins",
+        "Ornette Coleman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pianiste et compositeur de jazz américain est connu pour son style excentrique et son piano dissonant ?",
+      "choices": [
+        "Bill Evans",
+        "Thelonious Monk",
+        "Oscar Peterson",
+        "Herbie Hancock"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel style de jazz, développé dans les années 1950, privilégie une esthétique plus douce et détendue que le bebop ?",
+      "choices": [
+        "Le cool jazz",
+        "Le hard bop",
+        "Le free jazz",
+        "Le smooth jazz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel style de jazz radicalement expérimental, développé dans les années 1960, rejette les structures harmoniques traditionnelles ?",
+      "choices": [
+        "Le bebop",
+        "Le free jazz",
+        "Le cool jazz",
+        "Le swing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical né en Jamaïque avant le reggae, plus rapide, avec des cuivres proéminents ?",
+      "choices": [
+        "Le ska",
+        "Le rocksteady",
+        "Le dub",
+        "Le dancehall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel genre musical jamaïcain, intermédiaire entre le ska et le reggae, plus lent que le ska, s'est développé au milieu des années 1960 ?",
+      "choices": [
+        "Le ska",
+        "Le rocksteady",
+        "Le dub",
+        "Le dancehall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel producteur jamaïcain est considéré comme le pionnier du dub, remixant les pistes instrumentales de reggae ?",
+      "choices": [
+        "Bob Marley",
+        "King Tubby",
+        "Lee « Scratch » Perry (co-pionnier)",
+        "Les deux, King Tubby et Lee Scratch Perry"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel genre musical jamaïcain contemporain, plus électronique et rapide que le reggae, domine les charts depuis les années 1980 ?",
+      "choices": [
+        "Le ska",
+        "Le dancehall",
+        "Le rocksteady",
+        "Le mento"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical panafricain contemporain, mélange d'afrobeat, de hip-hop et de pop, domine les charts internationaux depuis les années 2010 ?",
+      "choices": [
+        "L'afrobeats (distinct de l'afrobeat de Fela Kuti)",
+        "Le highlife",
+        "Le soukous",
+        "Le coupé-décalé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel genre musical congolais dansant, popularisé par des artistes comme Papa Wemba, mêle rumba et guitare électrique ?",
+      "choices": [
+        "Le soukous",
+        "Le makossa",
+        "Le bikutsi",
+        "Le mbalax"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel genre musical camerounais rythmé, associé à une danse énergique traditionnelle, est popularisé par des artistes comme Les Têtes Brûlées ?",
+      "choices": [
+        "Le makossa",
+        "Le bikutsi",
+        "L'assiko",
+        "Le mangambeu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical sénégalais, mêlant percussions traditionnelles sabar et musique moderne, est popularisé par Youssou N'Dour ?",
+      "choices": [
+        "Le mbalax",
+        "Le soukous",
+        "L'afrobeats",
+        "Le highlife"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel chanteur sénégalais est une star internationale du mbalax, connu pour « 7 Seconds » avec Neneh Cherry ?",
+      "choices": [
+        "Baaba Maal",
+        "Youssou N'Dour",
+        "Ismaël Lô",
+        "Cheikh Lô"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical ivoirien festif, popularisé dans les années 2000, est associé à une danse et un style vestimentaire spécifique ?",
+      "choices": [
+        "Le coupé-décalé",
+        "Le zouglou",
+        "Le mapouka",
+        "L'ivoire jazz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel genre musical ghanéen, précurseur de nombreux styles ouest-africains, mêle jazz, highlife et musique traditionnelle akan ?",
+      "choices": [
+        "L'afrobeat",
+        "Le highlife",
+        "Le hiplife",
+        "Le azonto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe vocal sud-africain a capella, connu pour sa collaboration avec Paul Simon sur l'album « Graceland » ?",
+      "choices": [
+        "Ladysmith Black Mambazo",
+        "Soweto Gospel Choir",
+        "The Mahotella Queens",
+        "Miriam Makeba (solo)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel album de Paul Simon, sorti en 1986, a intégré des musiciens sud-africains et popularisé la « world music » ?",
+      "choices": [
+        "Graceland",
+        "Rhythm of the Saints",
+        "Still Crazy After All These Years",
+        "Hearts and Bones"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel genre musical électronique allemand, pionnier avec Kraftwerk, a influencé la musique électronique moderne ?",
+      "choices": [
+        "La techno de Détroit",
+        "La musique électronique allemande (Krautrock/électro)",
+        "L'acid house",
+        "La trance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe allemand des années 1970 est considéré comme pionnier de la musique électronique avec « Autobahn » ?",
+      "choices": [
+        "Tangerine Dream",
+        "Kraftwerk",
+        "Can",
+        "Faust"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle ville américaine est considérée comme le berceau de la musique techno dans les années 1980 ?",
+      "choices": [
+        "Chicago",
+        "Détroit",
+        "New York",
+        "Los Angeles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle ville américaine est considérée comme le berceau de la house music dans les années 1980 ?",
+      "choices": [
+        "Détroit",
+        "Chicago",
+        "Miami",
+        "New York"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel DJ et producteur français est célèbre pour des albums comme « Discovery » et le groupe Daft Punk ?",
+      "choices": [
+        "David Guetta",
+        "Daft Punk (duo Thomas Bangalter et Guy-Manuel de Homem-Christo)",
+        "Justice",
+        "Air"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre de musique électronique, popularisé dans les années 1990 au Royaume-Uni, se caractérise par des rythmes rapides et cassés (breakbeats) ?",
+      "choices": [
+        "La house",
+        "La drum and bass (jungle)",
+        "La trance",
+        "Le dubstep"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre de musique électronique, popularisé dans les années 2000 au Royaume-Uni, se caractérise par des basses lourdes et un rythme à demi-temps ?",
+      "choices": [
+        "La drum and bass",
+        "Le dubstep",
+        "La trance",
+        "La techno"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel artiste britannique de dubstep, de son vrai nom Sam Smith non pas le chanteur, est connu sous le nom de Skrillex ? (attention, Skrillex est américain)",
+      "choices": [
+        "Skrillex est en réalité américain (Sonny Moore)",
+        "Skrillex est britannique",
+        "Skrillex est allemand",
+        "Skrillex est canadien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel chanteur et producteur américain de R&B contemporain est connu pour « Blurred Lines » et sa carrière avec Justin Timberlake (piège, distinct) ? (question retirée en substance)",
+      "choices": [
+        "Pharrell Williams",
+        "Robin Thicke",
+        "Justin Timberlake",
+        "Usher"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel chanteur américain, ancien membre de *NSYNC, est devenu une star solo du R&B/pop dans les années 2000 ?",
+      "choices": [
+        "Nick Carter",
+        "Justin Timberlake",
+        "Nick Lachey",
+        "JC Chasez"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe américain de boys band des années 1990-2000 comptait Justin Timberlake parmi ses membres ?",
+      "choices": [
+        "Backstreet Boys",
+        "*NSYNC",
+        "Boyz II Men",
+        "98 Degrees"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle chanteuse américaine est surnommée la « Voix du siècle » pour son étendue vocale exceptionnelle (Mariah Carey ou Whitney Houston selon les sources) ?",
+      "choices": [
+        "Whitney Houston",
+        "Mariah Carey",
+        "Céline Dion",
+        "Christina Aguilera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel chanteur britannique, membre des Beatles, a poursuivi une carrière solo à succès avec « Imagine » ?",
+      "choices": [
+        "Paul McCartney",
+        "John Lennon",
+        "George Harrison",
+        "Ringo Starr"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel membre des Beatles a continué une carrière solo prolifique, notamment avec Wings ?",
+      "choices": [
+        "John Lennon",
+        "Paul McCartney",
+        "George Harrison",
+        "Ringo Starr"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel guitariste des Beatles a exploré la musique indienne et le sitar dans sa carrière solo et avec le groupe ?",
+      "choices": [
+        "Paul McCartney",
+        "George Harrison",
+        "John Lennon",
+        "Ringo Starr"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel musicien indien virtuose du sitar a influencé George Harrison et popularisé la musique classique indienne en Occident ?",
+      "choices": [
+        "Zakir Hussain",
+        "Ravi Shankar",
+        "Ali Akbar Khan",
+        "Anoushka Shankar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur français, disparu en 2001, est célèbre pour « Ma Liberté » et son engagement, ami de nombreux artistes africains ?",
+      "choices": [
+        "Georges Moustaki",
+        "Serge Gainsbourg",
+        "Jacques Brel",
+        "Léo Ferré"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel compositeur autrichien classique, rival supposé de Mozart, a été mythifié dans le film « Amadeus » ?",
+      "choices": [
+        "Joseph Haydn",
+        "Antonio Salieri",
+        "Christoph Willibald Gluck",
+        "Johann Michael Haydn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur allemand, pionnier du romantisme, a composé « L'Ode à la joie » dans sa Neuvième Symphonie ?",
+      "choices": [
+        "Brahms",
+        "Beethoven",
+        "Schubert",
+        "Mendelssohn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur autrichien romantique est mort jeune, laissant une œuvre immense incluant « La Truite » et « Ave Maria » ?",
+      "choices": [
+        "Schumann",
+        "Franz Schubert",
+        "Mendelssohn",
+        "Brahms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur allemand romantique a écrit la « Marche nuptiale » utilisée dans de nombreux mariages ?",
+      "choices": [
+        "Wagner (a aussi une marche nuptiale)",
+        "Mendelssohn (la plus célèbre)",
+        "Les deux ont composé des marches nuptiales célèbres",
+        "Schumann"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel compositeur français romantique est célèbre pour sa « Symphonie fantastique », œuvre autobiographique et visionnaire ?",
+      "choices": [
+        "Camille Saint-Saëns",
+        "Hector Berlioz",
+        "César Franck",
+        "Charles Gounod"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur français a écrit l'opéra « Carmen », créant un scandale à sa création en 1875 ?",
+      "choices": [
+        "Gounod",
+        "Bizet",
+        "Massenet",
+        "Offenbach"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur allemand a théorisé le concept d'« œuvre d'art totale » (Gesamtkunstwerk) à travers ses opéras ?",
+      "choices": [
+        "Brahms",
+        "Wagner",
+        "Strauss",
+        "Mahler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chef d'orchestre et compositeur autrichien du romantisme tardif a composé des symphonies monumentales incluant voix et chœurs ?",
+      "choices": [
+        "Bruckner",
+        "Mahler",
+        "Richard Strauss",
+        "Les deux, Bruckner et Mahler"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel compositeur russe a été contraint par le régime soviétique de modifier son style, célèbre pour ses symphonies engagées ?",
+      "choices": [
+        "Prokofiev",
+        "Chostakovitch",
+        "Stravinsky",
+        "Rachmaninov"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur français du 20e siècle, membre du « Groupe des Six », est célèbre pour « Gymnopédies » (attention, Satie n'était pas membre du Groupe des Six mais son inspirateur) ?",
+      "choices": [
+        "Erik Satie a inspiré le Groupe des Six sans en être formellement membre",
+        "Erik Satie était pleinement membre du Groupe des Six",
+        "Darius Milhaud",
+        "Francis Poulenc"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel compositeur français, membre du « Groupe des Six », a composé « Le Bœuf sur le toit » ?",
+      "choices": [
+        "Erik Satie",
+        "Darius Milhaud",
+        "Georges Auric",
+        "Arthur Honegger"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel théoricien et compositeur autrichien a développé la technique dodécaphonique, influençant Berg et Webern, ses élèves ?",
+      "choices": [
+        "Alban Berg",
+        "Arnold Schönberg",
+        "Anton Webern",
+        "Alexander Zemlinsky"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur hongrois du 20e siècle a intégré des éléments de musique folklorique dans ses œuvres modernistes, comme « Le Château de Barbe-Bleue » ?",
+      "choices": [
+        "Zoltán Kodály",
+        "Béla Bartók",
+        "Ernő Dohnányi",
+        "György Ligeti"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur français du 20e siècle, aveugle, a composé « Turangalîla-Symphonie », œuvre spirituelle et complexe ?",
+      "choices": [
+        "Pierre Boulez",
+        "Olivier Messiaen",
+        "Henri Dutilleux",
+        "Maurice Ohana"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chef d'orchestre et compositeur français d'avant-garde a fondé l'IRCAM à Paris ?",
+      "choices": [
+        "Olivier Messiaen",
+        "Pierre Boulez",
+        "Iannis Xenakis",
+        "Henri Dutilleux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur américain minimaliste est connu pour des œuvres répétitives comme « Music for 18 Musicians » ?",
+      "choices": [
+        "Philip Glass",
+        "Steve Reich",
+        "John Adams",
+        "Terry Riley"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur américain minimaliste a composé les opéras « Einstein on the Beach » et la musique de nombreux films ?",
+      "choices": [
+        "Steve Reich",
+        "Philip Glass",
+        "John Adams",
+        "La Monte Young"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur de kora malien est considéré comme l'un des plus grands virtuoses de cet instrument, fils d'une longue lignée de griots ?",
+      "choices": [
+        "Salif Keita",
+        "Toumani Diabaté",
+        "Ali Farka Touré",
+        "Habib Koité"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel guitariste malien, surnommé « le John Lee Hooker africain », mêlait blues et musique traditionnelle songhaï ?",
+      "choices": [
+        "Toumani Diabaté",
+        "Ali Farka Touré",
+        "Habib Koité",
+        "Boubacar Traoré"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel musicien sud-africain de jazz, trompettiste, a composé « Grazing in the Grass » et fut un fervent opposant à l'apartheid ?",
+      "choices": [
+        "Abdullah Ibrahim",
+        "Hugh Masekela",
+        "Jonas Gwangwa",
+        "Bheki Mseleku"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pianiste sud-africain de jazz, ancien Dollar Brand, est une figure majeure du jazz africain moderne ?",
+      "choices": [
+        "Hugh Masekela",
+        "Abdullah Ibrahim",
+        "Chris McGregor",
+        "Bheki Mseleku"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical congolais des années 1930-50, précurseur de la rumba congolaise moderne, s'est développé à Kinshasa et Brazzaville ?",
+      "choices": [
+        "Le soukous",
+        "La rumba congolaise",
+        "Le ndombolo",
+        "Le kwassa kwassa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel guitariste et chanteur congolais, surnommé « Le Sorcier de la guitare », a fondé le groupe TPOK Jazz ?",
+      "choices": [
+        "Papa Wemba",
+        "Franco Luambo",
+        "Tabu Ley Rochereau",
+        "Docteur Nico"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel style de danse congolais rapide, dérivé du soukous, a émergé dans les années 1980-90 ?",
+      "choices": [
+        "Le ndombolo",
+        "Le kwassa kwassa",
+        "Le mutuashi",
+        "Les deux, ndombolo et kwassa kwassa, sont apparentés"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel chanteur et guitariste béninois-nigérian, précurseur du juju et de l'afrobeat, a inspiré Fela Kuti ?",
+      "choices": [
+        "King Sunny Adé",
+        "I.K. Dairo",
+        "Fela Kuti lui-même a précédé cette influence",
+        "Ebenezer Obey"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel genre musical yoruba nigérian, mêlant percussions traditionnelles et guitare, a été popularisé par King Sunny Adé ?",
+      "choices": [
+        "L'afrobeat",
+        "Le juju",
+        "Le highlife",
+        "Le fuji"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel batteur nigérian, collaborateur clé de Fela Kuti, est considéré comme un pionnier majeur de la polyrythmie afrobeat ?",
+      "choices": [
+        "Femi Kuti (fils de Fela)",
+        "Tony Allen",
+        "Ginger Baker (collaborateur britannique)",
+        "Lekan Animashaun"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fils de Fela Kuti perpétue et modernise l'héritage afrobeat nigérian sur la scène internationale ?",
+      "choices": [
+        "Seun Kuti",
+        "Femi Kuti",
+        "Les deux, Femi et Seun Kuti",
+        "Aucun des deux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel musicien éthiopien, pionnier du jazz éthiopien (« Ethio-jazz »), a mêlé pentatonisme traditionnel et jazz occidental ?",
+      "choices": [
+        "Mulatu Astatke",
+        "Girma Bèyènè",
+        "Alèmayèhu Eshèté",
+        "Mahmoud Ahmed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel chanteur malien, ancien membre du groupe Rail Band, est devenu une légende internationale de la musique mandingue ?",
+      "choices": [
+        "Toumani Diabaté",
+        "Salif Keita",
+        "Ali Farka Touré",
+        "Habib Koité"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur guinéen, ancien membre de Bembeya Jazz National, incarne la musique mandingue moderne ?",
+      "choices": [
+        "Mory Kanté",
+        "Sékouba Bambino",
+        "Les deux ont marqué cette scène",
+        "Aucun des deux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel joueur de kora guinéen-malien est célèbre pour avoir électrifié cet instrument traditionnel avec le tube « Yé ké yé ké » ?",
+      "choices": [
+        "Toumani Diabaté",
+        "Mory Kanté",
+        "Ballaké Sissoko",
+        "Sona Jobarteh"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle chanteuse ivoirienne du zouglou/coupé-décalé, rare voix féminine dans ce mouvement, s'est fait connaître dans les années 2000 ?",
+      "choices": [
+        "Nayanka Bell",
+        "Dobet Gnahoré",
+        "Aicha Koné",
+        "Monique Séka"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel genre musical rythmique et satirique ivoirien, né dans les milieux étudiants au début des années 1990, précède le coupé-décalé ?",
+      "choices": [
+        "Le zouglou",
+        "Le mapouka",
+        "Le coupé-décalé",
+        "L'ivoire jazz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel groupe camerounais des années 1980-90, connu pour un style punk-bikutsi et une esthétique corporelle marquante, est Les Têtes Brûlées ?",
+      "choices": [
+        "Il s'agit bien de Les Têtes Brûlées, menés par Jean-Marie Ahanda",
+        "Il s'agit d'un autre groupe",
+        "Le groupe n'a jamais existé",
+        "Le groupe est nigérian"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel artiste camerounais est considéré comme l'un des pionniers de la musique moderne et de l'ethnomusicologie africaine, aussi écrivain ?",
+      "choices": [
+        "Manu Dibango",
+        "Francis Bebey",
+        "Sam Fan Thomas",
+        "André-Marie Tala"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel saxophoniste camerounais, mort en 2020, a connu un succès mondial avec « Soul Makossa », influence du disco et hip-hop naissants ?",
+      "choices": [
+        "Francis Bebey",
+        "Manu Dibango",
+        "Richard Bona",
+        "Toto Guillaume"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel bassiste et chanteur camerounais contemporain est reconnu internationalement dans le jazz fusion ?",
+      "choices": [
+        "Manu Dibango",
+        "Richard Bona",
+        "Blick Bassy",
+        "Sally Nyolo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle chanteuse camerounaise, ancienne membre de Zap Mama, mêle musique traditionnelle bassa et pop dans sa carrière solo ?",
+      "choices": [
+        "Charlotte Dipanda",
+        "Sally Nyolo",
+        "Coco Mbassi",
+        "Wax Dey (homme)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre musical traditionnel camerounais des Bassa, rythmé par des percussions et souvent associé à des danses de fête, est l'assiko ?",
+      "choices": [
+        "Il s'agit bien de l'assiko",
+        "L'assiko est en réalité une danse sénégalaise",
+        "L'assiko n'existe pas",
+        "L'assiko est un genre congolais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel groupe vocal sud-africain masculin est mondialement connu pour sa polyphonie a cappella isicathamiya ?",
+      "choices": [
+        "The Mahotella Queens",
+        "Ladysmith Black Mambazo",
+        "The Soul Brothers",
+        "Freshlyground"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre vocal zoulou a cappella, popularisé par Ladysmith Black Mambazo, est né dans les mines sud-africaines ?",
+      "choices": [
+        "Le mbube (dont dérive l'isicathamiya)",
+        "L'isicathamiya",
+        "Les deux termes désignent des styles apparentés",
+        "Le kwaito"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel genre musical électronique sud-africain, né dans les townships après l'apartheid, mêle house et rythmes locaux ?",
+      "choices": [
+        "Le kwaito",
+        "L'amapiano",
+        "Les deux, kwaito puis amapiano, se sont succédé",
+        "Le gqom uniquement"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel genre musical électronique sud-africain récent, caractérisé par des lignes de basse lourdes et des percussions jazzy, domine la scène depuis les années 2010 ?",
+      "choices": [
+        "Le kwaito",
+        "L'amapiano",
+        "Le gqom",
+        "Le shangaan electro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur et guitariste zoulou-britannique, connu pour « Scatterlings of Africa », a mêlé pop occidentale et musique zouloue sous l'apartheid ?",
+      "choices": [
+        "Johnny Clegg",
+        "Hugh Masekela",
+        "Ladysmith Black Mambazo",
+        "Vusi Mahlasela"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel compositeur et pianiste éthiopien a été redécouvert grâce à la série de compilations « Éthiopiques » dans les années 1990-2000 ?",
+      "choices": [
+        "Une grande partie de la scène du jazz éthiopien des années 1970 a été redécouverte via cette série, dont Mulatu Astatke",
+        "Aucun artiste n'a été redécouvert ainsi",
+        "Seul Mulatu Astatke figure dans cette série",
+        "La série ne concerne que du jazz américain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel style traditionnel de chant polyphonique se pratique en Afrique centrale, notamment chez les pygmées Aka et Baka ?",
+      "choices": [
+        "Le mbube",
+        "Le chant polyphonique pygmée (yodel pygmée)",
+        "L'isicathamiya",
+        "Le griot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel instrument à cordes frottées traditionnel d'Afrique de l'Ouest, à une seule corde, est utilisé par certains griots ?",
+      "choices": [
+        "Le n'goni",
+        "Le riti (ou goge)",
+        "La kora",
+        "Le balafon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur baroque italien a été maître de chapelle à la Pietà de Venise, où il enseignait à un orchestre de jeunes filles ?",
+      "choices": [
+        "Corelli",
+        "Vivaldi",
+        "Scarlatti",
+        "Albinoni"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel compositeur français du 17e siècle, d'origine italienne, a dominé la musique de cour de Louis XIV ?",
+      "choices": [
+        "Jean-Baptiste Lully",
+        "Marc-Antoine Charpentier",
+        "François Couperin",
+        "Jean-Philippe Rameau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel compositeur et théoricien français du 18e siècle a écrit un traité influent sur l'harmonie musicale ?",
+      "choices": [
+        "Lully",
+        "Jean-Philippe Rameau",
+        "Couperin",
+        "Charpentier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chanteur congolais-belge contemporain mêle rumba, jazz et musiques urbaines dans ses albums récents ?",
+      "choices": [
+        "Baloji",
+        "Fally Ipupa",
+        "Ferre Gola",
+        "Werrason"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel compositeur tchèque du 19e siècle a fondé le mouvement musical national tchèque avec « La Fiancée vendue » ?",
+      "choices": [
+        "Antonín Dvořák",
+        "Bedřich Smetana",
+        "Leoš Janáček",
+        "Zdeněk Fibich"
       ],
       "correctIndex": 1
     }

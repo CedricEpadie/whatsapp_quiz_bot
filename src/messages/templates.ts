@@ -88,7 +88,7 @@ export const templates = {
   ): string =>
     `❓ *Question ${questionNumber}/${totalQuestions}* (Phase ${phaseNumber})\n\n` +
     `${q.question}\n\n` +
-    `🅰️ ${q.choices.A}\n🅱️ ${q.choices.B}\n🇨 ${q.choices.C}\n🇩 ${q.choices.D}\n\n` +
+    `*A.* ${q.choices.A}\n*𝐁.* ${q.choices.B}\n*𝐂.* ${q.choices.C}\n*𝐃.* ${q.choices.D}\n\n` +
     `⏱️ Répondez avec A, B, C ou D !`,
 
   countdown: (secondsLeft: number): string => `⏳ Temps restant : *${secondsLeft}s*`,

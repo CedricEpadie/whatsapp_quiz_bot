@@ -1972,7 +1972,7 @@
       "correctIndex": 1
     },
     {
-      "question": "Quelle grandeur mesure la résistance d'un matériau à la déformation élastique (module de Young) ?",
+      "question": "Quelle grandeur mesure la résistance d'un matériau à la déformation élastique ?",
       "choices": [
         "Module de cisaillement",
         "Module de Young",

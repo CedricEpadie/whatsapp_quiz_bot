@@ -2,157 +2,557 @@
   "theme": "⚽ Sport",
   "questions": [
     {
-      "question": "Tous les combien d'années ont lieu les Jeux Olympiques d'été ?",
-      "choices": [
-        "2 ans",
-        "4 ans",
-        "3 ans",
-        "5 ans"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quelle nation a remporté la Coupe du Monde de football de la FIFA en 2022 ?",
-      "choices": [
-        "Croatie",
-        "France",
-        "Brésil",
-        "Argentine"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel pays a remporté la Coupe d'Afrique des Nations (CAN) de football en 2024 ?",
-      "choices": [
-        "Nigeria",
-        "Cameroun",
-        "Côte d'Ivoire",
-        "Sénégal"
-      ],
-      "correctIndex": 2
-    },
-    {
       "question": "Combien de joueurs composent une équipe de football sur le terrain ?",
       "choices": [
+        "9",
         "10",
         "11",
-        "12",
-        "9"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel joueur de tennis détient le record du nombre de titres du Grand Chelem chez les hommes ?",
-      "choices": [
-        "Novak Djokovic",
-        "Roger Federer",
-        "Pete Sampras",
-        "Rafael Nadal"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel pays a inventé le jeu du rugby ?",
-      "choices": [
-        "Angleterre",
-        "Australie",
-        "Écosse",
-        "Nouvelle-Zélande"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Combien de points vaut un essai au rugby à XV sans la transformation ?",
-      "choices": [
-        "3 points",
-        "2 points",
-        "6 points",
-        "5 points"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Dans quel sport s'illustre le basketteur américain LeBron James ?",
-      "choices": [
-        "Football américain",
-        "Athlétisme",
-        "Basket-ball",
-        "Baseball"
+        "12"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Quel est le temps réglementaire d'un match de football hors prolongations ?",
+      "question": "Combien de joueurs composent une équipe de basketball sur le terrain ?",
       "choices": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans quel sport utilise-t-on une raquette et un volant ?",
+      "choices": [
+        "Tennis",
+        "Badminton",
+        "Squash",
+        "Ping-pong"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans quel sport marque-t-on des « buts » avec un ballon rond ?",
+      "choices": [
+        "Rugby",
+        "Football",
+        "Basketball",
+        "Handball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de temps dure un match de football professionnel (temps réglementaire) ?",
+      "choices": [
+        "60 minutes",
         "80 minutes",
         "90 minutes",
-        "100 minutes",
-        "60 minutes"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Sur quelle distance s'affronte-t-on lors de la course reine du sprint en athlétisme ?",
-      "choices": [
-        "80 mètres",
-        "100 mètres",
-        "400 mètres",
-        "200 mètres"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel athlète est détenteur du record du monde du 100m (9,58s) ?",
-      "choices": [
-        "Yohan Blake",
-        "Tyson Gay",
-        "Usain Bolt",
-        "Carl Lewis"
+        "120 minutes"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Combien de fois l'équipe nationale du Cameroun (Les Lions Indomptables) a-t-elle remporté la CAN ?",
+      "question": "Quel sport se joue avec une raquette et une petite balle jaune sur un court ?",
       "choices": [
-        "3 fois",
-        "5 fois",
-        "6 fois",
-        "4 fois"
+        "Badminton",
+        "Tennis",
+        "Squash",
+        "Padel"
       ],
       "correctIndex": 1
     },
     {
-      "question": "En quelle année le Cameroun a-t-il atteint les quarts de finale de la Coupe du Monde de football ?",
+      "question": "Combien de sets faut-il gagner pour remporter un match de tennis en trois sets gagnants ?",
       "choices": [
-        "1982",
-        "1994",
-        "2002",
-        "1990"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel golfeur est considéré comme une légende mondiale avec 15 majeurs ?",
-      "choices": [
-        "Rory McIlroy",
-        "Tiger Woods",
-        "Phil Mickelson",
-        "Jack Nicklaus"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Combien de joueurs y a-t-il dans une équipe de basket-ball sur le terrain ?",
+      "question": "Dans quel sport peut-on marquer un « home run » ?",
       "choices": [
-        "11",
+        "Cricket",
+        "Baseball",
+        "Softball uniquement",
+        "Football américain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport se pratique sur une piste avec des haies et des courses de vitesse ?",
+      "choices": [
+        "Natation",
+        "Athlétisme",
+        "Cyclisme",
+        "Aviron"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien d'anneaux compte le symbole olympique ?",
+      "choices": [
+        "4",
         "5",
-        "7",
-        "6"
+        "6",
+        "7"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quelle nation a remporté la première Coupe du monde de football en 1930 ?",
+      "question": "Tous les combien d'années se déroulent les Jeux olympiques d'été ?",
+      "choices": [
+        "2 ans",
+        "3 ans",
+        "4 ans",
+        "5 ans"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel sport utilise un ballon ovale et se joue à 15 joueurs (rugby à XV) ?",
+      "choices": [
+        "Football américain",
+        "Rugby",
+        "Football gaélique",
+        "Handball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans quel sport les joueurs frappent une petite balle blanche avec des clubs vers un trou ?",
+      "choices": [
+        "Le cricket",
+        "Le golf",
+        "Le hockey",
+        "Le baseball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de joueurs composent une équipe de volleyball sur le terrain ?",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel sport nautique consiste à nager le plus vite possible sur une distance donnée ?",
+      "choices": [
+        "Le plongeon",
+        "La natation",
+        "Le water-polo",
+        "L'aviron"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans quel sport de combat les athlètes portent-ils un kimono et pratiquent des projections ?",
+      "choices": [
+        "La boxe",
+        "Le judo",
+        "L'escrime",
+        "Le karaté uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport se pratique sur la glace avec des patins et un palet ?",
+      "choices": [
+        "Le curling",
+        "Le hockey sur glace",
+        "Le patinage artistique",
+        "Le bobsleigh"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport d'hiver consiste à descendre une pente enneigée avec des skis ?",
+      "choices": [
+        "Le snowboard",
+        "Le ski alpin",
+        "Le patinage",
+        "Le biathlon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de joueurs compose une équipe de handball sur le terrain ?",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel sport se joue avec des quilles que l'on tente de renverser avec une boule ?",
+      "choices": [
+        "Le billard",
+        "Le bowling",
+        "Le curling",
+        "La pétanque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport africain et mondial très populaire est aussi appelé « le ballon rond » ?",
+      "choices": [
+        "Le rugby",
+        "Le football",
+        "Le basketball",
+        "Le handball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans quel sport de raquette joue-t-on en tapant une balle contre un mur ?",
+      "choices": [
+        "Le tennis",
+        "Le squash",
+        "Le badminton",
+        "Le ping-pong"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport cycliste célèbre se déroule chaque année en France sur plusieurs semaines ?",
+      "choices": [
+        "Le Giro d'Italie",
+        "Le Tour de France",
+        "La Vuelta",
+        "Paris-Roubaix"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de trous compte un parcours de golf standard ?",
+      "choices": [
+        "9",
+        "12",
+        "18",
+        "24"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel sport de combat olympique se pratique avec des gants et des coups de poing uniquement ?",
+      "choices": [
+        "Le karaté",
+        "La boxe",
+        "Le judo",
+        "La lutte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport utilise une planche sur l'eau propulsée par le vent et une voile ?",
+      "choices": [
+        "Le surf",
+        "La planche à voile",
+        "Le kitesurf uniquement",
+        "Le paddle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport se joue en simple ou en double sur un court divisé par un filet, avec des raquettes ?",
+      "choices": [
+        "Le tennis",
+        "Le squash",
+        "Le racquetball",
+        "Le padel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel événement sportif mondial rassemble des équipes nationales de football tous les quatre ans ?",
+      "choices": [
+        "La Ligue des champions",
+        "La Coupe du monde de football",
+        "L'Euro",
+        "La Copa America"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a remporté la Coupe du monde de football à cinq reprises, un record ?",
+      "choices": [
+        "Allemagne",
+        "Brésil",
+        "Argentine",
+        "Italie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport américain implique des touchdowns et un ballon ovale, différent du rugby ?",
+      "choices": [
+        "Le rugby",
+        "Le football américain",
+        "Le baseball",
+        "Le hockey sur gazon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans quel sport les athlètes sautent le plus haut possible au-dessus d'une barre ?",
+      "choices": [
+        "Le saut en longueur",
+        "Le saut en hauteur",
+        "Le triple saut",
+        "Le saut à la perche uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans quel sport les athlètes sautent le plus loin possible depuis un point d'appel ?",
+      "choices": [
+        "Le saut en hauteur",
+        "Le saut en longueur",
+        "Le saut à la perche",
+        "Le décathlon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport combine course, natation et cyclisme dans une même épreuve ?",
+      "choices": [
+        "Le pentathlon moderne",
+        "Le triathlon",
+        "Le décathlon",
+        "L'heptathlon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport de raquette se joue avec une petite balle en plastique perforée sur une table ?",
+      "choices": [
+        "Le squash",
+        "Le tennis de table (ping-pong)",
+        "Le badminton",
+        "Le padel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel équipement protège la tête des joueurs de football américain et de hockey sur glace ?",
+      "choices": [
+        "Les protège-tibias",
+        "Le casque",
+        "Les gants",
+        "Les épaulières uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport aquatique se joue avec un ballon dans une piscine, sans toucher le fond ?",
+      "choices": [
+        "La natation synchronisée",
+        "Le water-polo",
+        "Le plongeon",
+        "L'aviron"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport de précision consiste à lancer des fléchettes sur une cible ?",
+      "choices": [
+        "Le billard",
+        "Les fléchettes (darts)",
+        "Le bowling",
+        "Le tir à l'arc"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport olympique consiste à tirer des flèches sur une cible avec un arc ?",
+      "choices": [
+        "Le tir sportif",
+        "Le tir à l'arc",
+        "Le lancer de javelot",
+        "L'escrime"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport se pratique avec une épée, un fleuret ou un sabre ?",
+      "choices": [
+        "La boxe",
+        "L'escrime",
+        "Le judo",
+        "Le taekwondo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport de combat coréen olympique privilégie les coups de pied ?",
+      "choices": [
+        "Le judo",
+        "Le taekwondo",
+        "Le karaté",
+        "L'aïkido"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport nécessite de frapper un ballon avec la tête, les pieds, la poitrine mais pas les mains (sauf le gardien) ?",
+      "choices": [
+        "Le rugby",
+        "Le football",
+        "Le handball",
+        "Le volleyball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport hivernal olympique combine ski de fond et tir à la carabine ?",
+      "choices": [
+        "Le combiné nordique",
+        "Le biathlon",
+        "Le ski alpin",
+        "Le saut à ski"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport se pratique dans un ring, avec des rounds chronométrés, opposant deux boxeurs ?",
+      "choices": [
+        "La lutte",
+        "La boxe",
+        "Le judo",
+        "Le MMA uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport très populaire au Cameroun et en Afrique voit s'affronter des sélections nationales lors de la CAN ?",
+      "choices": [
+        "Le rugby",
+        "Le football",
+        "Le cricket",
+        "Le hockey"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Que signifie l'acronyme « CAN » dans le football africain ?",
+      "choices": [
+        "Championnat africain des nations",
+        "Coupe d'Afrique des nations",
+        "Coupe américaine des nations",
+        "Championnat asiatique des nations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport utilise une crosse pour frapper un petit disque appelé palet sur la glace ?",
+      "choices": [
+        "Le curling",
+        "Le hockey sur glace",
+        "Le hockey sur gazon",
+        "Le bandy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport de précision hivernal consiste à faire glisser des pierres vers une cible sur la glace ?",
+      "choices": [
+        "Le hockey",
+        "Le curling",
+        "Le patinage de vitesse",
+        "Le bobsleigh"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit des athlètes s'élancer sur une piste avec une luge à grande vitesse ?",
+      "choices": [
+        "Le bobsleigh/la luge",
+        "Le patinage de vitesse",
+        "Le ski de fond",
+        "Le saut à ski"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel sport de raquette olympique se joue avec un volant en plumes ?",
+      "choices": [
+        "Le tennis",
+        "Le badminton",
+        "Le squash",
+        "Le ping-pong"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport implique de frapper une balle avec une batte pour marquer des points en courant entre des bases, populaire notamment au Commonwealth ?",
+      "choices": [
+        "Le baseball",
+        "Le cricket",
+        "Le softball",
+        "Le rounders"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de Ballons d'or (masculin) ?",
+      "choices": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Pelé",
+        "Diego Maradona"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur brésilien est souvent considéré comme l'un des plus grands footballeurs de tous les temps, triple champion du monde ?",
+      "choices": [
+        "Ronaldinho",
+        "Pelé",
+        "Ronaldo",
+        "Kaká"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel footballeur camerounais a marqué l'histoire avec ses célébrations au poteau de corner lors de la Coupe du monde 1990 ?",
+      "choices": [
+        "Samuel Eto'o",
+        "Roger Milla",
+        "Patrick Mboma",
+        "Rigobert Song"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel footballeur camerounais est le meilleur buteur de l'histoire de la Ligue des champions africaine et de la sélection nationale ?",
+      "choices": [
+        "Roger Milla",
+        "Samuel Eto'o",
+        "Vincent Aboubakar",
+        "Joël Matip"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a organisé la première Coupe du monde de football en 1930 ?",
+      "choices": [
+        "Brésil",
+        "Uruguay",
+        "Italie",
+        "France"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a remporté la première Coupe du monde de football en 1930 ?",
       "choices": [
         "Brésil",
         "Uruguay",
@@ -162,24 +562,1444 @@
       "correctIndex": 1
     },
     {
-      "question": "Quel est le style de nage le plus rapide en natation ?",
+      "question": "Quel joueur détient le record de buts marqués en Coupe du monde de football masculine ?",
       "choices": [
-        "Le crawl",
-        "Le dos crawlé",
-        "La papillon",
-        "La brasse"
+        "Pelé",
+        "Miroslav Klose",
+        "Ronaldo (Brésil)",
+        "Just Fontaine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle nageuse ou quel nageur détient le record du plus grand nombre de médailles olympiques toutes disciplines confondues ?",
+      "choices": [
+        "Mark Spitz",
+        "Michael Phelps",
+        "Katie Ledecky",
+        "Ian Thorpe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète jamaïcain détient le record du monde du 100 mètres ?",
+      "choices": [
+        "Justin Gatlin",
+        "Usain Bolt",
+        "Tyson Gay",
+        "Yohan Blake"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle joueuse de tennis a remporté le plus de titres du Grand Chelem en simple chez les femmes à l'ère open ?",
+      "choices": [
+        "Steffi Graf",
+        "Serena Williams",
+        "Margaret Court (avant l'ère open comptée séparément)",
+        "Martina Navratilova"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur de tennis a remporté le plus de titres du Grand Chelem en simple messieurs, selon les records récents ?",
+      "choices": [
+        "Roger Federer",
+        "Rafael Nadal",
+        "Novak Djokovic",
+        "Pete Sampras"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle compétition de tennis se joue sur gazon à Londres chaque année ?",
+      "choices": [
+        "Roland-Garros",
+        "Wimbledon",
+        "L'US Open",
+        "L'Open d'Australie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle compétition de tennis se joue sur terre battue à Paris chaque année ?",
+      "choices": [
+        "Wimbledon",
+        "Roland-Garros",
+        "L'US Open",
+        "L'Open d'Australie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel club de football espagnol est l'un des plus titrés en Ligue des champions ?",
+      "choices": [
+        "FC Barcelone",
+        "Real Madrid",
+        "Atlético Madrid",
+        "Séville FC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel club de football anglais a remporté la Ligue des champions en 2005 après une remontée historique en finale ?",
+      "choices": [
+        "Manchester United",
+        "Liverpool",
+        "Chelsea",
+        "Arsenal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pilote de Formule 1 détient le record du plus grand nombre de titres mondiaux, à égalité avec un autre pilote ?",
+      "choices": [
+        "Ayrton Senna",
+        "Michael Schumacher (7 titres, égalé par Hamilton)",
+        "Alain Prost",
+        "Sebastian Vettel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pilote britannique de Formule 1 a égalé le record de sept titres mondiaux ?",
+      "choices": [
+        "Nigel Mansell",
+        "Lewis Hamilton",
+        "Jenson Button",
+        "Damon Hill"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur de basketball américain est souvent considéré comme le meilleur de tous les temps, six fois champion NBA avec les Bulls ?",
+      "choices": [
+        "LeBron James",
+        "Michael Jordan",
+        "Kobe Bryant",
+        "Magic Johnson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur détient le record du nombre de points marqués en carrière en NBA ?",
+      "choices": [
+        "Kareem Abdul-Jabbar",
+        "LeBron James",
+        "Kobe Bryant",
+        "Karl Malone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle nation a remporté le plus de Coupes du monde de football masculine ?",
+      "choices": [
+        "Allemagne",
+        "Brésil",
+        "Argentine",
+        "Italie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit s'affronter chaque année les meilleures équipes de clubs européens de football dans une compétition prestigieuse ?",
+      "choices": [
+        "L'Europa League",
+        "La Ligue des champions",
+        "La Supercoupe d'Europe",
+        "Le Championnat d'Europe des nations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle compétition continentale de football oppose les sélections nationales d'Europe tous les quatre ans ?",
+      "choices": [
+        "La Ligue des champions",
+        "L'Euro (Championnat d'Europe des nations)",
+        "La Ligue des nations",
+        "La Coupe UEFA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel boxeur américain est célèbre pour son surnom « The Greatest » et son opposition à la guerre du Vietnam ?",
+      "choices": [
+        "Mike Tyson",
+        "Mohamed Ali",
+        "Joe Frazier",
+        "George Foreman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel boxeur a été champion du monde des poids lourds à seulement 20 ans, un record ?",
+      "choices": [
+        "Mohamed Ali",
+        "Mike Tyson",
+        "Lennox Lewis",
+        "Evander Holyfield"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur de golf américain détient le record du plus grand nombre de victoires en tournois majeurs, avec 18 titres ?",
+      "choices": [
+        "Tiger Woods",
+        "Jack Nicklaus",
+        "Arnold Palmer",
+        "Phil Mickelson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sportif a remporté sept fois consécutivement le Tour de France avant d'être disqualifié pour dopage ?",
+      "choices": [
+        "Miguel Indurain",
+        "Lance Armstrong",
+        "Eddy Merckx",
+        "Bernard Hinault"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cycliste belge est surnommé « le Cannibale » et détient de nombreux records dans le cyclisme ?",
+      "choices": [
+        "Jacques Anquetil",
+        "Eddy Merckx",
+        "Fausto Coppi",
+        "Bernard Hinault"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit la France remporter la Coupe du monde en 1998, sur son propre sol ?",
+      "choices": [
+        "Le rugby",
+        "Le football",
+        "Le handball",
+        "Le basketball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle équipe nationale africaine a atteint les demi-finales de la Coupe du monde de football en 2022, une première pour le continent ?",
+      "choices": [
+        "Le Sénégal",
+        "Le Maroc",
+        "Le Cameroun",
+        "Le Ghana"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays organise traditionnellement le tournoi de tennis de l'US Open ?",
+      "choices": [
+        "Royaume-Uni",
+        "France",
+        "États-Unis",
+        "Australie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays organise traditionnellement l'Open d'Australie ?",
+      "choices": [
+        "Australie",
+        "Nouvelle-Zélande",
+        "États-Unis",
+        "Royaume-Uni"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quel est le nombre de trous sur un parcours de golf standard ?",
+      "question": "Quel athlète éthiopien ou kényan domine traditionnellement les courses de fond comme le marathon aux Jeux olympiques ?",
       "choices": [
-        "9",
-        "24",
-        "12",
-        "18"
+        "Athlètes jamaïcains",
+        "Athlètes éthiopiens et kényans",
+        "Athlètes américains",
+        "Athlètes russes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit s'affronter des équipes de 15 joueurs marquant des essais et des transformations ?",
+      "choices": [
+        "Le football américain",
+        "Le rugby à XV",
+        "Le rugby à XIII",
+        "Le football gaélique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport aquatique olympique inclut des figures artistiques synchronisées dans l'eau ?",
+      "choices": [
+        "Le water-polo",
+        "La natation synchronisée (nage artistique)",
+        "Le plongeon",
+        "L'aviron"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit des gymnastes réaliser des figures sur des agrès comme les barres asymétriques et la poutre ?",
+      "choices": [
+        "L'athlétisme",
+        "La gymnastique artistique",
+        "Le trampoline uniquement",
+        "La natation synchronisée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle discipline de gymnastique combine musique et engins comme le ruban et le cerceau ?",
+      "choices": [
+        "La gymnastique artistique",
+        "La gymnastique rythmique",
+        "L'acrosport",
+        "Le trampoline"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit deux lutteurs tenter de mettre leur adversaire au sol en utilisant prises et projections, sans coups ?",
+      "choices": [
+        "La boxe",
+        "La lutte",
+        "Le judo uniquement",
+        "Le karaté"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format de match de cricket est le plus long, pouvant durer plusieurs jours ?",
+      "choices": [
+        "Le Twenty20",
+        "Le Test match",
+        "Le One Day International",
+        "Le T10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport très populaire en Inde et au Pakistan utilise une batte et un guichet (wicket) ?",
+      "choices": [
+        "Le baseball",
+        "Le cricket",
+        "Le hockey sur gazon",
+        "Le squash"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit deux équipes s'affronter avec des crosses recourbées et une balle sur un terrain herbeux (différent du hockey sur glace) ?",
+      "choices": [
+        "Le hockey sur gazon",
+        "Le hockey sur glace",
+        "Le bandy",
+        "Le hurling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel joueur de football portugais est célèbre pour ses records de buts en carrière et en Ligue des champions ?",
+      "choices": [
+        "Lionel Messi",
+        "Cristiano Ronaldo",
+        "Luís Figo",
+        "Eusébio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gardien de but italien est considéré comme l'un des meilleurs de l'histoire du football ?",
+      "choices": [
+        "Gianluigi Buffon",
+        "Dino Zoff",
+        "Iker Casillas",
+        "Manuel Neuer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays a accueilli la Coupe du monde de football masculine en 2022 ?",
+      "choices": [
+        "Russie",
+        "Qatar",
+        "Brésil",
+        "France"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a accueilli les Jeux olympiques d'été en 2024 ?",
+      "choices": [
+        "Japon",
+        "France",
+        "Brésil",
+        "Royaume-Uni"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a accueilli les Jeux olympiques d'été en 2021 (initialement prévus en 2020) ?",
+      "choices": [
+        "Chine",
+        "Japon",
+        "Corée du Sud",
+        "Brésil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur ivoirien a remporté le Ballon d'or africain à plusieurs reprises et évolué à Chelsea ?",
+      "choices": [
+        "Yaya Touré",
+        "Didier Drogba",
+        "Kolo Touré",
+        "Salomon Kalou"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel footballeur nigérian a été triple Ballon d'or africain, star d'Arsenal dans les années 2000 ?",
+      "choices": [
+        "Jay-Jay Okocha",
+        "Nwankwo Kanu",
+        "Emmanuel Adebayor",
+        "Victor Moses"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport de combat mixte, très populaire aujourd'hui, combine boxe, lutte, judo et autres arts martiaux dans une cage ?",
+      "choices": [
+        "Le kickboxing",
+        "Le MMA (arts martiaux mixtes)",
+        "La boxe thaïlandaise",
+        "Le sambo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays domine traditionnellement le tennis de table (ping-pong) aux Jeux olympiques ?",
+      "choices": [
+        "Japon",
+        "Chine",
+        "Corée du Sud",
+        "Allemagne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit une équipe tenter de faire avancer un ballon ovale par des passes en arrière et des plaquages ?",
+      "choices": [
+        "Le football américain",
+        "Le rugby",
+        "Le football gaélique",
+        "Le hurling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète détient le record du monde du saut en hauteur, établi en 1993 ?",
+      "choices": [
+        "Javier Sotomayor",
+        "Mutaz Essa Barshim",
+        "Stefan Holm",
+        "Charles Austin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel athlète détient le record du monde du saut à la perche masculin, établi récemment ?",
+      "choices": [
+        "Sergueï Bubka",
+        "Armand Duplantis",
+        "Renaud Lavillenie",
+        "Timothy Mack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète ukrainien a dominé le saut à la perche pendant des décennies avant les records d'Armand Duplantis ?",
+      "choices": [
+        "Sergueï Bubka",
+        "Yelena Isinbayeva",
+        "Bohdan Bondarenko",
+        "Maksym Mazuryk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel record d'athlétisme féminin du 100 mètres, établi en 1988, reste inégalé depuis longtemps ?",
+      "choices": [
+        "Le record de Florence Griffith-Joyner",
+        "Le record de Marion Jones",
+        "Le record de Shelly-Ann Fraser-Pryce",
+        "Le record d'Elaine Thompson-Herah"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été au total dans l'histoire ?",
+      "choices": [
+        "Union soviétique/Russie",
+        "États-Unis",
+        "Chine",
+        "Royaume-Uni"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format court de cricket, très populaire, se joue en 20 overs par équipe ?",
+      "choices": [
+        "Le Test match",
+        "Le Twenty20 (T20)",
+        "Le One Day International",
+        "Le First-Class"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel trophée est attribué chaque année au vainqueur de la Ligue des champions de l'UEFA ?",
+      "choices": [
+        "La Coupe Jules-Rimet",
+        "La « Coupe aux grandes oreilles »",
+        "Le Ballon d'argent",
+        "Le Bouclier de bronze"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel trophée était historiquement attribué au vainqueur de la Coupe du monde de football avant 1970, puis remplacé ?",
+      "choices": [
+        "La Coupe FIFA actuelle",
+        "La Coupe Jules-Rimet",
+        "La Coupe Charles-Simon",
+        "Le Trophée des Champions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel club de football italien, surnommé la « Vieille Dame », est l'un des plus titrés d'Italie ?",
+      "choices": [
+        "AC Milan",
+        "Juventus",
+        "Inter Milan",
+        "AS Rome"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel club de football allemand domine traditionnellement la Bundesliga depuis les années 2010 ?",
+      "choices": [
+        "Borussia Dortmund",
+        "Bayern Munich",
+        "RB Leipzig",
+        "Bayer Leverkusen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de sélections en équipe nationale de football (toutes nations confondues) ?",
+      "choices": [
+        "Cristiano Ronaldo",
+        "Bader Al-Mutawa",
+        "Lionel Messi",
+        "Ahmed Hassan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel athlète a remporté huit médailles d'or olympiques en une seule édition, un record, aux Jeux de 2008 ?",
+      "choices": [
+        "Mark Spitz",
+        "Michael Phelps",
+        "Usain Bolt",
+        "Carl Lewis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel nageur américain a remporté sept médailles d'or aux Jeux olympiques de 1972, record pour l'époque ?",
+      "choices": [
+        "Michael Phelps",
+        "Mark Spitz",
+        "Matt Biondi",
+        "Ian Thorpe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle compétition cycliste italienne, l'un des trois grands tours, se déroule chaque printemps ?",
+      "choices": [
+        "Le Tour de France",
+        "Le Giro d'Italie",
+        "La Vuelta a España",
+        "Paris-Roubaix"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle compétition cycliste espagnole, l'un des trois grands tours, se déroule en fin d'été ?",
+      "choices": [
+        "Le Giro d'Italie",
+        "La Vuelta a España",
+        "Le Tour de France",
+        "Milan-San Remo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur de rugby néo-zélandais est considéré comme l'un des plus grands All Blacks de l'histoire ?",
+      "choices": [
+        "Jonah Lomu",
+        "Richie McCaw",
+        "Dan Carter",
+        "Sonny Bill Williams"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle nation domine historiquement le rugby à XV avec le plus de titres de Coupe du monde ?",
+      "choices": [
+        "Angleterre",
+        "Afrique du Sud",
+        "Nouvelle-Zélande",
+        "Australie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel pays a remporté la Coupe du monde de rugby en 2023 ?",
+      "choices": [
+        "France",
+        "Nouvelle-Zélande",
+        "Afrique du Sud",
+        "Irlande"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de titres du Grand Chelem en simple messieurs chez les seniors, à fin 2024 ?",
+      "choices": [
+        "Roger Federer (20)",
+        "Novak Djokovic (24)",
+        "Rafael Nadal (22)",
+        "Pete Sampras (14)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur espagnol est surnommé le « Roi de la terre battue » pour ses nombreux titres à Roland-Garros ?",
+      "choices": [
+        "Roger Federer",
+        "Rafael Nadal",
+        "Novak Djokovic",
+        "Carlos Alcaraz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a remporté le plus de titres olympiques en gymnastique artistique féminine récemment ?",
+      "choices": [
+        "Roumanie",
+        "États-Unis",
+        "Russie",
+        "Chine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle gymnaste américaine est considérée comme l'une des plus grandes de tous les temps avec de nombreux titres mondiaux et olympiques ?",
+      "choices": [
+        "Nadia Comăneci",
+        "Simone Biles",
+        "Gabby Douglas",
+        "Shawn Johnson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle gymnaste roumaine a obtenu la première note parfaite de 10 aux Jeux olympiques de 1976 ?",
+      "choices": [
+        "Simone Biles",
+        "Nadia Comăneci",
+        "Olga Korbut",
+        "Larisa Latynina"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit le Kenya et l'Éthiopie dominer traditionnellement les courses de fond et de demi-fond mondiales ?",
+      "choices": [
+        "Le cyclisme",
+        "L'athlétisme (courses de fond)",
+        "La natation",
+        "Le triathlon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète détient le record du monde du marathon masculin établi en 2023 ?",
+      "choices": [
+        "Eliud Kipchoge",
+        "Kelvin Kiptum",
+        "Dennis Kimetto",
+        "Kenenisa Bekele"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel coureur kényan a longtemps dominé le marathon mondial, notamment avec un chrono sous les deux heures en course non homologuée ?",
+      "choices": [
+        "Kelvin Kiptum",
+        "Eliud Kipchoge",
+        "Wilson Kipsang",
+        "Dennis Kimetto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel événement sportif se déroule tous les quatre ans et regroupe des athlètes en situation de handicap, en parallèle des JO ?",
+      "choices": [
+        "Les Jeux du Commonwealth",
+        "Les Jeux paralympiques",
+        "Les Jeux mondiaux militaires",
+        "Les Special Olympics"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle discipline olympique de tir combine ski de fond et tir à la carabine sur des cibles ?",
+      "choices": [
+        "Le pentathlon moderne",
+        "Le biathlon",
+        "Le combiné nordique",
+        "Le tir sportif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit des athlètes lancer un disque en métal le plus loin possible lors d'épreuves d'athlétisme ?",
+      "choices": [
+        "Le lancer de poids",
+        "Le lancer de disque",
+        "Le lancer de javelot",
+        "Le lancer de marteau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit des athlètes lancer un objet métallique attaché à un câble et une poignée le plus loin possible ?",
+      "choices": [
+        "Le lancer de disque",
+        "Le lancer de marteau",
+        "Le lancer de poids",
+        "Le lancer de javelot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format de compétition de football voit s'affronter les clubs vainqueurs de différentes confédérations continentales ?",
+      "choices": [
+        "La Ligue des champions",
+        "La Coupe du monde des clubs",
+        "La Supercoupe d'Europe",
+        "La Coupe Intercontinentale historique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel entraîneur est associé au style de jeu offensif du FC Barcelone dans les années 2008-2012, le « tiki-taka » ?",
+      "choices": [
+        "José Mourinho",
+        "Pep Guardiola",
+        "Luis Enrique",
+        "Frank Rijkaard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel club anglais a remporté un « treble » historique (championnat, coupe nationale, Ligue des champions) en 1999 ?",
+      "choices": [
+        "Arsenal",
+        "Manchester United",
+        "Chelsea",
+        "Liverpool"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a organisé et remporté la Coupe du monde de football de 1998 ?",
+      "choices": [
+        "Brésil",
+        "France",
+        "Italie",
+        "Allemagne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gardien de but camerounais est célèbre pour ses performances lors de plusieurs Coupes d'Afrique des nations ?",
+      "choices": [
+        "Joseph-Antoine Bell",
+        "Carlos Kameni",
+        "André Onana",
+        "Les trois ont marqué l'histoire"
       ],
       "correctIndex": 3
+    },
+    {
+      "question": "Quel footballeur sénégalais a remporté la CAN 2021/2022 avec sa sélection nationale ?",
+      "choices": [
+        "Idrissa Gueye",
+        "Sadio Mané",
+        "Kalidou Koulibaly",
+        "Édouard Mendy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle compétition continentale africaine de clubs de football est l'équivalent de la Ligue des champions européenne ?",
+      "choices": [
+        "La Coupe CAF",
+        "La Ligue des champions de la CAF",
+        "La Supercoupe africaine",
+        "La Coupe des confédérations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport de raquette olympique récent, dérivé du tennis et du squash, gagne en popularité mondiale (padel) ?",
+      "choices": [
+        "Le padel",
+        "Le pickleball",
+        "Le racquetball",
+        "Le squash"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel sport voit des skieurs descendre une piste jalonnée de portes à franchir le plus vite possible (slalom) ?",
+      "choices": [
+        "Le ski de fond",
+        "Le ski alpin (slalom)",
+        "Le saut à ski",
+        "Le biathlon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit des athlètes s'élancer d'un tremplin pour effectuer le saut le plus long possible sur neige ?",
+      "choices": [
+        "Le ski alpin",
+        "Le saut à ski",
+        "Le ski de fond",
+        "Le combiné nordique uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit deux équipes de curling s'affronter en faisant glisser des pierres vers une cible appelée « maison » ?",
+      "choices": [
+        "Le bowling sur glace",
+        "Le curling",
+        "Le hockey",
+        "Le patinage de vitesse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète américain a longtemps détenu le record du 100 mètres avant Usain Bolt ?",
+      "choices": [
+        "Carl Lewis",
+        "Maurice Greene",
+        "Asafa Powell",
+        "Tyson Gay"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sprinteur américain a remporté quatre médailles d'or aux Jeux olympiques de 1984 ?",
+      "choices": [
+        "Jesse Owens (1936)",
+        "Carl Lewis",
+        "Michael Johnson",
+        "Justin Gatlin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète a remporté quatre médailles d'or aux Jeux olympiques de Berlin en 1936, défiant l'idéologie nazie ?",
+      "choices": [
+        "Carl Lewis",
+        "Jesse Owens",
+        "Bob Beamon",
+        "Ralph Metcalfe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sportif détient le record du saut en longueur établi en 1968, longtemps inégalé ?",
+      "choices": [
+        "Carl Lewis",
+        "Bob Beamon",
+        "Mike Powell",
+        "Ralph Boston"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète américain détient le record actuel du monde du saut en longueur, établi en 1991 ?",
+      "choices": [
+        "Bob Beamon",
+        "Mike Powell",
+        "Carl Lewis",
+        "Larry Myricks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays a remporté le plus de titres de champion du monde de football féminin ?",
+      "choices": [
+        "Allemagne",
+        "États-Unis",
+        "Norvège",
+        "Brésil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport voit une balle de golf frappée le plus loin et précisément possible vers un trou avec le moins de coups possibles ?",
+      "choices": [
+        "Le croquet",
+        "Le golf",
+        "Le hockey sur gazon",
+        "Le disc golf"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sport de précision se joue sur un tapis vert avec des boules et un but appelé le cochonnet, populaire en France ?",
+      "choices": [
+        "Le bowling",
+        "La pétanque",
+        "Le curling",
+        "Le bocce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur a marqué le fameux « but de la main de Dieu » lors de la Coupe du monde 1986 ?",
+      "choices": [
+        "Pelé",
+        "Diego Maradona",
+        "Zico",
+        "Gérard Soler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel entraîneur néerlandais a théorisé le concept de « football total » dans les années 1970 ?",
+      "choices": [
+        "Johan Cruyff",
+        "Rinus Michels",
+        "Louis van Gaal",
+        "Guus Hiddink"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur néerlandais a incarné le « football total » sur le terrain, trois fois Ballon d'or dans les années 1970 ?",
+      "choices": [
+        "Ruud Gullit",
+        "Johan Cruyff",
+        "Marco van Basten",
+        "Dennis Bergkamp"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel tournoi de tennis, le plus ancien du monde, est disputé sur gazon depuis 1877 ?",
+      "choices": [
+        "Roland-Garros",
+        "Wimbledon",
+        "L'US Open",
+        "L'Open d'Australie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pilote automobile brésilien, triple champion du monde de F1, est mort accidentellement lors du Grand Prix de Saint-Marin 1994 ?",
+      "choices": [
+        "Nelson Piquet",
+        "Ayrton Senna",
+        "Emerson Fittipaldi",
+        "Rubens Barrichello"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pilote allemand détient le record du plus grand nombre de victoires en Grand Prix de Formule 1 (avant l'ère Verstappen) ?",
+      "choices": [
+        "Alain Prost",
+        "Michael Schumacher",
+        "Lewis Hamilton",
+        "Sebastian Vettel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écurie de Formule 1 est historiquement la plus titrée en championnats constructeurs ?",
+      "choices": [
+        "McLaren",
+        "Ferrari",
+        "Williams",
+        "Red Bull"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète a établi un record du monde du 100 mètres de 9,58 secondes en 2009 ?",
+      "choices": [
+        "Tyson Gay",
+        "Usain Bolt",
+        "Yohan Blake",
+        "Asafa Powell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle escrimeuse ou quel escrimeur français est associé à de nombreux titres olympiques dans cette discipline au fil du 20e siècle ?",
+      "choices": [
+        "La France a une longue tradition d'escrime olympique, incarnée par plusieurs champions successifs",
+        "Aucun escrimeur français notable",
+        "L'escrime n'est pas un sport olympique français",
+        "Ne s'applique pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel boxeur poids lourd a affronté Mohamed Ali lors du célèbre combat « Rumble in the Jungle » à Kinshasa en 1974 ?",
+      "choices": [
+        "Joe Frazier",
+        "George Foreman",
+        "Ken Norton",
+        "Larry Holmes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Dans quelle ville africaine s'est tenu le célèbre combat de boxe « Rumble in the Jungle » entre Ali et Foreman ?",
+      "choices": [
+        "Lagos",
+        "Kinshasa",
+        "Accra",
+        "Nairobi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur de football néerlandais a inventé/popularisé le geste technique dit « CR à la Cruyff » (Cruyff turn) ?",
+      "choices": [
+        "Marco van Basten",
+        "Johan Cruyff",
+        "Ruud Gullit",
+        "Dennis Bergkamp"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gardien de but allemand est réputé pour son style de jeu moderne de « gardien-libéro » avec le Bayern Munich et la Mannschaft ?",
+      "choices": [
+        "Oliver Kahn",
+        "Manuel Neuer",
+        "Jens Lehmann",
+        "Toni Schumacher"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète a couru le premier marathon officiel sous les deux heures dans des conditions non homologuées en 2019 ?",
+      "choices": [
+        "Kelvin Kiptum",
+        "Eliud Kipchoge",
+        "Dennis Kimetto",
+        "Haile Gebrselassie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète éthiopien a remporté deux médailles d'or olympiques du marathon consécutives en 1960 et 1964, la première pieds nus ?",
+      "choices": [
+        "Haile Gebrselassie",
+        "Abebe Bikila",
+        "Kenenisa Bekele",
+        "Mamo Wolde"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur de basketball est surnommé « The Black Mamba » et a marqué 81 points en un match NBA ?",
+      "choices": [
+        "Michael Jordan",
+        "Kobe Bryant",
+        "LeBron James",
+        "Wilt Chamberlain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur de basketball détient le record du plus grand nombre de points marqués en un seul match NBA (100 points) ?",
+      "choices": [
+        "Kobe Bryant",
+        "Wilt Chamberlain",
+        "Michael Jordan",
+        "LeBron James"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle équipe de football a inventé le style de jeu défensif italien appelé « catenaccio » dans les années 1960 ?",
+      "choices": [
+        "La Juventus",
+        "L'Inter Milan sous Helenio Herrera",
+        "L'AC Milan",
+        "La Roma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gardien de but soviétique est le seul de sa position à avoir remporté le Ballon d'or, en 1963 ?",
+      "choices": [
+        "Rinat Dasaev",
+        "Lev Yachine",
+        "Igor Netto",
+        "Viktor Chanov"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète hongrois est considéré comme le meilleur footballeur des années 1950, surnommé « Le Major galopant » ?",
+      "choices": [
+        "Sándor Kocsis",
+        "Ferenc Puskás",
+        "Nándor Hidegkuti",
+        "Zoltán Czibor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle équipe nationale, surnommée « la Manita » pour son jeu offensif, a dominé le football international dans les années 1950 avec la Hongrie ?",
+      "choices": [
+        "L'équipe des Pays-Bas",
+        "L'équipe de Hongrie (Aranycsapat)",
+        "L'équipe du Brésil",
+        "L'équipe d'Uruguay"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète tchécoslovaque a remporté trois médailles d'or olympiques de course à pied en 1952, un exploit unique (5000m, 10000m, marathon) ?",
+      "choices": [
+        "Zátopek Emil",
+        "Vaclav Chudomel",
+        "Josef Odlozil",
+        "Stanislav Jungwirth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel footballeur français a remporté le Ballon d'or en 1991, capitaine emblématique de l'AS Monaco puis du Milan AC ?",
+      "choices": [
+        "Michel Platini",
+        "Jean-Pierre Papin",
+        "Zinédine Zidane",
+        "David Ginola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel footballeur français, triple Ballon d'or dans les années 1980, est une légende de la Juventus et de l'équipe de France ?",
+      "choices": [
+        "Jean-Pierre Papin",
+        "Michel Platini",
+        "Zinédine Zidane",
+        "Raymond Kopa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur français a été élu meilleur joueur de la Coupe du monde 2006 malgré une expulsion en finale ?",
+      "choices": [
+        "Thierry Henry",
+        "Zinédine Zidane",
+        "Franck Ribéry",
+        "Patrick Vieira"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cheval de course anglais est considéré comme l'un des plus grands pur-sang de l'histoire des courses hippiques ?",
+      "choices": [
+        "Secretariat (américain)",
+        "Frankel",
+        "Man o' War (américain)",
+        "Red Rum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle discipline sportive équestre olympique combine dressage, cross et saut d'obstacles ?",
+      "choices": [
+        "Le dressage",
+        "Le concours complet (three-day event)",
+        "Le saut d'obstacles seul",
+        "L'attelage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel escrimeur ou quelle escrimeuse a remporté le plus de titres olympiques individuels dans l'histoire de la discipline (toutes armes confondues) ?",
+      "choices": [
+        "Valentina Vezzali (Italie, fleuret)",
+        "Aladár Gerevich (Hongrie, sabre par équipe)",
+        "Edoardo Mangiarotti (Italie)",
+        "Il existe plusieurs records selon l'arme et le type d'épreuve"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel athlète soviétique a été le premier à sauter plus de 6 mètres au saut à la perche en compétition officielle, dans les années 1980 ?",
+      "choices": [
+        "Sergueï Bubka",
+        "Vladimir Poliakov",
+        "Konstantin Volkov",
+        "Rodion Gataullin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel sport a vu naître le concept de « Moneyball », approche statistique du recrutement popularisée par les Oakland Athletics ?",
+      "choices": [
+        "Le basketball",
+        "Le baseball",
+        "Le football américain",
+        "Le hockey sur glace"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel entraîneur de baseball des Oakland Athletics est associé à la révolution statistique du « Moneyball » dans les années 2000 ?",
+      "choices": [
+        "Joe Torre",
+        "Billy Beane",
+        "Tony La Russa",
+        "Bobby Cox"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle discipline olympique de sports de raquette a été retirée puis n'a jamais réintégré le programme officiel malgré sa popularité mondiale (le squash) ?",
+      "choices": [
+        "Le squash reste un sport non-olympique historiquement, malgré des tentatives",
+        "Le squash est olympique depuis 1996",
+        "Le squash a toujours été aux Jeux",
+        "Aucune tentative n'a été faite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel athlète est devenu le premier homme à courir le 400 mètres en moins de 44 secondes, détenteur de nombreux records dans les années 1990 ?",
+      "choices": [
+        "Michael Johnson",
+        "Butch Reynolds",
+        "Harry Reynolds",
+        "Quincy Watts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel athlète a couru le 200 mètres et le 400 mètres avec des chaussures spéciales dorées lors des JO d'Atlanta 1996 ?",
+      "choices": [
+        "Carl Lewis",
+        "Michael Johnson",
+        "Ato Boldon",
+        "Frankie Fredericks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sprinteur namibien a remporté deux médailles d'argent olympiques mémorables dans les années 1990, rival de Michael Johnson ?",
+      "choices": [
+        "Ato Boldon",
+        "Frankie Fredericks",
+        "Obadele Thompson",
+        "Linford Christie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gardien de but camerounais a été élu meilleur gardien du monde par l'IFFHS en 1992, avec le surnom de « Docteur » ?",
+      "choices": [
+        "Thomas N'Kono",
+        "Joseph-Antoine Bell",
+        "Jacques Songo'o",
+        "André Onana"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel attaquant camerounais surnommé « le Lion indomptable » a joué la Coupe du monde à 42 ans en 1994, un record d'âge ?",
+      "choices": [
+        "Samuel Eto'o",
+        "Roger Milla",
+        "Patrick Mboma",
+        "François Omam-Biyik"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel milieu de terrain ghanéen a remporté plusieurs titres avec Chelsea et Manchester City dans les années 2010 ?",
+      "choices": [
+        "Michael Essien",
+        "Sulley Muntari",
+        "Asamoah Gyan",
+        "Kwadwo Asamoah"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel footballeur libérien a remporté le Ballon d'or en 1995, seul joueur africain à ce jour à l'avoir obtenu ?",
+      "choices": [
+        "Abedi Pelé",
+        "George Weah",
+        "Kanu Nwankwo",
+        "Samuel Eto'o"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète devenu ensuite président du Liberia est le seul Africain à avoir remporté le Ballon d'or ?",
+      "choices": [
+        "Abedi Pelé",
+        "George Weah",
+        "Didier Drogba",
+        "Yaya Touré"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel record mondial d'athlétisme féminin du 400 mètres, établi en 1985, est resté longtemps inégalé ?",
+      "choices": [
+        "Le record de Marita Koch",
+        "Le record de Jarmila Kratochvílová (800m)",
+        "Le record de Florence Griffith-Joyner",
+        "Le record de Sanya Richards-Ross"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle nageuse américaine détient le record du monde du 800m et 1500m nage libre dans les années 2020 ?",
+      "choices": [
+        "Missy Franklin",
+        "Katie Ledecky",
+        "Simone Manuel",
+        "Allison Schmitt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel nageur australien a dominé le 400m et 800m nage libre dans les années 2000 avec plusieurs titres olympiques ?",
+      "choices": [
+        "Ian Thorpe",
+        "Grant Hackett",
+        "Kieren Perkins",
+        "Michael Klim"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel athlète a remporté le décathlon olympique et est souvent qualifié d'« athlète le plus complet du monde » ?",
+      "choices": [
+        "Le vainqueur du décathlon olympique porte traditionnellement ce titre officieux",
+        "Le vainqueur du 100m",
+        "Le vainqueur du marathon",
+        "Aucun titre officiel de ce type n'existe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel joueur de tennis suisse a remporté un record de 8 titres à Wimbledon ?",
+      "choices": [
+        "Rafael Nadal",
+        "Roger Federer",
+        "Novak Djokovic",
+        "Pete Sampras"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle joueuse américaine a remporté 23 titres du Grand Chelem en simple, record de l'ère open féminine ?",
+      "choices": [
+        "Steffi Graf",
+        "Serena Williams",
+        "Chris Evert",
+        "Martina Navratilova"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel joueur serbe détient le record du plus grand nombre de semaines passées à la première place mondiale ATP ?",
+      "choices": [
+        "Roger Federer",
+        "Novak Djokovic",
+        "Rafael Nadal",
+        "Pete Sampras"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle nation a remporté la première Coupe d'Afrique des nations de football en 1957 ?",
+      "choices": [
+        "Ghana",
+        "Égypte",
+        "Éthiopie",
+        "Soudan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays africain a remporté le plus grand nombre de titres à la Coupe d'Afrique des nations ?",
+      "choices": [
+        "Cameroun",
+        "Égypte",
+        "Ghana",
+        "Nigeria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel athlète marocain a remporté la médaille d'or du 5000m aux Jeux olympiques de 1984 et 1988 ?",
+      "choices": [
+        "Hicham El Guerrouj",
+        "Saïd Aouita",
+        "Khalid Skah",
+        "Brahim Boutayeb"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel coureur algérien a remporté le 1500m olympique en 1996 ?",
+      "choices": [
+        "Noureddine Morceli",
+        "Nouredine Yessad",
+        "Rachid El Basir",
+        "Ali Saïdi-Sief"
+      ],
+      "correctIndex": 0
     }
   ]
 }

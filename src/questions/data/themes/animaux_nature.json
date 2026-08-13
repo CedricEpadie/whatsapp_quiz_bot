@@ -1,78 +1,488 @@
 {
-  "theme": "🐾 Animaux et nature",
+  "theme": "🐾 Animaux et Nature",
   "questions": [
     {
-      "question": "Quel est le plus grand animal vivant actuellement sur Terre ?",
+      "question": "Quel est le plus grand animal terrestre du monde ?",
       "choices": [
+        "Le rhinocéros",
         "L'éléphant d'Afrique",
+        "La girafe",
+        "L'hippopotame"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le plus grand animal du monde, vivant dans l'océan ?",
+      "choices": [
+        "Le requin blanc",
         "La baleine bleue",
-        "Le giga-dinosaure",
-        "Le requin-baleine"
+        "L'orque",
+        "Le cachalot"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quel est l'animal terrestre le plus rapide au monde ?",
+      "question": "Quel animal africain a un cou très long pour atteindre les feuilles des arbres ?",
       "choices": [
-        "Le léopard",
+        "L'éléphant",
+        "La girafe",
+        "Le zèbre",
+        "Le buffle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est célèbre pour ses rayures noires et blanches ?",
+      "choices": [
+        "Le tigre",
+        "Le zèbre",
+        "Le panda",
+        "La pie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel est le félin le plus rapide du monde sur terre ?",
+      "choices": [
         "Le lion",
-        "L'antilope",
-        "Le guépard"
+        "Le guépard",
+        "Le tigre",
+        "Le léopard"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "Quel mammifère est le seul capable de voler activement ?",
+      "question": "Quel animal est surnommé le « roi de la jungle » ?",
       "choices": [
-        "Le lémurien",
-        "L'ornithorynque",
-        "L'écureuil volant",
-        "La chauve-souris"
+        "Le tigre",
+        "Le lion",
+        "L'éléphant",
+        "Le léopard"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "Quel est le plus grand oiseau vivant au monde ?",
+      "question": "Quel oiseau est incapable de voler mais excellent nageur, vivant en Antarctique ?",
       "choices": [
-        "Le condor",
         "L'autruche",
-        "Le albatros",
-        "L'aigle royal"
+        "Le manchot",
+        "Le pingouin",
+        "L'émeu"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quel animal est célèbre pour changer de couleur pour se camoufler ?",
+      "question": "Quel oiseau africain est le plus grand du monde et court très vite sans voler ?",
       "choices": [
-        "L'iguane",
-        "Le gecko",
-        "Le varan",
-        "Le caméléon"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Comment appelle-t-on un groupe de loups ?",
-      "choices": [
-        "Un troupeau",
-        "Une meute",
-        "Une colonie",
-        "Une horde"
+        "Le manchot",
+        "L'autruche",
+        "L'émeu",
+        "Le kiwi"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Combien de pattes ont les arachnides ?",
+      "question": "Quel animal marin possède huit bras et peut changer de couleur ?",
       "choices": [
-        "10",
-        "6",
-        "12",
-        "8"
+        "La pieuvre",
+        "Le calamar",
+        "L'étoile de mer",
+        "Le crabe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animal aquatique respire grâce à des branchies ?",
+      "choices": [
+        "Le dauphin",
+        "La baleine",
+        "Le poisson",
+        "La tortue marine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel mammifère marin, très intelligent, communique par sifflements et clics ?",
+      "choices": [
+        "Le requin",
+        "Le dauphin",
+        "La raie",
+        "La méduse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est connu pour dormir la tête en bas, accroché par les pieds ?",
+      "choices": [
+        "Le paresseux",
+        "La chauve-souris",
+        "Le koala",
+        "Le singe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal australien, marsupial, dort dans les eucalyptus la majeure partie de la journée ?",
+      "choices": [
+        "Le kangourou",
+        "Le koala",
+        "Le wombat",
+        "L'opossum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal australien saute grâce à ses puissantes pattes arrière et porte ses petits dans une poche ?",
+      "choices": [
+        "Le koala",
+        "Le kangourou",
+        "Le wallaby (proche du kangourou)",
+        "Le wombat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal change de couleur pour se camoufler, souvent associé à Madagascar ?",
+      "choices": [
+        "Le lézard commun",
+        "Le caméléon",
+        "Le serpent",
+        "La tortue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal possède une carapace protectrice et se déplace très lentement ?",
+      "choices": [
+        "Le crabe",
+        "La tortue",
+        "L'escargot",
+        "Le hérisson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal produit du miel et vit en colonies organisées ?",
+      "choices": [
+        "La fourmi",
+        "L'abeille",
+        "La guêpe",
+        "Le papillon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel insecte se transforme en papillon après avoir été une chenille ?",
+      "choices": [
+        "La sauterelle",
+        "Le papillon (via chenille)",
+        "La libellule",
+        "Le criquet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal africain a de grandes défenses en ivoire et de larges oreilles ?",
+      "choices": [
+        "Le rhinocéros",
+        "L'éléphant",
+        "L'hippopotame",
+        "Le buffle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal massif vit dans les rivières africaines et peut être très dangereux malgré son apparence pataude ?",
+      "choices": [
+        "Le crocodile",
+        "L'hippopotame",
+        "Le rhinocéros",
+        "Le buffle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel reptile a de longues mâchoires et vit dans les rivières et marécages tropicaux ?",
+      "choices": [
+        "Le lézard",
+        "Le crocodile",
+        "Le serpent",
+        "La tortue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal venimeux n'a pas de pattes et se déplace en rampant ?",
+      "choices": [
+        "Le lézard",
+        "Le serpent",
+        "La salamandre",
+        "Le ver"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plante carnivore referme ses feuilles pour piéger les insectes ?",
+      "choices": [
+        "Le cactus",
+        "La dionée attrape-mouche",
+        "Le nénuphar",
+        "Le tournesol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grande plante du désert stocke l'eau dans sa tige épineuse ?",
+      "choices": [
+        "Le cactus",
+        "Le baobab",
+        "L'aloès uniquement",
+        "Le palmier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel arbre africain massif peut stocker de grandes quantités d'eau dans son tronc ?",
+      "choices": [
+        "Le baobab",
+        "L'acacia",
+        "Le palmier",
+        "L'iroko"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animal est le plus proche parent génétique de l'être humain ?",
+      "choices": [
+        "Le gorille",
+        "Le chimpanzé",
+        "L'orang-outan",
+        "Le bonobo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand singe africain, très puissant, vit principalement dans les forêts d'Afrique centrale ?",
+      "choices": [
+        "Le chimpanzé",
+        "Le gorille",
+        "L'orang-outan",
+        "Le gibbon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est herbivore et se nourrit principalement de plantes ?",
+      "choices": [
+        "Le lion",
+        "La vache",
+        "Le loup",
+        "Le requin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal se nourrit à la fois de plantes et de viande ?",
+      "choices": [
+        "Un carnivore",
+        "Un herbivore",
+        "Un omnivore",
+        "Un insectivore"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel animal marin est le plus grand poisson du monde, se nourrissant de plancton ?",
+      "choices": [
+        "Le requin blanc",
+        "Le requin-baleine",
+        "L'orque",
+        "Le thon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est célèbre pour sa peau épaisse et sa corne sur le nez ?",
+      "choices": [
+        "L'éléphant",
+        "Le rhinocéros",
+        "L'hippopotame",
+        "Le buffle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau de proie possède une vue perçante et chasse en plein vol ?",
+      "choices": [
+        "Le pigeon",
+        "L'aigle",
+        "Le moineau",
+        "Le canard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal domestique aboie et est souvent appelé « meilleur ami de l'homme » ?",
+      "choices": [
+        "Le chat",
+        "Le chien",
+        "Le lapin",
+        "Le cheval"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal domestique miaule et est très populaire comme animal de compagnie ?",
+      "choices": [
+        "Le chien",
+        "Le chat",
+        "Le hamster",
+        "Le poisson rouge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau est associé à la paix et porte parfois un rameau d'olivier dans les représentations ?",
+      "choices": [
+        "Le corbeau",
+        "La colombe",
+        "L'aigle",
+        "Le faucon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel insecte tisse une toile pour capturer ses proies ?",
+      "choices": [
+        "La fourmi",
+        "L'araignée",
+        "Le scarabée",
+        "La sauterelle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal aquatique venimeux a un corps gélatineux et des tentacules urticants ?",
+      "choices": [
+        "La pieuvre",
+        "La méduse",
+        "L'étoile de mer",
+        "L'oursin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin épineux se déplace lentement sur le fond marin et se régénère facilement ?",
+      "choices": [
+        "La méduse",
+        "L'étoile de mer",
+        "Le corail",
+        "L'anémone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal est réputé pour sa mémoire exceptionnelle et vit en groupes familiaux appelés troupeaux ?",
+      "choices": [
+        "Le lion",
+        "L'éléphant",
+        "Le zèbre",
+        "Le buffle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal africain vit en troupeaux et est la proie favorite des lions dans la savane ?",
+      "choices": [
+        "Le zèbre",
+        "La gazelle/l'antilope",
+        "Le buffle",
+        "Tous ces animaux sont des proies communes"
       ],
       "correctIndex": 3
     },
     {
-      "question": "Quel est le plus grand félin du monde ?",
+      "question": "Quel oiseau, symbole de sagesse, chasse la nuit grâce à une excellente vision nocturne ?",
+      "choices": [
+        "Le corbeau",
+        "Le hibou/la chouette",
+        "L'aigle",
+        "Le faucon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal amphibien passe de têtard à adulte, vivant à la fois dans l'eau et sur terre ?",
+      "choices": [
+        "Le poisson",
+        "La grenouille",
+        "Le lézard",
+        "La salamandre uniquement terrestre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre produit des glands et est associé à la force et la longévité ?",
+      "choices": [
+        "Le pin",
+        "Le chêne",
+        "Le bouleau",
+        "Le saule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle fleur est symbole de l'amour et existe en de nombreuses couleurs et variétés ?",
+      "choices": [
+        "Le tournesol",
+        "La rose",
+        "La marguerite",
+        "Le lys"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre fruitier tropical produit des grappes de fruits jaunes courbés ?",
+      "choices": [
+        "Le manguier",
+        "Le bananier",
+        "Le papayer",
+        "L'ananas (plante, pas arbre)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin filtre l'eau pour se nourrir de plancton et peut mesurer plus de 15 mètres (requin-baleine) ?",
+      "choices": [
+        "Le requin-baleine",
+        "L'orque",
+        "Le grand requin blanc",
+        "Le requin-marteau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel petit mammifère volant, souvent associé à la nuit et aux grottes, utilise l'écholocalisation ?",
+      "choices": [
+        "L'écureuil volant",
+        "La chauve-souris",
+        "Le hibou",
+        "Le papillon de nuit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, symbole de la Chine, se nourrit presque exclusivement de bambou ?",
+      "choices": [
+        "Le tigre",
+        "Le panda géant",
+        "Le singe",
+        "Le renard roux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand félin asiatique a un pelage orange rayé de noir ?",
       "choices": [
         "Le lion",
         "Le tigre",
@@ -82,54 +492,1514 @@
       "correctIndex": 1
     },
     {
-      "question": "Quel est le seul continent où vivent les kangourous à l'état sauvage ?",
+      "question": "Quel animal marin possède une corne torsadée et est surnommé « licorne des mers » ?",
       "choices": [
-        "L'Asie",
-        "L'Amérique du Sud",
-        "L'Afrique",
-        "L'Australie"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Comment appelle-t-on les arbres qui gardent leurs feuilles toute l'année ?",
-      "choices": [
-        "Caduques",
-        "Evergreen / Persistants",
-        "Feuillus",
-        "Résineux"
+        "Le dauphin",
+        "Le narval",
+        "L'espadon",
+        "Le béluga"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Combien de cœurs possède une pieuvre ?",
+      "question": "Quel est l'animal terrestre le plus rapide au monde sur de courtes distances ?",
       "choices": [
-        "3",
-        "4",
-        "2",
-        "1"
+        "Le lion",
+        "Le guépard",
+        "L'antilope",
+        "Le cheval"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin détient le record de l'animal le plus grand ayant jamais existé sur Terre ?",
+      "choices": [
+        "Le mégalodon",
+        "La baleine bleue",
+        "Le cachalot",
+        "Le requin-baleine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau vole le plus vite en piqué, pouvant dépasser 300 km/h ?",
+      "choices": [
+        "L'aigle royal",
+        "Le faucon pèlerin",
+        "Le martinet",
+        "Le condor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal terrestre est réputé vivre le plus longtemps, parfois plus de 150 ans ?",
+      "choices": [
+        "L'éléphant",
+        "La tortue géante des Galápagos",
+        "Le perroquet gris",
+        "La baleine boréale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal a la gestation la plus longue parmi les mammifères terrestres, environ 22 mois ?",
+      "choices": [
+        "La girafe",
+        "L'éléphant",
+        "Le rhinocéros",
+        "L'hippopotame"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal peut changer de sexe naturellement au cours de sa vie, comme certains poissons-clowns ?",
+      "choices": [
+        "Le poisson-clown",
+        "Le thon",
+        "Le requin",
+        "La murène"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quel est le plus grand serpent venimeux du monde ?",
+      "question": "Quel animal marin possède trois cœurs et du sang bleu ?",
       "choices": [
-        "Le mamba noir",
+        "Le calamar",
+        "La pieuvre",
+        "L'étoile de mer",
+        "Le crabe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal détient le record de vitesse absolue chez les animaux terrestres, sur de courtes distances ?",
+      "choices": [
+        "Le guépard (environ 110-120 km/h)",
+        "L'antilope",
+        "Le lion",
+        "Le cheval"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animal marin possède le plus grand cerveau de tous les animaux vivant sur Terre ?",
+      "choices": [
+        "La baleine bleue",
+        "Le cachalot",
+        "L'orque",
+        "Le dauphin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau migrateur parcourt la plus longue distance chaque année, entre l'Arctique et l'Antarctique ?",
+      "choices": [
+        "L'albatros",
+        "La sterne arctique",
+        "L'oie des neiges",
+        "Le puffin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal possède la plus grande envergure d'ailes parmi les oiseaux vivants ?",
+      "choices": [
+        "Le condor des Andes",
+        "L'albatros hurleur",
+        "L'aigle royal",
+        "Le pélican"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mammifère marin peut plonger à plus de 2000 mètres de profondeur, détenant un record chez les mammifères ?",
+      "choices": [
+        "Le dauphin",
+        "Le cachalot",
+        "L'orque",
+        "Le béluga"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal détient le record du saut le plus haut par rapport à sa taille corporelle, une puce ?",
+      "choices": [
+        "La puce",
+        "La sauterelle",
+        "Le kangourou",
+        "La grenouille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animal marin, très venimeux, possède l'un des poisons les plus mortels au monde (méduse-boîte) ?",
+      "choices": [
+        "La pieuvre à anneaux bleus",
+        "La méduse-boîte",
+        "Le poisson-pierre",
+        "Le serpent de mer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poulpe, petit mais très venimeux, se trouve dans le Pacifique et porte des anneaux bleus fluorescents ?",
+      "choices": [
+        "La pieuvre à anneaux bleus",
+        "La pieuvre commune",
+        "La seiche",
+        "Le calamar géant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel serpent est considéré comme l'un des plus venimeux au monde, présent notamment en Australie ?",
+      "choices": [
+        "Le serpent tigre",
+        "Le taïpan du désert",
         "Le cobra royal",
-        "Le taïpan",
-        "Le anaconda"
+        "Le mamba noir"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quel est le nom du petit de la vache ?",
+      "question": "Quel serpent africain, très rapide et venimeux, est redouté pour sa couleur et son agressivité potentielle ?",
       "choices": [
-        "Le veau",
-        "Le chevreau",
-        "Le agneau",
-        "Le poulin"
+        "Le cobra cracheur",
+        "Le mamba noir",
+        "La vipère du Gabon",
+        "Le boomslang"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, insecte social, peut soulever plusieurs fois son propre poids ?",
+      "choices": [
+        "L'abeille",
+        "La fourmi",
+        "Le scarabée",
+        "Le criquet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel insecte détient le record de l'insecte le plus lourd du monde, le scarabée goliath ?",
+      "choices": [
+        "Le scarabée goliath",
+        "Le criquet pèlerin",
+        "La mante religieuse géante",
+        "Le phasme géant"
       ],
       "correctIndex": 0
+    },
+    {
+      "question": "Quel animal amphibien, le plus grand du monde, vit dans les rivières de Chine (salamandre géante de Chine) ?",
+      "choices": [
+        "La grenouille goliath",
+        "La salamandre géante de Chine",
+        "Le crapaud buffle",
+        "L'axolotl"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grenouille, la plus grande du monde, se trouve en Afrique centrale (Cameroun notamment) ?",
+      "choices": [
+        "La grenouille taureau africaine",
+        "La grenouille goliath",
+        "Le crapaud buffle",
+        "La rainette géante"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal détient le record de longévité chez les mammifères marins, le requin du Groenland (plus de 300 ans) ?",
+      "choices": [
+        "La baleine boréale",
+        "Le requin du Groenland",
+        "La tortue luth",
+        "Le cachalot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre est considéré comme l'un des plus anciens organismes vivants sur Terre, un pin bristlecone de plusieurs milliers d'années ?",
+      "choices": [
+        "Le séquoia géant",
+        "Le pin bristlecone (Pinus longaeva)",
+        "Le baobab",
+        "Le chêne millénaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre détient le record de la plus grande hauteur parmi les arbres vivants, le séquoia côtier ?",
+      "choices": [
+        "Le baobab",
+        "Le séquoia côtier (Sequoia sempervirens)",
+        "L'eucalyptus",
+        "Le kapokier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plante détient le record de la plus grande fleur du monde, présente en Asie du Sud-Est (Rafflesia) ?",
+      "choices": [
+        "La Rafflesia arnoldii",
+        "Le titan arum",
+        "Le nénuphar géant",
+        "L'orchidée fantôme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle plante, aussi appelée « fleur cadavre », dégage une odeur de chair en décomposition pour attirer les pollinisateurs ?",
+      "choices": [
+        "La Rafflesia",
+        "Le titan arum (Amorphophallus titanum)",
+        "Le nénuphar géant",
+        "La dionée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal africain vit en grands troupeaux migrateurs traversant le Serengeti et le Masai Mara chaque année ?",
+      "choices": [
+        "Le zèbre",
+        "Le gnou (avec zèbres et gazelles)",
+        "Le buffle",
+        "L'éléphant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel prédateur africain chasse en meute très organisée et a un pelage tacheté distinctif (lycaon) ?",
+      "choices": [
+        "La hyène tachetée",
+        "Le lycaon (chien sauvage d'Afrique)",
+        "Le chacal",
+        "Le guépard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal africain nocturne, charognard, possède une des mâchoires les plus puissantes du règne animal ?",
+      "choices": [
+        "Le lion",
+        "La hyène tachetée",
+        "Le léopard",
+        "Le chacal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau africain, incapable de voler, est le plus rapide sur terre parmi les oiseaux (autruche) ?",
+      "choices": [
+        "Le marabout",
+        "L'autruche",
+        "Le calao",
+        "Le secrétaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau de proie africain, aux longues pattes, chasse les serpents en les piétinant (serpentaire) ?",
+      "choices": [
+        "Le vautour",
+        "Le secrétaire (oiseau serpentaire)",
+        "L'aigle martial",
+        "Le calao"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel primate africain vit en grands groupes très bruyants et est connu pour son visage coloré (mandrill) ?",
+      "choices": [
+        "Le babouin",
+        "Le mandrill",
+        "Le colobe",
+        "Le cercopithèque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel primate d'Afrique de l'Ouest et centrale, dont le Cameroun, est le plus grand singe au monde (gorille) ?",
+      "choices": [
+        "Le chimpanzé",
+        "Le gorille",
+        "L'orang-outan",
+        "Le bonobo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand singe, proche du chimpanzé mais plus pacifique, vit uniquement en République démocratique du Congo (bonobo) ?",
+      "choices": [
+        "Le chimpanzé",
+        "Le bonobo",
+        "Le gorille",
+        "Le gibbon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin, en voie de disparition, possède une carapace en forme de cœur et est le plus grand des tortues marines (tortue luth) ?",
+      "choices": [
+        "La tortue verte",
+        "La tortue luth",
+        "La tortue caouanne",
+        "La tortue imbriquée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, symbole de longévité en Asie, peut vivre plus de 100 ans dans certains cas (grue du Japon ou tortue) ?",
+      "choices": [
+        "La grue du Japon",
+        "La tortue",
+        "Les deux sont des symboles de longévité",
+        "Aucun des deux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel poisson d'eau douce, migrateur, naît en rivière, vit en mer, puis revient se reproduire dans sa rivière natale (saumon) ?",
+      "choices": [
+        "La truite",
+        "Le saumon",
+        "L'anguille (migration inverse)",
+        "Le brochet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poisson, contrairement au saumon, naît en mer, vit en rivière, puis retourne en mer pour se reproduire (anguille) ?",
+      "choices": [
+        "Le saumon",
+        "L'anguille",
+        "La truite",
+        "L'esturgeon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin, ancien et primitif, possède une carapace en forme de fer à cheval (limule) ?",
+      "choices": [
+        "Le crabe royal",
+        "La limule (crabe fer à cheval)",
+        "Le homard",
+        "L'écrevisse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau africain, charognard, joue un rôle écologique clé en nettoyant les carcasses (vautour) ?",
+      "choices": [
+        "Le marabout",
+        "Le vautour",
+        "Le calao",
+        "L'aigle pêcheur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand oiseau africain, souvent vu près des villages, se nourrit de déchets et de charogne (marabout) ?",
+      "choices": [
+        "Le pélican",
+        "Le marabout",
+        "L'ibis",
+        "Le héron"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mammifère marin, entièrement blanc à l'âge adulte, vit dans les eaux arctiques (béluga) ?",
+      "choices": [
+        "Le narval",
+        "Le béluga",
+        "L'orque",
+        "Le phoque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mammifère arctique, prédateur au sommet de la chaîne alimentaire, se nourrit principalement de phoques (ours polaire) ?",
+      "choices": [
+        "Le renard arctique",
+        "L'ours polaire",
+        "Le loup arctique",
+        "Le morse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal polaire, doté de longues défenses, se repose sur la banquise en grands groupes (morse) ?",
+      "choices": [
+        "Le phoque",
+        "Le morse",
+        "L'otarie",
+        "Le lion de mer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, principal habitant de la savane africaine avec le lion, vit en troupeaux matriarcaux dirigés par une femelle âgée (éléphant) ?",
+      "choices": [
+        "Le buffle",
+        "L'éléphant",
+        "Le rhinocéros",
+        "La girafe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, en voie critique d'extinction, possède deux cornes sur le museau et vit en Afrique australe et orientale (rhinocéros noir) ?",
+      "choices": [
+        "Le rhinocéros blanc",
+        "Le rhinocéros noir",
+        "Les deux espèces africaines ont deux cornes",
+        "Le rhinocéros indien (une corne)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel animal, le plus grand rongeur du monde, vit en Amérique du Sud près des points d'eau (capybara) ?",
+      "choices": [
+        "Le castor",
+        "Le capybara",
+        "Le porc-épic",
+        "L'agouti"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, célèbre pour sa fourrure épineuse défensive, se recroqueville en boule pour se protéger (hérisson ou porc-épic) ?",
+      "choices": [
+        "Le hérisson",
+        "Le porc-épic",
+        "Les deux ont des piquants mais des mécanismes différents",
+        "Aucun des deux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel oiseau, symbole du Canada et de nombreux pays nordiques, migre en formation en V (oie/bernache) ?",
+      "choices": [
+        "Le cygne",
+        "La bernache/l'oie sauvage",
+        "Le canard colvert",
+        "La grue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poisson, très recherché en sushi, peut être extrêmement toxique s'il est mal préparé (fugu) ?",
+      "choices": [
+        "Le thon",
+        "Le fugu (poisson-globe)",
+        "Le saumon",
+        "Le maquereau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin, seul mammifère entièrement aquatique herbivore, vit dans les zones côtières tropicales (lamantin/dugong) ?",
+      "choices": [
+        "Le phoque",
+        "Le lamantin ou le dugong (siréniens)",
+        "Le morse",
+        "L'otarie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet à certains animaux de changer complètement de forme au cours de leur développement (métamorphose complète) ?",
+      "choices": [
+        "La mue simple",
+        "La métamorphose complète (holométabolisme)",
+        "La régénération",
+        "L'hibernation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène biologique permet à certains animaux de ralentir leur métabolisme pour survivre à l'hiver (hibernation) ?",
+      "choices": [
+        "La mue",
+        "L'hibernation",
+        "L'estivation",
+        "La métamorphose"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène biologique, inverse de l'hibernation, permet à certains animaux de survivre à des périodes chaudes et sèches (estivation) ?",
+      "choices": [
+        "L'hibernation",
+        "L'estivation",
+        "La diapause",
+        "La torpeur quotidienne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin peut régénérer un bras entier voire se reproduire à partir d'un fragment de son corps (étoile de mer) ?",
+      "choices": [
+        "La méduse",
+        "L'étoile de mer",
+        "L'oursin",
+        "Le corail"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de relation biologique lie le poisson-clown et l'anémone de mer, bénéfique aux deux ?",
+      "choices": [
+        "Le parasitisme",
+        "Le mutualisme",
+        "Le commensalisme",
+        "La compétition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de relation biologique lie certains oiseaux pique-bœufs et les grands mammifères africains, se nourrissant de leurs parasites ?",
+      "choices": [
+        "Le parasitisme",
+        "Le mutualisme",
+        "Le commensalisme",
+        "La prédation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène permet à certains insectes ou animaux de ressembler à des éléments de leur environnement pour se cacher (mimétisme/camouflage) ?",
+      "choices": [
+        "La bioluminescence",
+        "Le mimétisme (camouflage)",
+        "L'écholocalisation",
+        "La thermorégulation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène permet à certains animaux marins ou insectes de produire de la lumière grâce à des réactions chimiques (bioluminescence) ?",
+      "choices": [
+        "Le mimétisme",
+        "La bioluminescence",
+        "La photosynthèse",
+        "La phosphorescence passive"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal utilise l'écholocalisation (sonar biologique) pour se déplacer et chasser dans l'obscurité, comme les chauves-souris et dauphins ?",
+      "choices": [
+        "Le mimétisme",
+        "L'écholocalisation",
+        "La bioluminescence",
+        "Le magnétoréception"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel sens permet à certains animaux migrateurs, comme les oiseaux et tortues marines, de s'orienter grâce au champ magnétique terrestre ?",
+      "choices": [
+        "L'écholocalisation",
+        "La magnétoréception",
+        "La bioluminescence",
+        "La thermoception"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de forêt tropicale, dense et riche en biodiversité, couvre une grande partie du bassin du Congo ?",
+      "choices": [
+        "La forêt boréale",
+        "La forêt tropicale humide équatoriale",
+        "La savane arborée",
+        "La forêt méditerranéenne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écosystème côtier, riche en biodiversité marine, est formé par des colonies d'animaux calcaires (récif corallien) ?",
+      "choices": [
+        "Les mangroves",
+        "Le récif corallien",
+        "Les herbiers marins",
+        "Les estuaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écosystème côtier, formé d'arbres adaptés à l'eau salée, protège les côtes tropicales de l'érosion (mangrove) ?",
+      "choices": [
+        "Le récif corallien",
+        "La mangrove",
+        "La lagune",
+        "Le marais salant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel biome caractérisé par de faibles précipitations et une végétation clairsemée couvre de vastes zones d'Afrique du Nord ?",
+      "choices": [
+        "La savane",
+        "Le désert",
+        "La steppe",
+        "La toundra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel biome, situé entre la forêt tropicale et le désert, est caractérisé par de hautes herbes et des arbres épars, habitat de nombreux grands mammifères africains ?",
+      "choices": [
+        "La savane",
+        "La jungle",
+        "La taïga",
+        "La prairie tempérée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel biome froid, situé dans les régions polaires et de haute altitude, présente un sol gelé en permanence (pergélisol) ?",
+      "choices": [
+        "La taïga",
+        "La toundra",
+        "La steppe",
+        "La savane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel biome forestier, situé sous la toundra dans l'hémisphère nord, est dominé par les conifères (taïga) ?",
+      "choices": [
+        "La forêt tempérée",
+        "La taïga (forêt boréale)",
+        "La forêt tropicale",
+        "La forêt méditerranéenne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus écologique décrit la transformation progressive d'un écosystème (par exemple d'une friche vers une forêt mature) ?",
+      "choices": [
+        "La succession écologique",
+        "La bioaccumulation",
+        "La compétition interspécifique",
+        "La niche écologique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel terme désigne l'ensemble des espèces vivant dans un milieu donné et interagissant avec leur environnement (écosystème) ?",
+      "choices": [
+        "La biosphère",
+        "L'écosystème",
+        "La biocénose seule",
+        "Le biotope seul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne une espèce dont la présence ou l'absence a un effet disproportionné sur son écosystème (espèce clé de voûte) ?",
+      "choices": [
+        "Une espèce endémique",
+        "Une espèce clé de voûte",
+        "Une espèce invasive",
+        "Une espèce généraliste"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne une espèce qui n'existe naturellement que dans une région géographique précise (espèce endémique) ?",
+      "choices": [
+        "Une espèce invasive",
+        "Une espèce endémique",
+        "Une espèce cosmopolite",
+        "Une espèce migratrice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne une espèce introduite dans un nouvel environnement où elle cause des dommages écologiques (espèce invasive) ?",
+      "choices": [
+        "Une espèce endémique",
+        "Une espèce invasive",
+        "Une espèce indigène",
+        "Une espèce en voie de disparition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle organisation internationale établit la liste rouge des espèces menacées d'extinction (UICN) ?",
+      "choices": [
+        "Le WWF",
+        "L'UICN (Union internationale pour la conservation de la nature)",
+        "Greenpeace",
+        "Le PNUE seul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel statut de conservation, selon l'UICN, désigne une espèce qui n'existe plus dans la nature mais survit en captivité ?",
+      "choices": [
+        "En danger critique",
+        "Éteint à l'état sauvage",
+        "Vulnérable",
+        "Quasi menacé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand singe africain, en danger critique d'extinction, vit uniquement dans les montagnes du Rwanda, de l'Ouganda et de la RDC (gorille de montagne) ?",
+      "choices": [
+        "Le gorille des plaines",
+        "Le gorille de montagne",
+        "Le chimpanzé",
+        "Le bonobo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel primatologue britannique est célèbre pour ses recherches de longue durée sur les chimpanzés en Tanzanie (Jane Goodall) ?",
+      "choices": [
+        "Dian Fossey",
+        "Jane Goodall",
+        "Birutė Galdikas",
+        "Richard Leakey"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle primatologue américaine, assassinée en 1985, a consacré sa vie à l'étude et la protection des gorilles de montagne au Rwanda ?",
+      "choices": [
+        "Jane Goodall",
+        "Dian Fossey",
+        "Birutė Galdikas",
+        "Biruté Galdikas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin migrateur parcourt chaque année de longues distances entre zones d'alimentation polaires et zones de reproduction tropicales (baleine à bosse) ?",
+      "choices": [
+        "Le cachalot",
+        "La baleine à bosse",
+        "L'orque",
+        "Le rorqual bleu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène naturel massif voit des millions de gnous, zèbres et gazelles traverser le Serengeti et le Masai Mara chaque année ?",
+      "choices": [
+        "La grande migration est-africaine",
+        "La transhumance saisonnière",
+        "La migration du saumon",
+        "La migration des monarques"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel insecte, célèbre pour sa migration sur plusieurs générations entre le Canada et le Mexique, est le papillon monarque ?",
+      "choices": [
+        "Le papillon monarque",
+        "La libellule migratrice",
+        "Le criquet pèlerin",
+        "La sauterelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel insecte, en essaims massifs, peut dévaster des cultures entières lors d'invasions périodiques en Afrique (criquet pèlerin) ?",
+      "choices": [
+        "La sauterelle",
+        "Le criquet pèlerin",
+        "La mante religieuse",
+        "Le scarabée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, présent au Cameroun et en Afrique centrale, est l'un des plus grands antilopes du continent (élan de Derby) ?",
+      "choices": [
+        "Le koudou",
+        "L'élan de Derby (bongo géant)",
+        "Le bongo",
+        "L'hippotrague"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand mammifère forestier, rare et discret, vit dans les forêts denses d'Afrique centrale, dont le Cameroun (bongo) ?",
+      "choices": [
+        "Le sitatunga",
+        "Le bongo",
+        "Le buffle de forêt",
+        "L'okapi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, cousin discret de la girafe, vit exclusivement dans les forêts de la République démocratique du Congo (okapi) ?",
+      "choices": [
+        "Le bongo",
+        "L'okapi",
+        "Le buffle de forêt",
+        "Le sitatunga"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel petit primate nocturne aux grands yeux, endémique de Madagascar, appartient à la famille des lémuriens ?",
+      "choices": [
+        "Le lémurien (diverses espèces)",
+        "Le tarsier",
+        "Le galago",
+        "Le loris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel primate nocturne africain, aux grands yeux et sauts puissants, est parfois appelé « bébé de la brousse » (galago) ?",
+      "choices": [
+        "Le lémurien",
+        "Le galago (potto)",
+        "Le tarsier",
+        "Le loris"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau africain, très coloré, est célèbre pour son bec massif et arqué (calao) ?",
+      "choices": [
+        "Le touraco",
+        "Le calao",
+        "Le rollier",
+        "Le martin-pêcheur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau tropical, très coloré aux teintes vertes et rouges, est présent dans les forêts africaines (touraco) ?",
+      "choices": [
+        "Le calao",
+        "Le touraco",
+        "Le perroquet gris du Gabon",
+        "Le rollier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel perroquet africain, très intelligent et capable d'imiter la parole humaine, est originaire d'Afrique centrale (perroquet gris du Gabon/Congo) ?",
+      "choices": [
+        "Le perroquet gris du Gabon (jaco)",
+        "L'ara",
+        "Le cacatoès",
+        "La perruche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel poisson d'eau douce, primitif, présent dans les fleuves africains, est parfois appelé « fossile vivant » (polyptère) ?",
+      "choices": [
+        "Le tilapia",
+        "Le polyptère (bichir)",
+        "Le silure",
+        "Le capitaine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand poisson prédateur d'eau douce africaine, présent dans les fleuves comme le Nil, peut atteindre plusieurs mètres (poisson-tigre ou capitaine) ?",
+      "choices": [
+        "Le tilapia",
+        "Le poisson-tigre (ou capitaine du Nil)",
+        "Le silure",
+        "Le polyptère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mammifère aquatique africain, herbivore, se nourrit de plantes aquatiques et peut peser plus d'une tonne (hippopotame) ?",
+      "choices": [
+        "Le lamantin",
+        "L'hippopotame",
+        "Le phoque",
+        "Le rhinocéros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal marin africain, herbivore côtier, broute les herbiers marins le long des côtes de l'océan Indien (dugong) ?",
+      "choices": [
+        "Le lamantin (Atlantique)",
+        "Le dugong (Indo-Pacifique)",
+        "Le phoque moine",
+        "L'otarie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre tropical, dont le fruit est utilisé pour fabriquer le chocolat, pousse notamment en Afrique de l'Ouest (cacaoyer) ?",
+      "choices": [
+        "Le caféier",
+        "Le cacaoyer",
+        "Le palmier à huile",
+        "L'hévéa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre tropical, dont les graines torréfiées produisent une boisson stimulante mondialement consommée (caféier) ?",
+      "choices": [
+        "Le cacaoyer",
+        "Le caféier",
+        "Le théier",
+        "L'hévéa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel palmier tropical produit une huile largement utilisée dans l'industrie alimentaire, cultivé notamment en Afrique de l'Ouest et centrale ?",
+      "choices": [
+        "Le palmier dattier",
+        "Le palmier à huile",
+        "Le cocotier",
+        "Le rotin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plante, très riche en protéines, est cultivée en Afrique et en Asie comme légumineuse de base (arachide/soja) ?",
+      "choices": [
+        "Le manioc (peu de protéines)",
+        "L'arachide (cacahuète)",
+        "L'igname",
+        "La banane plantain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel tubercule, base de nombreux plats africains, contient naturellement des composés toxiques nécessitant une préparation spécifique (manioc) ?",
+      "choices": [
+        "L'igname",
+        "Le manioc",
+        "La patate douce",
+        "Le taro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus évolutif, observé notamment chez les pinsons de Darwin aux Galápagos, illustre la sélection naturelle en action rapide ?",
+      "choices": [
+        "La dérive génétique",
+        "La radiation adaptative (spéciation rapide)",
+        "La convergence évolutive",
+        "Le mimétisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène évolutif décrit l'apparition de traits similaires chez des espèces non apparentées soumises à des pressions environnementales comparables (ex. ailes des oiseaux et chauves-souris) ?",
+      "choices": [
+        "La radiation adaptative",
+        "La convergence évolutive",
+        "La coévolution",
+        "La spéciation sympatrique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène évolutif décrit l'influence réciproque entre deux espèces qui évoluent ensemble, comme les fleurs et leurs pollinisateurs spécifiques ?",
+      "choices": [
+        "La convergence évolutive",
+        "La coévolution",
+        "La radiation adaptative",
+        "L'exclusion compétitive"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel principe écologique stipule que deux espèces occupant exactement la même niche écologique ne peuvent coexister durablement (principe de Gause) ?",
+      "choices": [
+        "La loi du minimum de Liebig",
+        "Le principe d'exclusion compétitive de Gause",
+        "La théorie de la niche vide",
+        "Le principe de redondance fonctionnelle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne l'accumulation progressive de substances toxiques dans les tissus d'organismes le long de la chaîne alimentaire (bioaccumulation/bioamplification) ?",
+      "choices": [
+        "La bioaccumulation (ou bioamplification/bioconcentration en chaîne)",
+        "La biodégradation",
+        "La bioremédiation",
+        "La biolixiviation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animal marin, cousin des mollusques, possède le système visuel le plus complexe parmi les invertébrés (pieuvre/céphalopodes) ?",
+      "choices": [
+        "Les céphalopodes (pieuvres, calmars, seiches)",
+        "Les gastéropodes",
+        "Les bivalves",
+        "Les échinodermes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel processus permet à certains céphalopodes de changer instantanément de couleur et de texture grâce à des cellules spécialisées (chromatophores) ?",
+      "choices": [
+        "La bioluminescence",
+        "Le contrôle des chromatophores cutanés",
+        "La mue",
+        "La régénération tissulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, considéré comme l'un des plus résistants du règne animal, peut survivre dans le vide spatial et des conditions extrêmes (tardigrade) ?",
+      "choices": [
+        "Le tardigrade (« ourson d'eau »)",
+        "La drosophile",
+        "Le rotifère",
+        "L'artémie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel phénomène biologique permet au tardigrade de survivre à la dessiccation totale en entrant dans un état de vie suspendue (cryptobiose) ?",
+      "choices": [
+        "L'hibernation",
+        "La cryptobiose (anhydrobiose)",
+        "La diapause",
+        "L'estivation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand groupe d'organismes marins microscopiques, base de la chaîne alimentaire océanique, réalise la majorité de la photosynthèse mondiale (phytoplancton) ?",
+      "choices": [
+        "Le zooplancton",
+        "Le phytoplancton",
+        "Les coraux",
+        "Les algues macroscopiques uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène de réchauffement des eaux provoque l'expulsion des algues symbiotiques des coraux, entraînant leur blanchissement ?",
+      "choices": [
+        "L'eutrophisation",
+        "Le blanchissement corallien",
+        "L'acidification uniquement sans lien au blanchissement",
+        "La bioturbation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène chimique, lié à l'augmentation du CO2 atmosphérique absorbé par les océans, menace les organismes à coquille calcaire ?",
+      "choices": [
+        "Le réchauffement océanique",
+        "L'acidification des océans",
+        "L'eutrophisation",
+        "La désoxygénation uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène écologique, causé par un excès de nutriments (azote, phosphore), provoque une prolifération d'algues et un appauvrissement en oxygène des eaux (eutrophisation) ?",
+      "choices": [
+        "L'acidification",
+        "L'eutrophisation",
+        "La bioaccumulation",
+        "La désertification"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand mammifère marin arctique, chassé de manière traditionnelle par certains peuples autochtones, possède la plus longue durée de vie parmi les mammifères (baleine boréale, plus de 200 ans) ?",
+      "choices": [
+        "Le cachalot",
+        "La baleine boréale (baleine du Groenland)",
+        "La baleine bleue",
+        "Le rorqual commun"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poisson cartilagineux primitif, considéré comme un « fossile vivant », a été redécouvert vivant en 1938 après avoir été cru éteint depuis 65 millions d'années (cœlacanthe) ?",
+      "choices": [
+        "Le requin-lézard",
+        "Le cœlacanthe",
+        "L'esturgeon",
+        "La lamproie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe de reptiles, apparu il y a environ 250 millions d'années, a dominé la Terre avant l'extinction massive du Crétacé (dinosaures) ?",
+      "choices": [
+        "Les ptérosaures uniquement",
+        "Les dinosaures",
+        "Les plésiosaures uniquement",
+        "Les crocodiliens uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel événement d'extinction massive, il y a environ 66 millions d'années, est généralement attribué à l'impact d'un astéroïde (extinction Crétacé-Paléogène) ?",
+      "choices": [
+        "L'extinction du Permien-Trias",
+        "L'extinction Crétacé-Paléogène (K-Pg)",
+        "L'extinction de l'Ordovicien-Silurien",
+        "L'extinction du Dévonien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle extinction massive, la plus importante connue de l'histoire de la Terre, a éliminé environ 90% des espèces marines il y a 252 millions d'années (extinction Permien-Trias) ?",
+      "choices": [
+        "L'extinction Crétacé-Paléogène",
+        "L'extinction Permien-Trias (« la Grande Extinction »)",
+        "L'extinction du Dévonien tardif",
+        "L'extinction de l'Holocène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme scientifique désigne la période géologique actuelle marquée par l'influence dominante de l'activité humaine sur les écosystèmes (Anthropocène, proposé mais non formellement adopté) ?",
+      "choices": [
+        "L'Holocène",
+        "L'Anthropocène (proposition non officiellement ratifiée)",
+        "Le Pléistocène",
+        "Le Quaternaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel primate fossile, découvert en Éthiopie en 1974 et surnommé « Lucy », a fourni des indices majeurs sur l'évolution humaine (Australopithecus afarensis) ?",
+      "choices": [
+        "Homo habilis",
+        "Australopithecus afarensis (Lucy)",
+        "Homo erectus",
+        "Paranthropus boisei"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel primate, notre plus proche parent vivant après le chimpanzé et le bonobo, partage environ 97% de son ADN avec l'humain (gorille) ?",
+      "choices": [
+        "L'orang-outan",
+        "Le gorille",
+        "Le gibbon",
+        "Le babouin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène biologique permet à certains animaux polaires, comme l'ours polaire, de conserver leur chaleur grâce à une épaisse couche de graisse (adaptation thermique) ?",
+      "choices": [
+        "L'hibernation",
+        "L'adaptation par isolation thermique (graisse et fourrure)",
+        "La torpeur",
+        "L'estivation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau marin, incapable de voler mais excellent nageur, forme d'immenses colonies en Antarctique et couve son œuf sur ses pattes (manchot empereur) ?",
+      "choices": [
+        "Le manchot royal",
+        "Le manchot empereur",
+        "Le manchot Adélie",
+        "Le manchot papou"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus permet à certains poissons des grandes profondeurs de produire leur propre lumière pour attirer des proies, comme la baudroie abyssale ?",
+      "choices": [
+        "La photosynthèse",
+        "La bioluminescence (organe photophore)",
+        "La phosphorescence passive",
+        "La fluorescence uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal des abysses, dépourvu de lumière solaire, dépend de bactéries chimiosynthétiques vivant près des sources hydrothermales (vers tubicoles géants) ?",
+      "choices": [
+        "Les crevettes abyssales",
+        "Les vers tubicoles géants (Riftia pachyptila)",
+        "Les poissons-lanternes",
+        "Les concombres de mer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus chimique, alternative à la photosynthèse, permet à certaines bactéries des sources hydrothermales de produire de l'énergie sans lumière (chimiosynthèse) ?",
+      "choices": [
+        "La photosynthèse",
+        "La chimiosynthèse",
+        "La fermentation",
+        "La respiration anaérobie classique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand félin d'Amérique du Sud, le plus puissant du continent, chasse notamment les caïmans dans le Pantanal (jaguar) ?",
+      "choices": [
+        "Le puma",
+        "Le jaguar",
+        "L'ocelot",
+        "Le jaguarundi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand félin nord et sud-américain, aussi appelé cougar ou lion des montagnes, a la plus vaste répartition géographique parmi les félins des Amériques (puma) ?",
+      "choices": [
+        "Le jaguar",
+        "Le puma (cougar)",
+        "L'ocelot",
+        "Le lynx"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel oiseau, le plus grand rapace volant du monde en envergure, plane au-dessus des Andes (condor des Andes) ?",
+      "choices": [
+        "L'aigle royal",
+        "Le condor des Andes",
+        "L'albatros hurleur (envergure supérieure mais différent groupe)",
+        "Le vautour fauve"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mammifère, unique au monde, pond des œufs tout en allaitant ses petits, présent en Australie (ornithorynque) ?",
+      "choices": [
+        "Le kangourou",
+        "L'ornithorynque",
+        "L'échidné (également ovipare)",
+        "Le wombat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel autre mammifère australien, couvert de piquants, pond également des œufs comme l'ornithorynque (échidné) ?",
+      "choices": [
+        "Le wombat",
+        "L'échidné",
+        "Le diable de Tasmanie",
+        "Le wallaby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel marsupial carnivore australien, de taille moyenne, porte le nom d'un État insulaire australien (diable de Tasmanie) ?",
+      "choices": [
+        "Le wombat",
+        "Le diable de Tasmanie",
+        "Le quokka",
+        "Le numbat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel petit marsupial australien, souvent photographié pour son sourire caractéristique, vit principalement sur l'île Rottnest (quokka) ?",
+      "choices": [
+        "Le wombat",
+        "Le quokka",
+        "Le diable de Tasmanie",
+        "Le bandicoot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, seul reptile venimeux d'Amérique du Nord parmi les lézards, vit dans le désert (monstre de Gila) ?",
+      "choices": [
+        "Le varan",
+        "Le monstre de Gila",
+        "L'iguane",
+        "Le caméléon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand lézard carnivore, le plus grand lézard vivant au monde, vit sur quelques îles indonésiennes (dragon de Komodo) ?",
+      "choices": [
+        "Le varan du Nil",
+        "Le dragon de Komodo",
+        "L'iguane marin",
+        "Le monstre de Gila"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel reptile marin, unique parmi les lézards à se nourrir en plongeant dans l'océan, vit exclusivement aux îles Galápagos (iguane marin) ?",
+      "choices": [
+        "Le dragon de Komodo",
+        "L'iguane marin des Galápagos",
+        "Le varan",
+        "L'iguane terrestre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus, observé chez les tortues marines et certains reptiles, détermine le sexe des embryons selon la température d'incubation des œufs ?",
+      "choices": [
+        "La détermination génétique du sexe",
+        "La détermination du sexe dépendante de la température (TSD)",
+        "La parthénogenèse",
+        "L'hermaphrodisme séquentiel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène de reproduction, observé chez certains lézards et insectes, permet à des femelles de se reproduire sans fécondation par un mâle (parthénogenèse) ?",
+      "choices": [
+        "La TSD",
+        "La parthénogenèse",
+        "L'hermaphrodisme",
+        "La polyembryonie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poisson, capable de changer de sexe au cours de sa vie (protogynie), inclut de nombreuses espèces de labres et mérous ?",
+      "choices": [
+        "Le poisson-clown (protandrie)",
+        "Les labres/mérous (souvent protogynes)",
+        "Le thon",
+        "Le requin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène chez le poisson-clown fait que tous les individus naissent mâles et que le plus dominant devient femelle (protandrie) ?",
+      "choices": [
+        "La protogynie",
+        "La protandrie",
+        "L'hermaphrodisme simultané",
+        "La parthénogenèse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre, endémique des îles Canaries et Cap-Vert notamment, produit une résine rouge appelée « sang-dragon » (dragonnier) ?",
+      "choices": [
+        "Le baobab",
+        "Le dragonnier",
+        "L'aloès arborescent",
+        "Le kapokier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plante grimpante tropicale, utilisée traditionnellement pour ses fibres et ses tiges très résistantes, pousse en Afrique et en Asie (rotin) ?",
+      "choices": [
+        "Le bambou",
+        "Le rotin (liane de palmier grimpant)",
+        "La liane de vanille",
+        "Le jonc"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel champignon, l'un des plus grands organismes vivants connus sur Terre en superficie, s'étend sur plusieurs kilomètres carrés dans l'Oregon (armillaire couleur de miel) ?",
+      "choices": [
+        "Le cèpe géant",
+        "L'armillaire couleur de miel (Armillaria ostoyae)",
+        "Le bolet géant",
+        "Le lactaire géant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de champignon forme une association symbiotique avec les racines de la majorité des plantes terrestres (mycorhize) ?",
+      "choices": [
+        "Le lichen",
+        "La mycorhize (association champignon-racine)",
+        "La moisissure",
+        "Le saprophyte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel organisme composite, résultat d'une symbiose entre un champignon et une algue ou cyanobactérie, colonise les surfaces les plus hostiles (lichen) ?",
+      "choices": [
+        "La mousse",
+        "Le lichen",
+        "La fougère",
+        "L'algue seule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, invertébré marin filtreur fixé au substrat, forme les récifs coralliens grâce à son squelette calcaire (corail) ?",
+      "choices": [
+        "L'anémone de mer",
+        "Le corail (polype corallien)",
+        "L'éponge",
+        "Le bryozoaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animal, invertébré primitif dépourvu de véritables organes, filtre l'eau à travers des pores pour se nourrir (éponge) ?",
+      "choices": [
+        "Le corail",
+        "L'éponge marine",
+        "L'anémone",
+        "La méduse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre tropical géant, à la base large en forme de contreforts, est emblématique des forêts d'Afrique centrale (fromager/kapokier) ?",
+      "choices": [
+        "Le teck",
+        "Le fromager (kapokier)",
+        "L'iroko",
+        "L'ébène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel bois précieux africain, très dense et de couleur sombre, est traditionnellement utilisé en sculpture et lutherie (ébène) ?",
+      "choices": [
+        "L'acajou",
+        "L'ébène",
+        "Le teck",
+        "Le sapelli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arbre d'Afrique de l'Ouest et centrale, au bois durable et résistant, est très utilisé en menuiserie (iroko) ?",
+      "choices": [
+        "L'ébène",
+        "L'iroko",
+        "Le fromager",
+        "Le sapelli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel grand mammifère marin, chassé historiquement au point de frôler l'extinction, a vu ses populations se rétablir partiellement grâce à des moratoires internationaux (baleine à bosse) ?",
+      "choices": [
+        "Le cachalot",
+        "La baleine à bosse",
+        "L'orque",
+        "Le narval"
+      ],
+      "correctIndex": 1
     }
   ]
 }

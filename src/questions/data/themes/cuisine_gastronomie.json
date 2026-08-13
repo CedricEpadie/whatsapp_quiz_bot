@@ -2,124 +2,2004 @@
   "theme": "🍔 Cuisine et Gastronomie",
   "questions": [
     {
-      "question": "Quel est l'ingrédient principal du guacamole ?",
+      "question": "Quel plat italien est composé de pâtes plates avec une sauce à la viande, souvent appelé « à la bolognaise » ?",
       "choices": [
-        "L'avocat",
-        "Le concombre",
-        "La tomate",
-        "Le poivron"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "De quel pays la pizza Margherita est-elle originaire ?",
-      "choices": [
-        "Les États-Unis",
-        "La Grèce",
-        "La France",
-        "L'Italie"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel plat traditionnel camerounais est préparé à base de feuilles de vernonia et d'arachide ?",
-      "choices": [
-        "Taro sauce jaune",
-        "Eru",
-        "Le Ndolé",
-        "Le Koki"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quel plat de l'Ouest du Cameroun est composé de pilé de macabo/taro et d'une sauce à l'huile de palme jaune ?",
-      "choices": [
-        "Kondre",
-        "Okok",
-        "Taro sauce jaune",
-        "Ndolé"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "De quel pays est originaire le sushi ?",
-      "choices": [
-        "La Chine",
-        "La Thaïlande",
-        "Le Japon",
-        "La Corée"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quel épice précieuse est obtenue à partir du stigmate d'une fleur de crocus ?",
-      "choices": [
-        "Le cardamome",
-        "La vanille",
-        "Le safran",
-        "Le curcuma"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quel type de fromage est traditionnellement utilisé dans la vraie recette de la fondue savoyarde ?",
-      "choices": [
-        "Le camembert",
-        "Le comté / beaufort",
-        "Le roquefort",
-        "La mozzarella"
+        "Les lasagnes",
+        "Les spaghettis bolognaise",
+        "Le risotto",
+        "Les gnocchis"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quel ingrédient donne la couleur jaune au riz de la paëlla espagnole ?",
+      "question": "Quel plat italien est une pâte plate garnie de sauce, viande et fromage, cuite au four en couches ?",
       "choices": [
-        "Le paprika",
+        "Les spaghettis",
+        "Les lasagnes",
+        "Les raviolis",
+        "Le risotto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat italien est une pâte à base de farine, garnie de tomate, fromage et divers ingrédients, cuite au four ?",
+      "choices": [
+        "Les pâtes",
+        "La pizza",
+        "Le risotto",
+        "La focaccia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat japonais consiste en du riz vinaigré associé à du poisson cru ou d'autres ingrédients ?",
+      "choices": [
+        "Les ramen",
+        "Les sushis",
+        "Le tempura",
+        "Le yakitori"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat français est une soupe à base d'oignons, gratinée au fromage ?",
+      "choices": [
+        "La bouillabaisse",
+        "La soupe à l'oignon",
+        "Le pot-au-feu",
+        "La soupe au pistou"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessert français est une pâtisserie feuilletée fourrée à la crème pâtissière (mille-feuille) ?",
+      "choices": [
+        "La tarte Tatin",
+        "Le mille-feuille",
+        "Le paris-brest",
+        "L'éclair"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessert français est composé de pâte à choux garnie de crème et glacée au chocolat ou café ?",
+      "choices": [
+        "Le macaron",
+        "L'éclair",
+        "Le paris-brest",
+        "Le mille-feuille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat mexicain consiste en une tortilla garnie de viande, légumes et sauce, pliée ou roulée ?",
+      "choices": [
+        "Le taco",
+        "La quesadilla",
+        "Le burrito",
+        "Tous ces plats existent au Mexique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quelle boisson chaude, à base de grains torréfiés et moulus, est consommée dans le monde entier ?",
+      "choices": [
+        "Le thé",
+        "Le café",
+        "Le chocolat chaud",
+        "L'infusion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle boisson chaude, à base de feuilles infusées, est très populaire notamment en Asie et au Royaume-Uni ?",
+      "choices": [
+        "Le café",
+        "Le thé",
+        "La tisane uniquement",
+        "Le maté"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fruit tropical jaune et allongé est une source importante de potassium ?",
+      "choices": [
+        "La mangue",
+        "La banane",
+        "L'ananas",
+        "La papaye"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fruit tropical orange, sucré, possède un noyau plat au centre ?",
+      "choices": [
+        "La banane",
+        "La mangue",
+        "L'ananas",
+        "La papaye"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel légume rouge est souvent classé comme un fruit botaniquement, très utilisé en cuisine (tomate) ?",
+      "choices": [
+        "La carotte",
+        "La tomate",
+        "Le poivron",
+        "L'aubergine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat camerounais est composé de bâtons de manioc fermentés et cuits, souvent appelé « bâton de manioc » ?",
+      "choices": [
+        "Le ndolé",
+        "Le bâton de manioc",
+        "Le eru",
+        "Le achu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat traditionnel camerounais, souvent considéré comme le plat national, est fait à base de feuilles de ndolé amères et de viande ou poisson ?",
+      "choices": [
+        "Le eru",
+        "Le ndolé",
+        "Le achu",
+        "Le koki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat africain est fait à partir de pâte de maïs ou de manioc, souvent servi en accompagnement (foufou/fufu) ?",
+      "choices": [
+        "Le foufou (fufu)",
+        "Le riz",
+        "L'igname pilée",
+        "Le couscous"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel plat nord-africain est composé de semoule de blé cuite à la vapeur, souvent servie avec légumes et viande ?",
+      "choices": [
+        "Le tajine",
+        "Le couscous",
+        "Le pastilla",
+        "Le méchoui"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat marocain mijoté est cuit lentement dans un plat en terre cuite conique ?",
+      "choices": [
+        "Le couscous",
+        "Le tajine",
+        "La harira",
+        "Le pastilla"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat indien est un curry épicé, souvent à base de poulet ou d'agneau, mijoté dans une sauce ?",
+      "choices": [
+        "Le naan",
         "Le curry",
+        "Le biryani",
+        "Le samosa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pain plat indien, souvent cuit au four tandoor, accompagne de nombreux plats indiens ?",
+      "choices": [
+        "Le chapati",
+        "Le naan",
+        "Le paratha",
+        "Tous ces pains existent en Inde"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel plat chinois consiste en de fines lamelles de pâte servies dans un bouillon avec viande et légumes (nouilles/ramen, distinct du ramen japonais) ?",
+      "choices": [
+        "Les nouilles chinoises (mian)",
+        "Les sushis (japonais)",
+        "Le curry (indien)",
+        "Le couscous (maghrébin)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel plat coréen consiste en du chou fermenté et épicé, très consommé en accompagnement ?",
+      "choices": [
+        "Le bibimbap",
+        "Le kimchi",
+        "Le bulgogi",
+        "Le tteokbokki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fromage français à pâte molle et croûte fleurie est originaire de Normandie ?",
+      "choices": [
+        "Le comté",
+        "Le camembert",
+        "Le roquefort",
+        "Le brie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fromage français à pâte persillée est fabriqué à partir de lait de brebis dans des caves naturelles ?",
+      "choices": [
+        "Le camembert",
+        "Le roquefort",
+        "Le comté",
+        "Le reblochon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle boisson alcoolisée est produite par fermentation du raisin ?",
+      "choices": [
+        "La bière",
+        "Le vin",
+        "Le cidre",
+        "Le whisky"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle boisson alcoolisée est produite par fermentation de céréales, souvent de l'orge ?",
+      "choices": [
+        "Le vin",
+        "La bière",
+        "Le rhum",
+        "La vodka"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle épice, très chère, provient des stigmates d'une fleur de crocus (safran) ?",
+      "choices": [
+        "Le curcuma",
         "Le safran",
-        "La moutarde"
+        "Le paprika",
+        "Le cumin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle épice jaune-orangée, souvent utilisée dans les currys, provient d'une racine (curcuma) ?",
+      "choices": [
+        "Le safran",
+        "Le curcuma",
+        "Le gingembre",
+        "Le paprika"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel condiment piquant, à base de piment, est utilisé pour relever de nombreux plats ?",
+      "choices": [
+        "Le ketchup",
+        "Le piment (sauce piquante)",
+        "La moutarde",
+        "La mayonnaise"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel condiment jaune ou brun, à base de graines broyées, accompagne souvent la viande ?",
+      "choices": [
+        "Le ketchup",
+        "La moutarde",
+        "La mayonnaise",
+        "Le vinaigre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel légume-racine orange est riche en bêta-carotène et bon pour la vue (carotte) ?",
+      "choices": [
+        "La betterave",
+        "La carotte",
+        "Le navet",
+        "Le panais"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel légume-feuille vert foncé est souvent utilisé en salade ou cuit, riche en fer (épinard) ?",
+      "choices": [
+        "La laitue",
+        "L'épinard",
+        "Le chou",
+        "Le brocoli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle céréale, base de l'alimentation en Asie, est cultivée dans des rizières inondées ?",
+      "choices": [
+        "Le blé",
+        "Le riz",
+        "Le maïs",
+        "L'orge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle céréale, base du pain occidental, est moulue en farine ?",
+      "choices": [
+        "Le riz",
+        "Le blé",
+        "L'avoine",
+        "Le seigle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fruit rouge à pépins, souvent utilisé en confiture et tarte, pousse sur un arbre à petites fleurs blanches ?",
+      "choices": [
+        "La pomme",
+        "La cerise",
+        "La fraise",
+        "La framboise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel petit fruit rouge, riche en vitamine C, pousse sur un plant bas et non sur un arbre (fraise) ?",
+      "choices": [
+        "La cerise",
+        "La fraise",
+        "La groseille",
+        "La myrtille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel légume vert en forme de tige, souvent cuit à la vapeur, est riche en fibres (brocoli) ?",
+      "choices": [
+        "Le chou-fleur",
+        "Le brocoli",
+        "Les épinards",
+        "Les haricots verts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat traditionnel du Cameroun est préparé à partir de haricots blancs écrasés et cuits dans des feuilles (koki) ?",
+      "choices": [
+        "Le eru",
+        "Le koki",
+        "Le ndolé",
+        "Le achu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat camerounais est composé de taro pilé, souvent servi avec une sauce jaune épicée (achu) ?",
+      "choices": [
+        "Le achu (taro pilé)",
+        "Le ndolé",
+        "Le eru",
+        "Le koki"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel plat originaire d'Afrique de l'Ouest est un ragoût épicé à base de tomate, souvent servi avec du riz (riz au gras/jollof) ?",
+      "choices": [
+        "Le jollof rice",
+        "Le foufou",
+        "Le attiéké",
+        "Le kedjenou"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel plat ivoirien traditionnel est fait à base de semoule de manioc fermenté (attiéké) ?",
+      "choices": [
+        "Le foufou",
+        "L'attiéké",
+        "Le kedjenou",
+        "Le garba"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat sénégalais, considéré comme national, mélange riz, poisson et légumes (thieboudienne) ?",
+      "choices": [
+        "Le mafé",
+        "Le thieboudienne",
+        "Le yassa",
+        "Le pastels"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat sénégalais est composé de poulet ou poisson mariné aux oignons et au citron (yassa) ?",
+      "choices": [
+        "Le thieboudienne",
+        "Le yassa",
+        "Le mafé",
+        "Le domoda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessert glacé, à base de crème et de sucre, se conserve au congélateur (glace) ?",
+      "choices": [
+        "Le sorbet uniquement",
+        "La glace",
+        "La mousse",
+        "La crème brûlée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessert glacé, sans produit laitier, est à base de fruits et d'eau sucrée (sorbet) ?",
+      "choices": [
+        "La glace",
+        "Le sorbet",
+        "La panna cotta",
+        "Le flan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat rapide, composé de pain garni de viande, légumes et sauces, est mondialement populaire (hamburger) ?",
+      "choices": [
+        "Le sandwich",
+        "Le hamburger",
+        "Le hot-dog",
+        "Le kebab"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat rapide turc/moyen-oriental consiste en viande grillée servie dans du pain ou une galette (kebab) ?",
+      "choices": [
+        "Le hamburger",
+        "Le kebab",
+        "Le falafel",
+        "Le shawarma (variante proche)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel légume rond et blanc-vert, souvent utilisé cru en salade, est composé à 95% d'eau (concombre) ?",
+      "choices": [
+        "La courgette",
+        "Le concombre",
+        "L'aubergine",
+        "Le radis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fruit agrume orange, riche en vitamine C, se consomme en jus ou entier ?",
+      "choices": [
+        "Le citron",
+        "L'orange",
+        "Le pamplemousse",
+        "La mandarine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fruit agrume jaune et acide est utilisé pour assaisonner de nombreux plats ?",
+      "choices": [
+        "L'orange",
+        "Le citron",
+        "La mandarine",
+        "La clémentine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat français emblématique consiste en une viande de bœuf braisée longuement dans du vin rouge (bœuf bourguignon) ?",
+      "choices": [
+        "Le pot-au-feu",
+        "Le bœuf bourguignon",
+        "Le coq au vin",
+        "Le civet de lièvre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat français consiste en un poulet mijoté longuement dans du vin rouge avec des lardons et champignons (coq au vin) ?",
+      "choices": [
+        "Le bœuf bourguignon",
+        "Le coq au vin",
+        "Le pot-au-feu",
+        "La blanquette de veau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat français est un ragoût de veau à la sauce blanche, sans coloration (blanquette de veau) ?",
+      "choices": [
+        "Le navarin",
+        "La blanquette de veau",
+        "Le pot-au-feu",
+        "Le civet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle spécialité provençale est une soupe de poissons mijotée avec des légumes et safran (bouillabaisse) ?",
+      "choices": [
+        "La soupe au pistou",
+        "La bouillabaisse",
+        "La bourride",
+        "Le aïoli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat alsacien est composé de choucroute, saucisses et charcuteries diverses ?",
+      "choices": [
+        "La choucroute garnie",
+        "Le baeckeoffe",
+        "La flammekueche",
+        "Le kougelhopf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle tarte flambée alsacienne, fine et croustillante, est garnie de crème fraîche, oignons et lardons ?",
+      "choices": [
+        "La pizza",
+        "La flammekueche (tarte flambée)",
+        "La quiche lorraine",
+        "La galette bretonne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle tarte salée lorraine est composée d'œufs, crème et lardons sur une pâte brisée ?",
+      "choices": [
+        "La flammekueche",
+        "La quiche lorraine",
+        "La tarte Tatin",
+        "La pissaladière"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle tarte est cuite à l'envers avec des pommes caramélisées, puis retournée avant de servir (tarte Tatin) ?",
+      "choices": [
+        "La tarte aux pommes classique",
+        "La tarte Tatin",
+        "La tarte au citron",
+        "La galette des rois"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessert traditionnel français est consommé en janvier pour l'Épiphanie, contenant une fève cachée ?",
+      "choices": [
+        "Le kouglof",
+        "La galette des rois",
+        "Le mille-feuille",
+        "Le paris-brest"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel petit gâteau français, rond et coloré, est composé de deux coques de meringue et d'une ganache ?",
+      "choices": [
+        "Le macaron",
+        "Le financier",
+        "Le calisson",
+        "Le canelé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel petit gâteau bordelais, caramélisé à l'extérieur et moelleux à l'intérieur, a une forme cannelée (canelé) ?",
+      "choices": [
+        "Le financier",
+        "Le canelé",
+        "Le madeleine",
+        "Le calisson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle spécialité italienne est un dessert à base de mascarpone, café et biscuits imbibés (tiramisu) ?",
+      "choices": [
+        "La panna cotta",
+        "Le tiramisu",
+        "Le cannoli",
+        "La cassata"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessert italien est une crème cuite, souple, souvent servie avec un coulis de fruits (panna cotta) ?",
+      "choices": [
+        "Le tiramisu",
+        "La panna cotta",
+        "Le gelato",
+        "La zabaglione"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat de riz italien, crémeux, est cuit lentement en ajoutant du bouillon progressivement (risotto) ?",
+      "choices": [
+        "Les pâtes",
+        "Le risotto",
+        "La polenta",
+        "Les gnocchis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat italien est fait de semoule de maïs cuite, souvent servie en accompagnement (polenta) ?",
+      "choices": [
+        "Le risotto",
+        "La polenta",
+        "Les gnocchis",
+        "La focaccia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle sauce italienne classique est à base de basilic, pignons, ail, parmesan et huile d'olive (pesto) ?",
+      "choices": [
+        "La sauce bolognaise",
+        "Le pesto",
+        "La sauce arrabbiata",
+        "La sauce carbonara"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle pâte italienne à base d'œufs, lardons et parmesan est traditionnellement sans crème dans sa recette originale (carbonara) ?",
+      "choices": [
+        "La bolognaise",
+        "La carbonara",
+        "L'arrabbiata",
+        "L'amatriciana"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat espagnol est composé de riz safrané avec fruits de mer, poulet ou légumes (paella) ?",
+      "choices": [
+        "Le gazpacho",
+        "La paella",
+        "La tortilla espagnole",
+        "Le pintxo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle soupe froide espagnole est à base de tomates, poivrons, concombre et ail (gazpacho) ?",
+      "choices": [
+        "La paella",
+        "Le gazpacho",
+        "La sopa de ajo",
+        "Le cocido"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle omelette espagnole épaisse est composée de pommes de terre et d'oignons (tortilla espagnole) ?",
+      "choices": [
+        "La paella",
+        "La tortilla española",
+        "Le gazpacho",
+        "Les churros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessert espagnol frit, en forme de bâtonnet strié, se déguste souvent avec du chocolat chaud (churros) ?",
+      "choices": [
+        "Les buñuelos",
+        "Les churros",
+        "Le turrón",
+        "Les torrijas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat allemand consiste en une saucisse grillée, souvent servie avec de la choucroute (bratwurst) ?",
+      "choices": [
+        "Le schnitzel",
+        "Le bratwurst",
+        "Le sauerbraten",
+        "Le currywurst"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat allemand est une escalope panée et frite, souvent à base de veau ou porc (schnitzel) ?",
+      "choices": [
+        "Le bratwurst",
+        "Le schnitzel",
+        "Le rouladen",
+        "Le eisbein"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat britannique traditionnel associe poisson pané et frites (fish and chips) ?",
+      "choices": [
+        "Le shepherd's pie",
+        "Le fish and chips",
+        "Le roast beef",
+        "Le bangers and mash"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat britannique est un ragoût de bœuf ou d'agneau haché recouvert de purée de pommes de terre gratinée (shepherd's/cottage pie) ?",
+      "choices": [
+        "Le fish and chips",
+        "Le shepherd's pie (ou cottage pie)",
+        "Le roast beef",
+        "Le pie au poulet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat écossais traditionnel est une panse de mouton farcie d'abats et d'avoine (haggis) ?",
+      "choices": [
+        "Le black pudding",
+        "Le haggis",
+        "Le stovies",
+        "Le cullen skink"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat japonais est une soupe de nouilles servie dans un bouillon riche, souvent au porc ou miso (ramen) ?",
+      "choices": [
+        "Les udon",
+        "Le ramen",
+        "Les soba",
+        "Le yakisoba"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat japonais consiste en des morceaux de fruits de mer ou légumes frits dans une pâte légère (tempura) ?",
+      "choices": [
+        "Les sushis",
+        "Le tempura",
+        "Les yakitori",
+        "Le sashimi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat japonais est du poisson cru finement tranché, sans riz (contrairement au sushi) (sashimi) ?",
+      "choices": [
+        "Les sushis",
+        "Le sashimi",
+        "Le tempura",
+        "Les onigiri"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat coréen consiste en du riz mélangé avec légumes, viande et œuf, souvent servi dans un bol brûlant (bibimbap) ?",
+      "choices": [
+        "Le kimchi",
+        "Le bibimbap",
+        "Le bulgogi",
+        "Le japchae"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat coréen consiste en de fines lamelles de bœuf marinées et grillées (bulgogi) ?",
+      "choices": [
+        "Le bibimbap",
+        "Le bulgogi",
+        "Le kimchi",
+        "Le tteokbokki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat thaïlandais est une soupe épicée et acidulée à base de crevettes et citronnelle (tom yum) ?",
+      "choices": [
+        "Le pad thaï",
+        "Le tom yum",
+        "Le curry vert",
+        "Le som tam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat thaïlandais consiste en des nouilles de riz sautées avec crevettes, cacahuètes et sauce tamarin (pad thaï) ?",
+      "choices": [
+        "Le tom yum",
+        "Le pad thaï",
+        "Le larb",
+        "Le massaman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat vietnamien est une soupe de nouilles de riz avec bœuf ou poulet et herbes fraîches (pho) ?",
+      "choices": [
+        "Les nems",
+        "Le pho",
+        "Le bún chả",
+        "Le bánh mì"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat vietnamien consiste en des rouleaux de printemps frits, souvent farcis de porc et légumes ?",
+      "choices": [
+        "Le pho",
+        "Les nems (rouleaux de printemps frits)",
+        "Le bánh mì",
+        "Le bún bò Huế"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat libanais est une salade à base de persil, boulgour, tomate et menthe (taboulé) ?",
+      "choices": [
+        "Le houmous",
+        "Le taboulé",
+        "Le falafel",
+        "Le fattoush"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat moyen-oriental est une purée de pois chiches, tahini, ail et citron (houmous) ?",
+      "choices": [
+        "Le taboulé",
+        "Le houmous",
+        "Le baba ganoush",
+        "Le falafel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat moyen-oriental est composé de boulettes frites à base de pois chiches ou de fèves (falafel) ?",
+      "choices": [
+        "Le houmous",
+        "Le falafel",
+        "Le shawarma",
+        "Le kebbe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat indien est un riz épicé cuit avec viande, légumes et épices en couches (biryani) ?",
+      "choices": [
+        "Le curry",
+        "Le biryani",
+        "Le tandoori",
+        "Le dal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat indien consiste en un poulet mariné au yaourt et épices, cuit dans un four traditionnel (tandoori) ?",
+      "choices": [
+        "Le biryani",
+        "Le tandoori",
+        "Le tikka masala",
+        "Le korma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat marocain sucré-salé est une pâte fine farcie de pigeon ou poulet, amandes et cannelle (pastilla) ?",
+      "choices": [
+        "Le tajine",
+        "La pastilla",
+        "La harira",
+        "Le couscous"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle soupe marocaine traditionnelle, consommée notamment pendant le Ramadan, contient légumineuses et épices (harira) ?",
+      "choices": [
+        "Le tajine",
+        "La harira",
+        "La pastilla",
+        "Le méchoui"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat éthiopien est un ragoût épicé servi sur une grande galette fermentée appelée injera ?",
+      "choices": [
+        "Le wat (accompagné d'injera)",
+        "Le kitfo",
+        "Le shiro",
+        "Le doro wat spécifiquement au poulet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle galette fermentée éthiopienne, spongieuse, sert à la fois d'assiette et de pain (injera) ?",
+      "choices": [
+        "Le chapati",
+        "L'injera",
+        "Le naan",
+        "Le pita"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat nigérian est un ragoût de riz épicé cuit dans une sauce tomate, populaire dans toute l'Afrique de l'Ouest (jollof rice) ?",
+      "choices": [
+        "Le fufu",
+        "Le jollof rice",
+        "L'egusi soup",
+        "Le suya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle soupe nigériane est préparée à base de graines de melon moulues (egusi soup) ?",
+      "choices": [
+        "Le jollof rice",
+        "L'egusi soup",
+        "Le suya",
+        "Le pounded yam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat congolais traditionnel consiste en des feuilles de manioc pilées et cuites, souvent appelé saka-saka ou pondu ?",
+      "choices": [
+        "Le fufu",
+        "Le saka-saka (pondu)",
+        "Le moambe",
+        "Le liboke"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat congolais est un ragoût de poulet à la sauce de noix de palme, appelé poulet moambé ?",
+      "choices": [
+        "Le saka-saka",
+        "Le poulet moambé (nsusu ya mwambe)",
+        "Le liboke",
+        "Le fufu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel breuvage fermenté et gazeux, à base de malt, est produit et consommé traditionnellement dans plusieurs pays africains (bière de mil/sorgho) ?",
+      "choices": [
+        "Le vin de palme",
+        "La bière de mil/sorgho traditionnelle",
+        "Le jus de bissap",
+        "Le café"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle boisson traditionnelle ouest-africaine, rouge et acidulée, est infusée à partir de fleurs d'hibiscus (bissap) ?",
+      "choices": [
+        "Le gingembre (jus de gingembre)",
+        "Le bissap (jus d'hibiscus/karkadé)",
+        "Le tamarin",
+        "Le baobab (jus de bouye)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique de cuisson française consiste à cuire un aliment à basse température dans son propre jus ou un liquide, à couvert (braisage) ?",
+      "choices": [
+        "Le sauté",
+        "Le braisage",
+        "La friture",
+        "Le pochage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique de cuisson consiste à cuire un aliment dans un liquide frémissant, sans ébullition franche (pochage) ?",
+      "choices": [
+        "Le braisage",
+        "Le pochage",
+        "Le rôtissage",
+        "La cuisson vapeur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique culinaire française consiste à saisir rapidement un aliment à feu vif dans un corps gras (sauté) ?",
+      "choices": [
+        "Le braisage",
+        "Le sauté",
+        "Le pochage",
+        "Le confit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique de conservation traditionnelle cuit lentement un aliment dans sa propre graisse (confit, comme le confit de canard) ?",
+      "choices": [
+        "Le braisage",
+        "Le confit",
+        "La marinade",
+        "La salaison"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle sauce mère française de base est composée de beurre, farine et lait (béchamel) ?",
+      "choices": [
+        "La sauce hollandaise",
+        "La béchamel",
+        "La sauce béarnaise",
+        "La sauce velouté"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle sauce mère française est une émulsion chaude de beurre clarifié et jaunes d'œufs, souvent servie avec les asperges (hollandaise) ?",
+      "choices": [
+        "La béchamel",
+        "La sauce hollandaise",
+        "La sauce velouté",
+        "La sauce espagnole"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle sauce classique française dérive de la hollandaise et est aromatisée à l'estragon (béarnaise) ?",
+      "choices": [
+        "La sauce bordelaise",
+        "La sauce béarnaise",
+        "La sauce chasseur",
+        "La sauce Robert"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle émulsion froide, à base de jaune d'œuf et huile, sert de base à de nombreuses sauces (mayonnaise) ?",
+      "choices": [
+        "La vinaigrette",
+        "La mayonnaise",
+        "L'aïoli (variante à l'ail)",
+        "La rémoulade"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique de pâtisserie consiste à battre des blancs d'œufs avec du sucre jusqu'à obtenir une masse ferme et brillante (meringue) ?",
+      "choices": [
+        "Le sabayon",
+        "La meringue",
+        "La chantilly",
+        "Le nappage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique consiste à faire fondre du sucre jusqu'à obtenir une couleur brune (caramélisation) ?",
+      "choices": [
+        "La cristallisation",
+        "La caramélisation",
+        "L'inversion",
+        "La glaçage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme culinaire désigne la réaction chimique brunissant les aliments cuits à haute température, comme la croûte du pain (réaction de Maillard) ?",
+      "choices": [
+        "La caramélisation",
+        "La réaction de Maillard",
+        "L'oxydation",
+        "La dénaturation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de fond de cuisine français, à base d'os de veau longuement mijotés, sert de base à de nombreuses sauces brunes (fond brun) ?",
+      "choices": [
+        "Le fumet de poisson",
+        "Le fond brun de veau",
+        "Le bouillon de légumes",
+        "Le fond blanc de volaille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fond de cuisine français, à base d'arêtes et têtes de poissons, aromatise les plats de la mer (fumet de poisson) ?",
+      "choices": [
+        "Le fond brun",
+        "Le fumet de poisson",
+        "Le court-bouillon uniquement",
+        "Le velouté"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme culinaire désigne un mélange d'aromates (carotte, oignon, céleri) servant de base à de nombreuses préparations françaises (mirepoix) ?",
+      "choices": [
+        "Le bouquet garni",
+        "La mirepoix",
+        "Le roux",
+        "La duxelles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme culinaire désigne un petit bouquet d'herbes aromatiques liées, ajouté aux plats mijotés puis retiré (bouquet garni) ?",
+      "choices": [
+        "La mirepoix",
+        "Le bouquet garni",
+        "La duxelles",
+        "Le fond"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un mélange de farine et de matière grasse cuit ensemble, utilisé pour épaissir les sauces (roux) ?",
+      "choices": [
+        "Le fond",
+        "Le roux",
+        "La liaison",
+        "L'émulsion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle appellation protège l'origine géographique et le savoir-faire de certains produits français comme le champagne ou le roquefort (AOC/AOP) ?",
+      "choices": [
+        "Le label rouge",
+        "L'AOC/AOP (Appellation d'Origine Contrôlée/Protégée)",
+        "Le label bio",
+        "L'IGP uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région française est reconnue pour son vin pétillant produit selon une méthode spécifique et une appellation protégée (Champagne) ?",
+      "choices": [
+        "Bordeaux",
+        "Champagne",
+        "Bourgogne",
+        "Alsace"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région française est célèbre pour ses grands crus de vin rouge et blanc, notamment autour de Beaune (Bourgogne) ?",
+      "choices": [
+        "Bordeaux",
+        "Bourgogne",
+        "Champagne",
+        "Loire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région française, avec ses nombreux châteaux viticoles, est la plus grande région viticole du monde en superficie de vignoble AOC (Bordeaux) ?",
+      "choices": [
+        "Bourgogne",
+        "Bordeaux",
+        "Champagne",
+        "Languedoc"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cépage rouge est emblématique de la région de Bordeaux, souvent assemblé avec le merlot (cabernet sauvignon) ?",
+      "choices": [
+        "Le pinot noir",
+        "Le cabernet sauvignon",
+        "Le syrah",
+        "Le gamay"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cépage rouge est emblématique de la Bourgogne, réputé pour sa finesse ?",
+      "choices": [
+        "Le cabernet sauvignon",
+        "Le pinot noir",
+        "Le merlot",
+        "Le syrah"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel cépage rouge est associé à la vallée du Rhône et à l'Australie sous le nom de shiraz (syrah) ?",
+      "choices": [
+        "Le grenache",
+        "La syrah (shiraz)",
+        "Le mourvèdre",
+        "Le carignan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus de vinification transforme le sucre du raisin en alcool grâce à des levures (fermentation alcoolique) ?",
+      "choices": [
+        "La macération",
+        "La fermentation alcoolique",
+        "La chaptalisation",
+        "Le collage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus de vinification, secondaire, adoucit l'acidité du vin en transformant l'acide malique en acide lactique (fermentation malolactique) ?",
+      "choices": [
+        "La fermentation alcoolique",
+        "La fermentation malolactique",
+        "La macération carbonique",
+        "Le débourbage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique de vinification, utilisée notamment pour le beaujolais nouveau, fait fermenter les raisins entiers avant écrasement (macération carbonique) ?",
+      "choices": [
+        "La méthode traditionnelle",
+        "La macération carbonique",
+        "La fermentation malolactique",
+        "Le pressurage direct"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle méthode de production du champagne implique une seconde fermentation en bouteille (méthode traditionnelle/champenoise) ?",
+      "choices": [
+        "La méthode Charmat",
+        "La méthode traditionnelle (champenoise)",
+        "La méthode ancestrale",
+        "La méthode Solera"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de fromage français est affiné dans des grottes naturelles du Massif Central, moisi et à pâte persillée (roquefort) ?",
+      "choices": [
+        "Le bleu d'Auvergne",
+        "Le roquefort",
+        "La fourme d'Ambert",
+        "Le bleu des Causses"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fromage suisse à pâte dure, célèbre pour ses grands trous, porte le nom d'une région (emmental/gruyère) ?",
+      "choices": [
+        "Le comté",
+        "L'emmental ou le gruyère",
+        "Le beaufort",
+        "Le vacherin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fromage italien, à pâte dure et affinée, est traditionnellement râpé sur les pâtes (parmesan) ?",
+      "choices": [
+        "La mozzarella",
+        "Le parmesan (Parmigiano Reggiano)",
+        "Le gorgonzola",
+        "Le pecorino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fromage italien frais et blanc, à base de lait de vache ou de bufflonne, est utilisé sur les pizzas (mozzarella) ?",
+      "choices": [
+        "Le parmesan",
+        "La mozzarella",
+        "La ricotta",
+        "Le provolone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fromage bleu italien, crémeux et piquant, est originaire de Lombardie et du Piémont (gorgonzola) ?",
+      "choices": [
+        "Le parmesan",
+        "Le gorgonzola",
+        "La mozzarella",
+        "Le taleggio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique de conservation par le froid, permettant de préserver longtemps la texture et les nutriments, congèle rapidement à très basse température (surgélation) ?",
+      "choices": [
+        "La réfrigération simple",
+        "La surgélation",
+        "La lyophilisation",
+        "La pasteurisation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique de conservation retire l'eau d'un aliment par sublimation sous vide, très utilisée pour le café instantané (lyophilisation) ?",
+      "choices": [
+        "La surgélation",
+        "La lyophilisation",
+        "La déshydratation par air chaud",
+        "La pasteurisation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique, développée par Louis Pasteur, chauffe un liquide à une température modérée pour détruire les micro-organismes pathogènes (pasteurisation) ?",
+      "choices": [
+        "La stérilisation UHT",
+        "La pasteurisation",
+        "La lyophilisation",
+        "La fermentation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technique de traitement thermique, plus intense que la pasteurisation, permet une conservation à température ambiante du lait (UHT) ?",
+      "choices": [
+        "La pasteurisation classique",
+        "L'UHT (Ultra Haute Température)",
+        "La stérilisation basse",
+        "La microfiltration seule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de cuisine, apparu dans les années 1970 en France, privilégie des préparations légères et des présentations soignées (nouvelle cuisine) ?",
+      "choices": [
+        "La cuisine bourgeoise",
+        "La nouvelle cuisine",
+        "La cuisine moléculaire",
+        "La cuisine fusion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel courant culinaire contemporain applique des principes scientifiques et des techniques innovantes à la cuisine (cuisine moléculaire) ?",
+      "choices": [
+        "La nouvelle cuisine",
+        "La cuisine moléculaire",
+        "La cuisine fusion",
+        "La slow food"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chef espagnol, avec son restaurant El Bulli, est considéré comme un pionnier de la cuisine moléculaire ?",
+      "choices": [
+        "Joël Robuchon",
+        "Ferran Adrià",
+        "Heston Blumenthal",
+        "Alain Ducasse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chef français, aujourd'hui décédé, a été le chef le plus étoilé au monde au guide Michelin (Joël Robuchon) ?",
+      "choices": [
+        "Paul Bocuse",
+        "Joël Robuchon",
+        "Alain Ducasse",
+        "Pierre Gagnaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chef français, figure emblématique de la nouvelle cuisine, dirigeait un restaurant près de Lyon très renommé ?",
+      "choices": [
+        "Joël Robuchon",
+        "Paul Bocuse",
+        "Michel Guérard",
+        "Alain Chapel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel guide gastronomique, créé en 1900 par un fabricant de pneus, attribue des étoiles aux meilleurs restaurants du monde (Guide Michelin) ?",
+      "choices": [
+        "Le Gault et Millau",
+        "Le Guide Michelin",
+        "Le 50 Best",
+        "Le Zagat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mouvement culinaire international, né en Italie en 1986, s'oppose à la restauration rapide et prône une alimentation locale et de qualité (Slow Food) ?",
+      "choices": [
+        "Le locavorisme (concept proche mais distinct)",
+        "Le mouvement Slow Food",
+        "La cuisine fusion",
+        "L'agriculture biologique seule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel régime alimentaire méditerranéen, reconnu par l'UNESCO, privilégie huile d'olive, poisson, légumes et céréales complètes (régime méditerranéen) ?",
+      "choices": [
+        "Le régime cétogène",
+        "Le régime méditerranéen",
+        "Le régime paléo",
+        "Le régime DASH"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle boisson fermentée japonaise à base de riz est souvent servie chaude ou froide en accompagnement des repas (saké) ?",
+      "choices": [
+        "Le shochu",
+        "Le saké",
+        "L'umeshu",
+        "Le mirin (vin de cuisson)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle boisson distillée mexicaine est produite à partir du cœur cuit de l'agave bleu (tequila) ?",
+      "choices": [
+        "Le mezcal (catégorie plus large)",
+        "La tequila (variété spécifique de mezcal d'agave bleu)",
+        "Le pulque (fermenté, non distillé)",
+        "Le rhum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle boisson distillée écossaise, vieillie en fûts de chêne, est produite à partir d'orge maltée (whisky) ?",
+      "choices": [
+        "Le gin",
+        "Le whisky (scotch)",
+        "Le rhum",
+        "Le brandy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle boisson distillée est produite à partir de la canne à sucre ou de la mélasse, très consommée dans les Caraïbes (rhum) ?",
+      "choices": [
+        "Le whisky",
+        "Le rhum",
+        "La vodka",
+        "Le gin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle boisson distillée aromatisée aux baies de genièvre est à la base du cocktail « gin tonic » (gin) ?",
+      "choices": [
+        "La vodka",
+        "Le gin",
+        "Le whisky",
+        "Le rhum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel plat brésilien national est un ragoût de haricots noirs et diverses viandes de porc (feijoada) ?",
+      "choices": [
+        "La moqueca",
+        "La feijoada",
+        "La churrasco (grillades)",
+        "L'acarajé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle spécialité péruvienne consiste en du poisson cru mariné dans du jus de citron vert avec oignons et piments (ceviche) ?",
+      "choices": [
+        "L'anticucho",
+        "Le ceviche",
+        "Le lomo saltado",
+        "L'aji de gallina"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chef français est considéré comme le fondateur de la haute cuisine moderne et codificateur des sauces mères au 19e siècle (Auguste Escoffier) ?",
+      "choices": [
+        "Marie-Antoine Carême",
+        "Auguste Escoffier",
+        "Fernand Point",
+        "Curnonsky"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chef et pâtissier français du début du 19e siècle est considéré comme le « roi des chefs et chef des rois », précurseur de la haute cuisine (Marie-Antoine Carême) ?",
+      "choices": [
+        "Auguste Escoffier",
+        "Marie-Antoine Carême",
+        "Alexandre Dumaine",
+        "Fernand Point"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel chef français, dit le « pape de la gastronomie » du 20e siècle, a formé de nombreux grands chefs à son restaurant de Vienne (Fernand Point) ?",
+      "choices": [
+        "Auguste Escoffier",
+        "Fernand Point",
+        "Paul Bocuse",
+        "Alain Chapel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne les cinq saveurs fondamentales perçues par les papilles gustatives, incluant l'umami identifiée plus récemment ?",
+      "choices": [
+        "Sucré, salé, acide, amer",
+        "Sucré, salé, acide, amer, umami",
+        "Sucré, salé, épicé, umami",
+        "Sucré, acide, amer, piquant, umami"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne la cinquième saveur fondamentale, associée au glutamate et à un goût savoureux (umami) ?",
+      "choices": [
+        "Le kokumi",
+        "L'umami",
+        "Le shibui",
+        "Le amai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel composé chimique, principal responsable de la saveur umami, est présent naturellement dans de nombreux aliments fermentés et le parmesan (glutamate monosodique) ?",
+      "choices": [
+        "Le glutamate (acide glutamique/MSG)",
+        "L'inosinate",
+        "Le guanylate",
+        "L'aspartate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel processus microbiologique transforme le lait en fromage grâce à l'action de bactéries lactiques et de présure (caillage/coagulation) ?",
+      "choices": [
+        "La pasteurisation",
+        "La coagulation (caillage) du lait",
+        "L'affinage seul",
+        "L'écrémage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus de fabrication du fromage, après le caillage, développe les arômes et la texture pendant plusieurs semaines à mois (affinage) ?",
+      "choices": [
+        "Le caillage",
+        "L'affinage",
+        "L'écrémage",
+        "Le barattage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus transforme la crème en beurre par agitation mécanique séparant la matière grasse du babeurre (barattage) ?",
+      "choices": [
+        "Le caillage",
+        "Le barattage",
+        "L'homogénéisation",
+        "L'écrémage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de fermentation, réalisée par des levures sauvages spontanées plutôt que sélectionnées, caractérise certaines bières belges comme la lambic ?",
+      "choices": [
+        "La fermentation haute (ales)",
+        "La fermentation spontanée (lambic)",
+        "La fermentation basse (lagers)",
+        "La fermentation mixte contrôlée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de fermentation de la bière, à température plus élevée, produit des ales avec des levures travaillant en surface (fermentation haute) ?",
+      "choices": [
+        "La fermentation basse (lager)",
+        "La fermentation haute (ale)",
+        "La fermentation spontanée",
+        "La refermentation en bouteille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de fermentation de la bière, à température plus basse, produit des lagers avec des levures travaillant en profondeur (fermentation basse) ?",
+      "choices": [
+        "La fermentation haute",
+        "La fermentation basse (lager)",
+        "La fermentation spontanée",
+        "La double fermentation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle région belge est historiquement associée à la production de bières lambic à fermentation spontanée (vallée de la Senne, région de Bruxelles-Pajottenland) ?",
+      "choices": [
+        "La région de Flandre occidentale",
+        "La région de la Senne (Pajottenland, près de Bruxelles)",
+        "La région d'Anvers",
+        "La région de Liège"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme œnologique désigne l'ensemble des facteurs naturels (sol, climat, exposition) influençant le caractère d'un vin (terroir) ?",
+      "choices": [
+        "Le millésime",
+        "Le terroir",
+        "Le cépage",
+        "L'appellation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme œnologique désigne l'année de récolte des raisins ayant servi à produire un vin (millésime) ?",
+      "choices": [
+        "Le terroir",
+        "Le millésime",
+        "L'assemblage",
+        "Le cépage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus de vieillissement du vin en bouteille, à l'abri de l'oxygène, développe des arômes tertiaires complexes (bouquet) ?",
+      "choices": [
+        "L'élevage en fût",
+        "Le vieillissement en bouteille",
+        "La décantation",
+        "L'oxydation contrôlée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne l'exposition volontaire et contrôlée d'un vin ou d'un spiritueux à du bois de chêne pour lui apporter des arômes (élevage en fût) ?",
+      "choices": [
+        "Le vieillissement en bouteille",
+        "L'élevage en fût de chêne",
+        "Le collage",
+        "Le soutirage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus de clarification du vin utilise des protéines (blanc d'œuf, gélatine) pour éliminer les particules en suspension (collage) ?",
+      "choices": [
+        "La filtration seule",
+        "Le collage",
+        "Le soutirage",
+        "Le débourbage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle maladie de la vigne, causée par un puceron ravageur venu d'Amérique, a détruit une grande partie du vignoble européen au 19e siècle (phylloxéra) ?",
+      "choices": [
+        "Le mildiou",
+        "Le phylloxéra",
+        "L'oïdium",
+        "La flavescence dorée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle solution a permis de sauver le vignoble européen après la crise du phylloxéra, par greffage sur des porte-greffes résistants ?",
+      "choices": [
+        "L'utilisation de pesticides",
+        "Le greffage sur porte-greffes américains résistants",
+        "L'abandon total de la viticulture",
+        "L'irrigation intensive"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme culinaire japonais désigne un chef sushi hautement qualifié, ayant suivi une longue formation traditionnelle (itamae) ?",
+      "choices": [
+        "Le tebiki",
+        "L'itamae",
+        "Le shokunin (terme plus général d'artisan)",
+        "Le kaiseki (désigne un style de repas, pas une personne)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel style de repas gastronomique japonais traditionnel, raffiné et saisonnier, se compose de nombreux petits plats successifs (kaiseki) ?",
+      "choices": [
+        "Le teishoku",
+        "Le kaiseki",
+        "Le izakaya (style de bar-restaurant)",
+        "Le bento"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne l'art culinaire consistant à sculpter des légumes et fruits en formes décoratives, très développé en Asie (garde-manger/sculpture culinaire) ?",
+      "choices": [
+        "Le tournage de légumes (technique française classique) ou la sculpture culinaire",
+        "Le dressage uniquement",
+        "Le fumage",
+        "Le glaçage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle technique de cuisson sous vide, à basse température et de façon prolongée, préserve la texture et les jus des aliments (cuisson sous vide/basse température) ?",
+      "choices": [
+        "Le braisage classique",
+        "La cuisson sous vide (basse température)",
+        "Le rôtissage",
+        "La friture"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel additif alimentaire, extrait d'algues rouges, est utilisé en cuisine moléculaire pour créer des gels (agar-agar) ?",
+      "choices": [
+        "La gélatine animale",
+        "L'agar-agar",
+        "La pectine",
+        "La gomme xanthane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel additif alimentaire, extrait de fruits comme la pomme ou les agrumes, gélifie les confitures (pectine) ?",
+      "choices": [
+        "L'agar-agar",
+        "La pectine",
+        "La gomme xanthane",
+        "L'alginate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel composé, utilisé en cuisine moléculaire, permet la technique de « sphérification » créant des billes liquides (alginate de sodium avec calcium) ?",
+      "choices": [
+        "L'agar-agar",
+        "L'alginate de sodium",
+        "La lécithine",
+        "La gomme xanthane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel composé émulsifiant naturel, présent dans le jaune d'œuf ou extrait du soja, stabilise les mélanges eau-graisse (lécithine) ?",
+      "choices": [
+        "La gomme xanthane",
+        "La lécithine",
+        "L'alginate",
+        "La pectine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme technique désigne le processus par lequel un liquide passe de l'état gazeux directement à l'état solide, utilisé en cuisine pour la fumée glacée (sublimation inverse/déposition, souvent via azote liquide en pratique) ?",
+      "choices": [
+        "La sublimation classique",
+        "La congélation à l'azote liquide (cryogénisation culinaire)",
+        "La lyophilisation",
+        "La déposition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel gaz, utilisé en cuisine moléculaire pour créer des textures mousseuses et des flash-freezes spectaculaires, est extrêmement froid (azote liquide) ?",
+      "choices": [
+        "Le dioxyde de carbone",
+        "L'azote liquide",
+        "L'hélium",
+        "L'oxygène liquide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle appellation protège la méthode traditionnelle et la zone géographique précise de production du vinaigre balsamique de Modène (IGP Aceto Balsamico di Modena) ?",
+      "choices": [
+        "Une AOP simple",
+        "Une IGP (Indication Géographique Protégée)",
+        "Aucune protection officielle",
+        "Un label bio uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de vinaigre traditionnel italien est vieilli plusieurs années dans des fûts de bois successifs de tailles décroissantes (vinaigre balsamique traditionnel de Modène) ?",
+      "choices": [
+        "Le vinaigre de vin classique",
+        "Le vinaigre balsamique traditionnel (Aceto Balsamico Tradizionale)",
+        "Le vinaigre de cidre",
+        "Le vinaigre de riz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fromage français au lait cru, protégé par une AOP stricte, ne peut être fabriqué que dans une zone précise autour de Roquefort-sur-Soulzon ?",
+      "choices": [
+        "Le camembert de Normandie (également AOP)",
+        "Le roquefort",
+        "Les deux bénéficient d'une AOP stricte de zone",
+        "Aucun des deux n'a d'AOP"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Quelle boisson est obtenue par fermentation du jus de raisin ?",
+      "question": "Quel processus, essentiel à la fabrication du chocolat, développe les arômes des fèves de cacao par chauffage contrôlé (torréfaction) ?",
       "choices": [
-        "La bière",
-        "Le rhum",
-        "Le cidre",
-        "Le vin"
+        "Le conchage",
+        "La torréfaction",
+        "Le tempérage",
+        "Le broyage"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "Quel fruit est le composant principal du plat camerounais appelé 'Kondré' ?",
+      "question": "Quel processus de fabrication du chocolat, long malaxage à chaud, affine la texture et développe les arômes (conchage) ?",
       "choices": [
-        "Le manioc",
-        "La patate douce",
-        "L'igname",
-        "La banane plantain"
+        "La torréfaction",
+        "Le conchage",
+        "Le tempérage",
+        "Le concassage"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "e quel pays provient le plat appelé 'Paëlla' ?",
+      "question": "Quel processus de fabrication du chocolat contrôle précisément la cristallisation du beurre de cacao pour obtenir brillance et cassant (tempérage) ?",
       "choices": [
-        "L'Espagne",
-        "Le Portugal",
-        "La Grèce",
-        "L'Italie"
+        "La torréfaction",
+        "Le tempérage",
+        "Le conchage",
+        "Le broyage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays est historiquement le premier producteur mondial de fèves de cacao (Côte d'Ivoire) ?",
+      "choices": [
+        "Le Ghana",
+        "La Côte d'Ivoire",
+        "Le Cameroun",
+        "Le Nigeria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays est traditionnellement le premier producteur mondial de café en volume (Brésil) ?",
+      "choices": [
+        "Le Vietnam",
+        "Le Brésil",
+        "La Colombie",
+        "L'Éthiopie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays est considéré comme le berceau historique du café, où l'espèce Coffea arabica pousse à l'état sauvage (Éthiopie) ?",
+      "choices": [
+        "Le Yémen",
+        "L'Éthiopie",
+        "Le Kenya",
+        "La Tanzanie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle espèce de caféier, la plus cultivée au monde, produit un café généralement plus doux et aromatique que le robusta (arabica) ?",
+      "choices": [
+        "Le robusta",
+        "L'arabica",
+        "Le liberica",
+        "L'excelsa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle espèce de caféier, plus résistante et plus riche en caféine, a un goût plus corsé et amer que l'arabica (robusta) ?",
+      "choices": [
+        "L'arabica",
+        "Le robusta",
+        "Le liberica",
+        "L'excelsa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel pays est un important producteur africain de café robusta, notamment dans sa région de l'Ouest (Cameroun) ?",
+      "choices": [
+        "Le Cameroun produit effectivement du robusta et de l'arabica",
+        "Le Cameroun ne produit pas de café",
+        "Seul l'arabica y est cultivé",
+        "Le café n'y pousse pas naturellement"
       ],
       "correctIndex": 0
     },
     {
-      "question": "uel est le légume principal de la moussaka grecque ?",
+      "question": "Quel processus de transformation du café, après récolte, sépare la pulpe du grain par voie humide ou sèche (dépulpage/traitement post-récolte) ?",
       "choices": [
-        "L'aubergine",
-        "La tomate",
-        "La pomme de terre",
-        "La courgette"
+        "La torréfaction",
+        "Le traitement post-récolte (lavé, naturel, honey)",
+        "La mouture",
+        "Le décaféination"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne la technique de conservation traditionnelle consistant à saler fortement un aliment pour le déshydrater partiellement (salaison) ?",
+      "choices": [
+        "Le fumage",
+        "La salaison",
+        "Le confisage",
+        "La lactofermentation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne la technique de conservation exposant un aliment à de la fumée, lui apportant goût et conservation (fumage) ?",
+      "choices": [
+        "La salaison",
+        "Le fumage",
+        "Le séchage à l'air",
+        "La marinade"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus de fermentation, utilisé pour la choucroute et le kimchi, repose sur des bactéries transformant les sucres en acide lactique (lactofermentation) ?",
+      "choices": [
+        "La fermentation alcoolique",
+        "La lactofermentation",
+        "La fermentation acétique",
+        "La fermentation malolactique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processus de fermentation transforme l'alcool en acide acétique, utilisé pour produire le vinaigre (fermentation acétique) ?",
+      "choices": [
+        "La fermentation alcoolique",
+        "La fermentation acétique",
+        "La lactofermentation",
+        "La fermentation malolactique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel champignon microscopique, essentiel à la fermentation alcoolique du vin, de la bière et du pain, appartient au genre Saccharomyces ?",
+      "choices": [
+        "Aspergillus",
+        "Saccharomyces (levure de boulanger/brasseur)",
+        "Penicillium",
+        "Rhizopus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel champignon, utilisé pour l'affinage de certains fromages à croûte fleurie comme le camembert, appartient au genre Penicillium ?",
+      "choices": [
+        "Saccharomyces",
+        "Penicillium",
+        "Aspergillus",
+        "Rhizopus"
+      ],
+      "correctIndex": 1
     }
   ]
 }

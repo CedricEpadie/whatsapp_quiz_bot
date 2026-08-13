@@ -1,0 +1,2005 @@
+{
+  "theme": "Manga/Animé et Dessin animé",
+  "questions": [
+    {
+      "question": "Quel pays est à l'origine des mangas et animés ?",
+      "choices": [
+        "La Chine",
+        "Le Japon",
+        "La Corée du Sud",
+        "Les États-Unis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène un jeune ninja nommé Naruto Uzumaki ?",
+      "choices": [
+        "One Piece",
+        "Naruto",
+        "Bleach",
+        "Dragon Ball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé suit les aventures d'un garçon nommé Luffy voulant devenir roi des pirates ?",
+      "choices": [
+        "Naruto",
+        "One Piece",
+        "Fairy Tail",
+        "Bleach"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène Son Goku, guerrier extraterrestre aux cheveux pouvant devenir dorés ?",
+      "choices": [
+        "Naruto",
+        "Dragon Ball",
+        "One Piece",
+        "Saint Seiya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé japonais met en scène un chat robot bleu venu du futur pour aider un jeune garçon nommé Nobita ?",
+      "choices": [
+        "Doraemon",
+        "Astro Boy",
+        "Pokémon",
+        "Digimon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle franchise met en scène un dresseur cherchant à capturer des créatures dans des « Poké Balls » ?",
+      "choices": [
+        "Digimon",
+        "Pokémon",
+        "Yu-Gi-Oh!",
+        "Beyblade"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage est le célèbre Pokémon jaune électrique, mascotte de la franchise ?",
+      "choices": [
+        "Bulbizarre",
+        "Pikachu",
+        "Salamèche",
+        "Carapuce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène des enfants combattant avec des créatures numériques appelées Digimon ?",
+      "choices": [
+        "Pokémon",
+        "Digimon",
+        "Beyblade",
+        "Yu-Gi-Oh!"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation japonais a créé « Mon voisin Totoro » et « Le Voyage de Chihiro » ?",
+      "choices": [
+        "Toei Animation",
+        "Studio Ghibli",
+        "Madhouse",
+        "Sunrise"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur japonais a fondé le Studio Ghibli et réalisé « Princesse Mononoké » ?",
+      "choices": [
+        "Isao Takahata",
+        "Hayao Miyazaki",
+        "Mamoru Hosoda",
+        "Makoto Shinkai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène des jeunes filles se transformant en guerrières pour combattre le mal, dont Sailor Moon ?",
+      "choices": [
+        "Sailor Moon",
+        "Card Captor Sakura",
+        "Precure",
+        "Magic Knight Rayearth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animé met en scène un détective lycéen rétréci en enfant, résolvant des enquêtes criminelles ?",
+      "choices": [
+        "Détective Conan",
+        "Death Note",
+        "Monster",
+        "Kindaichi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel manga/animé met en scène un cahier permettant de tuer quiconque dont le nom y est écrit ?",
+      "choices": [
+        "Death Note",
+        "Bleach",
+        "Naruto",
+        "Tokyo Ghoul"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animé met en scène des géants dévorant des humains, forçant l'humanité à se retrancher derrière des murs ?",
+      "choices": [
+        "L'Attaque des Titans",
+        "Tokyo Ghoul",
+        "Parasyte",
+        "Kabaneri"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel manga/animé met en scène un garçon devenu chasseur de goules après une transplantation ?",
+      "choices": [
+        "Death Note",
+        "Tokyo Ghoul",
+        "Bleach",
+        "Naruto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène des chasseurs de créatures appelées Titans (piège volontaire, distinct de L'Attaque des Titans) ?",
+      "choices": [
+        "Il s'agit bien de L'Attaque des Titans",
+        "Il s'agit d'un autre animé sans lien",
+        "Cette description ne correspond à aucun animé connu",
+        "Il s'agit de Tokyo Ghoul"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animé met en scène deux frères alchimistes cherchant la pierre philosophale ?",
+      "choices": [
+        "Fullmetal Alchemist",
+        "Soul Eater",
+        "Black Clover",
+        "Fairy Tail"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animé met en scène des pirates de l'espace ou chasseurs de primes voyageant à bord du vaisseau Bebop ?",
+      "choices": [
+        "Cowboy Bebop",
+        "Trigun",
+        "Outlaw Star",
+        "Gundam"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animé met en scène un garçon capable de manipuler des cartes magiques capturées, Card Captor Sakura ?",
+      "choices": [
+        "Sailor Moon",
+        "Card Captor Sakura",
+        "Magic Knight Rayearth",
+        "Tokyo Mew Mew"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène une équipe de super-héros combattant le crime, dont Deku aspirant à devenir héros (My Hero Academia) ?",
+      "choices": [
+        "One Punch Man",
+        "My Hero Academia",
+        "Mob Psycho 100",
+        "Tiger & Bunny"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène un héros capable de vaincre n'importe quel ennemi en un seul coup, s'ennuyant de sa propre puissance ?",
+      "choices": [
+        "My Hero Academia",
+        "One Punch Man",
+        "Mob Psycho 100",
+        "Dragon Ball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène des adolescents combattant des démons avec des sabres, dont Tanjiro Kamado (Demon Slayer) ?",
+      "choices": [
+        "Jujutsu Kaisen",
+        "Demon Slayer (Kimetsu no Yaiba)",
+        "Bleach",
+        "Chainsaw Man"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène des sorciers combattant des malédictions nées des émotions négatives humaines (Jujutsu Kaisen) ?",
+      "choices": [
+        "Demon Slayer",
+        "Jujutsu Kaisen",
+        "Black Clover",
+        "Fire Force"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé américain met en scène une éponge jaune vivant dans un ananas au fond de l'océan ?",
+      "choices": [
+        "SpongeBob SquarePants (Bob l'éponge)",
+        "Les Simpson",
+        "South Park",
+        "Rick et Morty"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dessin animé américain met en scène une famille jaune vivant à Springfield ?",
+      "choices": [
+        "Bob l'éponge",
+        "Les Simpson",
+        "Les Griffin",
+        "King of the Hill"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé américain met en scène une famille dysfonctionnelle avec un chien parlant nommé Brian ?",
+      "choices": [
+        "Les Simpson",
+        "Les Griffin (Family Guy)",
+        "American Dad",
+        "South Park"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé américain satirique met en scène quatre enfants dans une petite ville du Colorado ?",
+      "choices": [
+        "Les Simpson",
+        "South Park",
+        "Les Griffin",
+        "Beavis and Butt-Head"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé Disney met en scène une princesse aux pouvoirs de glace, Elsa, et sa sœur Anna ?",
+      "choices": [
+        "Raiponce",
+        "La Reine des neiges",
+        "Vaiana",
+        "Encanto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé Disney met en scène un lion nommé Simba devenant roi de la savane ?",
+      "choices": [
+        "Tarzan",
+        "Le Roi Lion",
+        "Kuzco, l'empereur mégalo",
+        "Frère des ours"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé Nickelodeon met en scène un garçon capable de contrôler les quatre éléments (Avatar : Le Dernier Maître de l'Air) ?",
+      "choices": [
+        "Ben 10",
+        "Avatar : Le Dernier Maître de l'Air",
+        "Les Razmoket",
+        "Danny Phantom"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé met en scène un garçon transformant son bras en horloge extraterrestre appelée l'Omnitrix (Ben 10) ?",
+      "choices": [
+        "Danny Phantom",
+        "Ben 10",
+        "Generator Rex",
+        "Randy Cunningham"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé américain met en scène un scientifique excentrique et son petit-fils voyageant à travers des dimensions (Rick et Morty) ?",
+      "choices": [
+        "Futurama",
+        "Rick et Morty",
+        "American Dad",
+        "Bob's Burgers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé américain met en scène un livreur du 20e siècle réveillé au 31e siècle (Futurama) ?",
+      "choices": [
+        "Rick et Morty",
+        "Futurama",
+        "Space Ghost",
+        "The Venture Bros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène un garçon capable de voir la « ligne de vie » restante des objets et personnes, chasseur de fantômes (Yu Yu Hakusho) ?",
+      "choices": [
+        "Bleach",
+        "Yu Yu Hakusho",
+        "InuYasha",
+        "Rurouni Kenshin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène une jeune fille voyageant dans le passé féodal japonais grâce à un puits magique (InuYasha) ?",
+      "choices": [
+        "Fruits Basket",
+        "InuYasha",
+        "Card Captor Sakura",
+        "Fushigi Yugi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène un jeune samouraï errant cherchant la rédemption après avoir été un assassin (Rurouni Kenshin) ?",
+      "choices": [
+        "Samurai Champloo",
+        "Rurouni Kenshin",
+        "Basilisk",
+        "Gintama"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé de sport met en scène une équipe de volleyball lycéenne, Haikyuu!! ?",
+      "choices": [
+        "Kuroko's Basketball",
+        "Haikyuu!!",
+        "Slam Dunk",
+        "Ace of Diamond"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé de sport met en scène une équipe de basketball avec un joueur presque invisible sur le terrain (Kuroko's Basketball) ?",
+      "choices": [
+        "Haikyuu!!",
+        "Kuroko no Basket (Kuroko's Basketball)",
+        "Slam Dunk",
+        "Ahiru no Sora"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé français met en scène deux super-héros adolescents luttant contre le Papillon à Paris (Miraculous) ?",
+      "choices": [
+        "Code Lyoko",
+        "Miraculous, les Aventures de Ladybug et Chat Noir",
+        "Totally Spies",
+        "W.I.T.C.H."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé français met en scène trois adolescentes espionnes combattant le crime (Totally Spies) ?",
+      "choices": [
+        "Miraculous",
+        "Totally Spies!",
+        "Code Lyoko",
+        "Martin Mystère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène une équipe de pirates de l'espace ou de chasseurs de trésor recherchant le One Piece, trésor légendaire ?",
+      "choices": [
+        "Il s'agit bien de One Piece",
+        "Cette description ne correspond pas à One Piece",
+        "Il s'agit de Fairy Tail",
+        "Il s'agit de Bleach"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animé met en scène une guilde de mages combattant ensemble, Fairy Tail ?",
+      "choices": [
+        "Black Clover",
+        "Fairy Tail",
+        "Seven Deadly Sins",
+        "Soul Eater"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène un garçon né sans magie dans un monde où tout le monde en possède, rêvant de devenir roi mage (Black Clover) ?",
+      "choices": [
+        "Fairy Tail",
+        "Black Clover",
+        "Seven Deadly Sins",
+        "The Rising of the Shield Hero"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène sept chevaliers légendaires accusés à tort de trahison (The Seven Deadly Sins) ?",
+      "choices": [
+        "Fairy Tail",
+        "The Seven Deadly Sins",
+        "Black Clover",
+        "Berserk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé de combat met en scène des élèves d'une académie où les armes humaines se transforment en démons (Soul Eater) ?",
+      "choices": [
+        "Black Clover",
+        "Soul Eater",
+        "Fire Force",
+        "Blue Exorcist"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé américain classique met en scène un chat bleu-gris poursuivant une souris nommée Jerry ?",
+      "choices": [
+        "Looney Tunes",
+        "Tom et Jerry",
+        "Popeye",
+        "Mickey Mouse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé classique met en scène un lapin malicieux nommé Bugs Bunny ?",
+      "choices": [
+        "Tom et Jerry",
+        "Looney Tunes",
+        "Popeye",
+        "Woody Woodpecker"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage Disney emblématique est une souris avec de grandes oreilles rondes, mascotte du studio ?",
+      "choices": [
+        "Donald Duck",
+        "Mickey Mouse",
+        "Goofy",
+        "Pluto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage Disney est un canard grognon souvent accompagné de ses neveux Riri, Fifi et Loulou ?",
+      "choices": [
+        "Mickey Mouse",
+        "Donald Duck",
+        "Dingo (Goofy)",
+        "Pluto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka (auteur de manga) a créé « One Piece » ?",
+      "choices": [
+        "Masashi Kishimoto",
+        "Eiichiro Oda",
+        "Akira Toriyama",
+        "Tite Kubo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka a créé « Naruto » ?",
+      "choices": [
+        "Eiichiro Oda",
+        "Masashi Kishimoto",
+        "Hiro Mashima",
+        "Tite Kubo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka a créé « Dragon Ball » ?",
+      "choices": [
+        "Eiichiro Oda",
+        "Akira Toriyama",
+        "Masashi Kishimoto",
+        "Rumiko Takahashi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka a créé « Bleach » ?",
+      "choices": [
+        "Eiichiro Oda",
+        "Tite Kubo",
+        "Masashi Kishimoto",
+        "Kentaro Miura"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation japonais a produit l'animé « Naruto » ?",
+      "choices": [
+        "Toei Animation",
+        "Studio Pierrot",
+        "Madhouse",
+        "Bones"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation japonais a produit l'animé « One Piece » ?",
+      "choices": [
+        "Studio Pierrot",
+        "Toei Animation",
+        "Wit Studio",
+        "MAPPA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation japonais a produit « L'Attaque des Titans » (saisons initiales) ?",
+      "choices": [
+        "MAPPA (saisons finales)",
+        "Wit Studio (saisons initiales)",
+        "Bones",
+        "Ufotable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation a repris la production des dernières saisons de « L'Attaque des Titans » ?",
+      "choices": [
+        "Wit Studio",
+        "MAPPA",
+        "Kyoto Animation",
+        "A-1 Pictures"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation japonais est réputé pour la qualité visuelle de « Demon Slayer » ?",
+      "choices": [
+        "MAPPA",
+        "Ufotable",
+        "Bones",
+        "Trigger"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation a produit « Jujutsu Kaisen » ?",
+      "choices": [
+        "Ufotable",
+        "MAPPA",
+        "Wit Studio",
+        "Studio Pierrot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle organisation criminelle est l'ennemi principal récurrent dans « Naruto », composée de ninjas renégats ?",
+      "choices": [
+        "Les Sept Épéistes",
+        "L'Akatsuki",
+        "Le Conseil des Cinq Nations",
+        "Le Root"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Naruto » est le rival principal du héros, un ninja déserteur de Konoha ?",
+      "choices": [
+        "Kakashi",
+        "Sasuke Uchiha",
+        "Rock Lee",
+        "Shikamaru"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « One Piece » est le capitaine de l'équipage au chapeau de paille ?",
+      "choices": [
+        "Zoro",
+        "Luffy",
+        "Sanji",
+        "Usopp"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel fruit du démon donne à Luffy, dans « One Piece », un corps élastique ?",
+      "choices": [
+        "Le Gomu Gomu no Mi (fruit du caoutchouc)",
+        "Le Mera Mera no Mi",
+        "Le Hito Hito no Mi",
+        "Le Yami Yami no Mi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel personnage de « Dragon Ball » est le fils de Son Goku, apparaissant dès l'arc Saiyan ?",
+      "choices": [
+        "Trunks",
+        "Son Gohan",
+        "Goten",
+        "Végéta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Dragon Ball » est un prince Saiyan rival puis allié de Son Goku ?",
+      "choices": [
+        "Piccolo",
+        "Végéta",
+        "Freezer",
+        "Cell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Death Note » est le détective mystérieux tentant d'identifier Kira ?",
+      "choices": [
+        "Light Yagami",
+        "L (Lawliet)",
+        "Near",
+        "Mello"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Death Note » possède le carnet permettant de tuer et devient Kira ?",
+      "choices": [
+        "L",
+        "Light Yagami",
+        "Ryuk",
+        "Misa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel shinigami (dieu de la mort) accompagne Light dans « Death Note » et lui a laissé tomber le carnet ?",
+      "choices": [
+        "Rem",
+        "Ryuk",
+        "Sidoh",
+        "Gelus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé de sport met en scène un joueur de basketball talentueux nommé Sakuragi Hanamichi (Slam Dunk) ?",
+      "choices": [
+        "Kuroko's Basketball",
+        "Slam Dunk",
+        "Haikyuu!!",
+        "Ahiru no Sora"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « My Hero Academia » est le héros principal aspirant à devenir le plus grand héros ?",
+      "choices": [
+        "Bakugo",
+        "Izuku Midoriya (Deku)",
+        "Todoroki",
+        "Iida"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « My Hero Academia » est le héros numéro un, symbole de la paix (All Might) ?",
+      "choices": [
+        "Endeavor",
+        "All Might",
+        "Hawks",
+        "Present Mic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Demon Slayer » est le héros principal cherchant à guérir sa sœur transformée en démon ?",
+      "choices": [
+        "Zenitsu",
+        "Tanjiro Kamado",
+        "Inosuke",
+        "Giyu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Demon Slayer » est la sœur de Tanjiro, transformée en démon mais conservant son humanité ?",
+      "choices": [
+        "Shinobu",
+        "Nezuko Kamado",
+        "Kanao",
+        "Mitsuri"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Jujutsu Kaisen » avale un doigt maudit et devient l'hôte d'une puissante malédiction (Sukuna) ?",
+      "choices": [
+        "Megumi Fushiguro",
+        "Yuji Itadori",
+        "Nobara Kugisaki",
+        "Maki Zenin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène un moine bouddhiste vengeur, Guts, dans un univers médiéval sombre (Berserk) ?",
+      "choices": [
+        "Claymore",
+        "Berserk",
+        "Vinland Saga",
+        "Attack on Titan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène un jeune viking cherchant la paix après une enfance de violence (Vinland Saga) ?",
+      "choices": [
+        "Berserk",
+        "Vinland Saga",
+        "Drifters",
+        "Golden Kamuy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène des combats de robots géants pilotés, franchise emblématique fondée dans les années 1970-80 (Mobile Suit Gundam) ?",
+      "choices": [
+        "Evangelion",
+        "Gundam",
+        "Macross",
+        "Code Geass"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène des adolescents pilotant des robots géants appelés Evangelion pour combattre des Anges ?",
+      "choices": [
+        "Gundam",
+        "Neon Genesis Evangelion",
+        "Code Geass",
+        "Eureka Seven"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène un lycéen devenant un leader rebelle masqué grâce à un pouvoir de manipulation mentale (Code Geass) ?",
+      "choices": [
+        "Death Note",
+        "Code Geass",
+        "Evangelion",
+        "Gundam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène une organisation de chasseurs professionnels affrontant des défis variés à travers le monde (Hunter x Hunter) ?",
+      "choices": [
+        "One Piece",
+        "Hunter x Hunter",
+        "Fairy Tail",
+        "Black Clover"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Hunter x Hunter » est le jeune héros recherchant son père disparu, lui-même Chasseur ?",
+      "choices": [
+        "Killua",
+        "Gon Freecss",
+        "Kurapika",
+        "Leorio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène des étudiants dans un monde où 80% de la population possède des pouvoirs surnaturels appelés Quirks (My Hero Academia) ?",
+      "choices": [
+        "Il s'agit bien de My Hero Academia",
+        "Il s'agit d'un autre animé",
+        "One Punch Man",
+        "Mob Psycho 100"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel animé, du même créateur que One Punch Man (ONE), met en scène un collégien aux pouvoirs psychiques cachant sa puissance (Mob Psycho 100) ?",
+      "choices": [
+        "My Hero Academia",
+        "Mob Psycho 100",
+        "Tokyo Ghoul",
+        "Fire Force"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé se déroule dans un monde où le feu est apparu spontanément chez certains humains, les rendant combustibles (Fire Force) ?",
+      "choices": [
+        "Blue Exorcist",
+        "Fire Force",
+        "Soul Eater",
+        "D.Gray-man"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène un adolescent devenant demi-démon pour combattre les forces de l'enfer (Blue Exorcist) ?",
+      "choices": [
+        "Fire Force",
+        "Blue Exorcist (Ao no Exorcist)",
+        "D.Gray-man",
+        "Devil May Cry"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène un lycéen fusionnant avec une tronçonneuse démoniaque pour devenir un chasseur de démons (Chainsaw Man) ?",
+      "choices": [
+        "Jujutsu Kaisen",
+        "Chainsaw Man",
+        "Demon Slayer",
+        "Tokyo Ghoul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé américain met en scène des adolescents mutants transformés en tortues combattant le crime à New York (Tortues Ninja) ?",
+      "choices": [
+        "Les Gardiens de la Galaxie",
+        "Les Tortues Ninja (TMNT)",
+        "Teen Titans",
+        "Young Justice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé DC met en scène de jeunes versions des super-héros de la Justice League (Teen Titans) ?",
+      "choices": [
+        "Justice League",
+        "Teen Titans",
+        "Young Justice",
+        "Batman Beyond"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé américain met en scène Batman dans un style rétro-futuriste très acclamé des années 1990 (Batman: The Animated Series) ?",
+      "choices": [
+        "Justice League",
+        "Batman: The Animated Series",
+        "Batman Beyond",
+        "The Batman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé met en scène un groupe de magical girls (filles magiques) subvertissant les codes du genre de façon sombre (Madoka Magica) ?",
+      "choices": [
+        "Sailor Moon",
+        "Puella Magi Madoka Magica",
+        "Precure",
+        "Cardcaptor Sakura"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé japonais met en scène un lycéen découvrant pouvoir échanger de corps avec une lycéenne vivant loin de lui (Your Name / Kimi no Na wa) ?",
+      "choices": [
+        "Weathering with You",
+        "Your Name (Kimi no Na wa)",
+        "5 Centimeters per Second",
+        "The Garden of Words"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur japonais contemporain a réalisé « Your Name » et « Suzume » ?",
+      "choices": [
+        "Mamoru Hosoda",
+        "Makoto Shinkai",
+        "Satoshi Kon",
+        "Isao Takahata"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur japonais a réalisé « Perfect Blue » et « Paprika », films d'animation psychologiques acclamés ?",
+      "choices": [
+        "Makoto Shinkai",
+        "Satoshi Kon",
+        "Mamoru Hosoda",
+        "Hideaki Anno"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur japonais a réalisé « Les Enfants loups » et « Le Garçon et la Bête » ?",
+      "choices": [
+        "Satoshi Kon",
+        "Mamoru Hosoda",
+        "Makoto Shinkai",
+        "Isao Takahata"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel co-fondateur du Studio Ghibli, distinct de Miyazaki, a réalisé « Le Tombeau des lucioles » ?",
+      "choices": [
+        "Hayao Miyazaki",
+        "Isao Takahata",
+        "Hiromasa Yonebayashi",
+        "Gorō Miyazaki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film Ghibli met en scène deux sœurs dont l'une découvre un esprit de la forêt appelé Totoro ?",
+      "choices": [
+        "Le Château dans le ciel",
+        "Mon voisin Totoro",
+        "Kiki la petite sorcière",
+        "Pompoko"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film Ghibli met en scène une sorcière apprentie livrant des colis à dos de balai ?",
+      "choices": [
+        "Mon voisin Totoro",
+        "Kiki la petite sorcière",
+        "Le Voyage de Chihiro",
+        "Le Château ambulant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film Ghibli met en scène une jeune fille travaillant dans les bains publics d'un monde peuplé d'esprits ?",
+      "choices": [
+        "Princesse Mononoké",
+        "Le Voyage de Chihiro",
+        "Le Château ambulant",
+        "Ponyo sur la falaise"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film Ghibli met en scène une jeune femme liée à un magicien vivant dans un château mobile ?",
+      "choices": [
+        "Le Voyage de Chihiro",
+        "Le Château ambulant (Howl no Ugoku Shiro)",
+        "Le Château dans le ciel",
+        "Kiki la petite sorcière"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga classique, prépublié dans le Weekly Shōnen Jump, est l'un des plus vendus de l'histoire, avec « One Piece », « Naruto » et « Dragon Ball » ?",
+      "choices": [
+        "Bleach",
+        "Ces trois titres sont effectivement parmi les mieux vendus du Jump",
+        "Fairy Tail",
+        "Slam Dunk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel magazine hebdomadaire japonais de prépublication a lancé « Naruto », « One Piece » et « Dragon Ball » ?",
+      "choices": [
+        "Weekly Shōnen Magazine",
+        "Weekly Shōnen Jump",
+        "Weekly Shōnen Sunday",
+        "Monthly Shōnen Gangan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un genre de manga/animé destiné principalement à un public de jeunes garçons (shōnen) ?",
+      "choices": [
+        "Shōjo",
+        "Shōnen",
+        "Seinen",
+        "Josei"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un genre de manga/animé destiné principalement à un public de jeunes filles (shōjo) ?",
+      "choices": [
+        "Shōnen",
+        "Shōjo",
+        "Seinen",
+        "Kodomo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un genre de manga/animé destiné à un public masculin adulte, souvent plus mature (seinen) ?",
+      "choices": [
+        "Shōnen",
+        "Seinen",
+        "Shōjo",
+        "Josei"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un genre de manga/animé destiné à un public féminin adulte (josei) ?",
+      "choices": [
+        "Shōjo",
+        "Josei",
+        "Seinen",
+        "Kodomo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne les conventions dédiées à la culture manga, animé et jeux vidéo, comme le Comiket ?",
+      "choices": [
+        "L'otaku (désigne une personne, pas l'événement)",
+        "Le Comiket (Comic Market)",
+        "Le cosplay (désigne une pratique)",
+        "Le doujin (désigne une œuvre)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un fan passionné, parfois obsessionnel, de manga, animé ou jeux vidéo ?",
+      "choices": [
+        "Le cosplay",
+        "L'otaku",
+        "Le tsundere",
+        "Le senpai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne le fait de se déguiser en personnage de fiction, très populaire dans la culture manga/animé (cosplay) ?",
+      "choices": [
+        "L'otaku",
+        "Le cosplay (costume play)",
+        "Le doujinshi",
+        "Le fanservice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne les œuvres créées par des fans, souvent des parodies ou suites non officielles (doujinshi) ?",
+      "choices": [
+        "Le cosplay",
+        "Le doujinshi",
+        "Le fanservice",
+        "Le light novel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un roman illustré, souvent source d'adaptations en manga et animé (light novel) ?",
+      "choices": [
+        "Le doujinshi",
+        "Le light novel",
+        "Le visual novel (jeu vidéo)",
+        "Le webtoon (format coréen)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un personnage froid ou hostile en apparence mais tendre intérieurement, archétype très répandu (tsundere) ?",
+      "choices": [
+        "Le kuudere (froid en permanence)",
+        "Le tsundere",
+        "Le yandere (obsessionnel/violent)",
+        "Le dandere (timide)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un personnage amoureux obsessionnel pouvant devenir violent par jalousie (yandere) ?",
+      "choices": [
+        "Tsundere",
+        "Yandere",
+        "Kuudere",
+        "Dandere"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Bleach » est le shinigami substitut protagoniste principal ?",
+      "choices": [
+        "Renji Abarai",
+        "Ichigo Kurosaki",
+        "Uryu Ishida",
+        "Kisuke Urahara"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène un lycéen devenant shinigami (dieu de la mort) après avoir sauvé sa famille (Bleach) ?",
+      "choices": [
+        "Il s'agit bien de Bleach",
+        "Il s'agit de Death Note",
+        "Il s'agit de Soul Eater",
+        "Il s'agit de D.Gray-man"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel personnage emblématique de « One Piece » est le sabreur de l'équipage, aspirant à devenir le meilleur épéiste du monde ?",
+      "choices": [
+        "Sanji",
+        "Zoro",
+        "Usopp",
+        "Brook"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « One Piece » est le cuisinier de l'équipage, combattant uniquement avec ses jambes ?",
+      "choices": [
+        "Zoro",
+        "Sanji",
+        "Chopper",
+        "Franky"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel arc narratif de « One Piece » se déroule à Alabasta et voit l'équipage affronter Crocodile ?",
+      "choices": [
+        "L'arc East Blue",
+        "L'arc Alabasta",
+        "L'arc Water Seven",
+        "L'arc Marineford"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de « Dragon Ball » est le rival extraterrestre, tyran, ayant détruit la planète natale de Végéta et Goku ?",
+      "choices": [
+        "Cell",
+        "Freezer (Freeza)",
+        "Majin Boo",
+        "Broly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga créé par Rumiko Takahashi met en scène une jeune fille aidant un démi-démon dans le Japon féodal (InuYasha) ?",
+      "choices": [
+        "Ranma ½",
+        "InuYasha",
+        "Urusei Yatsura",
+        "Maison Ikkoku"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mangaka a créé « Ranma ½ », « InuYasha » et « Urusei Yatsura » ?",
+      "choices": [
+        "Naoko Takeuchi",
+        "Rumiko Takahashi",
+        "CLAMP (collectif)",
+        "Ai Yazawa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel collectif de mangakas féminines a créé « Card Captor Sakura » et « X/1999 » ?",
+      "choices": [
+        "Rumiko Takahashi (individuelle)",
+        "CLAMP",
+        "Naoko Takeuchi (individuelle)",
+        "Arina Tanemura (individuelle)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mangaka a créé « Sailor Moon » ?",
+      "choices": [
+        "CLAMP",
+        "Naoko Takeuchi",
+        "Rumiko Takahashi",
+        "Ai Yazawa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé sportif met en scène un pitcher de baseball et son équipe lycéenne (Ace of the Diamond ou un classique du genre) ?",
+      "choices": [
+        "Il existe plusieurs mangas de baseball populaires, dont Ace of the Diamond",
+        "Le baseball n'apparaît jamais en manga",
+        "Seul le football est représenté en manga sportif",
+        "Aucun manga de baseball n'existe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel manga/animé met en scène un jeune boxeur cherchant à devenir champion, classique du genre sportif (Hajime no Ippo) ?",
+      "choices": [
+        "Ashita no Joe",
+        "Hajime no Ippo",
+        "Ippo (nom alternatif du même titre)",
+        "Il s'agit de deux titres distincts, Ashita no Joe et Hajime no Ippo"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel manga/animé classique des années 1960-70, précurseur du genre sportif, met en scène un boxeur nommé Joe Yabuki (Ashita no Joe) ?",
+      "choices": [
+        "Hajime no Ippo",
+        "Ashita no Joe (Rocky Joe)",
+        "Kick no Oni",
+        "Tomorrow's Joe (autre nom du même titre)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel mangaka est considéré comme le « dieu du manga », créateur d'Astro Boy et pionnier de l'animé moderne ?",
+      "choices": [
+        "Go Nagai",
+        "Osamu Tezuka",
+        "Leiji Matsumoto",
+        "Shotaro Ishinomori"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage créé par Osamu Tezuka est un robot enfant aux super pouvoirs, pionnier des héros animés (Astro Boy/Tetsuwan Atom) ?",
+      "choices": [
+        "Doraemon",
+        "Astro Boy (Tetsuwan Atom)",
+        "Gigantor",
+        "Mazinger Z"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka a créé « Mazinger Z », pionnier du genre des robots géants pilotés (mecha) ?",
+      "choices": [
+        "Osamu Tezuka",
+        "Go Nagai",
+        "Leiji Matsumoto",
+        "Yoshiyuki Tomino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur/scénariste est considéré comme le créateur de la franchise « Gundam », fondatrice du genre « real robot » ?",
+      "choices": [
+        "Go Nagai",
+        "Yoshiyuki Tomino",
+        "Hideaki Anno",
+        "Shoji Kawamori"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel créateur est à l'origine de « Neon Genesis Evangelion », mêlant mecha et psychanalyse ?",
+      "choices": [
+        "Yoshiyuki Tomino",
+        "Hideaki Anno",
+        "Shinichiro Watanabe",
+        "Gen Urobuchi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé « Cowboy Bebop » et « Samurai Champloo », connu pour son style musical jazzy/hip-hop ?",
+      "choices": [
+        "Hideaki Anno",
+        "Shinichiro Watanabe",
+        "Satoshi Kon",
+        "Kunihiko Ikuhara"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé « Revolutionary Girl Utena », connu pour son style symbolique et théâtral ?",
+      "choices": [
+        "Shinichiro Watanabe",
+        "Kunihiko Ikuhara",
+        "Hideaki Anno",
+        "Mamoru Oshii"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a réalisé le film d'animation « Ghost in the Shell » (1995), influence majeure de « Matrix » ?",
+      "choices": [
+        "Katsuhiro Otomo",
+        "Mamoru Oshii",
+        "Hideaki Anno",
+        "Satoshi Kon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka/réalisateur a créé « Akira », film et manga cyberpunk emblématique se déroulant à Neo-Tokyo ?",
+      "choices": [
+        "Mamoru Oshii",
+        "Katsuhiro Otomo",
+        "Masamune Shirow",
+        "Yukito Kishiro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka a créé « Ghost in the Shell », base du film de Mamoru Oshii (Masamune Shirow) ?",
+      "choices": [
+        "Katsuhiro Otomo",
+        "Masamune Shirow",
+        "Yukito Kishiro",
+        "Tsutomu Nihei"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène un cyborg chasseur de primes dans une ville-décharge futuriste (Gunnm/Battle Angel Alita) ?",
+      "choices": [
+        "Ghost in the Shell",
+        "Gunnm (Battle Angel Alita)",
+        "Akira",
+        "Blame!"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga classique des années 1980, très long, met en scène une famille aux capacités surnaturelles combattant des vampires et esprits (JoJo's Bizarre Adventure) ?",
+      "choices": [
+        "Berserk",
+        "JoJo's Bizarre Adventure",
+        "Fist of the North Star",
+        "Saint Seiya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé des années 1980 met en scène un guerrier post-apocalyptique aux techniques de combat mortelles au toucher (Fist of the North Star/Ken le survivant) ?",
+      "choices": [
+        "JoJo's Bizarre Adventure",
+        "Fist of the North Star (Hokuto no Ken)",
+        "Fist of the Blue Sky",
+        "Berserk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé des années 1980, culte au Cameroun et en Afrique francophone via sa diffusion télé, met en scène des chevaliers protégeant une déesse réincarnée (Saint Seiya/Les Chevaliers du Zodiaque) ?",
+      "choices": [
+        "Dragon Ball Z",
+        "Saint Seiya (Les Chevaliers du Zodiaque)",
+        "City Hunter",
+        "Captain Tsubasa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé de football, très populaire en Afrique francophone dans les années 1990, met en scène un jeune joueur nommé Oliver Atton (Captain Tsubasa) ?",
+      "choices": [
+        "Saint Seiya",
+        "Captain Tsubasa (Olive et Tom)",
+        "Slam Dunk",
+        "Inazuma Eleven"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé des années 1990, diffusé largement en Afrique francophone, met en scène un détective urbain nommé Nicky Larson (City Hunter) ?",
+      "choices": [
+        "Cat's Eye",
+        "City Hunter (Nicky Larson)",
+        "Lupin III",
+        "Kindaichi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé des années 1970-80, très populaire, met en scène trois sœurs cambrioleuses d'art expertes (Cat's Eye) ?",
+      "choices": [
+        "City Hunter",
+        "Cat's Eye",
+        "Lupin III",
+        "Kaitou Saint Tail"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé classique met en scène un gentleman cambrioleur, petit-fils du célèbre Arsène Lupin (Lupin III/Édgar de la Cambriole) ?",
+      "choices": [
+        "City Hunter",
+        "Lupin III (Édgar de la Cambriole)",
+        "Cat's Eye",
+        "Detective Conan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé des années 1970-80, très diffusé en Afrique francophone, met en scène un robot géant piloté depuis une soucoupe volante (Goldorak/UFO Robot Grendizer) ?",
+      "choices": [
+        "Mazinger Z",
+        "Goldorak (UFO Robot Grendizer)",
+        "Capitaine Flam",
+        "Albator"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé, créé par Leiji Matsumoto, met en scène un pirate de l'espace au bandeau et cicatrice emblématiques (Albator/Captain Harlock) ?",
+      "choices": [
+        "Goldorak",
+        "Albator (Captain Harlock)",
+        "Capitaine Flam",
+        "Cobra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène un aventurier de l'espace charismatique portant une arme dissimulée dans son bras (Cobra) ?",
+      "choices": [
+        "Albator",
+        "Cobra",
+        "Capitaine Flam",
+        "Dai Guard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé, diffusé largement en France et en Afrique francophone, met en scène un jeune garçon voyageant dans l'espace pour sauver la Terre en danger (Capitaine Flam/Space Sheriff Gavan, à distinguer selon la version) ?",
+      "choices": [
+        "Il s'agit de Capitaine Flam (Space Adventure Cobra distinct)",
+        "Il s'agit d'un titre spécifique à vérifier selon la version diffusée",
+        "Aucun animé ne correspond",
+        "Il s'agit uniquement d'un jeu vidéo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka a créé « Vagabond », adaptation libre de la vie du sabreur Miyamoto Musashi ?",
+      "choices": [
+        "Kentaro Miura",
+        "Takehiko Inoue",
+        "Naoki Urasawa",
+        "Tsutomu Nihei"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka, également créateur de « Slam Dunk », a créé « Vagabond » et « Real » ?",
+      "choices": [
+        "Takehiko Inoue",
+        "Kentaro Miura",
+        "Yusuke Murata",
+        "Hiroaki Samura"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel mangaka a créé « Berserk », série sombre et longue interrompue par sa mort en 2021 ?",
+      "choices": [
+        "Takehiko Inoue",
+        "Kentaro Miura",
+        "Hiroaki Samura",
+        "Yoshihiro Togashi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka a créé « Monster » et « 20th Century Boys », thrillers psychologiques acclamés (Naoki Urasawa) ?",
+      "choices": [
+        "Kentaro Miura",
+        "Naoki Urasawa",
+        "Junji Ito",
+        "Inio Asano"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka est spécialisé dans l'horreur psychologique, créateur d'« Uzumaki » et « Tomie » (Junji Ito) ?",
+      "choices": [
+        "Naoki Urasawa",
+        "Junji Ito",
+        "Kazuo Umezu",
+        "Hideshi Hino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka, précurseur de l'horreur en manga dans les années 1960-70, a créé « L'École emportée » et « Cat Eyed Boy » (Kazuo Umezu) ?",
+      "choices": [
+        "Junji Ito",
+        "Kazuo Umezu",
+        "Hideshi Hino",
+        "Suehiro Maruo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka a créé « Hunter x Hunter » et « Yu Yu Hakusho » (Yoshihiro Togashi) ?",
+      "choices": [
+        "Tite Kubo",
+        "Yoshihiro Togashi",
+        "Eiichiro Oda",
+        "Masashi Kishimoto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga, réputé pour ses pauses de publication fréquentes dues à la santé de l'auteur, est « Hunter x Hunter » ?",
+      "choices": [
+        "Le fait est exact concernant Hunter x Hunter",
+        "Ce fait concerne un autre manga",
+        "Aucun manga n'a ce genre de pause",
+        "Ce fait concerne uniquement l'animé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel manga/animé met en scène un système de combat basé sur le « Nen », énergie vitale manipulée de six façons distinctes (Hunter x Hunter) ?",
+      "choices": [
+        "Naruto (chakra, système différent)",
+        "Hunter x Hunter (Nen)",
+        "Bleach (Reiryoku, système différent)",
+        "One Piece (Haki, système différent)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé utilise le concept de « chakra » comme source d'énergie pour les techniques ninja (Naruto) ?",
+      "choices": [
+        "Il s'agit bien de Naruto",
+        "Il s'agit de Bleach",
+        "Il s'agit de Hunter x Hunter",
+        "Il s'agit de Jujutsu Kaisen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel manga/animé utilise le concept de « Haki » comme pouvoir latent que certains personnages développent (One Piece) ?",
+      "choices": [
+        "Naruto",
+        "One Piece",
+        "Hunter x Hunter",
+        "Bleach"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur d'animation a créé « Redline » et travaillé sur des scènes d'action très dynamiques chez Studio 4°C (Takeshi Koike) ?",
+      "choices": [
+        "Kōji Morimoto",
+        "Takeshi Koike",
+        "Masaaki Yuasa",
+        "Shinya Ohira"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur d'animation contemporain, connu pour son style visuel psychédélique, a réalisé « Mind Game » et « Devilman Crybaby » (Masaaki Yuasa) ?",
+      "choices": [
+        "Takeshi Koike",
+        "Masaaki Yuasa",
+        "Kunihiko Ikuhara",
+        "Naoko Yamada"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation, fondé par d'anciens de Ghibli, a produit « Redline » et de nombreux courts métrages expérimentaux (Studio 4°C) ?",
+      "choices": [
+        "Trigger",
+        "Studio 4°C",
+        "Bones",
+        "Production I.G"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation, fondé par d'anciens animateurs de Gainax, a produit « Kill la Kill » et « Promare » (Studio Trigger) ?",
+      "choices": [
+        "Studio 4°C",
+        "Trigger",
+        "Bones",
+        "Wit Studio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation, célèbre pour « Neon Genesis Evangelion », a été fondé dans les années 1980 par de jeunes animateurs passionnés (Gainax) ?",
+      "choices": [
+        "Sunrise",
+        "Gainax",
+        "Production I.G",
+        "Madhouse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation a produit « Ghost in the Shell » et de nombreuses œuvres de Mamoru Oshii (Production I.G) ?",
+      "choices": [
+        "Gainax",
+        "Production I.G",
+        "Madhouse",
+        "Bones"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation, connu pour la qualité de ses productions comme « Death Note » et « Hunter x Hunter » (2011), est Madhouse ?",
+      "choices": [
+        "Bones",
+        "Madhouse",
+        "Sunrise",
+        "A-1 Pictures"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation a produit « Fullmetal Alchemist: Brotherhood » et « My Hero Academia » (Bones) ?",
+      "choices": [
+        "Madhouse",
+        "Bones",
+        "Wit Studio",
+        "Kyoto Animation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation, réputé pour son animation fluide et ses productions comme « Violet Evergarden », a subi un incendie tragique en 2019 (Kyoto Animation) ?",
+      "choices": [
+        "Shaft",
+        "Kyoto Animation (KyoAni)",
+        "P.A. Works",
+        "White Fox"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel studio d'animation, connu pour son style visuel distinctif et surréaliste dans les adaptations de la série « Monogatari », est Shaft ?",
+      "choices": [
+        "Kyoto Animation",
+        "Shaft",
+        "White Fox",
+        "SILVER LINK."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur, associé au studio Shaft, a développé un style visuel très reconnaissable avec Akiyuki Shinbo ?",
+      "choices": [
+        "Il s'agit bien d'Akiyuki Shinbo",
+        "Il s'agit de Naoko Yamada",
+        "Il s'agit de Kunihiko Ikuhara",
+        "Il s'agit de Gorō Miyazaki"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle réalisatrice, associée à Kyoto Animation, a réalisé « Silent Voice » et des épisodes de « K-On! » (Naoko Yamada) ?",
+      "choices": [
+        "Rei Hiroe",
+        "Naoko Yamada",
+        "Sayo Yamamoto",
+        "Chiaki Kon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle réalisatrice a créé « Yuri!!! on Ice » et « Lupin III: The Woman Called Fujiko Mine » (Sayo Yamamoto) ?",
+      "choices": [
+        "Naoko Yamada",
+        "Sayo Yamamoto",
+        "Rei Hiroe",
+        "Michiko Yokote"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé, adapté d'un jeu vidéo de rôle, met en scène des chasseurs de démons appelés Devil Hunters dans une œuvre fondatrice du genre (Devilman de Go Nagai) ?",
+      "choices": [
+        "Il s'agit de Devilman",
+        "Il s'agit de Blue Exorcist",
+        "Il s'agit de D.Gray-man",
+        "Il s'agit de Fire Force"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel manga de Go Nagai, adapté en série Netflix stylisée en 2018, est « Devilman Crybaby » ?",
+      "choices": [
+        "Le titre original du manga est bien Devilman",
+        "Le manga original porte un autre nom",
+        "Il ne s'agit pas d'une adaptation",
+        "Le manga n'existe pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel mangaka a créé « Fist of the North Star » avec le scénariste Buronson (dessinateur : Tetsuo Hara) ?",
+      "choices": [
+        "Go Nagai",
+        "Tetsuo Hara",
+        "Leiji Matsumoto",
+        "Shotaro Ishinomori"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scénariste a co-créé « Fist of the North Star » avec le dessinateur Tetsuo Hara (Buronson) ?",
+      "choices": [
+        "Yoshiyuki Tomino",
+        "Buronson",
+        "Kazuo Koike",
+        "Shotaro Ishinomori"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel scénariste prolifique a co-créé « Lone Wolf and Cub » (Kazuo Koike), série d'influence majeure sur le manga de samouraï ?",
+      "choices": [
+        "Buronson",
+        "Kazuo Koike",
+        "Osamu Tezuka",
+        "Go Nagai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé emblématique du genre « magical girl » des années 1990, précurseur du style moderne, est « Sailor Moon » ?",
+      "choices": [
+        "Le fait est exact concernant Sailor Moon",
+        "Ce statut de précurseur concerne un autre titre",
+        "Sailor Moon n'appartient pas à ce genre",
+        "Sailor Moon date des années 1970"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel manga/animé, antérieur à Sailor Moon, est considéré comme la première œuvre du genre magical girl moderne, créée par Go Nagai (Cutie Honey) ?",
+      "choices": [
+        "Sailor Moon",
+        "Cutie Honey",
+        "Himitsu no Akko-chan",
+        "Majokko Megu-chan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé, encore plus ancien, créé par Osamu Tezuka dans les années 1950, est considéré comme précurseur du genre magical girl (Princess Knight/La Princesse Saphir) ?",
+      "choices": [
+        "Cutie Honey",
+        "Princess Knight (Ribbon no Kishi)",
+        "Sally the Witch",
+        "Himitsu no Akko-chan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé de Toei Animation des années 1960, mettant en scène une sorcière apprentie, est considéré comme le premier vrai magical girl anime (Sally the Witch) ?",
+      "choices": [
+        "Princess Knight",
+        "Sally the Witch (Mahōtsukai Sally)",
+        "Himitsu no Akko-chan",
+        "Cutie Honey"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un manga au format vertical, lu en scrollant, popularisé notamment en Corée du Sud (webtoon) ?",
+      "choices": [
+        "Le doujinshi",
+        "Le webtoon",
+        "Le light novel",
+        "Le gekiga"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais, forgé dans les années 1950-60, désigne un style de manga plus réaliste et dramatique, destiné à un public adulte (gekiga) ?",
+      "choices": [
+        "Le shōnen",
+        "Le gekiga",
+        "Le kodomo",
+        "Le yonkoma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka est considéré comme le pionnier du mouvement gekiga, avec des œuvres comme « Le Chien errant » (Yoshihiro Tatsumi) ?",
+      "choices": [
+        "Osamu Tezuka",
+        "Yoshihiro Tatsumi",
+        "Sanpei Shirato",
+        "Takao Saito"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne un manga en quatre cases, souvent humoristique, comme « Azumanga Daioh » (yonkoma) ?",
+      "choices": [
+        "Le gekiga",
+        "Le yonkoma",
+        "Le kodomo",
+        "Le doujinshi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme japonais désigne les mangas destinés aux jeunes enfants, comme « Doraemon » (kodomo) ?",
+      "choices": [
+        "Shōnen",
+        "Kodomo",
+        "Shōjo",
+        "Seinen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé de science-fiction cyberpunk, créé par Tsutomu Nihei, se déroule dans une mégastructure infinie et labyrinthique (Blame!) ?",
+      "choices": [
+        "Akira",
+        "Blame!",
+        "Gunnm",
+        "Texhnolyze"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé original (non adapté d'un manga), diffusé sur le label Noitamina, explore une société souterraine dystopique (Texhnolyze) ?",
+      "choices": [
+        "Blame!",
+        "Texhnolyze",
+        "Serial Experiments Lain",
+        "Ergo Proxy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel animé original des années 1990, culte pour son exploration de l'identité et d'Internet, est « Serial Experiments Lain » ?",
+      "choices": [
+        "Il s'agit bien de Serial Experiments Lain",
+        "Il s'agit de Texhnolyze",
+        "Il s'agit de Ergo Proxy",
+        "Il s'agit de Boogiepop Phantom"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur a créé « Serial Experiments Lain » et a marqué l'animé expérimental des années 1990 (Ryutaro Nakamura) ?",
+      "choices": [
+        "Shinichiro Watanabe",
+        "Ryutaro Nakamura",
+        "Kunihiko Ikuhara",
+        "Yoshitoshi ABe (character design, pas réalisateur)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel character designer a conçu l'univers visuel de « Serial Experiments Lain » et « Haibane Renmei » (Yoshitoshi ABe) ?",
+      "choices": [
+        "Il s'agit bien de Yoshitoshi ABe",
+        "Il s'agit de Range Murata",
+        "Il s'agit de Yun Kōga",
+        "Il s'agit de CLAMP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel manga/animé met en scène un monde où les livres et l'imagination sont censurés, adapté du roman de Ray Bradbury (Fahrenheit 451, adaptation manga existante mais rare) ?",
+      "choices": [
+        "Il existe une adaptation manga de ce roman",
+        "Aucune adaptation manga n'existe",
+        "Ce roman n'a jamais été adapté",
+        "Il s'agit d'un animé original sans lien au roman"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel mangaka a créé « 20th Century Boys », thriller sur un groupe d'amis d'enfance affrontant un mystérieux leader de secte (Naoki Urasawa) ?",
+      "choices": [
+        "Kentaro Miura",
+        "Naoki Urasawa",
+        "Junji Ito",
+        "Inio Asano"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka contemporain, connu pour son exploration de la dépression et de l'aliénation urbaine, a créé « Solanin » et « Goodnight Punpun » (Inio Asano) ?",
+      "choices": [
+        "Naoki Urasawa",
+        "Inio Asano",
+        "Junji Ito",
+        "Taiyo Matsumoto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mangaka a créé « Tekkonkinkreet », adapté en film d'animation par Michael Arias (Taiyo Matsumoto) ?",
+      "choices": [
+        "Inio Asano",
+        "Taiyo Matsumoto",
+        "Naoki Urasawa",
+        "Katsuhiro Otomo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé, considéré comme un classique culte des années 2000, met en scène un tueur en série anonyme surnommé Boogiepop (Boogiepop Phantom) ?",
+      "choices": [
+        "Serial Experiments Lain",
+        "Boogiepop Phantom",
+        "Texhnolyze",
+        "Haibane Renmei"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manga/animé met en scène des êtres semi-angéliques vivant en communauté isolée, portant des ailes et des halos (Haibane Renmei) ?",
+      "choices": [
+        "Serial Experiments Lain",
+        "Haibane Renmei",
+        "Boogiepop Phantom",
+        "Ergo Proxy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé américain met en scène un poisson-clown, Nemo, séparé de son père dans l'océan ?",
+      "choices": [
+        "Il s'agit d'un film Pixar, pas d'une série animée classique",
+        "Le Monde de Nemo (film Pixar)",
+        "Les deux réponses désignent la même œuvre",
+        "Aucune correspondance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel dessin animé américain culte des années 1990 met en scène un adolescent extraterrestre vert amateur de beignets, Jimmy Neutron ou un autre héros scientifique ?",
+      "choices": [
+        "Jimmy Neutron: Boy Genius",
+        "Il s'agit d'un autre personnage",
+        "Danny Phantom",
+        "Randy Cunningham"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel dessin animé Cartoon Network met en scène trois petites filles créées par accident avec des super-pouvoirs ?",
+      "choices": [
+        "Ed, Edd et Eddy",
+        "Les Supers Nanas",
+        "Dexter's Laboratory",
+        "Johnny Bravo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dessin animé Cartoon Network met en scène un jeune garçon génie construisant un laboratoire secret dans sa chambre ?",
+      "choices": [
+        "Les Supers Nanas",
+        "Le Laboratoire de Dexter",
+        "Cow and Chicken",
+        "Samurai Jack"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -2,134 +2,2004 @@
   "theme": "🎬 Cinéma et Séries",
   "questions": [
     {
-      "question": "Quel film a remporté 11 Oscars dont celui du Meilleur Film en 1997 ?",
+      "question": "Quel studio d'animation a créé « Toy Story » ?",
       "choices": [
-        "Forrest Gump",
-        "Avatar",
-        "Gladiator",
-        "Titanic"
+        "DreamWorks",
+        "Pixar",
+        "Illumination",
+        "Disney Animation"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "Qui a réalisé le film 'Inception' et 'Interstellar' ?",
+      "question": "Quel personnage est le héros de la saga « Harry Potter » ?",
       "choices": [
-        "Martin Scorsese",
-        "Christopher Nolan",
+        "Ron Weasley",
+        "Harry Potter",
+        "Neville Londubat",
+        "Drago Malefoy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé la saga « Star Wars » ?",
+      "choices": [
         "Steven Spielberg",
-        "Quentin Tarantino"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel acteur incarne le personnage de Tony Stark / Iron Man dans le MCU ?",
-      "choices": [
-        "Mark Ruffalo",
-        "Chris Evans",
-        "Chris Hemsworth",
-        "Robert Downey Jr."
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Dans quelle série télévisée retrouve-t-on les maisons Stark, Lannister et Targaryen ?",
-      "choices": [
-        "Le Seigneur des Anneaux",
-        "Game of Thrones",
-        "The Witcher",
-        "House of Cards"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel film d'animation des studios Disney raconte l'histoire de Simba ?",
-      "choices": [
-        "Tarzan",
-        "Aladdin",
-        "La Petite Sirène",
-        "Le Roi Lion"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Qui est le réalisateur de la trilogie 'Le Seigneur des Anneaux' ?",
-      "choices": [
-        "Peter Jackson",
         "George Lucas",
         "James Cameron",
         "Ridley Scott"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "question": "Quelle série suit les aventures de Walter White, un professeur de chimie reconverti ?",
+      "question": "Quel super-héros porte une cape rouge et peut voler, symbole avec un « S » sur la poitrine ?",
       "choices": [
+        "Batman",
+        "Superman",
+        "Flash",
+        "Green Lantern"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel super-héros est un milliardaire qui combat le crime à Gotham City sans super-pouvoirs ?",
+      "choices": [
+        "Superman",
+        "Batman",
+        "Spider-Man",
+        "Iron Man"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'animation Disney met en scène une princesse et une créature nommée Olaf, bonhomme de neige ?",
+      "choices": [
+        "Raiponce",
+        "La Reine des neiges",
+        "Vaiana",
+        "Blanche-Neige"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur est connu pour des films comme « Jurassic Park » et « E.T. » ?",
+      "choices": [
+        "George Lucas",
+        "Steven Spielberg",
+        "James Cameron",
+        "Christopher Nolan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne Iron Man dans les films Marvel ?",
+      "choices": [
+        "Chris Evans",
+        "Robert Downey Jr.",
+        "Chris Hemsworth",
+        "Mark Ruffalo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne Captain America dans les films Marvel ?",
+      "choices": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Jeremy Renner"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène des dragons et plusieurs familles nobles se disputant un trône de fer ?",
+      "choices": [
+        "The Witcher",
+        "Game of Thrones",
+        "Vikings",
+        "The Crown"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série suit les aventures d'un professeur de chimie devenu fabricant de drogue ?",
+      "choices": [
+        "Ozark",
         "Breaking Bad",
-        "Better Call Saul",
-        "The Wire",
-        "Ozark"
+        "Narcos",
+        "Dexter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un bateau appelé le Titanic qui coule après avoir heurté un iceberg ?",
+      "choices": [
+        "Titanic",
+        "L'Odyssée du Poséidon",
+        "Le Naufrage",
+        "Deepwater Horizon"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Dans quel film entend-on la réplique 'Que la Force soit avec toi' ?",
+      "question": "Quel film raconte l'histoire d'un lion nommé Simba qui devient roi de la savane ?",
       "choices": [
-        "Star Trek",
-        "Dune",
-        "Matrix",
-        "Star Wars"
+        "Madagascar",
+        "Le Roi Lion",
+        "Kung Fu Panda",
+        "Frère des ours"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "Quel acteur joue le rôle de Jack Sparrow dans 'Pirates des Caraïbes' ?",
+      "question": "Quel personnage porte un chapeau melon, une canne et incarne le vagabond dans les films muets ?",
       "choices": [
-        "Brad Pitt",
-        "Tom Cruise",
+        "Buster Keaton",
+        "Charlie Chaplin",
+        "Harold Lloyd",
+        "Stan Laurel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel monstre vert est le héros d'une saga de films d'animation DreamWorks vivant dans un marais ?",
+      "choices": [
+        "Hulk",
+        "Shrek",
+        "Yoda",
+        "Chewbacca"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série française met en scène un groupe de braqueurs surnommés par des villes espagnoles ? (série espagnole en réalité)",
+      "choices": [
+        "La Casa de Papel",
+        "Lupin",
+        "Le Bureau des Légendes",
+        "Engrenages"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle série française met en scène un gentleman cambrioleur inspiré d'Arsène Lupin ?",
+      "choices": [
+        "La Casa de Papel",
+        "Lupin",
+        "Dix pour cent",
+        "Braquo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un jeune sorcier avec une cicatrice en forme d'éclair sur le front ?",
+      "choices": [
+        "Le Seigneur des Anneaux",
+        "Harry Potter",
+        "Percy Jackson",
+        "Les Chroniques de Narnia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé la trilogie « Le Seigneur des Anneaux » ?",
+      "choices": [
+        "Peter Jackson",
+        "James Cameron",
+        "Ridley Scott",
+        "Guillermo del Toro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel acteur a incarné Jack Sparrow dans « Pirates des Caraïbes » ?",
+      "choices": [
+        "Orlando Bloom",
         "Johnny Depp",
-        "Orlando Bloom"
+        "Geoffrey Rush",
+        "Javier Bardem"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'animation met en scène des jouets qui prennent vie quand personne ne les regarde ?",
+      "choices": [
+        "Toy Story",
+        "Cars",
+        "Le Monde de Nemo",
+        "Là-haut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film met en scène un poisson-clown recherchant son fils perdu dans l'océan ?",
+      "choices": [
+        "Le Monde de Nemo",
+        "Souvenirs",
+        "En eaux troubles",
+        "L'Étrange Noël de Monsieur Jack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle série met en scène des super-héros travaillant pour une agence secrète appelée le S.H.I.E.L.D. ? (série TV)",
+      "choices": [
+        "Marvel's Agents of S.H.I.E.L.D.",
+        "The Boys",
+        "Titans",
+        "Daredevil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur a créé la trilogie « The Dark Knight » avec Batman ?",
+      "choices": [
+        "Zack Snyder",
+        "Christopher Nolan",
+        "Tim Burton",
+        "Matt Reeves"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur a incarné le Joker dans « The Dark Knight » (2008) ?",
+      "choices": [
+        "Jared Leto",
+        "Heath Ledger",
+        "Joaquin Phoenix",
+        "Jack Nicholson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un jeune garçon abandonné chez lui pendant les vacances de Noël, piégeant des cambrioleurs ?",
+      "choices": [
+        "Maman, j'ai raté l'avion",
+        "Le Grinch",
+        "La Vie est belle",
+        "Miracle sur la 34e rue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film met en scène des dinosaures ramenés à la vie dans un parc d'attractions ?",
+      "choices": [
+        "King Kong",
+        "Jurassic Park",
+        "Godzilla",
+        "Le Monde perdu (générique)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène des amis vivant à New York, dont Ross, Rachel, Monica, Chandler, Joey et Phoebe ?",
+      "choices": [
+        "How I Met Your Mother",
+        "Friends",
+        "Seinfeld",
+        "The Big Bang Theory"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène un groupe de physiciens geeks à Pasadena ?",
+      "choices": [
+        "Friends",
+        "The Big Bang Theory",
+        "Community",
+        "Silicon Valley"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film Disney met en scène une sirène nommée Ariel rêvant de devenir humaine ?",
+      "choices": [
+        "Vaiana",
+        "La Petite Sirène",
+        "Pocahontas",
+        "Raiponce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un extraterrestre découvert par des enfants qui l'aident à rentrer chez lui ?",
+      "choices": [
+        "E.T. l'extra-terrestre",
+        "Rencontres du troisième type",
+        "District 9",
+        "La Guerre des mondes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel personnage vert avec de grandes oreilles et un sabre laser est un maître Jedi dans Star Wars ?",
+      "choices": [
+        "Chewbacca",
+        "Yoda",
+        "R2-D2",
+        "Jabba le Hutt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel robot doré et bavard accompagne R2-D2 dans Star Wars ?",
+      "choices": [
+        "BB-8",
+        "C-3PO",
+        "K-2SO",
+        "IG-11"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un homme-araignée combattant le crime à New York ?",
+      "choices": [
+        "Batman",
+        "Spider-Man",
+        "Daredevil",
+        "Iron Man"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne Spider-Man dans les films Marvel les plus récents (depuis 2016) ?",
+      "choices": [
+        "Tobey Maguire",
+        "Andrew Garfield",
+        "Tom Holland",
+        "Andrew Lincoln"
       ],
       "correctIndex": 2
     },
     {
-      "question": "Quel film de James Cameron est le plus gros succès au box-office mondial de tous les temps ?",
+      "question": "Quel film d'animation met en scène une princesse aux cheveux magiques très longs enfermée dans une tour ?",
       "choices": [
-        "Avatar",
-        "Star Wars 7",
-        "Titanic",
-        "Avengers: Endgame"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "uel est le nom du sorcier ennemi juré de Harry Potter ?",
-      "choices": [
-        "Voldemort",
-        "Grindelwald",
-        "Snape",
-        "Malefoy"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "ans quelle série animée voit-on le personnage d'Homer Simpson ?",
-      "choices": [
-        "Family Guy",
-        "Les Simpson",
-        "Futurama",
-        "South Park"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "uel film d'animation présente le personnage de Elsa et Anna ?",
-      "choices": [
+        "Blanche-Neige",
         "Raiponce",
-        "La Reine des Neiges",
-        "Vaiana",
-        "Rebelle"
+        "La Belle au bois dormant",
+        "Cendrillon"
       ],
       "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène un zombie apocalypse avec un groupe de survivants menés par Rick Grimes ?",
+      "choices": [
+        "The Last of Us",
+        "The Walking Dead",
+        "Z Nation",
+        "Fear the Walking Dead"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un garçon capable de voir et parler aux fantômes ?",
+      "choices": [
+        "Sixième Sens",
+        "Ghost",
+        "Casper",
+        "Coco"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film d'animation Pixar met en scène des voitures qui parlent, dont Flash McQueen ?",
+      "choices": [
+        "Cars",
+        "Robots",
+        "Wall-E",
+        "Les Indestructibles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel super-héros porte une armure high-tech et est incarné par Robert Downey Jr. ?",
+      "choices": [
+        "Captain America",
+        "Iron Man",
+        "Thor",
+        "Hulk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un requin terrorisant une station balnéaire ?",
+      "choices": [
+        "Piranha",
+        "Les Dents de la mer",
+        "Le Grand Bleu",
+        "Open Water"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série britannique met en scène un détective résolvant des enquêtes avec son ami le docteur Watson ?",
+      "choices": [
+        "Sherlock",
+        "Peaky Blinders",
+        "Luther",
+        "Broadchurch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film met en scène un jeune homme voyageant dans le temps grâce à une voiture DeLorean ?",
+      "choices": [
+        "Interstellar",
+        "Retour vers le futur",
+        "Looper",
+        "Terminator"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé les films « Retour vers le futur » ?",
+      "choices": [
+        "Steven Spielberg",
+        "Robert Zemeckis",
+        "James Cameron",
+        "Ron Howard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un robot nettoyeur solitaire restant sur Terre après le départ de l'humanité ?",
+      "choices": [
+        "Wall-E",
+        "Big Hero 6",
+        "Les Indestructibles",
+        "Ratatouille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film d'animation met en scène un rat qui rêve de devenir chef cuisinier à Paris ?",
+      "choices": [
+        "Cars",
+        "Ratatouille",
+        "Là-haut",
+        "Vice-versa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène une maison volant grâce à des ballons, pilotée par un vieil homme ?",
+      "choices": [
+        "Là-haut",
+        "Le Voyage de Chihiro",
+        "Wall-E",
+        "Coco"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film met en scène un jeune garçon voyageant au pays des morts pendant le Jour des Morts mexicain ?",
+      "choices": [
+        "Coco",
+        "Le Livre de la vie",
+        "La Famille Addams",
+        "Encanto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle série met en scène une famille magique colombienne dans une maison enchantée ?",
+      "choices": [
+        "Coco",
+        "Encanto",
+        "Vivo",
+        "Luca"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un chevalier Jedi devenant le maléfique Dark Vador ?",
+      "choices": [
+        "Star Wars: Un nouvel espoir",
+        "Star Wars: La Revanche des Sith",
+        "Star Wars: L'Empire contre-attaque",
+        "Rogue One"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur est connu pour des films non-linéaires complexes comme « Inception » et « Interstellar » ?",
+      "choices": [
+        "Denis Villeneuve",
+        "Christopher Nolan",
+        "David Fincher",
+        "Darren Aronofsky"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un homme piégé dans ses propres rêves à plusieurs niveaux ?",
+      "choices": [
+        "Interstellar",
+        "Inception",
+        "Matrix",
+        "Shutter Island"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle trilogie de films met en scène une réalité simulée appelée « la Matrice » ?",
+      "choices": [
+        "Inception",
+        "Matrix",
+        "Ready Player One",
+        "Tron"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne Neo dans la trilogie « Matrix » ?",
+      "choices": [
+        "Brad Pitt",
+        "Keanu Reeves",
+        "Tom Cruise",
+        "Will Smith"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé la saga « Le Parrain » ?",
+      "choices": [
+        "Martin Scorsese",
+        "Francis Ford Coppola",
+        "Sergio Leone",
+        "Brian De Palma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène l'ascension d'une famille mafieuse italo-américaine, réalisé en 1972 ?",
+      "choices": [
+        "Les Affranchis",
+        "Le Parrain",
+        "Scarface",
+        "Casino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne Michael Corleone dans « Le Parrain » ?",
+      "choices": [
+        "Marlon Brando",
+        "Al Pacino",
+        "Robert De Niro",
+        "James Caan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur est connu pour des films violents et stylisés comme « Pulp Fiction » et « Kill Bill » ?",
+      "choices": [
+        "Martin Scorsese",
+        "Quentin Tarantino",
+        "Guy Ritchie",
+        "Robert Rodriguez"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film non-linéaire de Tarantino entrelace plusieurs histoires de criminels à Los Angeles ?",
+      "choices": [
+        "Reservoir Dogs",
+        "Pulp Fiction",
+        "Jackie Brown",
+        "Kill Bill"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur britannique a créé la série de films « James Bond » à ses débuts (le personnage, pas un seul réalisateur récurrent) ?",
+      "choices": [
+        "Ian Fleming a créé le personnage littéraire, adapté ensuite au cinéma",
+        "Alfred Hitchcock",
+        "David Lean",
+        "Guy Hamilton uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel acteur a incarné James Bond le plus grand nombre de fois au cinéma ?",
+      "choices": [
+        "Sean Connery",
+        "Roger Moore",
+        "Daniel Craig",
+        "Pierce Brosnan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un cargo spatial dont l'équipage est traqué par un alien mortel ?",
+      "choices": [
+        "Aliens",
+        "Alien, le huitième passager",
+        "Prometheus",
+        "Life"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé le film original « Alien » en 1979 ?",
+      "choices": [
+        "James Cameron",
+        "Ridley Scott",
+        "David Fincher",
+        "Jean-Pierre Jeunet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un cyborg tueur envoyé du futur pour éliminer une femme nommée Sarah Connor ?",
+      "choices": [
+        "RoboCop",
+        "Terminator",
+        "I, Robot",
+        "Ex Machina"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé « Titanic » et « Avatar » ?",
+      "choices": [
+        "Steven Spielberg",
+        "James Cameron",
+        "Ridley Scott",
+        "Peter Jackson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film de science-fiction se déroule sur la planète Pandora, peuplée par les Na'vis ?",
+      "choices": [
+        "Dune",
+        "Avatar",
+        "Star Trek",
+        "Guardians of the Galaxy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un homme d'affaires kidnappé et forcé de construire une armure de fer pour survivre, origine d'un super-héros Marvel ?",
+      "choices": [
+        "Iron Man",
+        "The Dark Knight",
+        "Doctor Strange",
+        "Ant-Man"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel univers cinématographique regroupe les films Marvel comme Avengers, Iron Man et Thor ?",
+      "choices": [
+        "DC Extended Universe",
+        "Marvel Cinematic Universe (MCU)",
+        "X-Men Universe",
+        "Sony's Spider-Man Universe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film Marvel de 2019 conclut l'arc narratif de « l'Infinity Saga » face à Thanos ?",
+      "choices": [
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Captain Marvel",
+        "Spider-Man: Far From Home"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne Thanos dans les films Marvel ?",
+      "choices": [
+        "Idris Elba",
+        "Josh Brolin",
+        "Vin Diesel",
+        "Dave Bautista"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé la trilogie « The Dark Knight » et « Inception », connu pour son style cérébral ?",
+      "choices": [
+        "Christopher Nolan",
+        "Denis Villeneuve",
+        "David Fincher",
+        "Zack Snyder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film de science-fiction de 2021 adapte un roman de Frank Herbert sur une planète désertique nommée Arrakis ?",
+      "choices": [
+        "Blade Runner 2049",
+        "Dune",
+        "Interstellar",
+        "Star Trek"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a réalisé « Dune » (2021) et « Blade Runner 2049 » ?",
+      "choices": [
+        "Christopher Nolan",
+        "Denis Villeneuve",
+        "Ridley Scott",
+        "Alfonso Cuarón"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène un homme voyageant dans un multivers de crimes organisés à New York, super-héros aveugle ?",
+      "choices": [
+        "Daredevil",
+        "Punisher",
+        "Jessica Jones",
+        "Luke Cage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle série met en scène la Maison Targaryen et les événements précédant Game of Thrones ?",
+      "choices": [
+        "House of the Dragon",
+        "The Rings of Power",
+        "Vikings: Valhalla",
+        "The Witcher"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle série met en scène un sorcier chasseur de monstres nommé Geralt de Riv ?",
+      "choices": [
+        "The Witcher",
+        "Game of Thrones",
+        "Shadow and Bone",
+        "Vikings"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel acteur incarne Geralt de Riv dans la série « The Witcher » (saisons principales) ?",
+      "choices": [
+        "Chris Hemsworth",
+        "Henry Cavill",
+        "Tom Hardy",
+        "Idris Elba"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène une pandémie de champignons zombifiants et une jeune fille immunisée ?",
+      "choices": [
+        "The Walking Dead",
+        "The Last of Us",
+        "Station Eleven",
+        "Fear the Walking Dead"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un boxeur nommé Rocky Balboa se battant pour sa chance ?",
+      "choices": [
+        "Raging Bull",
+        "Rocky",
+        "The Fighter",
+        "Creed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur a créé et incarné le personnage de Rocky Balboa ?",
+      "choices": [
+        "Robert De Niro",
+        "Sylvester Stallone",
+        "Al Pacino",
+        "Burt Reynolds"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un tueur en série nommé Hannibal Lecter et une jeune agent du FBI ?",
+      "choices": [
+        "Seven",
+        "Le Silence des agneaux",
+        "Zodiac",
+        "American Psycho"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne Hannibal Lecter dans « Le Silence des agneaux » ?",
+      "choices": [
+        "Gary Oldman",
+        "Anthony Hopkins",
+        "Anthony Perkins",
+        "Christopher Lee"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un professeur de littérature qui inspire ses élèves à profiter de l'instant présent (« Carpe Diem ») ?",
+      "choices": [
+        "Dead Poets Society (Le Cercle des poètes disparus)",
+        "Good Will Hunting",
+        "Freedom Writers",
+        "La Vague"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film met en scène un jeune génie des mathématiques suivi en thérapie par un psychologue joué par Robin Williams ?",
+      "choices": [
+        "Le Cercle des poètes disparus",
+        "Good Will Hunting",
+        "A Beautiful Mind",
+        "The Imitation Game"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un mathématicien atteint de schizophrénie, prix Nobel d'économie, incarné par Russell Crowe ?",
+      "choices": [
+        "The Theory of Everything",
+        "A Beautiful Mind",
+        "The Imitation Game",
+        "Good Will Hunting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène Alan Turing déchiffrant le code Enigma pendant la Seconde Guerre mondiale ?",
+      "choices": [
+        "A Beautiful Mind",
+        "The Imitation Game",
+        "Enigma",
+        "Bletchley Park"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un homme survivant seul sur une île déserte pendant plusieurs années ?",
+      "choices": [
+        "Life of Pi",
+        "Seul au monde (Cast Away)",
+        "Le Robinson des mers",
+        "127 heures"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un homme survivant grâce à un tigre sur un canot de sauvetage ?",
+      "choices": [
+        "Seul au monde",
+        "L'Odyssée de Pi (Life of Pi)",
+        "127 heures",
+        "The Grey"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur mexicain a créé « Gravity », « Roma » et « Les Fils de l'homme » ?",
+      "choices": [
+        "Guillermo del Toro",
+        "Alfonso Cuarón",
+        "Alejandro González Iñárritu",
+        "Robert Rodriguez"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur mexicain a remporté l'Oscar pour « La Forme de l'eau » ?",
+      "choices": [
+        "Alfonso Cuarón",
+        "Guillermo del Toro",
+        "Alejandro González Iñárritu",
+        "Robert Rodriguez"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un jeune Africain-Américain naviguant entre identité et attente sociale, Oscar du meilleur film 2017 (remis par erreur à un autre film) ?",
+      "choices": [
+        "La La Land",
+        "Moonlight",
+        "Get Out",
+        "Fences"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'horreur social met en scène un jeune homme noir découvrant les secrets terrifiants de la famille de sa petite amie blanche ?",
+      "choices": [
+        "Us",
+        "Get Out",
+        "Candyman",
+        "The Invitation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur afro-américain a créé « Get Out », « Us » et « Nope » ?",
+      "choices": [
+        "Spike Lee",
+        "Jordan Peele",
+        "Barry Jenkins",
+        "Ryan Coogler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé « Black Panther » et la saga « Creed » ?",
+      "choices": [
+        "Jordan Peele",
+        "Ryan Coogler",
+        "Barry Jenkins",
+        "F. Gary Gray"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film Marvel met en scène le royaume africain fictif du Wakanda ?",
+      "choices": [
+        "Doctor Strange",
+        "Black Panther",
+        "Thor: Ragnarok",
+        "Eternals"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur a incarné T'Challa / Black Panther avant son décès en 2020 ?",
+      "choices": [
+        "Michael B. Jordan",
+        "Chadwick Boseman",
+        "Daniel Kaluuya",
+        "Winston Duke"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série sud-coréenne met en scène des joueurs endettés participant à des jeux d'enfants mortels ?",
+      "choices": [
+        "Sweet Home",
+        "Squid Game",
+        "Kingdom",
+        "All of Us Are Dead"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film sud-coréen a remporté l'Oscar du meilleur film en 2020, une première pour un film non-anglophone ?",
+      "choices": [
+        "The Handmaiden",
+        "Parasite",
+        "Burning",
+        "Train to Busan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur sud-coréen a réalisé « Parasite », Palme d'or et Oscar du meilleur film ?",
+      "choices": [
+        "Park Chan-wook",
+        "Bong Joon-ho",
+        "Lee Chang-dong",
+        "Kim Ki-duk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'animation japonais met en scène une jeune fille perdue dans un monde peuplé d'esprits, dirigé par Hayao Miyazaki ?",
+      "choices": [
+        "Mon voisin Totoro",
+        "Le Voyage de Chihiro",
+        "Princesse Mononoké",
+        "Le Château ambulant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur japonais a fondé le Studio Ghibli avec Isao Takahata ?",
+      "choices": [
+        "Hayao Miyazaki",
+        "Katsuhiro Otomo",
+        "Mamoru Hosoda",
+        "Makoto Shinkai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film d'animation français a été réalisé par Sylvain Chomet, mettant en scène un vieux clown et une jeune fille en Écosse ?",
+      "choices": [
+        "Kirikou et la sorcière",
+        "L'Illusionniste",
+        "Persepolis",
+        "Les Triplettes de Belleville"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'animation français met en scène un jeune héros africain affrontant une sorcière, réalisé par Michel Ocelot ?",
+      "choices": [
+        "Le Roi et l'Oiseau",
+        "Kirikou et la sorcière",
+        "Azur et Asmar",
+        "Dilili à Paris"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur français, connu pour « Kirikou », a aussi réalisé « Azur et Asmar » et « Dilili à Paris » ?",
+      "choices": [
+        "Sylvain Chomet",
+        "Michel Ocelot",
+        "Jacques-Rémy Girerd",
+        "Rémi Chayé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène quatre jeunes filles américaines pendant la guerre de Sécession, adaptation d'un roman classique ?",
+      "choices": [
+        "Little Women (Les Quatre Filles du docteur March)",
+        "Gone with the Wind",
+        "Pride and Prejudice",
+        "Sense and Sensibility"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur a adapté « Little Women » en 2019 avec Saoirse Ronan ?",
+      "choices": [
+        "Sofia Coppola",
+        "Greta Gerwig",
+        "Kathryn Bigelow",
+        "Patty Jenkins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un homme vivant sa vie à l'envers, de la vieillesse à la naissance ?",
+      "choices": [
+        "Groundhog Day",
+        "L'Étrange Histoire de Benjamin Button",
+        "Peggy Sue Got Married",
+        "About Time"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a réalisé « Fight Club » et « Seven » ?",
+      "choices": [
+        "Christopher Nolan",
+        "David Fincher",
+        "Darren Aronofsky",
+        "Denis Villeneuve"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un homme insomniaque créant un alter ego violent pour combattre l'ennui de la société de consommation ?",
+      "choices": [
+        "American Beauty",
+        "Fight Club",
+        "Trainspotting",
+        "Requiem for a Dream"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé « Requiem for a Dream » et « Black Swan » ?",
+      "choices": [
+        "David Fincher",
+        "Darren Aronofsky",
+        "Danny Boyle",
+        "Paul Thomas Anderson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène une ballerine sombrant dans la folie en préparant « Le Lac des cygnes » ?",
+      "choices": [
+        "Center Stage",
+        "Black Swan",
+        "The Red Shoes",
+        "Suspiria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur italo-américain a réalisé « Les Affranchis », « Taxi Driver » et « Le Loup de Wall Street » ?",
+      "choices": [
+        "Francis Ford Coppola",
+        "Martin Scorsese",
+        "Brian De Palma",
+        "Michael Cimino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur a le plus souvent collaboré avec Martin Scorsese, notamment dans « Taxi Driver » et « Raging Bull » ?",
+      "choices": [
+        "Al Pacino",
+        "Robert De Niro",
+        "Joe Pesci",
+        "Leonardo DiCaprio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur a remporté son premier Oscar en 2016 pour « The Revenant », après plusieurs nominations ?",
+      "choices": [
+        "Matt Damon",
+        "Leonardo DiCaprio",
+        "Bradley Cooper",
+        "Christian Bale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur mexicain a réalisé « The Revenant » et « Birdman » ?",
+      "choices": [
+        "Guillermo del Toro",
+        "Alejandro González Iñárritu",
+        "Alfonso Cuarón",
+        "Robert Rodriguez"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un acteur déchu tentant de monter une pièce de théâtre à Broadway, filmé en plan-séquence apparent ?",
+      "choices": [
+        "Whiplash",
+        "Birdman",
+        "La La Land",
+        "Black Swan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film musical met en scène une actrice en devenir et un pianiste de jazz à Los Angeles ?",
+      "choices": [
+        "Whiplash",
+        "La La Land",
+        "A Star Is Born",
+        "The Greatest Showman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a réalisé « La La Land » et « Whiplash » ?",
+      "choices": [
+        "Damien Chazelle",
+        "Barry Jenkins",
+        "Ryan Coogler",
+        "Jon M. Chu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film met en scène un étudiant en batterie poussé à l'extrême par un professeur tyrannique ?",
+      "choices": [
+        "La La Land",
+        "Whiplash",
+        "Rocky",
+        "Black Swan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film culte des années 1990 met en scène une prise d'otages dans un gratte-ciel de Los Angeles la veille de Noël ?",
+      "choices": [
+        "Speed",
+        "Piège de cristal (Die Hard)",
+        "The Rock",
+        "Con Air"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne John McClane dans la saga « Die Hard » ?",
+      "choices": [
+        "Sylvester Stallone",
+        "Bruce Willis",
+        "Arnold Schwarzenegger",
+        "Mel Gibson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un homme incarcéré à tort évadé de prison en creusant un tunnel avec une petite pioche pendant des années ?",
+      "choices": [
+        "Les Évadés (The Shawshank Redemption)",
+        "Le Fugitif",
+        "Papillon",
+        "La Grande Évasion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film met en scène des prisonniers américains évadés d'un camp allemand pendant la Seconde Guerre mondiale ?",
+      "choices": [
+        "Les Évadés",
+        "La Grande Évasion",
+        "Stalag 17",
+        "Le Pont de la rivière Kwaï"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène la construction d'un pont par des prisonniers de guerre britanniques pendant la Seconde Guerre mondiale en Asie ?",
+      "choices": [
+        "La Grande Évasion",
+        "Le Pont de la rivière Kwaï",
+        "Les Évadés",
+        "Merry Christmas Mr. Lawrence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a réalisé « Lawrence d'Arabie » et « Le Pont de la rivière Kwaï » ?",
+      "choices": [
+        "Alfred Hitchcock",
+        "David Lean",
+        "Stanley Kubrick",
+        "John Ford"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur est connu pour des films comme « Orange mécanique », « 2001, l'Odyssée de l'espace » et « Shining » ?",
+      "choices": [
+        "David Lean",
+        "Stanley Kubrick",
+        "Sidney Lumet",
+        "Terrence Malick"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un hôtel isolé où un écrivain sombre dans la folie, adapté d'un roman de Stephen King ?",
+      "choices": [
+        "Misery",
+        "Shining",
+        "Ça",
+        "Doctor Sleep"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne le rôle principal (Jack Torrance) dans « Shining » de Kubrick ?",
+      "choices": [
+        "Jack Lemmon",
+        "Jack Nicholson",
+        "Robert Duvall",
+        "Gene Hackman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un ordinateur nommé HAL 9000 se retournant contre l'équipage d'un vaisseau spatial ?",
+      "choices": [
+        "Interstellar",
+        "2001, l'Odyssée de l'espace",
+        "Sunshine",
+        "Moon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène des astronautes explorant un trou de ver pour sauver l'humanité, réalisé par Christopher Nolan ?",
+      "choices": [
+        "Gravity",
+        "Interstellar",
+        "The Martian",
+        "Ad Astra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un astronaute abandonné seul sur Mars devant survivre en cultivant des pommes de terre ?",
+      "choices": [
+        "Gravity",
+        "Seul sur Mars (The Martian)",
+        "Interstellar",
+        "Ad Astra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a réalisé « Gravity » avec Sandra Bullock ?",
+      "choices": [
+        "Alfonso Cuarón",
+        "Ridley Scott",
+        "Denis Villeneuve",
+        "Christopher Nolan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film met en scène un vieil homme accroché à des ballons pour voler jusqu'en Amérique du Sud, réalisé par Pixar ?",
+      "choices": [
+        "Wall-E",
+        "Là-haut",
+        "Vice-versa",
+        "Coco"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film Pixar met en scène les émotions personnifiées d'une jeune fille, dont Joie, Tristesse et Colère ?",
+      "choices": [
+        "Coco",
+        "Vice-versa (Inside Out)",
+        "Soul",
+        "Luca"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film Pixar met en scène un musicien tombant dans le « Grand Avant » après un accident ?",
+      "choices": [
+        "Vice-versa",
+        "Soul",
+        "Coco",
+        "Luca"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène six personnages ayant tenté de se suicider et unis par une thérapie de groupe ? (fiction)",
+      "choices": [
+        "This Is Us",
+        "Big Little Lies",
+        "13 Reasons Why",
+        "Euphoria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quelle série dramatique HBO met en scène des adolescents confrontés à la drogue et aux troubles mentaux ?",
+      "choices": [
+        "13 Reasons Why",
+        "Euphoria",
+        "Skins",
+        "Riverdale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène des enfants affrontant des forces surnaturelles dans une petite ville des années 1980 ?",
+      "choices": [
+        "Dark",
+        "Stranger Things",
+        "The OA",
+        "Wayward Pines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène une famille royale britannique fictionnalisée depuis le règne d'Elizabeth II ?",
+      "choices": [
+        "Downton Abbey",
+        "The Crown",
+        "Victoria",
+        "Bridgerton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série met en scène des familles aristocratiques britanniques au début du 20e siècle et leurs domestiques ?",
+      "choices": [
+        "The Crown",
+        "Downton Abbey",
+        "Bridgerton",
+        "Poldark"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle série Netflix met en scène des romances dans la haute société londonienne de l'époque de la Régence ?",
+      "choices": [
+        "Downton Abbey",
+        "Bridgerton",
+        "The Crown",
+        "Sanditon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'horreur met en scène une poupée possédée nommée Annabelle, dérivé de « Conjuring » ?",
+      "choices": [
+        "Chucky",
+        "Annabelle",
+        "Saw",
+        "Insidious"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a réalisé la saga « Saw » originale et « Conjuring » (différent réalisateur pour chaque saga en réalité) ?",
+      "choices": [
+        "James Wan a créé les deux sagas Saw et Conjuring",
+        "Wes Craven",
+        "John Carpenter",
+        "Sam Raimi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur est le créateur emblématique de « Halloween » avec le tueur Michael Myers ?",
+      "choices": [
+        "Wes Craven",
+        "John Carpenter",
+        "James Wan",
+        "Tobe Hooper"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé « Scream » et « Freddy, les griffes de la nuit » ?",
+      "choices": [
+        "John Carpenter",
+        "Wes Craven",
+        "James Wan",
+        "George Romero"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de fiction porte un masque en forme de couteau caché de cuisine et hante les rêves des adolescents ? (Freddy Krueger)",
+      "choices": [
+        "Michael Myers",
+        "Freddy Krueger",
+        "Jason Voorhees",
+        "Leatherface"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel personnage de fiction porte un masque de hockey et sévit au camp de Crystal Lake dans « Vendredi 13 » ?",
+      "choices": [
+        "Michael Myers",
+        "Jason Voorhees",
+        "Freddy Krueger",
+        "Ghostface"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'horreur met en scène un tueur portant un masque blanc traquant des adolescents qui aiment les films d'horreur ?",
+      "choices": [
+        "Halloween",
+        "Scream",
+        "I Know What You Did Last Summer",
+        "Urban Legend"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur taïwanais-américain a réalisé « Vie de Pi » et « Le Secret de Brokeback Mountain » ?",
+      "choices": [
+        "Ang Lee",
+        "Wong Kar-wai",
+        "Zhang Yimou",
+        "John Woo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film muet allemand expressionniste de 1920, mettant en scène un somnambule manipulé, est considéré comme fondateur du genre horrifique ?",
+      "choices": [
+        "Nosferatu",
+        "Le Cabinet du docteur Caligari",
+        "Metropolis",
+        "M le Maudit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur allemand a créé « Metropolis » (1927), film de science-fiction pionnier ?",
+      "choices": [
+        "F.W. Murnau",
+        "Fritz Lang",
+        "Robert Wiene",
+        "G.W. Pabst"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur allemand a créé « Nosferatu » (1922), adaptation non-autorisée de Dracula ?",
+      "choices": [
+        "Fritz Lang",
+        "F.W. Murnau",
+        "Robert Wiene",
+        "Ernst Lubitsch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur soviétique a théorisé le montage cinématographique avec « Le Cuirassé Potemkine » (1925) ?",
+      "choices": [
+        "Dziga Vertov",
+        "Sergueï Eisenstein",
+        "Andreï Tarkovski",
+        "Vsevolod Poudovkine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur français de la Nouvelle Vague a créé « À bout de souffle » (1960) ?",
+      "choices": [
+        "François Truffaut",
+        "Jean-Luc Godard",
+        "Éric Rohmer",
+        "Claude Chabrol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur français de la Nouvelle Vague a créé « Les Quatre Cents Coups » (1959) ?",
+      "choices": [
+        "Jean-Luc Godard",
+        "François Truffaut",
+        "Alain Resnais",
+        "Jacques Rivette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur suédois a créé « Le Septième Sceau », mettant en scène une partie d'échecs contre la Mort ?",
+      "choices": [
+        "Ingmar Bergman",
+        "Roy Andersson",
+        "Lasse Hallström",
+        "Jan Troell"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur italien a créé « La Dolce Vita » et « 8½ » ?",
+      "choices": [
+        "Vittorio De Sica",
+        "Federico Fellini",
+        "Michelangelo Antonioni",
+        "Luchino Visconti"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur japonais est célèbre pour « Les Sept Samouraïs » et « Rashōmon » ?",
+      "choices": [
+        "Yasujirō Ozu",
+        "Akira Kurosawa",
+        "Kenji Mizoguchi",
+        "Nagisa Ōshima"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'Akira Kurosawa raconte un même événement selon plusieurs points de vue contradictoires, donnant son nom à un « effet » narratif ?",
+      "choices": [
+        "Les Sept Samouraïs",
+        "Rashōmon",
+        "Ran",
+        "Yojimbo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur espagnol surréaliste a créé « Un chien andalou » avec Salvador Dalí en 1929 ?",
+      "choices": [
+        "Luis Buñuel",
+        "Pedro Almodóvar",
+        "Carlos Saura",
+        "Víctor Erice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur espagnol contemporain est connu pour des films colorés et mélodramatiques comme « Tout sur ma mère » ?",
+      "choices": [
+        "Luis Buñuel",
+        "Pedro Almodóvar",
+        "Alejandro Amenábar",
+        "Guillermo del Toro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur français a créé « La Grande Illusion » (1937), un classique sur la Première Guerre mondiale ?",
+      "choices": [
+        "Marcel Carné",
+        "Jean Renoir",
+        "René Clair",
+        "Julien Duvivier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur américain a créé « Citizen Kane » (1941), souvent cité comme l'un des plus grands films de tous les temps ?",
+      "choices": [
+        "John Ford",
+        "Orson Welles",
+        "Howard Hawks",
+        "Frank Capra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur a coécrit, réalisé et interprété le rôle-titre de « Citizen Kane » ?",
+      "choices": [
+        "Orson Welles a rempli les trois rôles",
+        "John Huston",
+        "Gregory Peck",
+        "Charlton Heston"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur britannique est surnommé le « Maître du suspense », auteur de « Psychose » et « Vertigo » ?",
+      "choices": [
+        "David Lean",
+        "Alfred Hitchcock",
+        "Carol Reed",
+        "Michael Powell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film d'Hitchcock met en scène une scène de douche devenue culte dans un motel isolé ?",
+      "choices": [
+        "Les Oiseaux",
+        "Psychose",
+        "Fenêtre sur cour",
+        "Vertigo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur américain a créé « Le Parrain » et a également réalisé « Apocalypse Now » sur la guerre du Vietnam ?",
+      "choices": [
+        "Martin Scorsese",
+        "Francis Ford Coppola",
+        "Oliver Stone",
+        "Michael Cimino"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un colonel américain devenu incontrôlable au fin fond de la jungle vietnamienne/cambodgienne ?",
+      "choices": [
+        "Platoon",
+        "Apocalypse Now",
+        "Full Metal Jacket",
+        "Voyage au bout de l'enfer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé « Voyage au bout de l'enfer » (The Deer Hunter), sur des soldats américains au Vietnam ?",
+      "choices": [
+        "Oliver Stone",
+        "Michael Cimino",
+        "Francis Ford Coppola",
+        "Stanley Kubrick"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur américain a réalisé « Platoon » et « Né un 4 juillet », s'inspirant de sa propre expérience au Vietnam ?",
+      "choices": [
+        "Michael Cimino",
+        "Oliver Stone",
+        "Francis Ford Coppola",
+        "Barry Levinson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur allemand contemporain (« Le Pianiste », « La Liste de Schindler ») a marqué le cinéma sur la Shoah ? (attention : deux réalisateurs différents)",
+      "choices": [
+        "Roman Polanski a réalisé Le Pianiste, Steven Spielberg La Liste de Schindler",
+        "Steven Spielberg a réalisé les deux",
+        "Roman Polanski a réalisé les deux",
+        "Aucun des deux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur a réalisé « La Liste de Schindler » (1993), sur le sauvetage de Juifs pendant la Shoah ?",
+      "choices": [
+        "Roman Polanski",
+        "Steven Spielberg",
+        "Sydney Pollack",
+        "Alan J. Pakula"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur polonais, survivant de la Shoah, a réalisé « Le Pianiste » (2002) ?",
+      "choices": [
+        "Andrzej Wajda",
+        "Roman Polanski",
+        "Krzysztof Kieślowski",
+        "Agnieszka Holland"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur italien a réalisé « La Vita è bella » (La Vie est belle), tragi-comédie sur la Shoah ?",
+      "choices": [
+        "Roberto Benigni",
+        "Giuseppe Tornatore",
+        "Nanni Moretti",
+        "Marco Bellocchio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur français a créé « Le Fabuleux Destin d'Amélie Poulain » (2001) ?",
+      "choices": [
+        "Luc Besson",
+        "Jean-Pierre Jeunet",
+        "Michel Gondry",
+        "Claude Lelouch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur français a réalisé « Léon » et « Le Cinquième Élément » ?",
+      "choices": [
+        "Jean-Pierre Jeunet",
+        "Luc Besson",
+        "Michel Gondry",
+        "Mathieu Kassovitz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur français a réalisé « La Haine » (1995), film culte sur les banlieues parisiennes ?",
+      "choices": [
+        "Luc Besson",
+        "Mathieu Kassovitz",
+        "Jean-Pierre Jeunet",
+        "Cédric Klapisch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur mexicain a créé la trilogie informelle appelée « trilogie de la mort » (Amores Perros, 21 Grammes, Babel) ?",
+      "choices": [
+        "Alfonso Cuarón",
+        "Alejandro González Iñárritu",
+        "Guillermo del Toro",
+        "Carlos Reygadas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur thaïlandais a remporté la Palme d'or à Cannes en 2010 avec « Oncle Boonmee, celui qui se souvient de ses vies antérieures » ?",
+      "choices": [
+        "Apichatpong Weerasethakul",
+        "Wong Kar-wai",
+        "Hirokazu Kore-eda",
+        "Bong Joon-ho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur hongkongais est célèbre pour son style visuel esthétique dans « In the Mood for Love » ?",
+      "choices": [
+        "John Woo",
+        "Wong Kar-wai",
+        "Ang Lee",
+        "Tsui Hark"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur japonais a remporté la Palme d'or en 2018 avec « Une affaire de famille » ?",
+      "choices": [
+        "Hayao Miyazaki",
+        "Hirokazu Kore-eda",
+        "Takeshi Kitano",
+        "Naomi Kawase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur danois a fondé le mouvement cinématographique « Dogme 95 » avec Lars von Trier ?",
+      "choices": [
+        "Thomas Vinterberg",
+        "Lars von Trier a co-fondé avec Thomas Vinterberg",
+        "Susanne Bier",
+        "Nicolas Winding Refn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur autrichien a réalisé « Funny Games » et « Amour », connu pour son style dérangeant ?",
+      "choices": [
+        "Michael Haneke",
+        "Ulrich Seidl",
+        "Stefan Ruzowitzky",
+        "Barbara Albert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel film d'animation stop-motion de Tim Burton met en scène un personnage nommé Jack Skellington régnant sur Halloween Town ?",
+      "choices": [
+        "Coraline",
+        "L'Étrange Noël de Monsieur Jack",
+        "Corpse Bride",
+        "Frankenweenie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a réalisé « Edward aux mains d'argent » et « Beetlejuice » ?",
+      "choices": [
+        "David Lynch",
+        "Tim Burton",
+        "Terry Gilliam",
+        "Wes Anderson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur est connu pour son esthétique symétrique et colorée dans « The Grand Budapest Hotel » ?",
+      "choices": [
+        "Tim Burton",
+        "Wes Anderson",
+        "David Fincher",
+        "Sofia Coppola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé « Mulholland Drive » et « Blue Velvet », connu pour son style onirique et étrange ?",
+      "choices": [
+        "Tim Burton",
+        "David Lynch",
+        "Terry Gilliam",
+        "Darren Aronofsky"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film met en scène un détective privé enquêtant sur des rêves partagés dans une ville où il pleut toujours la nuit, esthétique noire ?",
+      "choices": [
+        "Blade Runner",
+        "Dark City",
+        "Sin City",
+        "The Crow"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a réalisé « Blade Runner » (1982), adapté d'un roman de Philip K. Dick ?",
+      "choices": [
+        "Ridley Scott",
+        "James Cameron",
+        "George Miller",
+        "John Carpenter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur australien a créé la saga post-apocalyptique « Mad Max » ?",
+      "choices": [
+        "Peter Weir",
+        "George Miller",
+        "Baz Luhrmann",
+        "Phillip Noyce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel film de 2015 relance la saga « Mad Max » avec Tom Hardy et Charlize Theron ?",
+      "choices": [
+        "Mad Max: Fury Road",
+        "The Road Warrior",
+        "Mad Max Beyond Thunderdome",
+        "Waterworld"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur a réalisé « No Country for Old Men » et « Fargo » avec son frère ?",
+      "choices": [
+        "Ethan et Joel Coen",
+        "David Fincher",
+        "Paul Thomas Anderson",
+        "Sam Raimi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel duo de réalisateurs frères a créé « Fargo » (1996) et « The Big Lebowski » ?",
+      "choices": [
+        "Les frères Wachowski",
+        "Les frères Coen",
+        "Les frères Farrelly",
+        "Les frères Safdie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur a créé « Boogie Nights » et « There Will Be Blood » ?",
+      "choices": [
+        "David Fincher",
+        "Paul Thomas Anderson",
+        "Alexander Payne",
+        "Todd Field"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur incarne un magnat du pétrole impitoyable dans « There Will Be Blood » (2007) ?",
+      "choices": [
+        "Sean Penn",
+        "Daniel Day-Lewis",
+        "Philip Seymour Hoffman",
+        "Joaquin Phoenix"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel acteur a remporté trois Oscars du meilleur acteur, un record, notamment pour « There Will Be Blood » et « Lincoln » ?",
+      "choices": [
+        "Jack Nicholson",
+        "Daniel Day-Lewis",
+        "Tom Hanks",
+        "Marlon Brando"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur brésilien a créé « La Cité de Dieu » (2002), sur les favelas de Rio de Janeiro ?",
+      "choices": [
+        "Walter Salles",
+        "Fernando Meirelles",
+        "José Padilha",
+        "Kleber Mendonça Filho"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur roumain a marqué la « nouvelle vague roumaine » avec « 4 mois, 3 semaines, 2 jours » ?",
+      "choices": [
+        "Cristian Mungiu",
+        "Cristi Puiu",
+        "Radu Jude",
+        "Corneliu Porumboiu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel réalisateur sénégalais est considéré comme le père du cinéma africain, avec « La Noire de... » (1966) ?",
+      "choices": [
+        "Djibril Diop Mambéty",
+        "Ousmane Sembène",
+        "Souleymane Cissé",
+        "Idrissa Ouédraogo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réalisateur camerounais est connu pour des films comme « Quartier Mozart » et « Les Saignantes » ?",
+      "choices": [
+        "Jean-Pierre Bekolo",
+        "Bassek ba Kobhio",
+        "Jean-Marie Teno",
+        "Cyrille Masso"
+      ],
+      "correctIndex": 0
     }
   ]
 }

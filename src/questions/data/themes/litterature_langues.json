@@ -1,125 +1,2005 @@
 {
-  "theme": "📚 Littérature et Langues",
+  "theme": "📚 Littérature et Langue",
   "questions": [
     {
-      "question": "Qui a écrit la pièce de théâtre 'Roméo et Juliette' ?",
+      "question": "Qui a écrit « Les Misérables » ?",
       "choices": [
-        "Oscar Wilde",
-        "Voltaire",
-        "Molière",
-        "William Shakespeare"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Quel écrivain français est l'auteur de 'L'Étranger' ?",
-      "choices": [
-        "Albert Camus",
-        "Marcel Proust",
         "Victor Hugo",
-        "Jean-Paul Sartre"
+        "Émile Zola",
+        "Honoré de Balzac",
+        "Alexandre Dumas"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quel roman de Miguel de Cervantès met en scène un chevalier luttant contre des moulins à vent ?",
+      "question": "Qui a écrit « Le Petit Prince » ?",
       "choices": [
-        "Le Cid",
-        "Madame Bovary",
-        "Don Quichotte",
-        "L'Odyssée"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quel auteur est le célèbre créateur du détective Sherlock Holmes ?",
-      "choices": [
-        "Agatha Christie",
-        "Jules Verne",
-        "Arthur Conan Doyle",
-        "Edgar Allan Poe"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Combien de lettres compte l'alphabet français de base ?",
-      "choices": [
-        "28",
-        "24",
-        "26",
-        "25"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Dans quelle langue le roman original '1984' de George Orwell a-t-il été écrit ?",
-      "choices": [
-        "Anglais",
-        "Espagnol",
-        "Français",
-        "Allemand"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel écrivain camerounais est l'auteur du roman 'Le Vieux Nègre et la Médaille' ?",
-      "choices": [
-        "Mongo Beti",
-        "Ferdinand Oyono",
-        "Calixthe Beyala",
-        "Guillaume Oyônô Mbia"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "question": "Quel écrivain camerounais a écrit 'Ville cruelle' sous le pseudonyme d'Eza Boto ?",
-      "choices": [
-        "Mongo Beti",
-        "Ferdinand Oyono",
-        "Francis Bebey",
-        "Léonora Miano"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Quel auteur antique est l'auteur des poèmes épiques 'L'Iliade' et 'L'Odyssée' ?",
-      "choices": [
-        "Platon",
-        "Sophocle",
-        "Virgile",
-        "Homère"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Comment appelle-t-on une figure de style qui consiste en une exagération ?",
-      "choices": [
-        "Une oxymore",
-        "Une métaphore",
-        "Une litote",
-        "Une hyperbole"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "Qui a écrit 'Le Petit Prince' ?",
-      "choices": [
-        "Marcel Pagnol",
         "Antoine de Saint-Exupéry",
         "Jules Verne",
-        "Jean de La Fontaine"
+        "Marcel Pagnol",
+        "Albert Camus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Qui a écrit « Roméo et Juliette » ?",
+      "choices": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Oscar Wilde",
+        "Jane Austen"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quelle est la langue maternelle de la majorité des habitants d'Amérique latine ?",
+      "question": "Quel auteur français a écrit « Les Trois Mousquetaires » ?",
       "choices": [
-        "Le français",
-        "Le portugais",
-        "L'anglais",
-        "L'espagnol"
+        "Victor Hugo",
+        "Alexandre Dumas",
+        "Gustave Flaubert",
+        "Stendhal"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel auteur a écrit la saga « Harry Potter » ?",
+      "choices": [
+        "J.R.R. Tolkien",
+        "J.K. Rowling",
+        "C.S. Lewis",
+        "Roald Dahl"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel auteur britannique a écrit « Le Seigneur des Anneaux » ?",
+      "choices": [
+        "C.S. Lewis",
+        "J.R.R. Tolkien",
+        "George Orwell",
+        "Terry Pratchett"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de texte raconte une histoire imaginaire en prose, plus long qu'une nouvelle ?",
+      "choices": [
+        "Un poème",
+        "Un roman",
+        "Un essai",
+        "Une pièce de théâtre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de texte court est écrit en vers, souvent rythmé et imagé ?",
+      "choices": [
+        "Un roman",
+        "Un poème",
+        "Un essai",
+        "Une biographie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle langue est parlée nativement dans la majeure partie de l'Amérique latine ?",
+      "choices": [
+        "Le portugais",
+        "L'espagnol",
+        "Le français",
+        "L'anglais"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle langue est parlée nativement au Brésil, contrairement au reste de l'Amérique latine ?",
+      "choices": [
+        "L'espagnol",
+        "Le portugais",
+        "Le français",
+        "L'italien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle langue officielle est parlée au Cameroun aux côtés du français ?",
+      "choices": [
+        "L'espagnol",
+        "L'anglais",
+        "Le portugais",
+        "L'allemand"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Combien de lettres compte l'alphabet français ?",
+      "choices": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel signe de ponctuation marque la fin d'une phrase interrogative ?",
+      "choices": [
+        "Le point",
+        "Le point d'interrogation",
+        "Le point d'exclamation",
+        "Les points de suspension"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel signe de ponctuation marque la fin d'une phrase exclamative ?",
+      "choices": [
+        "Le point",
+        "Le point d'interrogation",
+        "Le point d'exclamation",
+        "La virgule"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel type de mot désigne une personne, un animal, une chose ou une idée (nom) ?",
+      "choices": [
+        "Un verbe",
+        "Un nom",
+        "Un adjectif",
+        "Un adverbe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de mot exprime une action ou un état (verbe) ?",
+      "choices": [
+        "Un nom",
+        "Un verbe",
+        "Un adjectif",
+        "Une préposition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de mot qualifie ou décrit un nom (adjectif) ?",
+      "choices": [
+        "Un verbe",
+        "Un adjectif",
+        "Un adverbe",
+        "Une conjonction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre littéraire raconte la vie d'une personne réelle, écrite par un tiers (biographie) ?",
+      "choices": [
+        "L'autobiographie",
+        "La biographie",
+        "Le roman historique",
+        "L'essai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre littéraire raconte la vie de l'auteur lui-même (autobiographie) ?",
+      "choices": [
+        "La biographie",
+        "L'autobiographie",
+        "Le roman",
+        "La nouvelle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel conte français met en scène une fillette au chaperon rouge rencontrant un loup ?",
+      "choices": [
+        "Cendrillon",
+        "Le Petit Chaperon rouge",
+        "La Belle au bois dormant",
+        "Blanche-Neige"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel conte, popularisé par Charles Perrault, met en scène une jeune fille perdant sa pantoufle de verre à minuit ?",
+      "choices": [
+        "La Belle au bois dormant",
+        "Cendrillon",
+        "Peau d'Âne",
+        "Le Petit Poucet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain français du 17e siècle a écrit de nombreuses fables mettant en scène des animaux (La Fontaine) ?",
+      "choices": [
+        "Molière",
+        "Jean de La Fontaine",
+        "Racine",
+        "Corneille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel auteur français du 17e siècle a écrit des comédies théâtrales comme « Le Malade imaginaire » et « Tartuffe » ?",
+      "choices": [
+        "Racine",
+        "Molière",
+        "Corneille",
+        "La Fontaine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain britannique a créé le détective Sherlock Holmes ?",
+      "choices": [
+        "Agatha Christie",
+        "Arthur Conan Doyle",
+        "Charles Dickens",
+        "Wilkie Collins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle romancière britannique est surnommée la « Reine du crime », créatrice d'Hercule Poirot ?",
+      "choices": [
+        "Agatha Christie",
+        "P.D. James",
+        "Ruth Rendell",
+        "Dorothy L. Sayers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel écrivain français du 19e siècle a écrit « Madame Bovary » ?",
+      "choices": [
+        "Victor Hugo",
+        "Gustave Flaubert",
+        "Émile Zola",
+        "Guy de Maupassant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain français a écrit le cycle des « Rougon-Macquart », dont « Germinal » ?",
+      "choices": [
+        "Balzac",
+        "Émile Zola",
+        "Flaubert",
+        "Maupassant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain russe a écrit « Guerre et Paix » et « Anna Karénine » ?",
+      "choices": [
+        "Dostoïevski",
+        "Léon Tolstoï",
+        "Tchekhov",
+        "Gogol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain russe a écrit « Crime et Châtiment » ?",
+      "choices": [
+        "Léon Tolstoï",
+        "Fiodor Dostoïevski",
+        "Tourgueniev",
+        "Pouchkine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain américain a écrit « Le Vieil Homme et la Mer » ?",
+      "choices": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "Mark Twain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain américain a écrit « Les Aventures de Tom Sawyer » ?",
+      "choices": [
+        "Ernest Hemingway",
+        "Mark Twain",
+        "Herman Melville",
+        "Nathaniel Hawthorne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain britannique a écrit « 1984 » et « La Ferme des animaux » ?",
+      "choices": [
+        "Aldous Huxley",
+        "George Orwell",
+        "H.G. Wells",
+        "Ray Bradbury"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète et dramaturge anglais est considéré comme le plus grand écrivain de langue anglaise (Shakespeare) ?",
+      "choices": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "John Milton",
+        "Geoffrey Chaucer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel auteur a écrit les fables mettant en scène « Le Corbeau et le Renard » ?",
+      "choices": [
+        "Charles Perrault",
+        "Jean de La Fontaine",
+        "Molière",
+        "Voltaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel conte met en scène une princesse endormie pendant cent ans réveillée par un baiser (La Belle au bois dormant) ?",
+      "choices": [
+        "Cendrillon",
+        "La Belle au bois dormant",
+        "Blanche-Neige",
+        "Raiponce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'œuvre littéraire est destinée à être jouée sur scène par des acteurs (pièce de théâtre) ?",
+      "choices": [
+        "Un roman",
+        "Une pièce de théâtre",
+        "Un poème",
+        "Un essai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de texte court en prose développe généralement une seule intrigue simple (nouvelle) ?",
+      "choices": [
+        "Le roman",
+        "La nouvelle",
+        "L'essai",
+        "La poésie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle langue est la langue officielle de la Chine continentale (mandarin) ?",
+      "choices": [
+        "Le cantonais",
+        "Le mandarin",
+        "Le japonais",
+        "Le coréen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle langue est officiellement parlée en Égypte et dans de nombreux pays du Moyen-Orient (arabe) ?",
+      "choices": [
+        "Le turc",
+        "L'arabe",
+        "Le persan",
+        "L'hébreu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle langue est officiellement parlée en Inde aux côtés de l'anglais (hindi, parmi d'autres) ?",
+      "choices": [
+        "Le hindi",
+        "L'ourdou",
+        "Le bengali",
+        "Le tamoul"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle langue africaine est très largement parlée en Afrique de l'Est, notamment au Kenya et en Tanzanie (swahili) ?",
+      "choices": [
+        "Le zoulou",
+        "Le swahili",
+        "L'amharique",
+        "Le haoussa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle langue africaine est parlée majoritairement en Éthiopie (amharique) ?",
+      "choices": [
+        "Le swahili",
+        "L'amharique",
+        "Le somali",
+        "Le tigrigna"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle langue est parlée majoritairement au Nigeria parmi plusieurs groupes ethniques, dont le haoussa, le yoruba et l'igbo ?",
+      "choices": [
+        "Le swahili domine au Nigeria",
+        "Le haoussa, le yoruba et l'igbo sont parmi les langues majeures",
+        "Seul l'anglais est parlé",
+        "Seul le français est parlé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roman de Victor Hugo se déroule pendant l'insurrection parisienne de 1832 et suit Jean Valjean ?",
+      "choices": [
+        "Notre-Dame de Paris",
+        "Les Misérables",
+        "Les Travailleurs de la mer",
+        "L'Homme qui rit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel roman de Victor Hugo met en scène le bossu Quasimodo à la cathédrale parisienne ?",
+      "choices": [
+        "Les Misérables",
+        "Notre-Dame de Paris",
+        "Les Contemplations",
+        "Les Châtiments"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain français du 19e siècle a écrit « Le Comte de Monte-Cristo » ?",
+      "choices": [
+        "Victor Hugo",
+        "Alexandre Dumas",
+        "Balzac",
+        "Stendhal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain français a écrit « Vingt mille lieues sous les mers » et « Le Tour du monde en 80 jours » ?",
+      "choices": [
+        "Alexandre Dumas",
+        "Jules Verne",
+        "H.G. Wells",
+        "Victor Hugo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète français a écrit « Le Dormeur du val » et « Le Bateau ivre », mort jeune (Arthur Rimbaud) ?",
+      "choices": [
+        "Paul Verlaine",
+        "Arthur Rimbaud",
+        "Charles Baudelaire",
+        "Stéphane Mallarmé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète français du 19e siècle a écrit « Les Fleurs du mal » ?",
+      "choices": [
+        "Arthur Rimbaud",
+        "Charles Baudelaire",
+        "Paul Verlaine",
+        "Victor Hugo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain algérien de langue française a écrit « L'Étranger » et reçu le prix Nobel de littérature ?",
+      "choices": [
+        "Albert Camus",
+        "Kateb Yacine",
+        "Mohammed Dib",
+        "Assia Djebar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel écrivain sénégalais, premier président du Sénégal, est une figure majeure de la négritude et de la poésie francophone ?",
+      "choices": [
+        "Aimé Césaire",
+        "Léopold Sédar Senghor",
+        "David Diop",
+        "Birago Diop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain martiniquais a écrit « Cahier d'un retour au pays natal », œuvre majeure de la négritude ?",
+      "choices": [
+        "Léopold Sédar Senghor",
+        "Aimé Césaire",
+        "Frantz Fanon",
+        "Édouard Glissant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain camerounais a écrit « Le Vieux Nègre et la Médaille » et « Une vie de boy » ?",
+      "choices": [
+        "Mongo Beti",
+        "Ferdinand Oyono",
+        "Bernard Nanga",
+        "René Philombe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain camerounais, satirique et critique du colonialisme, a écrit « Le Pauvre Christ de Bomba » ?",
+      "choices": [
+        "Ferdinand Oyono",
+        "Mongo Beti",
+        "Patrice Nganang",
+        "Calixthe Beyala"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écrivaine camerounaise contemporaine, installée en France, a écrit « C'est le soleil qui m'a brûlée » ?",
+      "choices": [
+        "Léonora Miano",
+        "Calixthe Beyala",
+        "Djaïli Amadou Amal",
+        "Werewere Liking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écrivaine camerounaise a reçu le prix Goncourt des lycéens pour « Munyal, les larmes de la patience » ?",
+      "choices": [
+        "Calixthe Beyala",
+        "Djaïli Amadou Amal",
+        "Léonora Miano",
+        "Hemley Boum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain nigérian, prix Nobel de littérature en 1986, a écrit des œuvres théâtrales et poétiques majeures (Wole Soyinka) ?",
+      "choices": [
+        "Chinua Achebe",
+        "Wole Soyinka",
+        "Ben Okri",
+        "Ngũgĩ wa Thiong'o"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain nigérian a écrit « Le Monde s'effondre » (Things Fall Apart), classique de la littérature africaine ?",
+      "choices": [
+        "Wole Soyinka",
+        "Chinua Achebe",
+        "Ben Okri",
+        "Cyprian Ekwensi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain kényan a écrit en gikuyu pour promouvoir les langues africaines dans la littérature, après avoir écrit en anglais ?",
+      "choices": [
+        "Chinua Achebe",
+        "Ngũgĩ wa Thiong'o",
+        "Wole Soyinka",
+        "Meja Mwangi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écrivaine ivoirienne a écrit des romans sur la condition féminine en Afrique, comme « Une si longue lettre » ? (attention, œuvre sénégalaise)",
+      "choices": [
+        "L'auteure de ce roman est sénégalaise, Mariama Bâ",
+        "L'auteure est ivoirienne",
+        "L'auteure est malienne",
+        "L'auteure est guinéenne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle écrivaine sénégalaise a écrit « Une si longue lettre », roman épistolaire sur la condition des femmes ?",
+      "choices": [
+        "Aminata Sow Fall",
+        "Mariama Bâ",
+        "Fatou Diome",
+        "Ken Bugul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète sénégalais a écrit « Souffles », poème célèbre évoquant la présence des ancêtres (Birago Diop) ?",
+      "choices": [
+        "Léopold Sédar Senghor",
+        "Birago Diop",
+        "David Diop",
+        "Cheikh Hamidou Kane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain sénégalais a écrit « L'Aventure ambiguë », roman sur le choc entre traditions africaines et modernité occidentale ?",
+      "choices": [
+        "Sembène Ousmane",
+        "Cheikh Hamidou Kane",
+        "Birago Diop",
+        "Boubacar Boris Diop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain et cinéaste sénégalais a écrit « Les Bouts de bois de Dieu », roman sur la grève des cheminots ?",
+      "choices": [
+        "Cheikh Hamidou Kane",
+        "Sembène Ousmane",
+        "Birago Diop",
+        "Aminata Sow Fall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel courant littéraire, né dans les années 1930, valorisait l'identité et la culture noires face à la colonisation (négritude) ?",
+      "choices": [
+        "Le panafricanisme (mouvement politique distinct)",
+        "La négritude",
+        "L'existentialisme",
+        "Le surréalisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain martiniquais a théorisé le concept de « créolité » avec Patrick Chamoiseau et Raphaël Confiant ?",
+      "choices": [
+        "Aimé Césaire",
+        "Édouard Glissant",
+        "Frantz Fanon",
+        "Joseph Zobel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain martiniquais a reçu le prix Goncourt en 1992 pour « Texaco » ?",
+      "choices": [
+        "Édouard Glissant",
+        "Patrick Chamoiseau",
+        "Raphaël Confiant",
+        "Aimé Césaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète français a été résistant pendant la Seconde Guerre mondiale et a écrit « Liberté » ?",
+      "choices": [
+        "Louis Aragon",
+        "Paul Éluard",
+        "Robert Desnos",
+        "René Char"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain français, philosophe existentialiste, a écrit « La Nausée » et « Huis clos » ?",
+      "choices": [
+        "Albert Camus",
+        "Jean-Paul Sartre",
+        "Simone de Beauvoir",
+        "Maurice Merleau-Ponty"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle philosophe et écrivaine française, compagne de Sartre, a écrit « Le Deuxième Sexe » ?",
+      "choices": [
+        "Simone Veil",
+        "Simone de Beauvoir",
+        "Colette",
+        "Marguerite Yourcenar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écrivaine française a été la première femme élue à l'Académie française, en 1980 (Marguerite Yourcenar) ?",
+      "choices": [
+        "Simone de Beauvoir",
+        "Marguerite Yourcenar",
+        "Colette",
+        "Nathalie Sarraute"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain irlandais a écrit « Ulysse », roman expérimental structuré sur une seule journée à Dublin ?",
+      "choices": [
+        "Samuel Beckett",
+        "James Joyce",
+        "Oscar Wilde",
+        "George Bernard Shaw"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dramaturge irlandais a écrit « En attendant Godot », pièce emblématique du théâtre de l'absurde ?",
+      "choices": [
+        "James Joyce",
+        "Samuel Beckett",
+        "Oscar Wilde",
+        "Sean O'Casey"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain tchèque de langue allemande a écrit « La Métamorphose » et « Le Procès » ?",
+      "choices": [
+        "Milan Kundera",
+        "Franz Kafka",
+        "Bohumil Hrabal",
+        "Karel Čapek"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain colombien, prix Nobel de littérature, a écrit « Cent ans de solitude », pilier du réalisme magique ?",
+      "choices": [
+        "Mario Vargas Llosa",
+        "Gabriel García Márquez",
+        "Jorge Luis Borges",
+        "Julio Cortázar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain argentin, maître de la nouvelle fantastique, a écrit « Fictions » et « L'Aleph » ?",
+      "choices": [
+        "Gabriel García Márquez",
+        "Jorge Luis Borges",
+        "Julio Cortázar",
+        "Ernesto Sabato"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain péruvien, prix Nobel de littérature en 2010, a écrit « La Ville et les Chiens » ?",
+      "choices": [
+        "Gabriel García Márquez",
+        "Mario Vargas Llosa",
+        "Pablo Neruda",
+        "Octavio Paz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète chilien, prix Nobel de littérature en 1971, a écrit des recueils comme « Vingt poèmes d'amour » ?",
+      "choices": [
+        "Gabriel García Márquez",
+        "Pablo Neruda",
+        "Octavio Paz",
+        "Nicanor Parra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain japonais a écrit « Kafka sur le rivage » et « 1Q84 » (Haruki Murakami) ?",
+      "choices": [
+        "Yukio Mishima",
+        "Haruki Murakami",
+        "Kenzaburō Ōe",
+        "Kazuo Ishiguro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain britannique d'origine japonaise, prix Nobel de littérature en 2017, a écrit « Never Let Me Go » ?",
+      "choices": [
+        "Haruki Murakami",
+        "Kazuo Ishiguro",
+        "Salman Rushdie",
+        "Ian McEwan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain indo-britannique a écrit « Les Versets sataniques », provoquant une controverse mondiale ?",
+      "choices": [
+        "Vikram Seth",
+        "Salman Rushdie",
+        "Arundhati Roy",
+        "Amitav Ghosh"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dramaturge norvégien du 19e siècle est considéré comme le père du théâtre réaliste moderne, auteur de « Une maison de poupée » ?",
+      "choices": [
+        "August Strindberg",
+        "Henrik Ibsen",
+        "Anton Tchekhov",
+        "George Bernard Shaw"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dramaturge russe a écrit « La Cerisaie » et « Oncle Vania » ?",
+      "choices": [
+        "Léon Tolstoï",
+        "Anton Tchekhov",
+        "Fiodor Dostoïevski",
+        "Nikolaï Gogol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de figure de style compare deux éléments en utilisant « comme » ou « tel » (comparaison) ?",
+      "choices": [
+        "La métaphore",
+        "La comparaison",
+        "L'hyperbole",
+        "La litote"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de figure de style compare deux éléments sans outil de comparaison explicite (métaphore) ?",
+      "choices": [
+        "La comparaison",
+        "La métaphore",
+        "L'antithèse",
+        "L'euphémisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de figure de style exagère volontairement pour créer un effet (hyperbole) ?",
+      "choices": [
+        "La litote",
+        "L'hyperbole",
+        "L'euphémisme",
+        "L'ellipse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de figure de style atténue une idée pour suggérer plus qu'elle ne dit (litote), comme « ce n'est pas mauvais » pour dire « c'est bon » ?",
+      "choices": [
+        "L'hyperbole",
+        "La litote",
+        "La métaphore",
+        "L'anaphore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de figure de style répète un mot ou groupe de mots en début de phrases successives (anaphore) ?",
+      "choices": [
+        "L'antithèse",
+        "L'anaphore",
+        "L'oxymore",
+        "La litote"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de figure de style associe deux mots de sens opposés (oxymore), comme « un silence assourdissant » ?",
+      "choices": [
+        "L'antithèse",
+        "L'oxymore",
+        "L'euphémisme",
+        "La personnification"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de figure de style attribue des caractéristiques humaines à un objet ou une idée abstraite (personnification) ?",
+      "choices": [
+        "La métaphore",
+        "La personnification",
+        "L'allégorie",
+        "L'antithèse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre littéraire regroupe des récits fantastiques destinés à instruire ou divertir, souvent avec une morale (conte) ?",
+      "choices": [
+        "Le roman",
+        "Le conte",
+        "L'essai",
+        "La biographie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre de récit oral ou écrit, souvent fondateur d'une culture, met en scène des dieux et des héros surhumains (mythe) ?",
+      "choices": [
+        "La légende",
+        "Le mythe",
+        "La fable",
+        "L'épopée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre littéraire, souvent en vers, raconte les exploits d'un héros à travers un long récit narratif (épopée) ?",
+      "choices": [
+        "Le sonnet",
+        "L'épopée",
+        "La ballade",
+        "L'ode"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle épopée antique grecque attribuée à Homère raconte la guerre de Troie ?",
+      "choices": [
+        "L'Odyssée",
+        "L'Iliade",
+        "L'Énéide",
+        "La Théogonie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle épopée antique grecque attribuée à Homère raconte le retour d'Ulysse vers Ithaque ?",
+      "choices": [
+        "L'Iliade",
+        "L'Odyssée",
+        "L'Énéide",
+        "Les Argonautiques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle épopée latine de Virgile raconte le voyage d'Énée depuis Troie jusqu'en Italie ?",
+      "choices": [
+        "L'Iliade",
+        "L'Énéide",
+        "L'Odyssée",
+        "La Pharsale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poème épique italien de Dante décrit un voyage à travers l'Enfer, le Purgatoire et le Paradis ?",
+      "choices": [
+        "Le Roland furieux",
+        "La Divine Comédie",
+        "Le Décaméron",
+        "Le Canzoniere"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle forme fixe poétique compte 14 vers, souvent en deux quatrains et deux tercets (sonnet) ?",
+      "choices": [
+        "La ballade",
+        "Le sonnet",
+        "L'ode",
+        "Le rondeau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de roman se concentre sur l'évolution psychologique et morale du personnage principal, souvent depuis l'enfance (roman d'apprentissage/Bildungsroman) ?",
+      "choices": [
+        "Le roman policier",
+        "Le roman d'apprentissage (Bildungsroman)",
+        "Le roman épistolaire",
+        "Le roman noir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mouvement littéraire français du 19e siècle privilégie l'expression des sentiments et de la nature (romantisme) ?",
+      "choices": [
+        "Le classicisme",
+        "Le romantisme",
+        "Le réalisme",
+        "Le naturalisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mouvement littéraire français, en réaction au romantisme, cherche à représenter la réalité de façon objective (réalisme) ?",
+      "choices": [
+        "Le symbolisme",
+        "Le réalisme",
+        "Le romantisme",
+        "Le surréalisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mouvement littéraire, poussant le réalisme plus loin, applique une méthode presque scientifique à l'observation sociale (naturalisme, Zola) ?",
+      "choices": [
+        "Le symbolisme",
+        "Le naturalisme",
+        "Le parnasse",
+        "Le décadentisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mouvement littéraire du début du 20e siècle explore l'inconscient et l'écriture automatique, fondé par André Breton ?",
+      "choices": [
+        "Le dadaïsme",
+        "Le surréalisme",
+        "Le cubisme littéraire",
+        "L'existentialisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel manifeste, publié en 1924 par André Breton, fonde officiellement le mouvement surréaliste ?",
+      "choices": [
+        "Le Manifeste du futurisme",
+        "Le Manifeste du surréalisme",
+        "Le Manifeste dada",
+        "Le Manifeste symboliste"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mouvement littéraire de la fin du 19e siècle privilégie la suggestion et le symbole plutôt que la description directe (symbolisme) ?",
+      "choices": [
+        "Le naturalisme",
+        "Le symbolisme",
+        "Le parnasse",
+        "Le réalisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète français symboliste a écrit « Illuminations » et « Une saison en enfer » ?",
+      "choices": [
+        "Baudelaire",
+        "Rimbaud",
+        "Verlaine",
+        "Mallarmé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète français symboliste, ami et amant tumultueux de Rimbaud, a écrit « Romances sans paroles » ?",
+      "choices": [
+        "Baudelaire",
+        "Verlaine",
+        "Mallarmé",
+        "Rimbaud"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel courant philosophique et littéraire du 20e siècle met l'accent sur la liberté et l'absurdité de l'existence humaine ?",
+      "choices": [
+        "Le structuralisme",
+        "L'existentialisme",
+        "Le formalisme",
+        "Le positivisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain français a théorisé « le mythe de Sisyphe » comme métaphore de l'absurde ?",
+      "choices": [
+        "Jean-Paul Sartre",
+        "Albert Camus",
+        "Simone de Beauvoir",
+        "Maurice Blanchot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel courant théâtral du milieu du 20e siècle, incarné par Ionesco et Beckett, met en scène l'incommunicabilité et le non-sens ?",
+      "choices": [
+        "Le théâtre engagé",
+        "Le théâtre de l'absurde",
+        "Le théâtre épique brechtien",
+        "Le théâtre classique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dramaturge roumain francophone a écrit « La Cantatrice chauve » et « Rhinocéros » ?",
+      "choices": [
+        "Samuel Beckett",
+        "Eugène Ionesco",
+        "Jean Genet",
+        "Arthur Adamov"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dramaturge allemand a théorisé la « distanciation » (Verfremdungseffekt) dans son théâtre épique ?",
+      "choices": [
+        "Bertolt Brecht",
+        "Friedrich Dürrenmatt",
+        "Max Frisch",
+        "Georg Büchner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel mouvement littéraire français du 20e siècle, incarné par Robbe-Grillet et Nathalie Sarraute, rejette les conventions narratives traditionnelles (Nouveau Roman) ?",
+      "choices": [
+        "Le surréalisme",
+        "Le Nouveau Roman",
+        "L'OuLiPo",
+        "L'existentialisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel groupe littéraire français, fondé en 1960 par Raymond Queneau et François Le Lionnais, explore les contraintes formelles d'écriture (OuLiPo) ?",
+      "choices": [
+        "Le Nouveau Roman",
+        "L'OuLiPo (Ouvroir de littérature potentielle)",
+        "Le surréalisme",
+        "Le symbolisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain membre de l'OuLiPo a écrit « La Disparition », roman entièrement rédigé sans la lettre « e » (Georges Perec) ?",
+      "choices": [
+        "Raymond Queneau",
+        "Georges Perec",
+        "Italo Calvino",
+        "Jacques Roubaud"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain français a écrit « Zazie dans le métro » et « Exercices de style », jouant avec la langue française ?",
+      "choices": [
+        "Georges Perec",
+        "Raymond Queneau",
+        "Boris Vian",
+        "Michel Tournier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel philosophe et théoricien littéraire français a développé le concept de « déconstruction » (Jacques Derrida) ?",
+      "choices": [
+        "Michel Foucault",
+        "Jacques Derrida",
+        "Roland Barthes",
+        "Gilles Deleuze"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel théoricien littéraire français, figure du structuralisme, a écrit « Mythologies » et « Le Degré zéro de l'écriture » (Roland Barthes) ?",
+      "choices": [
+        "Jacques Derrida",
+        "Roland Barthes",
+        "Claude Lévi-Strauss",
+        "Gérard Genette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel critique littéraire russe a théorisé le formalisme et influencé la narratologie, notamment via le « morphologie du conte » (Vladimir Propp) ?",
+      "choices": [
+        "Mikhaïl Bakhtine",
+        "Vladimir Propp",
+        "Roman Jakobson",
+        "Iouri Lotman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel théoricien russe a développé les concepts de « dialogisme » et de « carnavalesque » en littérature (Mikhaïl Bakhtine) ?",
+      "choices": [
+        "Vladimir Propp",
+        "Mikhaïl Bakhtine",
+        "Roman Jakobson",
+        "Viktor Chklovski"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain britannique du 19e siècle a écrit « Orgueil et Préjugés » et exploré les mœurs de la gentry anglaise (Jane Austen) ?",
+      "choices": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Elizabeth Gaskell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelles sœurs britanniques du 19e siècle ont chacune écrit un roman classique (« Jane Eyre » et « Les Hauts de Hurlevent ») ?",
+      "choices": [
+        "Les sœurs Austen",
+        "Les sœurs Brontë (Charlotte et Emily)",
+        "Les sœurs Eliot",
+        "Les sœurs Gaskell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel romancier britannique du 19e siècle a écrit « Oliver Twist » et « David Copperfield », critiquant les injustices sociales victoriennes ?",
+      "choices": [
+        "William Thackeray",
+        "Charles Dickens",
+        "Anthony Trollope",
+        "Wilkie Collins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète et peintre préraphaélite anglais du 19e siècle a fondé un mouvement artistique et littéraire influent (Dante Gabriel Rossetti) ?",
+      "choices": [
+        "William Blake",
+        "Dante Gabriel Rossetti",
+        "William Morris",
+        "John Keats"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète romantique anglais a écrit « Ode à un rossignol » et est mort jeune de tuberculose (John Keats) ?",
+      "choices": [
+        "Lord Byron",
+        "John Keats",
+        "Percy Bysshe Shelley",
+        "William Wordsworth"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète romantique anglais, figure aventurière et scandaleuse, a écrit « Don Juan » (Lord Byron) ?",
+      "choices": [
+        "John Keats",
+        "Lord Byron",
+        "Percy Bysshe Shelley",
+        "Samuel Taylor Coleridge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle romancière britannique a écrit « Frankenstein », roman fondateur de la science-fiction, à 18 ans ?",
+      "choices": [
+        "Jane Austen",
+        "Mary Shelley",
+        "Emily Brontë",
+        "George Eliot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain écossais a créé le personnage de détective privé fictif dans « L'Île au trésor » (Robert Louis Stevenson) ?",
+      "choices": [
+        "Arthur Conan Doyle",
+        "Robert Louis Stevenson",
+        "Walter Scott",
+        "James Barrie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain britannique a écrit « Docteur Jekyll et Mister Hyde », exploration de la dualité humaine ?",
+      "choices": [
+        "Oscar Wilde",
+        "Robert Louis Stevenson",
+        "Bram Stoker",
+        "H.G. Wells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain irlandais a écrit « Le Portrait de Dorian Gray », roman esthétique et moral controversé ?",
+      "choices": [
+        "George Bernard Shaw",
+        "Oscar Wilde",
+        "James Joyce",
+        "Bram Stoker"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain irlandais a créé le personnage de Dracula, vampire emblématique de la littérature gothique ?",
+      "choices": [
+        "Oscar Wilde",
+        "Bram Stoker",
+        "Sheridan Le Fanu",
+        "James Joyce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel genre littéraire, né au 18e siècle en Angleterre, mêle horreur, mystère et décors sinistres (roman gothique) ?",
+      "choices": [
+        "Le roman picaresque",
+        "Le roman gothique",
+        "Le roman sentimental",
+        "Le roman d'aventure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain américain du 19e siècle est considéré comme le père de la nouvelle policière et fantastique moderne (Edgar Allan Poe) ?",
+      "choices": [
+        "Nathaniel Hawthorne",
+        "Edgar Allan Poe",
+        "Herman Melville",
+        "Washington Irving"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain américain a écrit « Moby Dick », épopée maritime autour d'une baleine blanche ?",
+      "choices": [
+        "Edgar Allan Poe",
+        "Herman Melville",
+        "Nathaniel Hawthorne",
+        "Mark Twain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain américain a écrit « La Lettre écarlate », roman sur la culpabilité et le puritanisme (Nathaniel Hawthorne) ?",
+      "choices": [
+        "Herman Melville",
+        "Nathaniel Hawthorne",
+        "Edgar Allan Poe",
+        "Henry James"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain américain a écrit « Gatsby le Magnifique », portrait critique du rêve américain des années folles ?",
+      "choices": [
+        "Ernest Hemingway",
+        "F. Scott Fitzgerald",
+        "William Faulkner",
+        "John Steinbeck"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain américain a écrit « Les Raisins de la colère », sur la Grande Dépression et l'exode rural ?",
+      "choices": [
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "William Faulkner",
+        "F. Scott Fitzgerald"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain américain, prix Nobel de littérature, a développé un style narratif complexe (flux de conscience) dans « Le Bruit et la Fureur » ?",
+      "choices": [
+        "Ernest Hemingway",
+        "William Faulkner",
+        "F. Scott Fitzgerald",
+        "John Steinbeck"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écrivaine afro-américaine, prix Nobel de littérature en 1993, a écrit « Beloved » sur l'héritage de l'esclavage ?",
+      "choices": [
+        "Alice Walker",
+        "Toni Morrison",
+        "Maya Angelou",
+        "Zora Neale Hurston"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écrivaine afro-américaine a écrit « La Couleur pourpre », roman épistolaire sur la condition des femmes noires ?",
+      "choices": [
+        "Toni Morrison",
+        "Alice Walker",
+        "Maya Angelou",
+        "Octavia Butler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain colombien a également été journaliste et a inspiré le mouvement du réalisme magique en Amérique latine ?",
+      "choices": [
+        "Mario Vargas Llosa",
+        "Gabriel García Márquez",
+        "Jorge Amado (brésilien)",
+        "Isabel Allende"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écrivaine chilienne a écrit « La Maison aux esprits », roman emblématique du réalisme magique latino-américain ?",
+      "choices": [
+        "Gabriel García Márquez (homme)",
+        "Isabel Allende",
+        "Laura Esquivel",
+        "Elena Poniatowska"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dramaturge et poète espagnol, assassiné pendant la guerre civile, a écrit « Noces de sang » (Federico García Lorca) ?",
+      "choices": [
+        "Antonio Machado",
+        "Federico García Lorca",
+        "Rafael Alberti",
+        "Miguel Hernández"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain espagnol du Siècle d'or a écrit « Don Quichotte », considéré comme le premier roman moderne ?",
+      "choices": [
+        "Lope de Vega",
+        "Miguel de Cervantès",
+        "Calderón de la Barca",
+        "Francisco de Quevedo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain italien du Moyen Âge a écrit le « Décaméron », recueil de cent nouvelles ?",
+      "choices": [
+        "Dante Alighieri",
+        "Giovanni Boccace",
+        "Pétrarque",
+        "Ludovico Ariosto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète italien de la Renaissance a développé la forme du sonnet dans son « Canzoniere », dédié à Laure ?",
+      "choices": [
+        "Dante Alighieri",
+        "Pétrarque (Francesco Petrarca)",
+        "Boccace",
+        "Torquato Tasso"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain allemand, figure du romantisme, a écrit « Faust », drame philosophique majeur ?",
+      "choices": [
+        "Friedrich Schiller",
+        "Johann Wolfgang von Goethe",
+        "Novalis",
+        "E.T.A. Hoffmann"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel théoricien littéraire français a développé la notion de « texte scriptible » versus « lisible » dans « S/Z » (Roland Barthes) ?",
+      "choices": [
+        "Gérard Genette",
+        "Roland Barthes",
+        "Tzvetan Todorov",
+        "Julia Kristeva"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle théoricienne franco-bulgare a introduit le concept d'« intertextualité » dans la critique littéraire des années 1960 ?",
+      "choices": [
+        "Hélène Cixous",
+        "Julia Kristeva",
+        "Luce Irigaray",
+        "Monique Wittig"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel narratologue français a formalisé les catégories de l'analyse du récit (ordre, durée, fréquence) dans « Figures III » (Gérard Genette) ?",
+      "choices": [
+        "Roland Barthes",
+        "Gérard Genette",
+        "Tzvetan Todorov",
+        "Claude Bremond"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel théoricien bulgaro-français a théorisé le genre du « fantastique » comme hésitation entre explication rationnelle et surnaturelle (Tzvetan Todorov) ?",
+      "choices": [
+        "Gérard Genette",
+        "Tzvetan Todorov",
+        "Julia Kristeva",
+        "Algirdas Julien Greimas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain portugais, prix Nobel de littérature en 1998, a écrit « L'Aveuglement » et utilisait une ponctuation atypique ?",
+      "choices": [
+        "Fernando Pessoa",
+        "José Saramago",
+        "António Lobo Antunes",
+        "Eça de Queirós"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète portugais a créé de nombreux « hétéronymes », personnalités d'écrivains fictifs aux styles distincts (Fernando Pessoa) ?",
+      "choices": [
+        "José Saramago",
+        "Fernando Pessoa",
+        "Camões",
+        "Miguel Torga"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète portugais du 16e siècle a écrit « Les Lusiades », épopée nationale sur les découvertes maritimes ?",
+      "choices": [
+        "Fernando Pessoa",
+        "Luís de Camões",
+        "José Saramago",
+        "Gil Vicente"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain tchèque, exilé en France, a écrit « L'Insoutenable Légèreté de l'être » (Milan Kundera) ?",
+      "choices": [
+        "Franz Kafka",
+        "Milan Kundera",
+        "Bohumil Hrabal",
+        "Václav Havel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dramaturge et homme d'État tchèque a écrit des pièces critiques du communisme avant de devenir président (Václav Havel) ?",
+      "choices": [
+        "Milan Kundera",
+        "Václav Havel",
+        "Karel Čapek",
+        "Bohumil Hrabal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain autrichien a écrit « L'Homme sans qualités », roman inachevé et monumental sur la fin de l'Empire austro-hongrois (Robert Musil) ?",
+      "choices": [
+        "Stefan Zweig",
+        "Robert Musil",
+        "Arthur Schnitzler",
+        "Joseph Roth"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain autrichien a écrit de nombreuses nouvelles et biographies, dont « Le Joueur d'échecs », avant de se suicider en exil ?",
+      "choices": [
+        "Robert Musil",
+        "Stefan Zweig",
+        "Arthur Schnitzler",
+        "Hermann Broch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain suisse germanophone a écrit « Le Loup des steppes » et « Siddhartha » (Hermann Hesse) ?",
+      "choices": [
+        "Max Frisch",
+        "Hermann Hesse",
+        "Friedrich Dürrenmatt",
+        "Robert Walser"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète allemand a écrit des « Élégies de Duino » et « Sonnets à Orphée », figure majeure de la poésie moderne (Rainer Maria Rilke) ?",
+      "choices": [
+        "Paul Celan",
+        "Rainer Maria Rilke",
+        "Georg Trakl",
+        "Stefan George"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète roumain de langue allemande, survivant de la Shoah, a écrit « Fugue de mort » (Paul Celan) ?",
+      "choices": [
+        "Rainer Maria Rilke",
+        "Paul Celan",
+        "Georg Trakl",
+        "Nelly Sachs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle poétesse allemande, prix Nobel de littérature en 1966, a écrit sur la Shoah et l'exil (Nelly Sachs) ?",
+      "choices": [
+        "Ingeborg Bachmann",
+        "Nelly Sachs",
+        "Else Lasker-Schüler",
+        "Rose Ausländer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain hongrois, survivant de la Shoah, a écrit « Être sans destin », prix Nobel de littérature en 2002 (Imre Kertész) ?",
+      "choices": [
+        "György Konrád",
+        "Imre Kertész",
+        "Péter Esterházy",
+        "Sándor Márai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain sud-africain, prix Nobel de littérature en 2003, a écrit « Disgrâce » et « Michael K, sa vie, son temps » (J.M. Coetzee) ?",
+      "choices": [
+        "Nadine Gordimer",
+        "J.M. Coetzee",
+        "André Brink",
+        "Athol Fugard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écrivaine sud-africaine, prix Nobel de littérature en 1991, a écrit sur l'apartheid dans « Une fille de Burger » (Nadine Gordimer) ?",
+      "choices": [
+        "Doris Lessing",
+        "Nadine Gordimer",
+        "Zoë Wicomb",
+        "Bessie Head"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle écrivaine britannique née en Iran (Perse), prix Nobel de littérature en 2007, a écrit « Le Carnet d'or » (Doris Lessing) ?",
+      "choices": [
+        "Nadine Gordimer",
+        "Doris Lessing",
+        "A.S. Byatt",
+        "Iris Murdoch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain trinidadien, prix Nobel de littérature en 2001, a écrit « Une maison pour Monsieur Biswas » (V.S. Naipaul) ?",
+      "choices": [
+        "Derek Walcott",
+        "V.S. Naipaul",
+        "Wilson Harris",
+        "Sam Selvon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète et dramaturge de Sainte-Lucie, prix Nobel de littérature en 1992, a écrit « Omeros », épopée caribéenne ?",
+      "choices": [
+        "V.S. Naipaul",
+        "Derek Walcott",
+        "Kamau Brathwaite",
+        "George Lamming"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain égyptien, prix Nobel de littérature en 1988, a écrit la « Trilogie du Caire » (Naguib Mahfouz) ?",
+      "choices": [
+        "Taha Hussein",
+        "Naguib Mahfouz",
+        "Tawfiq al-Hakim",
+        "Yusuf Idris"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain turc, prix Nobel de littérature en 2006, a écrit « Mon nom est Rouge » et « Neige » (Orhan Pamuk) ?",
+      "choices": [
+        "Yaşar Kemal",
+        "Orhan Pamuk",
+        "Nazım Hikmet",
+        "Aziz Nesin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain japonais, prix Nobel de littérature en 1994, a écrit sur le handicap et la société japonaise d'après-guerre (Kenzaburō Ōe) ?",
+      "choices": [
+        "Yasunari Kawabata",
+        "Kenzaburō Ōe",
+        "Yukio Mishima",
+        "Kōbō Abe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain japonais, premier Japonais à recevoir le prix Nobel de littérature en 1968, a écrit « Pays de neige » (Yasunari Kawabata) ?",
+      "choices": [
+        "Kenzaburō Ōe",
+        "Yasunari Kawabata",
+        "Yukio Mishima",
+        "Jun'ichirō Tanizaki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain chinois, prix Nobel de littérature en 2012, mêle réalisme et éléments folkloriques et fantastiques (Mo Yan) ?",
+      "choices": [
+        "Gao Xingjian",
+        "Mo Yan",
+        "Yu Hua",
+        "Su Tong"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel dramaturge et romancier chinois, premier auteur de langue chinoise à recevoir le prix Nobel de littérature en 2000, vit en exil en France (Gao Xingjian) ?",
+      "choices": [
+        "Mo Yan",
+        "Gao Xingjian",
+        "Ha Jin",
+        "Bei Dao"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète indien, prix Nobel de littérature en 1913, premier Asiatique à recevoir ce prix, a écrit « Gitanjali » (Rabindranath Tagore) ?",
+      "choices": [
+        "R.K. Narayan",
+        "Rabindranath Tagore",
+        "Sri Aurobindo",
+        "Muhammad Iqbal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète et philosophe indo-pakistanais, considéré comme le père spirituel du Pakistan, a écrit en ourdou et en persan (Muhammad Iqbal) ?",
+      "choices": [
+        "Rabindranath Tagore",
+        "Muhammad Iqbal",
+        "Faiz Ahmed Faiz",
+        "Mirza Ghalib"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète persan classique du 13e siècle, fondateur de l'ordre soufi des derviches tourneurs, a écrit le « Masnavi » (Rûmî) ?",
+      "choices": [
+        "Omar Khayyam",
+        "Rûmî (Djalâl ad-Dîn Rûmî)",
+        "Hafez",
+        "Saadi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète et mathématicien persan du 11e siècle a écrit les « Robaïyat », quatrains philosophiques (Omar Khayyam) ?",
+      "choices": [
+        "Rûmî",
+        "Omar Khayyam",
+        "Hafez",
+        "Ferdowsi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel poète persan du 10e-11e siècle a écrit le « Shâh Nâmeh » (Livre des Rois), épopée nationale iranienne ?",
+      "choices": [
+        "Omar Khayyam",
+        "Ferdowsi",
+        "Hafez",
+        "Saadi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel linguiste suisse est considéré comme le père de la linguistique moderne avec son « Cours de linguistique générale » (Ferdinand de Saussure) ?",
+      "choices": [
+        "Noam Chomsky",
+        "Ferdinand de Saussure",
+        "Émile Benveniste",
+        "Roman Jakobson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel linguiste américain a révolutionné la linguistique avec la théorie de la « grammaire générative » (Noam Chomsky) ?",
+      "choices": [
+        "Ferdinand de Saussure",
+        "Noam Chomsky",
+        "Edward Sapir",
+        "Benjamin Lee Whorf"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle hypothèse linguistique postule que la langue parlée influence la manière de percevoir et penser le monde (relativité linguistique, Sapir-Whorf) ?",
+      "choices": [
+        "La grammaire générative",
+        "L'hypothèse Sapir-Whorf",
+        "Le structuralisme saussurien",
+        "La théorie des actes de langage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel philosophe britannique du langage a développé la « théorie des actes de langage » distinguant énoncés performatifs et constatifs (J.L. Austin) ?",
+      "choices": [
+        "Ludwig Wittgenstein",
+        "J.L. Austin",
+        "John Searle",
+        "Bertrand Russell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle branche de la linguistique étudie l'origine et l'évolution historique des mots (étymologie) ?",
+      "choices": [
+        "La phonétique",
+        "L'étymologie",
+        "La morphologie",
+        "La syntaxe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle branche de la linguistique étudie les sons du langage et leur production physique (phonétique) ?",
+      "choices": [
+        "La sémantique",
+        "La phonétique",
+        "La pragmatique",
+        "La morphologie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle branche de la linguistique étudie le sens des mots et des phrases (sémantique) ?",
+      "choices": [
+        "La syntaxe",
+        "La sémantique",
+        "La phonologie",
+        "La morphologie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle branche de la linguistique étudie la structure et l'agencement des mots dans la phrase (syntaxe) ?",
+      "choices": [
+        "La sémantique",
+        "La syntaxe",
+        "La phonétique",
+        "La pragmatique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle branche de la linguistique étudie l'usage du langage en contexte, au-delà du sens littéral (pragmatique) ?",
+      "choices": [
+        "La sémantique",
+        "La pragmatique",
+        "La morphologie",
+        "La phonologie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle famille de langues regroupe le français, l'espagnol, l'italien, le portugais et le roumain, issues du latin (langues romanes) ?",
+      "choices": [
+        "Les langues germaniques",
+        "Les langues romanes",
+        "Les langues slaves",
+        "Les langues celtiques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle famille de langues regroupe l'anglais, l'allemand, le néerlandais et les langues scandinaves (langues germaniques) ?",
+      "choices": [
+        "Les langues romanes",
+        "Les langues germaniques",
+        "Les langues slaves",
+        "Les langues baltes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle famille de langues regroupe le russe, le polonais, le tchèque et le bulgare (langues slaves) ?",
+      "choices": [
+        "Les langues romanes",
+        "Les langues slaves",
+        "Les langues germaniques",
+        "Les langues finno-ougriennes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grande famille de langues regroupe la majorité des langues d'Europe, d'Iran et du sous-continent indien (indo-européenne) ?",
+      "choices": [
+        "La famille afro-asiatique",
+        "La famille indo-européenne",
+        "La famille sino-tibétaine",
+        "La famille altaïque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grande famille de langues regroupe l'arabe, l'hébreu et l'amharique (famille afro-asiatique/sémitique) ?",
+      "choices": [
+        "La famille nigéro-congolaise",
+        "La famille afro-asiatique (dont les langues sémitiques)",
+        "La famille indo-européenne",
+        "La famille nilo-saharienne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle grande famille de langues, la plus vaste d'Afrique, regroupe le swahili, le zoulou, le yoruba et de nombreuses langues bantoues ?",
+      "choices": [
+        "La famille afro-asiatique",
+        "La famille nigéro-congolaise (dont les langues bantoues)",
+        "La famille nilo-saharienne",
+        "La famille khoïsan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle sous-famille de la famille nigéro-congolaise regroupe des centaines de langues d'Afrique centrale et australe, dont le lingala et le swahili (langues bantoues) ?",
+      "choices": [
+        "Les langues kwa",
+        "Les langues bantoues",
+        "Les langues mandé",
+        "Les langues atlantiques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle famille de langues, parlée notamment par les peuples San et Khoikhoi d'Afrique australe, se caractérise par des consonnes clics (langues khoïsan) ?",
+      "choices": [
+        "La famille nigéro-congolaise",
+        "La famille khoïsan",
+        "La famille nilo-saharienne",
+        "La famille afro-asiatique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'écriture, utilisée en chinois et partiellement en japonais, représente des idées ou des mots par des symboles plutôt que des sons (idéogrammes/logogrammes) ?",
+      "choices": [
+        "L'alphabet",
+        "L'écriture logographique (idéogrammes)",
+        "L'écriture syllabique",
+        "L'écriture abjad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'écriture, comme l'arabe et l'hébreu, note principalement les consonnes, les voyelles étant souvent implicites (abjad) ?",
+      "choices": [
+        "L'écriture syllabique",
+        "L'écriture abjad (consonantique)",
+        "L'écriture logographique",
+        "L'écriture alphasyllabique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'écriture, comme le japonais hiragana/katakana, représente chaque symbole par une syllabe entière (écriture syllabique) ?",
+      "choices": [
+        "L'alphabet",
+        "L'écriture syllabique (syllabaire)",
+        "L'écriture logographique",
+        "L'écriture abjad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel écrivain guinéen a écrit « L'Enfant noir », récit autobiographique classique de la littérature africaine ?",
+      "choices": [
+        "Camara Laye",
+        "Ahmadou Kourouma",
+        "Alioum Fantouré",
+        "Williams Sassine"
+      ],
+      "correctIndex": 0
     }
   ]
 }

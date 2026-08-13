@@ -2,134 +2,2004 @@
   "theme": "💻 Technologie",
   "questions": [
     {
-      "question": "Que signifient les lettres 'WWW' dans une adresse web ?",
+      "question": "Que signifie l'acronyme « IA » ?",
       "choices": [
-        "World Wide Waves",
-        "Wide World Web",
-        "World Wide Web",
-        "Web World Wide"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Quel système d'exploitation mobile est développé par Google ?",
-      "choices": [
-        "Android",
-        "Windows Phone",
-        "iOS",
-        "Symbian"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "question": "Qui est le cofondateur de Microsoft aux côtés de Paul Allen ?",
-      "choices": [
-        "Jeff Bezos",
-        "Mark Zuckerberg",
-        "Bill Gates",
-        "Steve Jobs"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Qui a fondé l'entreprise sociale et réseau social Facebook (Meta) ?",
-      "choices": [
-        "Larry Page",
-        "Jack Dorsey",
-        "Mark Zuckerberg",
-        "Elon Musk"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "question": "Que signifie l'acronyme 'IA' dans le domaine informatique ?",
-      "choices": [
-        "Interface Automatisée",
-        "Intelligence Artificielle",
-        "Information Accessible",
-        "Informatique Avancée"
+        "Intelligence artisanale",
+        "Intelligence artificielle",
+        "Informatique appliquée",
+        "Interface adaptative"
       ],
       "correctIndex": 1
     },
     {
-      "question": "Quel composant est considéré comme le 'cerveau' d'un ordinateur ?",
+      "question": "Quelle entreprise a créé le système d'exploitation Windows ?",
       "choices": [
-        "La carte graphique",
-        "Le disque dur",
-        "La mémoire RAM",
-        "Le processeur (CPU)"
+        "Apple",
+        "Microsoft",
+        "Google",
+        "IBM"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "Que signifie l'acronyme 'RAM' ?",
+      "question": "Quelle entreprise a créé l'iPhone ?",
       "choices": [
-        "Rapid Action Memory",
-        "Run Access Module",
-        "Random Access Memory",
-        "Read Access Memory"
+        "Samsung",
+        "Apple",
+        "Google",
+        "Nokia"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
-      "question": "Quel langage de programmation est représenté par un serpent comme logo ?",
+      "question": "Que signifie l'acronyme « PC » en informatique ?",
       "choices": [
-        "Python",
-        "C++",
-        "Java",
-        "Ruby"
+        "Programme Central",
+        "Personal Computer",
+        "Processeur Combiné",
+        "Panneau de Contrôle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel moteur de recherche est le plus utilisé au monde ?",
+      "choices": [
+        "Bing",
+        "Google",
+        "Yahoo",
+        "DuckDuckGo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réseau social permet de publier des messages courts, initialement limités à 140 puis 280 caractères ?",
+      "choices": [
+        "Facebook",
+        "Twitter (X)",
+        "Instagram",
+        "LinkedIn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réseau social est principalement axé sur le partage de photos et vidéos courtes ?",
+      "choices": [
+        "LinkedIn",
+        "Instagram",
+        "Twitter",
+        "Reddit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a créé le réseau social Facebook ?",
+      "choices": [
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Amazon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'appareil permet de se connecter à Internet sans fil grâce aux ondes radio ?",
+      "choices": [
+        "Le Bluetooth",
+        "Le Wi-Fi",
+        "L'USB",
+        "L'Ethernet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Que signifie l'acronyme « USB » ?",
+      "choices": [
+        "Universal Serial Bus",
+        "Unified System Board",
+        "Universal System Backup",
+        "United Serial Board"
       ],
       "correctIndex": 0
     },
     {
-      "question": "Quel jeu vidéo de construction de blocs est le plus vendu de tous les temps ?",
+      "question": "Quelle entreprise a créé le moteur de recherche et de nombreux services comme Gmail et YouTube ?",
       "choices": [
-        "Super Mario Bros",
-        "Tetris",
-        "GTA V",
-        "Minecraft"
+        "Microsoft",
+        "Google",
+        "Apple",
+        "Amazon"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
-      "question": "Quelle société américaine a créé le smartphone iPhone ?",
+      "question": "Quel jeu vidéo, très populaire, consiste à construire et survivre dans un monde fait de blocs ?",
       "choices": [
-        "Nokia",
-        "Apple",
+        "Fortnite",
+        "Minecraft",
+        "Roblox",
+        "Terraria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel jeu vidéo « battle royale » très populaire est développé par Epic Games ?",
+      "choices": [
+        "PUBG",
+        "Fortnite",
+        "Apex Legends",
+        "Call of Duty Warzone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a créé la console de jeu vidéo PlayStation ?",
+      "choices": [
+        "Nintendo",
         "Sony",
+        "Microsoft",
+        "Sega"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a créé la console de jeu vidéo Xbox ?",
+      "choices": [
+        "Sony",
+        "Microsoft",
+        "Nintendo",
+        "Sega"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise japonaise a créé les personnages Mario et Zelda ?",
+      "choices": [
+        "Sony",
+        "Nintendo",
+        "Sega",
+        "Capcom"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Que signifie l'acronyme « GPS » ?",
+      "choices": [
+        "Global Positioning System",
+        "General Public Service",
+        "Geo Positioning Software",
+        "Global Phone System"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle application de messagerie instantanée, appartenant à Meta, est très populaire pour les appels et messages ?",
+      "choices": [
+        "Telegram",
+        "WhatsApp",
+        "Signal",
+        "Viber"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de logiciel malveillant se réplique et endommage les fichiers d'un ordinateur ?",
+      "choices": [
+        "Un pare-feu",
+        "Un virus informatique",
+        "Un navigateur",
+        "Un pilote"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Que signifie l'acronyme « e-mail » ?",
+      "choices": [
+        "Electronic Mail",
+        "Easy Mail",
+        "Encrypted Mail",
+        "External Mail"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel appareil permet d'imprimer des documents numériques sur papier ?",
+      "choices": [
+        "Le scanner",
+        "L'imprimante",
+        "Le routeur",
+        "Le modem"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel appareil permet de numériser un document papier en fichier numérique ?",
+      "choices": [
+        "L'imprimante",
+        "Le scanner",
+        "Le clavier",
+        "L'écran"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de mémoire d'ordinateur est effacée à chaque extinction de l'appareil ?",
+      "choices": [
+        "Le disque dur",
+        "La RAM",
+        "La ROM",
+        "Le SSD"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de stockage informatique conserve les données même sans alimentation électrique ?",
+      "choices": [
+        "La RAM",
+        "Le disque dur",
+        "Le cache",
+        "Le registre processeur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réseau social professionnel est utilisé pour le recrutement et le networking ?",
+      "choices": [
+        "Facebook",
+        "LinkedIn",
+        "Instagram",
+        "TikTok"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plateforme vidéo, propriété de Google, permet de partager des vidéos gratuitement ?",
+      "choices": [
+        "Vimeo",
+        "YouTube",
+        "Dailymotion",
+        "Twitch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plateforme est spécialisée dans le streaming en direct de jeux vidéo ?",
+      "choices": [
+        "YouTube",
+        "Twitch",
+        "TikTok",
+        "Instagram"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de robot ou programme peut effectuer des tâches automatisées en ligne, parfois de façon malveillante ?",
+      "choices": [
+        "Un bot",
+        "Un avatar",
+        "Un widget",
+        "Un plugin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle entreprise chinoise a créé l'application TikTok ?",
+      "choices": [
+        "Tencent",
+        "ByteDance",
+        "Alibaba",
+        "Baidu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'appareil portable connecté se porte au poignet et suit l'activité physique ?",
+      "choices": [
+        "Un smartphone",
+        "Une montre connectée",
+        "Une tablette",
+        "Des écouteurs sans fil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format de fichier est couramment utilisé pour les documents non modifiables, préservant la mise en page ?",
+      "choices": [
+        "DOCX",
+        "PDF",
+        "TXT",
+        "CSV"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format de fichier compresse les photos numériques pour réduire leur taille ?",
+      "choices": [
+        "PNG",
+        "JPEG",
+        "GIF",
+        "BMP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle technologie sans fil à courte portée permet de connecter des écouteurs ou une souris à un ordinateur ?",
+      "choices": [
+        "Le Wi-Fi",
+        "Le Bluetooth",
+        "La 4G",
+        "Le NFC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Que signifie l'acronyme « Wi-Fi » de manière informelle (bien qu'il ne soit pas un vrai acronyme officiel) ?",
+      "choices": [
+        "Wireless Fidelity",
+        "Wide Field",
+        "Wireless File",
+        "World Internet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel navigateur web a été créé par Google ?",
+      "choices": [
+        "Firefox",
+        "Chrome",
+        "Safari",
+        "Edge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel navigateur web a été créé par Apple ?",
+      "choices": [
+        "Chrome",
+        "Safari",
+        "Firefox",
+        "Opera"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a créé le navigateur web Firefox ?",
+      "choices": [
+        "Google",
+        "Mozilla",
+        "Microsoft",
+        "Apple"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de logiciel protège un ordinateur contre les accès non autorisés depuis Internet ?",
+      "choices": [
+        "Un antivirus uniquement",
+        "Un pare-feu (firewall)",
+        "Un navigateur",
+        "Un compilateur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de logiciel détecte et supprime les programmes malveillants d'un ordinateur ?",
+      "choices": [
+        "Un pare-feu",
+        "Un antivirus",
+        "Un VPN",
+        "Un navigateur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a créé le service de cloud storage Google Drive ?",
+      "choices": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "Dropbox"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise commercialise le service de cloud storage OneDrive ?",
+      "choices": [
+        "Google",
+        "Microsoft",
+        "Apple",
+        "Amazon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'appareil électronique permet de lire des livres numériques, comme le Kindle ?",
+      "choices": [
+        "Une tablette classique",
+        "Une liseuse électronique (e-reader)",
+        "Un smartphone",
+        "Un ordinateur portable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise commercialise la liseuse Kindle ?",
+      "choices": [
+        "Apple",
+        "Amazon",
+        "Google",
+        "Barnes & Noble"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de connexion Internet utilise des câbles en fibre de verre pour des débits très rapides ?",
+      "choices": [
+        "L'ADSL",
+        "La fibre optique",
+        "Le satellite",
+        "Le Wi-Fi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a créé le service de streaming musical Spotify ?",
+      "choices": [
+        "Apple",
+        "Spotify AB",
+        "Google",
+        "Amazon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a créé le service de streaming vidéo Netflix ?",
+      "choices": [
+        "Amazon",
+        "Netflix, Inc.",
+        "Disney",
+        "Warner Bros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'appareil convertit les signaux numériques et analogiques pour connecter un foyer à Internet ?",
+      "choices": [
+        "Le routeur",
+        "Le modem",
+        "Le switch",
+        "Le répéteur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a créé le moteur de recherche et le jeu vidéo mobile Pokémon GO ?",
+      "choices": [
+        "Google",
+        "Nintendo directement",
+        "The Pokémon Company seule",
+        "Apple"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel type d'écran équipe la plupart des smartphones modernes ?",
+      "choices": [
+        "Écran à tube cathodique",
+        "Écran tactile capacitif",
+        "Écran plasma",
+        "Écran à cristaux liquides sans tactile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle unité mesure la vitesse d'un processeur d'ordinateur ?",
+      "choices": [
+        "Le octet",
+        "Le hertz",
+        "Le watt",
+        "Le bit par seconde"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage de programmation, créé en 1991 par Guido van Rossum, est très populaire pour l'intelligence artificielle ?",
+      "choices": [
+        "Java",
+        "Python",
+        "C++",
+        "Ruby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage de programmation est principalement utilisé pour rendre les pages web interactives ?",
+      "choices": [
+        "Python",
+        "JavaScript",
+        "C",
+        "SQL"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage de balisage structure le contenu des pages web ?",
+      "choices": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "PHP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage décrit la mise en forme visuelle des pages web ?",
+      "choices": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQL"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage de programmation est très utilisé pour la gestion et l'interrogation de bases de données ?",
+      "choices": [
+        "Python",
+        "SQL",
+        "HTML",
+        "Swift"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé le langage de programmation Java ?",
+      "choices": [
+        "Microsoft",
+        "Sun Microsystems",
+        "Google",
+        "Apple"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel système d'exploitation open source, créé par Linus Torvalds, est très utilisé sur les serveurs ?",
+      "choices": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Chrome OS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel système d'exploitation mobile, développé par Google, équipe la majorité des smartphones dans le monde ?",
+      "choices": [
+        "iOS",
+        "Android",
+        "Windows Phone",
+        "HarmonyOS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel système d'exploitation mobile équipe exclusivement les iPhone d'Apple ?",
+      "choices": [
+        "Android",
+        "iOS",
+        "Windows Phone",
+        "Symbian"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne l'ensemble des appareils du quotidien connectés à Internet ?",
+      "choices": [
+        "Le cloud computing",
+        "L'Internet des objets",
+        "Le big data",
+        "La réalité augmentée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne le stockage et le traitement de données via des serveurs distants accessibles par Internet ?",
+      "choices": [
+        "Le cloud computing",
+        "Le edge computing",
+        "Le peer-to-peer",
+        "Le mainframe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel terme technologique désigne d'énormes volumes de données analysés pour en extraire des tendances ?",
+      "choices": [
+        "Le cloud computing",
+        "Le big data",
+        "La blockchain",
+        "Le machine learning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne une technologie de registre décentralisé sécurisant des transactions, utilisée notamment par le Bitcoin ?",
+      "choices": [
+        "Le cloud computing",
+        "La blockchain",
+        "Le big data",
+        "Le machine learning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle cryptomonnaie, créée en 2009 par un individu ou groupe pseudonyme « Satoshi Nakamoto », est la plus connue au monde ?",
+      "choices": [
+        "Ethereum",
+        "Le Bitcoin",
+        "Le Litecoin",
+        "Le Dogecoin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle cryptomonnaie, lancée en 2015, permet l'exécution de « contrats intelligents » (smart contracts) ?",
+      "choices": [
+        "Le Bitcoin",
+        "L'Ethereum",
+        "Le Ripple",
+        "Le Cardano"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne une intelligence artificielle capable de générer du texte de façon conversationnelle, comme ChatGPT ?",
+      "choices": [
+        "Un moteur de recherche",
+        "Un modèle de langage",
+        "Un antivirus",
+        "Un système d'exploitation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé le modèle d'intelligence artificielle ChatGPT ?",
+      "choices": [
+        "Google",
+        "OpenAI",
+        "Microsoft",
+        "Meta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé l'assistant vocal Siri ?",
+      "choices": [
+        "Google",
+        "Apple",
+        "Amazon",
         "Samsung"
       ],
       "correctIndex": 1
     },
     {
-      "question": "ue signifie 'HTML' ?",
+      "question": "Quelle entreprise a développé l'assistant vocal Alexa, intégré aux enceintes connectées Echo ?",
       "choices": [
-        "HyperTransfer Mark Language",
-        "HighText Machine Language",
-        "Home Tool Markup Language",
-        "HyperText Markup Language"
+        "Google",
+        "Apple",
+        "Amazon",
+        "Microsoft"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
-      "question": "uel est le nom du premier navigateur web grand public ?",
+      "question": "Quel terme désigne un ordinateur exploitant les propriétés de la physique quantique pour des calculs très rapides ?",
       "choices": [
-        "Mosaic",
-        "Firefox",
-        "Chrome",
-        "Internet Explorer"
+        "Un superordinateur classique",
+        "Un ordinateur quantique",
+        "Un serveur cloud",
+        "Un processeur graphique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel composant d'un ordinateur, très utilisé en intelligence artificielle, excelle dans le calcul parallèle ?",
+      "choices": [
+        "Le processeur central (CPU)",
+        "La carte graphique (GPU)",
+        "La RAM",
+        "Le disque dur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel réseau social chinois, équivalent de Twitter/X en Chine, est très populaire pour les micro-blogs ?",
+      "choices": [
+        "WeChat",
+        "Weibo",
+        "QQ",
+        "Douyin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle application chinoise très populaire combine messagerie, paiement mobile et réseau social ?",
+      "choices": [
+        "Weibo",
+        "WeChat",
+        "Douyin",
+        "Alipay uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne la superposition d'éléments virtuels sur le monde réel via un smartphone ou des lunettes ?",
+      "choices": [
+        "La réalité virtuelle",
+        "La réalité augmentée",
+        "L'intelligence artificielle",
+        "Le cloud gaming"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un environnement numérique totalement immersif, simulé, généralement via un casque ?",
+      "choices": [
+        "La réalité augmentée",
+        "La réalité virtuelle",
+        "Le métavers uniquement",
+        "La 5G"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel jeu vidéo de tir en équipe, développé par Riot Games, connaît un grand succès e-sport (Valorant) ?",
+      "choices": [
+        "Overwatch",
+        "Valorant",
+        "Counter-Strike",
+        "Apex Legends"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel jeu vidéo de combat en arène (MOBA) développé par Riot Games est l'un des plus joués au monde ?",
+      "choices": [
+        "Dota 2",
+        "League of Legends",
+        "Heroes of the Storm",
+        "Smite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé le jeu vidéo Dota 2 et la plateforme Steam ?",
+      "choices": [
+        "Riot Games",
+        "Valve",
+        "Blizzard",
+        "Epic Games"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé la saga de jeux vidéo « Call of Duty » ?",
+      "choices": [
+        "Electronic Arts",
+        "Activision",
+        "Ubisoft",
+        "Rockstar Games"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé la saga de jeux vidéo « Grand Theft Auto » (GTA) ?",
+      "choices": [
+        "Activision",
+        "Rockstar Games",
+        "Ubisoft",
+        "Electronic Arts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé la saga de jeux vidéo « FIFA » (désormais « EA Sports FC ») ?",
+      "choices": [
+        "Konami",
+        "Electronic Arts",
+        "2K Sports",
+        "Ubisoft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme d'informatique désigne un programme conçu pour tromper l'utilisateur et voler ses données (hameçonnage) ?",
+      "choices": [
+        "Le spam",
+        "Le phishing",
+        "Le spyware uniquement",
+        "Le ransomware"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un logiciel malveillant qui chiffre les données d'une victime pour exiger une rançon ?",
+      "choices": [
+        "Le phishing",
+        "Le ransomware (rançongiciel)",
+        "Le spam",
+        "Le cheval de Troie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne des messages électroniques non sollicités envoyés en masse, souvent publicitaires ?",
+      "choices": [
+        "Le phishing",
+        "Le spam (pourriel)",
+        "Le ransomware",
+        "Le malware"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme technique désigne un logiciel qui se fait passer pour un programme légitime mais contient du code malveillant ?",
+      "choices": [
+        "Un ver informatique",
+        "Un cheval de Troie",
+        "Un rootkit uniquement",
+        "Un adware"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel protocole sécurisé, indiqué par un cadenas dans le navigateur, chiffre les échanges entre un site et l'utilisateur ?",
+      "choices": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle méthode d'authentification demande deux preuves d'identité distinctes (mot de passe + code) pour sécuriser un compte ?",
+      "choices": [
+        "Le chiffrement",
+        "L'authentification à deux facteurs (2FA)",
+        "Le VPN",
+        "Le pare-feu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel outil permet de créer une connexion sécurisée et chiffrée en masquant l'adresse IP de l'utilisateur ?",
+      "choices": [
+        "Un antivirus",
+        "Un VPN (réseau privé virtuel)",
+        "Un pare-feu",
+        "Un proxy simple sans chiffrement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format de fichier est couramment utilisé pour les feuilles de calcul, associé à Microsoft Excel ?",
+      "choices": [
+        "DOCX",
+        "XLSX",
+        "PPTX",
+        "CSV uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format de fichier est couramment utilisé pour les présentations, associé à Microsoft PowerPoint ?",
+      "choices": [
+        "DOCX",
+        "XLSX",
+        "PPTX",
+        "PDF"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel géant technologique a racheté Instagram en 2012 et WhatsApp en 2014 ?",
+      "choices": [
+        "Google",
+        "Facebook (Meta)",
+        "Microsoft",
+        "Amazon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel géant technologique commercialise les smartphones Galaxy et est un fabricant sud-coréen majeur ?",
+      "choices": [
+        "LG",
+        "Samsung",
+        "Sony",
+        "Huawei"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel géant technologique chinois est un important fabricant de smartphones et d'équipements télécoms (Huawei) ?",
+      "choices": [
+        "Xiaomi",
+        "Huawei",
+        "Oppo",
+        "Vivo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise commercialise les smartphones abordables et écosystème connecté sous la marque Xiaomi ?",
+      "choices": [
+        "Il s'agit bien de Xiaomi Corporation",
+        "Il s'agit de Huawei",
+        "Il s'agit de Samsung",
+        "Il s'agit d'Oppo"
       ],
       "correctIndex": 0
     },
     {
-      "question": "uel protocole sécurise les échanges web (cadenas vert) ?",
+      "question": "Quel terme désigne un site web permettant d'acheter et vendre des biens en ligne, comme Amazon ou Jumia en Afrique ?",
+      "choices": [
+        "Un réseau social",
+        "Un site d'e-commerce",
+        "Un forum",
+        "Un moteur de recherche"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plateforme d'e-commerce est particulièrement populaire dans plusieurs pays africains, dont le Cameroun ?",
+      "choices": [
+        "Amazon",
+        "Jumia",
+        "Alibaba",
+        "eBay"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne le paiement effectué via un téléphone mobile sans compte bancaire classique, très répandu en Afrique (mobile money) ?",
+      "choices": [
+        "Le crédit bancaire",
+        "Le mobile money",
+        "La carte de crédit",
+        "Le virement SWIFT"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel service de mobile money, lancé au Kenya, est devenu un modèle mondial de paiement mobile ?",
+      "choices": [
+        "Orange Money",
+        "M-Pesa",
+        "MTN Mobile Money",
+        "Wave"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel opérateur télécom propose le service « Mobile Money » très utilisé en Afrique francophone, dont au Cameroun ?",
+      "choices": [
+        "MTN",
+        "Orange",
+        "Les deux, MTN et Orange, proposent ce service",
+        "Aucun des deux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel terme désigne l'apprentissage automatique où un algorithme s'améliore à partir de données sans être explicitement programmé pour chaque tâche ?",
+      "choices": [
+        "Le big data",
+        "Le machine learning (apprentissage automatique)",
+        "Le cloud computing",
+        "L'edge computing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un sous-domaine du machine learning basé sur des réseaux de neurones à plusieurs couches ?",
+      "choices": [
+        "Le deep learning (apprentissage profond)",
+        "Le reinforcement learning",
+        "Le supervised learning uniquement",
+        "Le clustering"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel type de réseau de neurones est particulièrement efficace pour le traitement d'images (reconnaissance visuelle) ?",
+      "choices": [
+        "Réseau de neurones récurrent (RNN)",
+        "Réseau de neurones convolutif (CNN)",
+        "Perceptron simple",
+        "Réseau antagoniste génératif (GAN)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de réseau de neurones est adapté au traitement de séquences comme le texte ou la parole (historiquement) ?",
+      "choices": [
+        "Réseau convolutif (CNN)",
+        "Réseau récurrent (RNN)",
+        "Autoencodeur",
+        "SVM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle architecture de réseau de neurones, introduite en 2017 dans l'article « Attention is All You Need », a révolutionné le traitement du langage ?",
+      "choices": [
+        "Le CNN",
+        "Le Transformer",
+        "Le RNN classique",
+        "Le LSTM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de modèle d'IA générative crée des images ou du texte en confrontant deux réseaux, un générateur et un discriminateur ?",
+      "choices": [
+        "Le CNN",
+        "Le GAN (réseau antagoniste génératif)",
+        "Le Transformer",
+        "L'autoencodeur variationnel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé le modèle d'IA Gemini (anciennement Bard) ?",
+      "choices": [
+        "OpenAI",
+        "Google (DeepMind)",
+        "Meta",
+        "Microsoft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé le modèle d'intelligence artificielle Claude ?",
+      "choices": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a développé les modèles d'IA open source de la famille Llama ?",
+      "choices": [
+        "Google",
+        "Meta",
+        "OpenAI",
+        "Mistral AI"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle start-up française développe des modèles d'IA open source, notamment Mistral et Mixtral ?",
+      "choices": [
+        "Mistral AI",
+        "Hugging Face",
+        "Scaleway",
+        "OVHcloud"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle plateforme communautaire héberge de nombreux modèles d'IA open source et jeux de données, surnommée « le GitHub de l'IA » ?",
+      "choices": [
+        "Kaggle",
+        "Hugging Face",
+        "PyTorch Hub",
+        "TensorFlow Hub"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage de programmation, créé par Microsoft, est très utilisé dans l'écosystème .NET ?",
+      "choices": [
+        "Java",
+        "C#",
+        "Kotlin",
+        "Swift"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage de programmation, créé par Apple, remplace progressivement Objective-C pour le développement iOS ?",
+      "choices": [
+        "Java",
+        "Kotlin",
+        "Swift",
+        "Dart"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Quel langage de programmation, créé par Google, est utilisé notamment pour le développement Android moderne aux côtés de Java ?",
+      "choices": [
+        "Swift",
+        "Kotlin",
+        "Dart",
+        "Rust"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel framework JavaScript, développé par Facebook (Meta), est très utilisé pour créer des interfaces web (React) ?",
+      "choices": [
+        "Angular",
+        "React",
+        "Vue.js",
+        "Svelte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel framework JavaScript, développé par Google, est un concurrent majeur de React ?",
+      "choices": [
+        "React",
+        "Angular",
+        "Vue.js",
+        "Ember.js"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage de programmation, créé chez Mozilla, met l'accent sur la sécurité mémoire et la performance (Rust) ?",
+      "choices": [
+        "Go",
+        "Rust",
+        "Elixir",
+        "Haskell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage de programmation, créé par Google, est conçu pour la simplicité et la concurrence dans les systèmes distribués (Go) ?",
+      "choices": [
+        "Rust",
+        "Go (Golang)",
+        "Kotlin",
+        "Scala"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel protocole de transfert de fichiers classique, non sécurisé par défaut, permet d'envoyer des fichiers vers un serveur ?",
       "choices": [
         "HTTP",
         "FTP",
-        "HTTPS",
-        "SMTP"
+        "SMTP",
+        "DNS"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel protocole traduit les noms de domaine (comme google.com) en adresses IP numériques ?",
+      "choices": [
+        "HTTP",
+        "DNS",
+        "TCP",
+        "FTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel protocole gère l'envoi des e-mails entre serveurs de messagerie ?",
+      "choices": [
+        "POP3",
+        "SMTP",
+        "IMAP",
+        "FTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel modèle en couches décrit théoriquement les fonctions d'un système de réseau informatique (7 couches) ?",
+      "choices": [
+        "Le modèle TCP/IP",
+        "Le modèle OSI",
+        "Le modèle client-serveur",
+        "Le modèle peer-to-peer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne l'ensemble des techniques permettant à des machines de comprendre et générer le langage humain (NLP) ?",
+      "choices": [
+        "La vision par ordinateur",
+        "Le traitement automatique du langage naturel (NLP)",
+        "L'apprentissage par renforcement",
+        "La robotique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne le domaine de l'IA permettant aux ordinateurs d'interpréter des images et vidéos ?",
+      "choices": [
+        "Le NLP",
+        "La vision par ordinateur (computer vision)",
+        "Le clustering",
+        "Le reinforcement learning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'apprentissage automatique entraîne un agent à prendre des décisions via un système de récompenses et pénalités ?",
+      "choices": [
+        "L'apprentissage supervisé",
+        "L'apprentissage par renforcement",
+        "L'apprentissage non supervisé",
+        "Le transfer learning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'apprentissage automatique utilise des données étiquetées pour entraîner un modèle prédictif ?",
+      "choices": [
+        "L'apprentissage supervisé",
+        "L'apprentissage non supervisé",
+        "L'apprentissage par renforcement",
+        "L'apprentissage auto-supervisé uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel type d'apprentissage automatique cherche des structures ou groupes dans des données non étiquetées ?",
+      "choices": [
+        "L'apprentissage supervisé",
+        "L'apprentissage non supervisé",
+        "L'apprentissage par renforcement",
+        "L'apprentissage supervisé profond"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne la capacité d'un algorithme entraîné sur une tâche à être réutilisé efficacement sur une tâche connexe ?",
+      "choices": [
+        "Le fine-tuning uniquement",
+        "Le transfer learning (apprentissage par transfert)",
+        "Le clustering",
+        "Le pruning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel processeur spécialisé, conçu par Google, accélère spécifiquement les calculs de machine learning (TPU) ?",
+      "choices": [
+        "Le CPU",
+        "Le TPU (Tensor Processing Unit)",
+        "Le GPU générique",
+        "Le FPGA générique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise domine le marché des cartes graphiques (GPU) très utilisées en IA, avec ses puces H100 notamment ?",
+      "choices": [
+        "AMD",
+        "NVIDIA",
+        "Intel",
+        "Qualcomm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un très grand modèle de langage entraîné sur d'énormes quantités de texte (LLM) ?",
+      "choices": [
+        "Un CNN",
+        "Un Large Language Model (LLM)",
+        "Un GAN",
+        "Un SVM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne le phénomène où une IA générative produit des informations fausses présentées comme vraies (hallucination) ?",
+      "choices": [
+        "Le biais algorithmique",
+        "L'hallucination de l'IA",
+        "Le surapprentissage (overfitting)",
+        "Le sous-apprentissage (underfitting)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme technique désigne un modèle trop ajusté à ses données d'entraînement, perdant sa capacité de généralisation ?",
+      "choices": [
+        "Le sous-apprentissage",
+        "Le surapprentissage (overfitting)",
+        "L'hallucination",
+        "Le biais"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format de fichier ouvert, texte, structure des données en paires clé-valeur, très utilisé pour les échanges API ?",
+      "choices": [
+        "XML",
+        "JSON",
+        "CSV",
+        "YAML uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format de fichier tabulaire simple, séparé par des virgules, est couramment utilisé pour les données brutes ?",
+      "choices": [
+        "JSON",
+        "CSV",
+        "XML",
+        "PDF"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'architecture logicielle permet à des applications de communiquer entre elles via des requêtes standardisées (API) ?",
+      "choices": [
+        "Le modèle MVC",
+        "L'API (interface de programmation applicative)",
+        "Le framework",
+        "Le SDK uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel style architectural d'API, basé sur HTTP, est aujourd'hui le plus courant pour les services web (REST) ?",
+      "choices": [
+        "SOAP",
+        "REST",
+        "GraphQL uniquement",
+        "RPC classique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel langage de requête d'API, développé par Facebook, permet de demander précisément les données nécessaires ?",
+      "choices": [
+        "REST",
+        "GraphQL",
+        "SOAP",
+        "gRPC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel système de gestion de versions, créé par Linus Torvalds, est essentiel pour la collaboration en développement logiciel (Git) ?",
+      "choices": [
+        "Subversion (SVN)",
+        "Git",
+        "Mercurial",
+        "CVS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle plateforme d'hébergement de code, rachetée par Microsoft en 2018, est très utilisée pour Git (GitHub) ?",
+      "choices": [
+        "GitLab",
+        "GitHub",
+        "Bitbucket",
+        "SourceForge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne la pratique consistant à automatiser tests et déploiements logiciels de façon continue (CI/CD) ?",
+      "choices": [
+        "Le DevOps (intégration/déploiement continu)",
+        "Le waterfall",
+        "L'agile pur",
+        "Le scrum uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel terme désigne l'ensemble des pratiques rapprochant développement logiciel et opérations informatiques (DevOps) ?",
+      "choices": [
+        "Le DevOps",
+        "Le SRE uniquement",
+        "Le SecOps uniquement",
+        "Le NoOps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quelle technologie permet d'isoler des applications dans des environnements légers et portables (conteneurs) ?",
+      "choices": [
+        "Les machines virtuelles classiques uniquement",
+        "Docker (conteneurisation)",
+        "Le cloud public",
+        "Le RAID"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel outil d'orchestration de conteneurs, créé par Google, gère le déploiement à grande échelle (Kubernetes) ?",
+      "choices": [
+        "Docker Swarm",
+        "Kubernetes",
+        "Terraform uniquement",
+        "Ansible"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un réseau informatique reliant des appareils sur une zone géographique restreinte, comme un bureau ?",
+      "choices": [
+        "WAN",
+        "LAN (réseau local)",
+        "MAN",
+        "PAN uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un réseau informatique couvrant une vaste zone géographique, comme Internet ?",
+      "choices": [
+        "LAN",
+        "WAN (réseau étendu)",
+        "PAN",
+        "MAN uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle génération de réseau mobile, déployée à partir des années 2020, offre des débits très supérieurs à la 4G ?",
+      "choices": [
+        "La 3G",
+        "La 5G",
+        "La 4G+",
+        "La 6G (encore en développement)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'attaque informatique sature un serveur de requêtes pour le rendre indisponible (DDoS) ?",
+      "choices": [
+        "Le phishing",
+        "Le déni de service distribué (DDoS)",
+        "Le ransomware",
+        "L'injection SQL uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de vulnérabilité web permet d'injecter du code malveillant dans une requête vers une base de données (injection SQL) ?",
+      "choices": [
+        "Le XSS",
+        "L'injection SQL",
+        "Le CSRF",
+        "Le clickjacking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de vulnérabilité web permet d'injecter du script malveillant exécuté dans le navigateur d'une victime (XSS) ?",
+      "choices": [
+        "L'injection SQL",
+        "Le Cross-Site Scripting (XSS)",
+        "Le DDoS",
+        "Le phishing par email"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel algorithme de tri, très étudié en informatique, a une complexité moyenne de O(n log n) et utilise la stratégie « diviser pour régner » (quicksort ou merge sort) ?",
+      "choices": [
+        "Le tri à bulles",
+        "Le tri rapide (quicksort) ou le tri fusion (merge sort)",
+        "Le tri par insertion",
+        "Le tri par sélection"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle notation mathématique décrit la complexité algorithmique dans le pire des cas (notation de Landau) ?",
+      "choices": [
+        "La notation Big O",
+        "La notation epsilon-delta",
+        "La notation Sigma",
+        "La notation vectorielle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel concept en informatique théorique décrit un problème dont on ne peut vérifier la solution en temps polynomial que si elle est déjà connue (classe NP) ?",
+      "choices": [
+        "La classe P",
+        "La classe NP",
+        "La classe EXP",
+        "La classe PSPACE"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel problème fondamental en informatique théorique demande si P = NP, l'une des questions ouvertes les plus célèbres ?",
+      "choices": [
+        "Le problème du voyageur de commerce spécifiquement",
+        "Le problème P versus NP",
+        "Le problème d'arrêt (halting problem)",
+        "Le problème de satisfaisabilité booléenne uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mathématicien britannique a formalisé le concept de calculabilité avec la « machine de Turing » ?",
+      "choices": [
+        "John von Neumann",
+        "Alan Turing",
+        "Claude Shannon",
+        "Kurt Gödel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mathématicien est considéré comme le père de la théorie de l'information, avec son article fondateur de 1948 ?",
+      "choices": [
+        "Alan Turing",
+        "Claude Shannon",
+        "Norbert Wiener",
+        "John von Neumann"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel mathématicien hongrois-américain a formalisé l'architecture logique de la plupart des ordinateurs modernes ?",
+      "choices": [
+        "Alan Turing",
+        "John von Neumann",
+        "Claude Shannon",
+        "Charles Babbage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel inventeur britannique du 19e siècle est considéré comme le concepteur de la première machine à calculer programmable, la « machine analytique » ?",
+      "choices": [
+        "Alan Turing",
+        "Charles Babbage",
+        "Ada Lovelace",
+        "George Boole"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle mathématicienne britannique du 19e siècle est considérée comme la première programmeuse de l'histoire, collaboratrice de Charles Babbage ?",
+      "choices": [
+        "Grace Hopper",
+        "Ada Lovelace",
+        "Katherine Johnson",
+        "Hedy Lamarr"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle informaticienne américaine a développé le premier compilateur et contribué au langage COBOL ?",
+      "choices": [
+        "Ada Lovelace",
+        "Grace Hopper",
+        "Margaret Hamilton",
+        "Barbara Liskov"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle informaticienne a dirigé le développement du logiciel de guidage de la mission Apollo 11 ?",
+      "choices": [
+        "Grace Hopper",
+        "Margaret Hamilton",
+        "Katherine Johnson",
+        "Ada Lovelace"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel algorithme cryptographique asymétrique, basé sur la factorisation de grands nombres premiers, sécurise de nombreux échanges numériques (RSA) ?",
+      "choices": [
+        "AES",
+        "RSA",
+        "DES",
+        "SHA-256"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel algorithme de chiffrement symétrique, standard actuel, remplace le DES depuis les années 2000 ?",
+      "choices": [
+        "RSA",
+        "AES (Advanced Encryption Standard)",
+        "MD5",
+        "Blowfish uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de fonction cryptographique transforme une donnée en une empreinte de taille fixe, non réversible ?",
+      "choices": [
+        "Le chiffrement symétrique",
+        "La fonction de hachage (ex: SHA-256)",
+        "Le chiffrement asymétrique",
+        "La compression de données"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel protocole de consensus, utilisé par Bitcoin, sécurise le réseau via la résolution de calculs coûteux ?",
+      "choices": [
+        "Proof of Stake",
+        "Proof of Work",
+        "Proof of Authority",
+        "Delegated Proof of Stake"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel protocole de consensus, adopté par Ethereum en 2022, remplace la preuve de travail par un mécanisme moins énergivore ?",
+      "choices": [
+        "Proof of Work",
+        "Proof of Stake",
+        "Proof of Burn",
+        "Proof of Space"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne une organisation décentralisée dont les règles sont codées dans des smart contracts ?",
+      "choices": [
+        "Un NFT",
+        "Une DAO",
+        "Un DeFi générique",
+        "Un DApp uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne un jeton numérique unique, non interchangeable, souvent utilisé pour l'art numérique ?",
+      "choices": [
+        "Un token fongible standard",
+        "Un NFT",
+        "Un altcoin",
+        "Un stablecoin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne des applications financières décentralisées fonctionnant sans intermédiaire bancaire traditionnel ?",
+      "choices": [
+        "Le CeFi",
+        "La DeFi",
+        "Le trading algorithmique classique",
+        "Le mobile banking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel algorithme de recherche de Google, historique, classait les pages web selon leur popularité et leurs liens entrants ?",
+      "choices": [
+        "PageRank",
+        "BERT",
+        "MapReduce",
+        "Knowledge Graph"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel modèle de traitement du langage naturel de Google, sorti en 2018, a amélioré la compréhension contextuelle des recherches ?",
+      "choices": [
+        "GPT",
+        "BERT",
+        "Word2Vec",
+        "ELMo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel paradigme de calcul distribué, popularisé par Google, traite de très grands volumes de données en parallèle ?",
+      "choices": [
+        "MapReduce",
+        "Spark uniquement",
+        "Hadoop uniquement",
+        "Les trois sont liés à ce paradigme"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Quel framework open source de traitement de big data, écrit initialement en Java, s'appuie sur le paradigme MapReduce ?",
+      "choices": [
+        "Apache Spark",
+        "Apache Hadoop",
+        "Apache Kafka",
+        "Apache Flink"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel framework open source de traitement de données en mémoire, plus rapide que Hadoop pour certaines tâches, est très utilisé en data science ?",
+      "choices": [
+        "Apache Hadoop",
+        "Apache Spark",
+        "Apache Kafka",
+        "Apache Storm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle bibliothèque Python open source, développée par Google, est largement utilisée pour le deep learning ?",
+      "choices": [
+        "Scikit-learn",
+        "TensorFlow",
+        "NumPy",
+        "Pandas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle bibliothèque Python open source, développée initialement par Meta, est un concurrent majeur de TensorFlow pour le deep learning ?",
+      "choices": [
+        "Keras uniquement",
+        "PyTorch",
+        "Theano",
+        "Caffe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de mémoire d'ordinateur, très rapide mais coûteuse, est intégrée directement dans le processeur pour accélérer les accès ?",
+      "choices": [
+        "La RAM standard",
+        "La mémoire cache",
+        "Le disque SSD",
+        "La ROM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel jeu de circuits électroniques programmable, reconfigurable après fabrication, est utilisé pour des applications spécialisées ?",
+      "choices": [
+        "ASIC",
+        "FPGA",
+        "GPU générique",
+        "CPU standard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de circuit intégré, conçu sur mesure pour une tâche spécifique, est très efficace mais non reprogrammable ?",
+      "choices": [
+        "FPGA",
+        "ASIC",
+        "CPU généraliste",
+        "DSP générique uniquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel concept de sécurité informatique repose sur l'idée qu'aucun utilisateur ou appareil n'est intrinsèquement digne de confiance, même en interne ?",
+      "choices": [
+        "Le VPN classique",
+        "Le modèle Zero Trust",
+        "Le pare-feu périmétrique classique",
+        "L'authentification unique (SSO) seule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne l'informatique réalisée à proximité de la source de données plutôt que dans un cloud centralisé ?",
+      "choices": [
+        "Le cloud computing",
+        "L'edge computing",
+        "Le fog computing est identique en tout point",
+        "Le quantum computing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel domaine de recherche vise à construire des ordinateurs universels utilisant qubits et superposition quantique ?",
+      "choices": [
+        "L'informatique classique",
+        "L'informatique quantique",
+        "L'informatique neuromorphique",
+        "L'informatique optique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel phénomène quantique, exploité par les ordinateurs quantiques, permet à un qubit d'être dans plusieurs états simultanément ?",
+      "choices": [
+        "L'intrication quantique",
+        "La superposition quantique",
+        "La décohérence",
+        "L'effet tunnel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle entreprise a annoncé en 2019 avoir atteint la « suprématie quantique » avec son processeur Sycamore ?",
+      "choices": [
+        "IBM",
+        "Google",
+        "Microsoft",
+        "Intel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type d'architecture informatique s'inspire directement du fonctionnement du cerveau biologique et de ses neurones ?",
+      "choices": [
+        "L'architecture von Neumann classique",
+        "L'architecture neuromorphique",
+        "L'architecture Harvard",
+        "L'architecture RISC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne le principe selon lequel la puissance des processeurs (nombre de transistors) double environ tous les deux ans ?",
+      "choices": [
+        "La loi d'Amdahl",
+        "La loi de Moore",
+        "La loi de Metcalfe",
+        "La loi de Kryder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle loi informatique énonce que la valeur d'un réseau croît proportionnellement au carré du nombre de ses utilisateurs ?",
+      "choices": [
+        "La loi de Moore",
+        "La loi de Metcalfe",
+        "La loi d'Amdahl",
+        "La loi de Zipf"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel protocole de routage détermine le meilleur chemin pour transmettre des paquets de données entre systèmes autonomes sur Internet ?",
+      "choices": [
+        "OSPF",
+        "BGP",
+        "RIP",
+        "EIGRP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle organisation internationale coordonne l'attribution des noms de domaine et adresses IP à l'échelle mondiale ?",
+      "choices": [
+        "IETF",
+        "ICANN",
+        "W3C",
+        "IEEE"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quelle organisation établit les standards techniques du World Wide Web, comme HTML et CSS ?",
+      "choices": [
+        "ICANN",
+        "W3C",
+        "IETF",
+        "ISO"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel informaticien britannique est considéré comme l'inventeur du World Wide Web en 1989 au CERN ?",
+      "choices": [
+        "Vint Cerf",
+        "Tim Berners-Lee",
+        "Robert Kahn",
+        "Marc Andreessen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel informaticien américain est co-créateur du protocole TCP/IP, fondement technique d'Internet ?",
+      "choices": [
+        "Tim Berners-Lee",
+        "Vint Cerf",
+        "Larry Page",
+        "Sergey Brin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel navigateur web, créé par Marc Andreessen en 1993, a popularisé l'usage grand public d'Internet ?",
+      "choices": [
+        "Internet Explorer",
+        "Mosaic",
+        "Chrome",
+        "Opera"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel projet militaire américain des années 1960-70 est considéré comme l'ancêtre technique d'Internet ?",
+      "choices": [
+        "ARPANET",
+        "MILNET uniquement",
+        "NSFNET uniquement",
+        "CSNET"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Quel algorithme de compression, sans perte, sous-tend le format d'image PNG et le format ZIP ?",
+      "choices": [
+        "JPEG",
+        "DEFLATE",
+        "MP3",
+        "H.264"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format de compression vidéo, très répandu, est utilisé par de nombreuses plateformes de streaming ?",
+      "choices": [
+        "MP3",
+        "H.264",
+        "PNG",
+        "FLAC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel format audio, sans perte, préserve la qualité originale contrairement au MP3 ?",
+      "choices": [
+        "MP3",
+        "FLAC",
+        "AAC",
+        "OGG"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel type de test logiciel vérifie automatiquement le bon fonctionnement de petites unités de code isolées ?",
+      "choices": [
+        "Les tests d'intégration",
+        "Les tests unitaires",
+        "Les tests de charge",
+        "Les tests d'acceptation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel principe de conception logicielle orientée objet stipule qu'une classe devrait avoir une seule responsabilité ?",
+      "choices": [
+        "Le principe ouvert/fermé",
+        "Le principe de responsabilité unique (Single Responsibility)",
+        "Le principe de substitution de Liskov",
+        "Le principe d'inversion des dépendances"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel terme désigne la pratique d'écrire les tests avant le code de production pour guider le développement ?",
+      "choices": [
+        "Le BDD (Behavior-Driven Development)",
+        "Le TDD (Test-Driven Development)",
+        "Le DDD (Domain-Driven Development)",
+        "Le CDD"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Quel algorithme d'apprentissage supervisé, basé sur des arbres de décision combinés, est souvent performant sur données tabulaires ?",
+      "choices": [
+        "Régression linéaire simple",
+        "Random forest / gradient boosting (méthodes d'ensemble d'arbres)",
+        "K-means",
+        "PCA"
+      ],
+      "correctIndex": 1
     }
   ]
 }

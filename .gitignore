@@ -6,6 +6,9 @@ web_modules/
 # Dossier d'authentification Whatsapp (à garder privé)
 auth_info/
 
+# Dossier de database (à garder privé)
+data/
+
 # Logs et débogage
 logs
 *.log

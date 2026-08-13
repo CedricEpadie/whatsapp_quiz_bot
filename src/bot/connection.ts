@@ -11,6 +11,7 @@ import { config } from '../config/config';
 import { logger } from '../utils/logger';
 import { cancelAllActiveGamesOnDisconnect } from '../game/gameManager';
 import { handleIncomingMessage } from './commandRouter';
+import { restoreSessionIfNeeded, scheduleReupload } from '../utils/megaSession';
 
 /**
  * Décision produit : en cas de coupure, on n'essaie PAS de faire
@@ -20,6 +21,7 @@ import { handleIncomingMessage } from './commandRouter';
  * accepter de nouvelles commandes ensuite.
  */
 export async function startBot(): Promise<void> {
+  await restoreSessionIfNeeded();
   const { state, saveCreds } = await useMultiFileAuthState(config.authFolder);
 
   const sock: WASocket = makeWASocket({
@@ -28,7 +30,10 @@ export async function startBot(): Promise<void> {
     printQRInTerminal: false,
   });
 
-  sock.ev.on('creds.update', saveCreds);
+  sock.ev.on('creds.update', async () => {
+    await saveCreds();
+    scheduleReupload();
+  });
 
   sock.ev.on('connection.update', (update) => {
     const { connection, lastDisconnect, qr } = update;

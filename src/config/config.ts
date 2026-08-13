@@ -18,6 +18,9 @@ export const config = {
   // --- Stockage ---
   authFolder: process.env.AUTH_FOLDER ?? './auth_info',
   dbPath: process.env.DB_PATH ?? './data/quiz.db',
+  megaEmail : process.env.MEGA_EMAIL ?? '',
+  megaPassword : process.env.MEGA_PASSWORD ?? '',
+  sessionId : process.env.SESSION_ID ?? '',
 
   // --- Reconnexion ---
   disconnectCancelTimeoutMs: Number(
@@ -53,7 +56,7 @@ export const config = {
   // Nombre maximum d'appels concurrents vers l'API WhatsApp (envoi,
   // édition, réaction). Limite le risque de throttling/instabilité de
   // session quand beaucoup de joueurs répondent au même instant.
-  maxConcurrentWhatsAppCalls: 6,
+  maxConcurrentWhatsAppCalls: 24,
 
   // --- Barème de points ---
   points: {
@@ -67,7 +70,7 @@ export const config = {
   },
   // Seuil de "majorité ratée" : si (joueurs en échec / joueurs inscrits)
   // atteint ou dépasse cette proportion, majorityMissBonus s'applique.
-  majorityMissThreshold: 0.9,
+  majorityMissThreshold: 0.75,
 
   // --- Divers ---
   validChoices: ['A', 'B', 'C', 'D'] as const,
@@ -77,6 +80,7 @@ export const config = {
   // d'inscription (toutes les registrationReminderIntervalMs).
   registrationEncouragements: [
     "Qui sera le grand vainqueur ce soir ? 🏆",
+    "Un nouveau champion va-t-il émerger ? 🥇",
     "Ne restez pas spectateurs, venez jouer ! 🎮",
     "Encore quelques places pour les plus courageux 💪",
     "La culture générale n'attend que vous 🧠",

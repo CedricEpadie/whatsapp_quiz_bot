@@ -27,6 +27,13 @@ npm install
 cp .env.example .env
 ```
 
+Générez une session_id
+```bash
+npm run generate-session
+```
+
+Copier la session-id dans les variables d'environnement
+
 Éditez `.env` si besoin :
 
 ```
@@ -34,6 +41,9 @@ QUIZZ_ACCESS_MODE=linkedAccount   # ou "everyone"
 AUTH_FOLDER=./auth_info
 DB_PATH=./data/quiz.db
 DISCONNECT_CANCEL_TIMEOUT_MS=15000
+MEGA_EMAIL=youremailmega@gmail.com
+MEGA_PASSWORD=yourpasswordmega
+SESSION_ID=SESSIONID
 ```
 
 `QUIZZ_ACCESS_MODE` contrôle qui peut lancer `.quizz` :

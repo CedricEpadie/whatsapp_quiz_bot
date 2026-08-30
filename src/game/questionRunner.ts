@@ -28,13 +28,16 @@ export function tryHandleAnswer(
   messageKey: WAMessageKey,
   actions: Actions
 ): void {
-  const choice = extractAnswerChoice(rawText);
-  if (!choice) return;
+  // Lookups O(1) d'abord (Map/Set), avant la regex : dans un groupe actif,
+  // la plupart des messages viennent de non-joueurs ou de bavardage hors
+  // sujet, autant filtrer au moins cher avant d'invoquer extractAnswerChoice.
+  const player = playersByJid.get(jid);
+  if (!player) return; // pas inscrit à cette partie
 
   if (live.answeredJids.has(jid)) return; // déjà répondu (filet mémoire)
 
-  const player = playersByJid.get(jid);
-  if (!player) return; // pas inscrit à cette partie
+  const choice = extractAnswerChoice(rawText);
+  if (!choice) return;
 
   // Marquage mémoire immédiat pour fermer la fenêtre de concurrence avant
   // même l'écriture SQLite.
@@ -42,19 +45,35 @@ export function tryHandleAnswer(
 
   const isCorrect = choice === live.correctChoice;
 
-  const recorded = recordAnswer({
-    gameId,
-    playerId: player.id,
-    phase: live.phase,
-    questionIndex: live.questionIndex,
-    choice,
-    isCorrect,
-    answeredAt: Date.now(),
-    messageKey,
-  });
+  let recorded: boolean;
+  try {
+    recorded = recordAnswer({
+      gameId,
+      playerId: player.id,
+      phase: live.phase,
+      questionIndex: live.questionIndex,
+      choice,
+      isCorrect,
+      answeredAt: Date.now(),
+      messageKey,
+    });
+  } catch (err) {
+    // Erreur anormale (pas un doublon) : on libère le filet mémoire pour
+    // ne pas pénaliser un joueur dont la réponse n'a en réalité jamais
+    // été enregistrée, et on logue pour investigation.
+    live.answeredJids.delete(jid);
+    console.error('[quiz] échec recordAnswer', err);
+    return;
+  }
 
   if (recorded) {
-    void actions.react(messageKey, isCorrect ? '✅' : '❌');
+    // .catch() explicite : sans lui, un rejet (message supprimé,
+    // timeout réseau) devient une unhandled rejection qui peut faire
+    // planter le process en pleine partie (Semaphore.run propage les
+    // erreurs, voir utils/semaphore.ts).
+    actions.react(messageKey, isCorrect ? '✅' : '❌').catch((err) => {
+      console.error('[quiz] échec réaction ✅/❌', err);
+    });
   }
 }
 

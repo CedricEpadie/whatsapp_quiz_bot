@@ -107,11 +107,22 @@ export function getPlayerCount(gameId: number): number {
 }
 
 /**
+ * Marqueur du message d'erreur levé par sql.js quand une contrainte
+ * UNIQUE est violée (sql.js n'expose pas de classe d'erreur typée avec
+ * un `.code` comme better-sqlite3 : on doit distinguer par le message).
+ */
+const UNIQUE_CONSTRAINT_MARKER = 'UNIQUE constraint failed';
+
+/**
  * Enregistre une réponse. Grâce à la contrainte UNIQUE(game_id, player_id,
  * phase, question_index), une deuxième tentative du même joueur sur la
- * même question est silencieusement rejetée (on catch et on ignore) :
- * c'est exactement le comportement demandé ("seule la première réponse
- * valide est prise en compte").
+ * même question viole cette contrainte : c'est le SEUL cas où l'échec est
+ * normal et attendu ("seule la première réponse valide est prise en
+ * compte"), donc le seul cas où on retourne silencieusement `false`.
+ * Toute autre erreur (base verrouillée, contrainte de clé étrangère,
+ * etc.) est anormale et est repropagée : l'avaler ferait perdre une
+ * réponse valide sans que personne ne s'en aperçoive, alors que
+ * l'appelant a déjà marqué le joueur comme "a répondu" en mémoire.
  */
 export function recordAnswer(params: {
   gameId: number;
@@ -139,8 +150,12 @@ export function recordAnswer(params: {
       params.answeredAt
     );
     return true;
-  } catch {
-    return false; // déjà répondu à cette question
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    if (message.includes(UNIQUE_CONSTRAINT_MARKER)) {
+      return false; // vrai doublon : comportement voulu
+    }
+    throw err; // erreur anormale : ne pas la masquer
   }
 }
 

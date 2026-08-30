@@ -100,11 +100,32 @@ export function flushDbToDisk(): void {
 }
 
 function buildShim(rawDb: SqlJsDatabase): DbShim {
+  // Cache des statements compilés, indexés par le texte SQL exact. Sans ce
+  // cache, chaque appel à `.prepare(sql)` recompile le SQL via WASM — un
+  // coût répété inutilement pour des requêtes identiques exécutées en
+  // rafale (ex: plusieurs joueurs qui répondent à la même seconde).
+  //
+  // Sûr à réutiliser tel quel : tout le code de ce fichier est synchrone
+  // de bout en bout (bind → step → reset se termine avant tout `await`
+  // suivant), donc deux appels ne peuvent jamais s'entrelacer sur le même
+  // statement. On utilise `stmt.reset()` au lieu de `stmt.free()` pour
+  // remettre le statement dans un état réutilisable sans le détruire.
+  const stmtCache = new Map<string, ReturnType<SqlJsDatabase['prepare']>>();
+
+  function getCompiledStmt(sql: string): ReturnType<SqlJsDatabase['prepare']> {
+    let stmt = stmtCache.get(sql);
+    if (!stmt) {
+      stmt = rawDb.prepare(sql);
+      stmtCache.set(sql, stmt);
+    }
+    return stmt;
+  }
+
   return {
     prepare(sql: string): StatementShim {
       return {
         get(...params: unknown[]) {
-          const stmt = rawDb.prepare(sql);
+          const stmt = getCompiledStmt(sql);
           try {
             stmt.bind(params as never);
             if (stmt.step()) {
@@ -112,11 +133,11 @@ function buildShim(rawDb: SqlJsDatabase): DbShim {
             }
             return undefined;
           } finally {
-            stmt.free();
+            stmt.reset();
           }
         },
         all(...params: unknown[]) {
-          const stmt = rawDb.prepare(sql);
+          const stmt = getCompiledStmt(sql);
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           const rows: any[] = [];
           try {
@@ -126,11 +147,11 @@ function buildShim(rawDb: SqlJsDatabase): DbShim {
             }
             return rows;
           } finally {
-            stmt.free();
+            stmt.reset();
           }
         },
         run(...params: unknown[]) {
-          const stmt = rawDb.prepare(sql);
+          const stmt = getCompiledStmt(sql);
           try {
             stmt.bind(params as never);
             stmt.step();
@@ -142,7 +163,7 @@ function buildShim(rawDb: SqlJsDatabase): DbShim {
             }
             return { changes, lastInsertRowid };
           } finally {
-            stmt.free();
+            stmt.reset();
             schedulePersist();
           }
         },

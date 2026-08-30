@@ -24,7 +24,14 @@ const VALID: readonly string[] = config.validChoices;
  * français courant, ça créerait plus de faux positifs que ça n'aiderait.
  */
 export function extractAnswerChoice(rawText: string): ValidChoice | null {
-  const trimmed = rawText.trim();
+  // Certains claviers/versions de WhatsApp insèrent des caractères de
+  // contrôle invisibles (marques de direction, espace insécable,
+  // zero-width space) autour du texte. Sans ce nettoyage, un joueur qui
+  // tape "A" proprement peut voir sa réponse ignorée sans qu'aucun
+  // signal (ni ✅ ni ❌) ne l'indique.
+  const trimmed = rawText
+    .replace(/[\u200B-\u200F\u202A-\u202E\uFEFF\u00A0]/g, ' ')
+    .trim();
   if (!trimmed) return null;
   const upper = trimmed.toUpperCase();
 

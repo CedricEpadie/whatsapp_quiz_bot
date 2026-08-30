@@ -220,6 +220,32 @@ export function addPhaseBonus(gameId: number, playerId: number, phase: number, p
 }
 
 /**
+ * Supprime les parties terminées/annulées plus vieilles que `maxAgeMs`
+ * (et, par cascade FK, leurs joueurs/réponses/bonus associés).
+ *
+ * Pourquoi c'est nécessaire : sql.js réexporte et réécrit l'INTÉGRALITÉ
+ * du fichier .db à chaque flush (voir db/database.ts, persistNow). Ce
+ * coût croît avec la taille totale de la base, pas avec la taille de la
+ * dernière écriture — contrairement à un vrai fichier SQLite avec WAL.
+ * Sans purge, un bot qui tourne des mois voit ce coût dériver lentement
+ * et invisiblement à mesure que l'historique de parties s'accumule.
+ *
+ * Retourne le nombre de parties supprimées (utile pour le logging).
+ */
+export function pruneOldGames(maxAgeMs: number): number {
+  const cutoff = Date.now() - maxAgeMs;
+  const info = db
+    .prepare(
+      `DELETE FROM games
+       WHERE status IN ('finished', 'cancelled')
+         AND ended_at IS NOT NULL
+         AND ended_at < ?`
+    )
+    .run(cutoff);
+  return info.changes;
+}
+
+/**
  * Score total = somme des points de réponses + somme des bonus de phase.
  * C'est la requête utilisée pour tous les classements (fin de phase et
  * fin de partie).

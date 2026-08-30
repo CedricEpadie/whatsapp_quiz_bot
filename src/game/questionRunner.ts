@@ -147,7 +147,13 @@ export function startQuestion(
     if (cancelled) return;
 
     let lastShown = initialSeconds;
+    // Empêche deux éditions du décompte de se chevaucher si `actions.edit`
+    // met plus d'un tick (1s) à répondre — sans ce garde-fou, deux
+    // éditions en vol peuvent arriver dans le désordre et faire
+    // brièvement sauter le décompte affiché à une valeur incohérente.
+    let editInFlight = false;
     tickHandle = setInterval(() => {
+      if (editInFlight) return; // on saute ce tick plutôt que de superposer deux éditions
       void (async () => {
         const remainingMs = live.deadline - Date.now();
         const remainingSec = Math.ceil(remainingMs / 1000);
@@ -158,7 +164,12 @@ export function startQuestion(
         }
         if (remainingSec !== lastShown) {
           lastShown = remainingSec;
-          await actions.edit(countdownMsg.key, templates.countdown(remainingSec)).catch(() => undefined);
+          editInFlight = true;
+          try {
+            await actions.edit(countdownMsg.key, templates.countdown(remainingSec)).catch(() => undefined);
+          } finally {
+            editInFlight = false;
+          }
         }
       })();
     }, config.countdownTickMs);

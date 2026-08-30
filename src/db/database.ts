@@ -181,6 +181,25 @@ function buildShim(rawDb: SqlJsDatabase): DbShim {
   };
 }
 
+/**
+ * Exécute `fn` dans une transaction SQLite explicite (BEGIN/COMMIT,
+ * ROLLBACK en cas d'erreur). Utile pour grouper plusieurs écritures
+ * liées (ex: mettre à jour les points de tous les joueurs corrects
+ * d'une question) en une seule unité, plutôt que N écritures
+ * indépendantes.
+ */
+export function runInTransaction<T>(fn: () => T): T {
+  db.exec('BEGIN TRANSACTION');
+  try {
+    const result = fn();
+    db.exec('COMMIT');
+    return result;
+  } catch (err) {
+    db.exec('ROLLBACK');
+    throw err;
+  }
+}
+
 function columnExists(table: string): (column: string) => boolean {
   return (column: string) => {
     const cols = db.prepare(`PRAGMA table_info(${table})`).all() as { name: string }[];

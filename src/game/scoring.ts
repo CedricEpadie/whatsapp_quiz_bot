@@ -1,4 +1,5 @@
 import { config } from '../config/config';
+import { runInTransaction } from '../db/database';
 import {
   addPhaseBonus,
   getCorrectAnswersOrdered,
@@ -43,12 +44,17 @@ export function settleQuestionScores(
 
   const scored: ScoredAnswer[] = [];
 
-  correctAnswers.forEach((answer, index) => {
-    const isFastest = speedBonusActive && index < config.points.speedBonusRankCount;
-    const speedBonus = isFastest ? config.points.speedBonus : 0;
-    const points = basePoints + speedBonus;
-    updateAnswerPoints(answer.id, points, speedBonus);
-    scored.push({ playerId: answer.player_id, points, speedBonus });
+  // Une seule transaction pour les N mises à jour au lieu de N écritures
+  // indépendantes — évite N cycles bind/step/reset séparés quand
+  // beaucoup de joueurs ont répondu correctement à la même question.
+  runInTransaction(() => {
+    correctAnswers.forEach((answer, index) => {
+      const isFastest = speedBonusActive && index < config.points.speedBonusRankCount;
+      const speedBonus = isFastest ? config.points.speedBonus : 0;
+      const points = basePoints + speedBonus;
+      updateAnswerPoints(answer.id, points, speedBonus);
+      scored.push({ playerId: answer.player_id, points, speedBonus });
+    });
   });
 
   return { scored, majorityMissed };
@@ -65,9 +71,11 @@ export function applyPerfectPhaseBonus(
   phase: number
 ): { perfectPlayerIds: number[] } {
   const perfectPlayerIds = getPerfectPhasePlayers(gameId, phase, config.questionsPerPhase);
-  for (const playerId of perfectPlayerIds) {
-    addPhaseBonus(gameId, playerId, phase, config.points.perfectPhaseBonus);
-  }
+  runInTransaction(() => {
+    for (const playerId of perfectPlayerIds) {
+      addPhaseBonus(gameId, playerId, phase, config.points.perfectPhaseBonus);
+    }
+  });
   return { perfectPlayerIds };
 }
 

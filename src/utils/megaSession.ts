@@ -15,13 +15,36 @@ import { logger } from './logger';
  */
 const SESSION_FILENAME = 'auth_info.zip';
 
+/**
+ * Instance Storage Mega mise en cache et réutilisée entre les appels.
+ * Sans ce cache, `getStorage()` relogin depuis zéro sur Mega à CHAQUE
+ * appel — et `scheduleSessionReupload()` en déclenche un à chaque
+ * `creds.update`, qui survient "assez souvent pendant une session
+ * active" (voir plus bas). Des logins répétés depuis le même compte
+ * en peu de temps sont typiquement perçus comme un comportement
+ * suspect par Mega et peuvent entraîner un blocage du compte.
+ */
+let cachedStorage: Storage | null = null;
+
 async function getStorage(): Promise<Storage> {
+  if (cachedStorage) return cachedStorage;
   const storage = new Storage({
     email: config.megaEmail,
     password: config.megaPassword,
   });
   await storage.ready;
+  cachedStorage = storage;
   return storage;
+}
+
+/**
+ * Invalide le cache pour forcer un nouveau login au prochain appel.
+ * À utiliser uniquement quand une opération Mega échoue pour une
+ * raison qui suggère une session expirée/invalide (pas systématiquement
+ * sur n'importe quelle erreur réseau transitoire).
+ */
+function invalidateStorageCache(): void {
+  cachedStorage = null;
 }
 
 function zipAuthFolderToBuffer(): Buffer {
@@ -45,12 +68,20 @@ function findSessionFile(storage: Storage): MutableFile | undefined {
 /** Upload la session actuelle vers Mega, en remplaçant le fichier existant s'il y en a un. */
 export async function uploadAuthFolder(): Promise<void> {
   const buffer = zipAuthFolderToBuffer();
-  const storage = await getStorage();
-  const existing = findSessionFile(storage);
-  if (existing) {
-    await existing.delete(true);
+  try {
+    const storage = await getStorage();
+    const existing = findSessionFile(storage);
+    if (existing) {
+      await existing.delete(true);
+    }
+    await storage.upload({ name: SESSION_FILENAME }, buffer).complete;
+  } catch (err) {
+    // La session Mega en cache est peut-être devenue invalide (expirée,
+    // révoquée) : on force un nouveau login au prochain essai plutôt que
+    // de rester bloqué avec une instance Storage cassée indéfiniment.
+    invalidateStorageCache();
+    throw err;
   }
-  await storage.upload({ name: SESSION_FILENAME }, buffer).complete;
 }
 
 /** Télécharge la session depuis Mega (par nom fixe) et la restaure sur disque. */

@@ -11,7 +11,7 @@ import { config } from '../config/config';
 import { logger } from '../utils/logger';
 import { cancelAllActiveGamesOnDisconnect } from '../game/gameManager';
 import { handleIncomingMessage } from './commandRouter';
-import { restoreSessionIfNeeded } from '../utils/megaSession';
+import { restoreSessionIfNeeded, scheduleSessionReupload } from '../utils/megaSession';
 
 /**
  * Décision produit : en cas de coupure, on n'essaie PAS de faire
@@ -28,6 +28,17 @@ export async function startBot(): Promise<void> {
     auth: state,
     logger: pino({ level: 'silent' }),
     printQRInTerminal: false,
+  });
+
+  // Persiste chaque rotation de creds sur disque, PUIS programme un
+  // ré-upload (débouncé) vers Mega. Sans ce câblage, seule la session
+  // du tout premier pairing est sauvegardée : les rotations de clés
+  // qui surviennent en cours de vie normale de la session ne sont
+  // jamais persistées, et un redémarrage recharge une session périmée
+  // que WhatsApp rejette (nouveau QR requis).
+  sock.ev.on('creds.update', async () => {
+    await saveCreds();
+    scheduleSessionReupload();
   });
 
   sock.ev.on('connection.update', (update) => {

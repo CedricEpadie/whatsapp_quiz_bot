@@ -10,9 +10,11 @@ avec bonus de rapidité et sans-faute, classements SQLite.
   (WebSocket natif, plus léger et stable que whatsapp-web.js pour une
   session longue avec des timers serrés — voir justification donnée
   en amont)
-- **better-sqlite3** pour l'état de partie, les scores et l'historique
-  des réponses (synchrone, adapté aux écritures fréquentes pendant les
-  timers de 15s)
+- **sql.js** (SQLite compilé en WebAssembly) pour l'état de partie, les
+  scores et l'historique des réponses — choisi pour ne nécessiter aucune
+  compilation native au déploiement (contrairement à better-sqlite3),
+  ce que beaucoup d'hébergeurs de bots bloquent. Tourne en mémoire et
+  persiste sur disque après chaque écriture (voir `db/database.ts`).
 - **TypeScript** strict
 
 ## 1. Installation
@@ -43,8 +45,13 @@ DB_PATH=./data/quiz.db
 DISCONNECT_CANCEL_TIMEOUT_MS=15000
 MEGA_EMAIL=youremailmega@gmail.com
 MEGA_PASSWORD=yourpasswordmega
-SESSION_ID=SESSIONID
+PUBLIC_URL=https://votre-service.koyeb.app   # optionnel, voir section Hébergement
 ```
+
+`MEGA_EMAIL`/`MEGA_PASSWORD` suffisent : la session est sauvegardée sur
+Mega sous un nom de fichier fixe (`auth_info.zip`), retrouvé et mis à
+jour automatiquement — il n'y a plus de lien/handle à copier après
+`npm run generate-session`.
 
 `QUIZZ_ACCESS_MODE` contrôle qui peut lancer `.quizz` :
 
@@ -140,6 +147,44 @@ La session est ensuite persistée dans le dossier `AUTH_FOLDER`
 (`./auth_info` par défaut) : les lancements suivants ne redemandent
 pas de QR code, sauf si vous vous déconnectez manuellement depuis
 WhatsApp (auquel cas supprimez ce dossier et rescannez).
+
+## 5bis. Hébergement et maintien de connexion (Koyeb ou équivalent)
+
+Contrairement à WhatsApp Web dans un navigateur — dont l'onglet reste
+actif en permanence et envoie ses propres pings toutes les ~20-30s au
+niveau protocole — un bot hébergé sur un plan gratuit type Koyeb tourne
+sur un service qui se met en veille ("scale to zero") après une période
+sans trafic **entrant depuis Internet**. La connexion WebSocket que
+Baileys ouvre *vers* WhatsApp ne compte pas comme trafic entrant du
+point de vue de l'hébergeur : rien n'empêche la mise en veille par
+défaut, qui coupe le process (et donc la session WhatsApp) purement à
+cause de l'inactivité, même sans aucun problème réseau.
+
+Deux protections sont en place :
+
+1. **`utils/keepAlive.ts`** ping périodiquement le service pour repousser
+   la mise en veille. Configurez `PUBLIC_URL` avec l'URL publique de
+   votre déploiement (ex `https://xxx.koyeb.app`) : sans elle, le ping
+   reste en local (127.0.0.1) et ne quitte jamais la machine, donc ne
+   compte pas comme trafic pour l'hébergeur. Ce timer interne ne peut
+   toutefois pas *réveiller* le service s'il est déjà en veille (plus
+   rien ne tourne pour déclencher le ping suivant) : pour une garantie
+   plus solide, ajoutez en complément un moniteur externe gratuit
+   (UptimeRobot, cron-job.org...) qui appelle `PUBLIC_URL` toutes les
+   30-50 minutes.
+2. **`utils/megaSession.ts`** sauvegarde la session WhatsApp sur Mega et
+   la ré-uploade automatiquement à chaque rotation de clés (`creds.update`
+   côté Baileys), pas seulement au premier pairing. Si le service
+   redémarre malgré tout (veille, crash, redéploiement), il retrouve une
+   session à jour plutôt qu'une session périmée — ce qui évite d'avoir à
+   rescanner un QR code.
+
+Sur le plan gratuit de Koyeb, la mise en veille après 1h d'inactivité ne
+peut pas être désactivée et aucun disque persistant ne peut être
+attaché : au réveil, l'instance peut repartir sur un système de fichiers
+neuf. C'est pour ça que la session WhatsApp (Mega) et, dans une moindre
+mesure, la base `data/quiz.db`, doivent pouvoir être reconstituées sans
+dépendre du disque local seul.
 
 ## 6. Utilisation dans un groupe
 

@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-quiz-bot",
   "version": "1.0.0",
-  "description": "Bot WhatsApp animant un quizz de culture générale en groupe",
+  "description": "Bot WhatsApp animant un quizz de culture g\u00e9n\u00e9rale en groupe",
   "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@types/adm-zip": "^0.5.8",
-    "@types/node": "^22.20.1",
+    "@types/node": "^22.5.5",
     "@types/qrcode-terminal": "^0.12.2",
     "@types/sql.js": "^1.4.9",
     "ts-node": "^10.9.2",

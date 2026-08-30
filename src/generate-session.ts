@@ -24,12 +24,13 @@ async function connect(): Promise<void> {
 
     if (connection === 'open') {
       console.log('✅ Pairing réussi. Upload vers Mega...');
-      const sessionId = await uploadAuthFolder();
-      const [handle, key] = sessionId.split('#');
-      console.log('\n=== COPIE CES DEUX VALEURS ===');
-      console.log('SESSION_HANDLE =', handle.replace('https://mega.nz/file/', ''));
-      console.log('SESSION_KEY    =', key);
-      console.log('================================\n');
+      await uploadAuthFolder();
+      console.log(
+        '\n✅ Session sauvegardée sur Mega (fichier "auth_info.zip").\n' +
+          "Il n'y a rien d'autre à copier : tant que MEGA_EMAIL et MEGA_PASSWORD\n" +
+          'sont configurés, le bot retrouve et met à jour automatiquement cette\n' +
+          'sauvegarde (voir utils/megaSession.ts).\n'
+      );
       process.exit(0);
     }
 

@@ -18,10 +18,18 @@ export const config = {
   // --- Stockage ---
   authFolder: process.env.AUTH_FOLDER ?? './auth_info',
   dbPath: process.env.DB_PATH ?? './data/quiz.db',
-  megaEmail : process.env.MEGA_EMAIL ?? '',
-  megaPassword : process.env.MEGA_PASSWORD ?? '',
-  sessionHandle: process.env.SESSION_HANDLE ?? '',
-  sessionKey: process.env.SESSION_KEY ?? '',
+  // Sauvegarde/restauration de la session WhatsApp sur Mega, sous un nom
+  // de fichier fixe ('auth_info.zip') plutôt qu'un lien public à faire
+  // suivre manuellement : ça permet un ré-upload automatique à chaque
+  // rotation de creds (voir utils/megaSession.ts) sans jamais avoir à
+  // mettre à jour de variable d'environnement après le tout premier
+  // `npm run generate-session`.
+  megaEmail: process.env.MEGA_EMAIL ?? '',
+  megaPassword: process.env.MEGA_PASSWORD ?? '',
+  // URL publique du service (ex: https://xxx.koyeb.app), utilisée par le
+  // keep-alive pour s'auto-pinguer depuis l'extérieur plutôt qu'en
+  // loopback (voir utils/keepAlive.ts). Optionnel.
+  publicUrl: process.env.PUBLIC_URL ?? '',
 
   // --- Reconnexion ---
   disconnectCancelTimeoutMs: Number(

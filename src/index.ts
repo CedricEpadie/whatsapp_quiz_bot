@@ -5,7 +5,6 @@ import { setThemesCache } from './game/gameManager';
 import { startBot } from './bot/connection';
 import { logger } from './utils/logger';
 import { startKeepAlive } from './utils/keepAlive';
-import process from 'node:process';
 
 // sql.js travaille en mémoire : on doit s'assurer que les dernières
 // écritures en attente (debounce de 500ms, voir db/database.ts) sont

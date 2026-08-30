@@ -50,7 +50,7 @@ export const config = {
   registrationClosedPauseMs: 3_000, // laisser le temps de lire la liste des inscrits
   rulesReadPauseMs: 9_000, // laisser le temps de lire le rappel des règles avant de commencer
   phaseAnnouncePauseMs: 5_000, // laisser le temps de lire le thème avant la 1re question
-  questionDurationMs: 15_000,
+  questionDurationMs: 20_000,
   countdownTickMs: 1_000, // fréquence de mise à jour du décompte affiché
   interPhaseBreakMs: 18_000, // entre 15 et 20s, cf. cahier des charges
   phaseSummaryPauseMs: 6_000, // laisser le temps de lire le classement de fin de phase
@@ -65,7 +65,7 @@ export const config = {
   // Nombre maximum d'appels concurrents vers l'API WhatsApp (envoi,
   // édition, réaction). Limite le risque de throttling/instabilité de
   // session quand beaucoup de joueurs répondent au même instant.
-  maxConcurrentWhatsAppCalls: 24,
+  maxConcurrentWhatsAppCalls: 48,
 
   // --- Barème de points ---
   points: {

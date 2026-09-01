@@ -4,6 +4,7 @@ import { templates } from '../messages/templates';
 import { startQuizz, stopQuizz, routeGroupMessage } from '../game/gameManager';
 import { logger } from '../utils/logger';
 import { Semaphore } from '../utils/semaphore';
+import { resolveSenderJids } from '../utils/jid';
 import type { Actions, SentMessage } from './actions';
 
 /**
@@ -48,12 +49,8 @@ function isGroupMessage(msg: WAMessage): boolean {
   return Boolean(msg.key.remoteJid?.endsWith('@g.us'));
 }
 
-function getSenderJid(msg: WAMessage): string {
-  return msg.key.participant ?? msg.key.remoteJid ?? '';
-}
-
-function getSenderDisplayName(msg: WAMessage): string {
-  return msg.pushName?.trim() || getSenderJid(msg).split('@')[0];
+function getSenderDisplayName(msg: WAMessage, primaryJid: string): string {
+  return msg.pushName?.trim() || primaryJid.split('@')[0];
 }
 
 function makeActions(sock: WASocket, groupId: string): Actions {
@@ -102,8 +99,9 @@ export async function handleIncomingMessage(sock: WASocket, msg: WAMessage): Pro
   if (!text) return;
 
   const groupId = msg.key.remoteJid ?? '';
-  const senderJid = getSenderJid(msg);
-  const senderName = getSenderDisplayName(msg);
+  const senderIdentity = resolveSenderJids(msg);
+  const senderJid = senderIdentity.primary;
+  const senderName = getSenderDisplayName(msg, senderJid);
 
   const command = parseQuizzCommand(text);
 
@@ -149,6 +147,9 @@ export async function handleIncomingMessage(sock: WASocket, msg: WAMessage): Pro
 
   // Tout le reste (inscription "Partant", réponses A/B/C/D) est routé
   // vers le gestionnaire de partie, qui décide s'il y a quelque chose à
-  // en faire selon l'état courant.
-  await routeGroupMessage(groupId, senderJid, senderName, text, msg.key);
+  // en faire selon l'état courant. `senderIdentity` porte aussi bien le
+  // JID "primaire" que ses éventuelles variantes @lid/@s.whatsapp.net
+  // connues pour ce message (voir utils/jid.ts) : la partie a besoin
+  // des deux pour retrouver un joueur inscrit sous un format différent.
+  await routeGroupMessage(groupId, senderIdentity, senderName, text, msg.key);
 }

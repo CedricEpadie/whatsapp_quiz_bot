@@ -2,6 +2,8 @@ import { config } from '../config/config';
 import { getPlayerCount, getPlayers, registerPlayer } from '../db/gameRepository';
 import { templates } from '../messages/templates';
 import { DeadlineTimer } from '../utils/timer';
+import { allCandidateJids, type SenderIdentity } from '../utils/jid';
+import { logger } from '../utils/logger';
 import type { Actions } from '../bot/actions';
 
 export interface RegistrationWindow {
@@ -52,10 +54,18 @@ export function openRegistrationWindow(
  * Insensible à la casse, comparaison stricte au mot exact (pas de
  * sous-chaîne) pour éviter les faux positifs sur des phrases contenant
  * "partant" incidemment.
+ *
+ * `senderIdentity` porte le JID primaire du message ET ses variantes
+ * connues (@lid/@s.whatsapp.net, voir utils/jid.ts). Le contrôle
+ * "déjà inscrit ?" est fait sur TOUS les candidats : sans ça, un
+ * joueur dont Baileys rapporte le JID sous un format différent d'un
+ * message à l'autre pourrait se retrouver inscrit deux fois (deux
+ * lignes `players` distinctes pour la même personne), ce qui fausse
+ * ensuite silencieusement le comptage de joueurs et les classements.
  */
 export async function handleRegistrationMessage(
   gameId: number,
-  jid: string,
+  senderIdentity: SenderIdentity,
   displayName: string,
   rawText: string,
   actions: Actions
@@ -63,13 +73,21 @@ export async function handleRegistrationMessage(
   const normalized = rawText.trim().toLowerCase();
   if (normalized !== config.registrationKeyword) return;
 
-  const existing = getPlayers(gameId).find((p) => p.jid === jid);
+  const candidates = allCandidateJids(senderIdentity);
+  const existing = getPlayers(gameId).find((p) => candidates.includes(p.jid));
   if (existing) {
+    if (existing.jid !== senderIdentity.primary) {
+      logger.warn('Inscription "Partant" reçue avec un JID alternatif déjà inscrit', {
+        gameId,
+        knownJid: existing.jid,
+        newJid: senderIdentity.primary,
+      });
+    }
     await actions.send(templates.alreadyRegistered());
     return;
   }
 
-  const player = registerPlayer(gameId, jid, displayName);
+  const player = registerPlayer(gameId, senderIdentity.primary, displayName);
   if (!player) {
     await actions.send(templates.alreadyRegistered());
     return;

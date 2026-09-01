@@ -3,6 +3,7 @@ import { recordAnswer, type PlayerRow } from '../db/gameRepository';
 import { templates } from '../messages/templates';
 import { settleQuestionScores } from './scoring';
 import { extractAnswerChoice } from '../utils/answerParser';
+import { logger } from '../utils/logger';
 import type { LiveQuestionState, Question } from './types';
 import type { Actions } from '../bot/actions';
 import type { WAMessageKey } from '@whiskeysockets/baileys';
@@ -13,7 +14,15 @@ import type { WAMessageKey } from '@whiskeysockets/baileys';
  * - message pas exactement une lettre valide -> ignoré, pas d'erreur
  * - joueur ayant déjà répondu (filet mémoire immédiat + contrainte
  *   SQLite en second filet en cas de course) -> ignoré
- * - joueur non inscrit à la partie -> ignoré
+ *
+ * La résolution "ce message vient-il d'un joueur inscrit ?" est faite
+ * en amont par l'appelant (gameManager.routeGroupMessage), via
+ * utils/jid.resolveSenderJids + resolvePlayerByIdentity, pour prendre
+ * en compte le fait qu'un même joueur peut apparaître sous des JID
+ * différents (@lid / @s.whatsapp.net) selon les messages — voir
+ * utils/jid.ts. Cette fonction reçoit donc directement le `player`
+ * déjà résolu, et utilise `player.jid` (son JID canonique en base)
+ * comme clé dans `answeredJids`, pas le JID brut du message reçu.
  *
  * Réagit immédiatement (✅/❌) sur le message du joueur dès que sa
  * réponse est prise en compte — bien avant le message de révélation
@@ -22,17 +31,12 @@ import type { WAMessageKey } from '@whiskeysockets/baileys';
 export function tryHandleAnswer(
   live: LiveQuestionState,
   gameId: number,
-  playersByJid: Map<string, PlayerRow>,
-  jid: string,
+  player: PlayerRow,
   rawText: string,
   messageKey: WAMessageKey,
   actions: Actions
 ): void {
-  // Lookups O(1) d'abord (Map/Set), avant la regex : dans un groupe actif,
-  // la plupart des messages viennent de non-joueurs ou de bavardage hors
-  // sujet, autant filtrer au moins cher avant d'invoquer extractAnswerChoice.
-  const player = playersByJid.get(jid);
-  if (!player) return; // pas inscrit à cette partie
+  const jid = player.jid;
 
   if (live.answeredJids.has(jid)) return; // déjà répondu (filet mémoire)
 
@@ -62,7 +66,7 @@ export function tryHandleAnswer(
     // ne pas pénaliser un joueur dont la réponse n'a en réalité jamais
     // été enregistrée, et on logue pour investigation.
     live.answeredJids.delete(jid);
-    console.error('[quiz] échec recordAnswer', err);
+    logger.error('Échec recordAnswer', { playerId: player.id, jid, error: String(err) });
     return;
   }
 
@@ -71,8 +75,18 @@ export function tryHandleAnswer(
     // timeout réseau) devient une unhandled rejection qui peut faire
     // planter le process en pleine partie (Semaphore.run propage les
     // erreurs, voir utils/semaphore.ts).
+    //
+    // Important pour le diagnostic : un échec ICI ne signifie PAS que
+    // la réponse du joueur a été perdue — `recordAnswer` a déjà réussi
+    // au-dessus, donc les points seront bien attribués. Seul le retour
+    // visuel ✅/❌ sur le message manque. Un joueur peut donc légitimement
+    // avoir l'impression d'être "ignoré" alors que sa réponse compte.
     actions.react(messageKey, isCorrect ? '✅' : '❌').catch((err) => {
-      console.error('[quiz] échec réaction ✅/❌', err);
+      logger.warn("Échec réaction ✅/❌ (réponse enregistrée quand même)", {
+        playerId: player.id,
+        jid,
+        error: String(err),
+      });
     });
   }
 }

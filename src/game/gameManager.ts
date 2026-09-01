@@ -13,9 +13,11 @@ import { openRegistrationWindow, handleRegistrationMessage, type RegistrationWin
 import { startQuestion, tryHandleAnswer, type RunQuestionResult } from './questionRunner';
 import { applyPerfectPhaseBonus, determineWinners, getCurrentScoreboard } from './scoring';
 import { logger } from '../utils/logger';
+import { extractAnswerChoice } from '../utils/answerParser';
 import type { LiveQuestionState, ThemeFile } from './types';
 import type { Actions } from '../bot/actions';
 import type { WAMessageKey } from '@whiskeysockets/baileys';
+import type { SenderIdentity } from '../utils/jid';
 
 type RuntimePhase = 'registration' | 'running' | 'idle';
 
@@ -39,6 +41,48 @@ interface RuntimeGame {
 
 /** Une entrée par groupe ayant une partie active (registration ou running). */
 const runtimeGames = new Map<string, RuntimeGame>();
+
+/**
+ * Retrouve un joueur inscrit à partir de tous ses JID candidats
+ * (primaire + variantes @lid/@s.whatsapp.net connues sur ce message
+ * précis — voir utils/jid.ts). WhatsApp ne garantit pas que Baileys
+ * rapporte toujours le même format de JID pour une même personne d'un
+ * message à l'autre ; un joueur inscrit sous un format peut donc
+ * répondre sous l'autre. Sans ce filet, `playersByJid.get(jid)` rate
+ * silencieusement et la réponse est ignorée comme si le joueur n'était
+ * pas inscrit (bug observé : réponses ignorées de façon intermittente,
+ * surtout quand plusieurs joueurs répondent au même moment).
+ *
+ * Si le joueur est retrouvé via une variante (pas le JID primaire), la
+ * map est mise à jour pour indexer aussi cette variante (auto-
+ * guérison : les prochains messages sous ce format seront trouvés en
+ * O(1) direct) et l'événement est loggé pour pouvoir confirmer/mesurer
+ * la fréquence du phénomène en production.
+ */
+function resolvePlayerByIdentity(
+  playersByJid: Map<string, PlayerRow>,
+  identity: SenderIdentity,
+  context: string
+): PlayerRow | undefined {
+  const direct = playersByJid.get(identity.primary);
+  if (direct) return direct;
+
+  for (const altJid of identity.alternates) {
+    const viaAlt = playersByJid.get(altJid);
+    if (viaAlt) {
+      playersByJid.set(identity.primary, viaAlt); // auto-guérison pour les prochains messages
+      logger.warn('Joueur retrouvé via un JID alternatif (@lid/@s.whatsapp.net)', {
+        context,
+        primaryJid: identity.primary,
+        matchedAltJid: altJid,
+        playerId: viaAlt.id,
+      });
+      return viaAlt;
+    }
+  }
+
+  return undefined;
+}
 
 let allThemesCache: ThemeFile[] = [];
 
@@ -284,7 +328,7 @@ export async function stopQuizz(groupId: string, actions: Actions): Promise<bool
  */
 export async function routeGroupMessage(
   groupId: string,
-  jid: string,
+  senderIdentity: SenderIdentity,
   displayName: string,
   text: string,
   messageKey: WAMessageKey
@@ -293,16 +337,35 @@ export async function routeGroupMessage(
   if (!runtime || runtime.cancelled) return;
 
   if (runtime.phase === 'registration') {
-    await handleRegistrationMessage(runtime.gameId, jid, displayName, text, runtime.actions);
+    await handleRegistrationMessage(runtime.gameId, senderIdentity, displayName, text, runtime.actions);
     return;
   }
 
   if (runtime.phase === 'running' && runtime.liveQuestion) {
+    const player = resolvePlayerByIdentity(runtime.playersByJid, senderIdentity, 'question_answer');
+
+    if (!player) {
+      // Pas de correspondance, même en tenant compte des variantes de
+      // JID connues sur ce message. Loggé uniquement quand le texte
+      // ressemble à une tentative de réponse (A/B/C/D ou formulation
+      // reconnue), pour ne pas noyer les logs avec le bavardage normal
+      // du groupe. Utile pour distinguer ce cas (joueur non retrouvé)
+      // d'une perte en amont (message jamais reçu par Baileys, ex :
+      // échec de déchiffrement sous forte charge).
+      if (extractAnswerChoice(text)) {
+        logger.warn('Réponse potentielle ignorée : aucun joueur inscrit ne correspond', {
+          groupId,
+          primaryJid: senderIdentity.primary,
+          alternateJids: senderIdentity.alternates,
+        });
+      }
+      return;
+    }
+
     tryHandleAnswer(
       runtime.liveQuestion,
       runtime.gameId,
-      runtime.playersByJid,
-      jid,
+      player,
       text,
       messageKey,
       runtime.actions

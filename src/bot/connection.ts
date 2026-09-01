@@ -24,9 +24,16 @@ export async function startBot(): Promise<void> {
   await restoreSessionIfNeeded();
   const { state, saveCreds } = await useMultiFileAuthState(config.authFolder);
 
+  // Le logger interne de Baileys était en 'silent' : ça masquait
+  // totalement les avertissements de session Signal (ex : échec de
+  // déchiffrement d'un message, renégociation de clé) qui sont une
+  // cause plausible de messages jamais reçus par le bot, en particulier
+  // sous forte charge (plusieurs joueurs qui répondent au même
+  // instant). Niveau 'warn' : suffisant pour capter ces événements
+  // sans être noyé par le trafic normal (verbeux en 'debug'/'trace').
   const sock: WASocket = makeWASocket({
     auth: state,
-    logger: pino({ level: 'silent' }),
+    logger: pino({ level: 'warn' }),
     printQRInTerminal: false,
   });
 
@@ -70,6 +77,16 @@ export async function startBot(): Promise<void> {
 
   sock.ev.on('messages.upsert', async ({ messages, type }) => {
     if (type !== 'notify') return;
+    // Diagnostic : trace la taille de chaque lot reçu. Sert à corréler
+    // les rapports "réponses ignorées surtout quand tout le monde
+    // répond en même temps" avec la taille réelle des lots livrés par
+    // Baileys (un gros lot n'implique pas forcément un traitement
+    // concurrent problématique côté bot — voir le raisonnement détaillé
+    // dans questionRunner.tryHandleAnswer — mais aide à confirmer si le
+    // volume corrèle avec les pertes observées côté déchiffrement).
+    if (messages.length > 1) {
+      logger.info(`Lot de ${messages.length} messages reçus simultanément`);
+    }
     // Traitement CONCURRENT du lot de messages (important quand beaucoup
     // de joueurs répondent quasi simultanément) : chaque réponse est
     // indépendante des autres et sécurisée contre les courses via le

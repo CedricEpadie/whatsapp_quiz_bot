@@ -65,6 +65,17 @@ let raw: SqlJsDatabase | undefined;
 let dbFilePath = '';
 let saveTimer: NodeJS.Timeout | undefined;
 
+/**
+ * Cache des statements sql.js compilés, indexé par le texte SQL exact.
+ * Défini au niveau module (et non dans buildShim) car `persistNow()` doit
+ * pouvoir le vider : `Database.prototype.export()` de sql.js libère
+ * (`.free()`) TOUS les statements ouverts et remplace le pointeur de
+ * connexion bas niveau avant de sérialiser — voir persistNow() ci-dessous
+ * pour le détail. Sans ce vidage, le prochain appel réutiliserait un
+ * statement déjà finalisé et sql.js lèverait `"Statement closed"`.
+ */
+const stmtCache = new Map<string, ReturnType<SqlJsDatabase['prepare']>>();
+
 function ensureDirExists(filePath: string): void {
   const dir = path.dirname(filePath);
   if (!fs.existsSync(dir)) {
@@ -86,6 +97,12 @@ function schedulePersist(): void {
 function persistNow(): void {
   if (!raw) return;
   const data = raw.export();
+  // sql.js's export() finalizes (`.free()`) every statement it has ever
+  // prepared and reopens the connection under a new low-level pointer.
+  // Tout statement mis en cache est donc mort après cet appel : on vide
+  // le cache pour forcer une re-préparation fraîche au prochain appel
+  // plutôt que de réutiliser un objet déjà finalisé (voir buildShim).
+  stmtCache.clear();
   fs.writeFileSync(dbFilePath, Buffer.from(data));
 }
 
@@ -100,18 +117,6 @@ export function flushDbToDisk(): void {
 }
 
 function buildShim(rawDb: SqlJsDatabase): DbShim {
-  // Cache des statements compilés, indexés par le texte SQL exact. Sans ce
-  // cache, chaque appel à `.prepare(sql)` recompile le SQL via WASM — un
-  // coût répété inutilement pour des requêtes identiques exécutées en
-  // rafale (ex: plusieurs joueurs qui répondent à la même seconde).
-  //
-  // Sûr à réutiliser tel quel : tout le code de ce fichier est synchrone
-  // de bout en bout (bind → step → reset se termine avant tout `await`
-  // suivant), donc deux appels ne peuvent jamais s'entrelacer sur le même
-  // statement. On utilise `stmt.reset()` au lieu de `stmt.free()` pour
-  // remettre le statement dans un état réutilisable sans le détruire.
-  const stmtCache = new Map<string, ReturnType<SqlJsDatabase['prepare']>>();
-
   function getCompiledStmt(sql: string): ReturnType<SqlJsDatabase['prepare']> {
     let stmt = stmtCache.get(sql);
     if (!stmt) {
@@ -227,6 +232,11 @@ export async function initDb(filePath: string = config.dbPath): Promise<void> {
   } else {
     raw = new SQL.Database();
   }
+
+  // Sécurité si initDb() est rappelé avec une nouvelle connexion (ex: en
+  // tests) : les statements déjà en cache seraient liés à l'ancienne
+  // connexion sql.js désormais obsolète.
+  stmtCache.clear();
 
   db = buildShim(raw);
   db.pragma('foreign_keys = ON');

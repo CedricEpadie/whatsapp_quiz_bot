@@ -14,6 +14,20 @@ import { handleIncomingMessage } from './commandRouter';
 import { restoreSessionIfNeeded, scheduleSessionReupload } from '../utils/megaSession';
 
 /**
+ * Compteur de connexions ouvertes depuis le démarrage du PROCESS (pas
+ * depuis le démarrage du bot au sens produit). Un `connectionOpenCount`
+ * > 1 pendant une même partie en cours indique une reconnexion Baileys
+ * (coupure réseau, redémarrage) — utile pour corréler les échecs de
+ * déchiffrement ("No session found to decrypt message") avec une perte
+ * de session locale plutôt qu'un simple aléa de protocole, en
+ * particulier sur un hébergement à mise en veille (voir README section
+ * 5bis : restauration de session depuis Mega potentiellement plus
+ * ancienne que les sessions apprises juste avant la coupure).
+ */
+let connectionOpenCount = 0;
+const processStartedAt = Date.now();
+
+/**
  * Décision produit : en cas de coupure, on n'essaie PAS de faire
  * survivre une partie en cours (state en mémoire perdu de toute façon
  * pour les timers actifs). On annule proprement (gameManager s'en
@@ -29,11 +43,19 @@ export async function startBot(): Promise<void> {
   // déchiffrement d'un message, renégociation de clé) qui sont une
   // cause plausible de messages jamais reçus par le bot, en particulier
   // sous forte charge (plusieurs joueurs qui répondent au même
-  // instant). Niveau 'warn' : suffisant pour capter ces événements
-  // sans être noyé par le trafic normal (verbeux en 'debug'/'trace').
+  // instant).
+  //
+  // Niveau 'info' (temporaire, le temps d'investiguer les pertes de
+  // messages signalées) : permet en plus de voir la ligne "sent retry
+  // receipt" que Baileys émet automatiquement quand il échoue à
+  // déchiffrer un message et demande un renvoi au téléphone de
+  // l'expéditeur — ça permet de savoir si ce mécanisme de rattrapage se
+  // déclenche bien, et s'il aboutit à temps par rapport à la fenêtre de
+  // réponse de la question (20s par défaut). Repasser à 'warn' une fois
+  // le diagnostic terminé si le volume de logs devient gênant.
   const sock: WASocket = makeWASocket({
     auth: state,
-    logger: pino({ level: 'warn' }),
+    logger: pino({ level: 'info' }),
     printQRInTerminal: false,
   });
 
@@ -71,7 +93,11 @@ export async function startBot(): Promise<void> {
         logger.error('Session déconnectée (logout). Ré-authentification requise (nouveau QR).');
       }
     } else if (connection === 'open') {
-      logger.info('Bot connecté à WhatsApp ✅');
+      connectionOpenCount += 1;
+      logger.info('Bot connecté à WhatsApp ✅', {
+        connectionOpenCount,
+        processUptimeSec: Math.round((Date.now() - processStartedAt) / 1000),
+      });
     }
   });
 

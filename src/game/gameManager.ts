@@ -94,6 +94,18 @@ export function hasActiveGame(groupId: string): boolean {
   return runtimeGames.has(groupId) || Boolean(getActiveGame(groupId));
 }
 
+/**
+ * Diagnostic uniquement : indique si une question est actuellement en
+ * attente de réponses dans ce groupe. Utilisé par commandRouter pour
+ * savoir si un message perdu à cause d'un échec de déchiffrement
+ * ("No session found to decrypt message", voir bot/connection.ts) est
+ * tombé pendant la fenêtre de réponse (perte potentiellement décisive
+ * pour le joueur) ou en dehors (sans conséquence sur le jeu).
+ */
+export function isQuestionLiveInGroup(groupId: string): boolean {
+  return Boolean(runtimeGames.get(groupId)?.liveQuestion);
+}
+
 /** Sommeil interruptible par .quizz stop (voir RuntimeGame.cancelSleep). */
 function cancellableSleep(runtime: RuntimeGame, ms: number): Promise<void> {
   return new Promise((resolve) => {

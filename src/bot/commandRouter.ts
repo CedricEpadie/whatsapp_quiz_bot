@@ -1,7 +1,7 @@
 import type { WASocket, WAMessage } from '@whiskeysockets/baileys';
 import { config } from '../config/config';
 import { templates } from '../messages/templates';
-import { startQuizz, stopQuizz, routeGroupMessage } from '../game/gameManager';
+import { startQuizz, stopQuizz, routeGroupMessage, isQuestionLiveInGroup } from '../game/gameManager';
 import { logger } from '../utils/logger';
 import { Semaphore } from '../utils/semaphore';
 import { resolveSenderJids } from '../utils/jid';
@@ -94,6 +94,24 @@ function parseQuizzCommand(
 export async function handleIncomingMessage(sock: WASocket, msg: WAMessage): Promise<void> {
   const msgId = msg.key.id;
   if (msgId && sentMessageIds.has(msgId)) return; // écho d'un de nos propres envois
+
+  // Diagnostic : un message que Baileys n'a pas réussi à déchiffrer
+  // ("No session found to decrypt message", voir logs internes en
+  // bot/connection.ts) arrive quand même jusqu'ici, mais VIDÉ de son
+  // contenu (messageStubType = CIPHERTEXT) — extractText() ci-dessous
+  // retournerait juste '' silencieusement. On le trace explicitement
+  // ici, avec le contexte "une question est-elle active dans ce groupe
+  // en ce moment ?", pour distinguer une perte sans conséquence d'une
+  // perte qui a effectivement coûté une réponse à un joueur.
+  if (msg.messageStubType === 2 /* proto.WebMessageInfo.StubType.CIPHERTEXT */) {
+    const groupId = msg.key.remoteJid ?? '';
+    logger.warn('Message reçu mais illisible (échec de déchiffrement en amont)', {
+      groupId,
+      participant: msg.key.participant,
+      questionActiveDansCeGroupe: isQuestionLiveInGroup(groupId),
+    });
+    return;
+  }
 
   const text = extractText(msg).trim();
   if (!text) return;

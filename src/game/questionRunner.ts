@@ -24,9 +24,11 @@ import type { WAMessageKey } from '@whiskeysockets/baileys';
  * déjà résolu, et utilise `player.jid` (son JID canonique en base)
  * comme clé dans `answeredJids`, pas le JID brut du message reçu.
  *
- * Réagit immédiatement (✅/❌) sur le message du joueur dès que sa
- * réponse est prise en compte — bien avant le message de révélation
- * qui n'arrive qu'à la fin du temps imparti.
+ * Réagit avec 🔄 dès que la réponse est enregistrée, juste pour accuser
+ * réception — PAS de ✅/❌ immédiat : la correction n'est plus révélée
+ * au fil de l'eau (ça imposait de corriger les joueurs un par un), mais
+ * regroupée dans un seul récapitulatif envoyé à la fin du décompte (voir
+ * resolveQuestion plus bas / templates.revealAndScores).
  */
 export function tryHandleAnswer(
   live: LiveQuestionState,
@@ -78,11 +80,10 @@ export function tryHandleAnswer(
     //
     // Important pour le diagnostic : un échec ICI ne signifie PAS que
     // la réponse du joueur a été perdue — `recordAnswer` a déjà réussi
-    // au-dessus, donc les points seront bien attribués. Seul le retour
-    // visuel ✅/❌ sur le message manque. Un joueur peut donc légitimement
-    // avoir l'impression d'être "ignoré" alors que sa réponse compte.
-    actions.react(messageKey, isCorrect ? '✅' : '❌').catch((err) => {
-      logger.warn("Échec réaction ✅/❌ (réponse enregistrée quand même)", {
+    // au-dessus, donc les points seront bien attribués au récapitulatif
+    // de fin de question. Seul l'accusé de réception 🔄 manque.
+    actions.react(messageKey, '🔄').catch((err) => {
+      logger.warn('Échec réaction 🔄 (réponse enregistrée quand même)', {
         playerId: player.id,
         jid,
         error: String(err),
@@ -132,18 +133,41 @@ export function startQuestion(
       await actions.edit(countdownKey, templates.stop()).catch(() => undefined);
     }
 
-    const { scored, majorityMissed } = settleQuestionScores(gameId, phase, questionIndex);
-    const scoredWithNames = scored
+    // Seuil de tolérance : on retarde volontairement le calcul des scores
+    // de `config.answerGraceMs` après la fin officielle du décompte.
+    // `runtime.liveQuestion` (côté gameManager) reste actif tant que
+    // `waitForReveal` n'est pas résolu, donc les réponses qui arrivent en
+    // retard purement à cause d'un rattrapage réseau (retry automatique
+    // de Baileys après un échec de déchiffrement, latence de livraison)
+    // continuent d'être acceptées normalement par tryHandleAnswer pendant
+    // cette fenêtre — sans que les joueurs ne voient de différence
+    // (le message "🛑 STOP" est déjà affiché).
+    if (config.answerGraceMs > 0) {
+      await new Promise<void>((resolve) => setTimeout(resolve, config.answerGraceMs));
+    }
+    if (cancelled) return; // .quizz stop pendant le délai de grâce
+
+    const { summary, majorityMissed } = settleQuestionScores(gameId, phase, questionIndex);
+    const summaryWithNames = summary
       .map((s) => {
         const p = playersById.get(s.playerId);
-        return p ? { jid: p.jid, name: p.display_name, points: s.points, speedBonus: s.speedBonus } : null;
+        return p
+          ? {
+              jid: p.jid,
+              name: p.display_name,
+              isCorrect: s.isCorrect,
+              points: s.points,
+              speedBonus: s.speedBonus,
+              majorityBonus: s.majorityBonus,
+            }
+          : null;
       })
-      .filter((s): s is { jid: string; name: string; points: number; speedBonus: number } => Boolean(s));
+      .filter((s): s is NonNullable<typeof s> => Boolean(s));
 
     const reveal = templates.revealAndScores(
       question.answer,
       question.choices[question.answer],
-      scoredWithNames,
+      summaryWithNames,
       majorityMissed
     );
     await actions.send(reveal.text, reveal.mentions);

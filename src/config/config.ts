@@ -51,6 +51,16 @@ export const config = {
   rulesReadPauseMs: 9_000, // laisser le temps de lire le rappel des règles avant de commencer
   phaseAnnouncePauseMs: 5_000, // laisser le temps de lire le thème avant la 1re question
   questionDurationMs: 20_000,
+  // Seuil de tolérance : délai supplémentaire, après la fin officielle du
+  // décompte affiché aux joueurs, avant de figer les réponses et calculer
+  // les scores de la question. Pendant cette fenêtre, une question reste
+  // "active" côté moteur de jeu (voir game/questionRunner.ts) donc une
+  // réponse qui arrive en retard uniquement à cause d'un rattrapage
+  // réseau (retry automatique de Baileys après un échec de déchiffrement,
+  // latence de livraison WhatsApp) a encore une chance d'être prise en
+  // compte, sans que les joueurs ne voient de différence à l'écran (le
+  // message "🛑 STOP" est déjà affiché pendant ce délai).
+  answerGraceMs: Number(process.env.ANSWER_GRACE_MS ?? 5_000),
   countdownTickMs: 1_000, // fréquence de mise à jour du décompte affiché
   interPhaseBreakMs: 18_000, // entre 15 et 20s, cf. cahier des charges
   phaseSummaryPauseMs: 6_000, // laisser le temps de lire le classement de fin de phase

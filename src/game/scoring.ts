@@ -5,15 +5,27 @@ import {
   getCorrectAnswersOrdered,
   getPerfectPhasePlayers,
   getPlayerCount,
+  getPlayers,
   getScoreboard,
   updateAnswerPoints,
   type PlayerScoreRow,
 } from '../db/gameRepository';
 
-export interface ScoredAnswer {
+/**
+ * Une ligne par joueur INSCRIT à la partie (pas seulement ceux qui ont
+ * répondu correctement) : le produit veut désormais un récapitulatif
+ * complet ✅/❌ par question plutôt qu'une réaction ✅/❌ individuelle sur
+ * chaque message de réponse (voir game/questionRunner.tryHandleAnswer,
+ * qui réagit uniquement avec 🔄 pour accuser réception, sans révéler la
+ * correction avant la fin du décompte).
+ */
+export interface QuestionSummaryEntry {
   playerId: number;
+  isCorrect: boolean;
   points: number;
   speedBonus: number;
+  /** true si ce point provient du barème "majorité ratée" (voir config.majorityMissThreshold). */
+  majorityBonus: boolean;
 }
 
 /**
@@ -25,14 +37,17 @@ export interface ScoredAnswer {
  *   ordre déjà garanti fiable par getCorrectAnswersOrdered), uniquement
  *   si le nombre de joueurs inscrits atteint le seuil configuré
  *
- * Retourne le détail par joueur pour construire le message d'annonce
- * ("+X pour @joueur ...") sans requête supplémentaire.
+ * Retourne une entrée par joueur INSCRIT (correct, faux, ou absent de
+ * réponse) pour construire le récapitulatif de fin de question envoyé
+ * en un seul message groupé, plutôt qu'une réaction individuelle par
+ * réponse. Les joueurs corrects sont en tête (dans l'ordre de rapidité),
+ * suivis des joueurs en échec (dans l'ordre d'inscription).
  */
 export function settleQuestionScores(
   gameId: number,
   phase: number,
   questionIndex: number
-): { scored: ScoredAnswer[]; majorityMissed: boolean } {
+): { summary: QuestionSummaryEntry[]; majorityMissed: boolean } {
   const correctAnswers = getCorrectAnswersOrdered(gameId, phase, questionIndex);
   const totalPlayers = getPlayerCount(gameId);
   const speedBonusActive = totalPlayers >= config.speedBonusMinPlayers;
@@ -42,7 +57,8 @@ export function settleQuestionScores(
   const majorityMissed = missRate >= config.majorityMissThreshold;
   const basePoints = majorityMissed ? config.points.majorityMissBonus : config.points.correctAnswer;
 
-  const scored: ScoredAnswer[] = [];
+  const summary: QuestionSummaryEntry[] = [];
+  const correctPlayerIds = new Set<number>();
 
   // Une seule transaction pour les N mises à jour au lieu de N écritures
   // indépendantes — évite N cycles bind/step/reset séparés quand
@@ -53,11 +69,28 @@ export function settleQuestionScores(
       const speedBonus = isFastest ? config.points.speedBonus : 0;
       const points = basePoints + speedBonus;
       updateAnswerPoints(answer.id, points, speedBonus);
-      scored.push({ playerId: answer.player_id, points, speedBonus });
+      correctPlayerIds.add(answer.player_id);
+      summary.push({
+        playerId: answer.player_id,
+        isCorrect: true,
+        points,
+        speedBonus,
+        majorityBonus: majorityMissed,
+      });
     });
   });
 
-  return { scored, majorityMissed };
+  // Complète avec tous les joueurs inscrits qui n'ont PAS de réponse
+  // correcte (réponse fausse ou pas de réponse du tout) : le
+  // récapitulatif doit montrer qui a raté, pas seulement qui a gagné des
+  // points.
+  for (const player of getPlayers(gameId)) {
+    if (!correctPlayerIds.has(player.id)) {
+      summary.push({ playerId: player.id, isCorrect: false, points: 0, speedBonus: 0, majorityBonus: false });
+    }
+  }
+
+  return { summary, majorityMissed };
 }
 
 /**

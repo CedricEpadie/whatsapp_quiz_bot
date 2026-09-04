@@ -98,26 +98,36 @@ export const templates = {
   revealAndScores: (
     correctChoice: string,
     correctText: string,
-    scored: { jid: string; name: string; points: number; speedBonus: number }[],
+    summary: {
+      jid: string;
+      name: string;
+      isCorrect: boolean;
+      points: number;
+      speedBonus: number;
+      majorityBonus: boolean;
+    }[],
     majorityMissed: boolean
   ): MentionedText => {
     let text = `✅ La bonne réponse était *${correctChoice}. ${correctText}*`;
     if (majorityMissed) {
       text += `\n😮 Presque tout le monde s'est planté ! Bonus exceptionnel pour ceux qui ont trouvé.`;
     }
-    if (scored.length === 0) {
-      text += `\n\n😅 Personne n'a trouvé cette fois...`;
+    if (summary.length === 0) {
+      text += `\n\n😅 Personne n'a participé à cette question...`;
       return { text, mentions: [] };
     }
-    const lines = scored.map((s) => {
-      let line = `+${s.points} pour ${mentionOf(s.jid)}`;
-      if (s.speedBonus > 0) {
-        line += ` ⚡ bonus de rapidité +${s.speedBonus}`;
+    const lines = summary.map((s) => {
+      const icon = s.isCorrect ? '✅' : '❌';
+      let line = `${icon} ${mentionOf(s.jid)}`;
+      if (s.isCorrect) {
+        line += ` — +${s.points} pt${s.points > 1 ? 's' : ''}`;
+        if (s.speedBonus > 0) line += ` ⚡+${s.speedBonus}`;
+        if (s.majorityBonus) line += ` 👥`;
       }
       return line;
     });
     text += `\n\n${lines.join('\n')}`;
-    return { text, mentions: scored.map((s) => s.jid) };
+    return { text, mentions: summary.map((s) => s.jid) };
   },
 
   phaseSummary: (

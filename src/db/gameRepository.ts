@@ -41,6 +41,46 @@ export function getActiveGame(groupId: string): GameRow | undefined {
     .get(groupId) as GameRow | undefined;
 }
 
+/**
+ * À appeler une seule fois, tôt au démarrage du process (avant toute
+ * commande .quizz possible). Un process qui redémarre repart TOUJOURS
+ * avec `runtimeGames` vide (voir game/gameManager.ts) : aucune partie
+ * marquée 'registration'/'running' en base ne peut donc correspondre à
+ * un état en mémoire réel de ce nouveau process — que le process
+ * précédent se soit arrêté proprement (redéploiement, SIGTERM) ou
+ * brutalement (crash). Sans ce nettoyage, une telle ligne reste
+ * bloquée indéfiniment et `.quizz` répond ensuite "une partie est déjà
+ * en cours" dans ce groupe, alors qu'aucune partie ne tourne réellement
+ * (et `.quizz stop` ne peut pas la débloquer, puisqu'il n'agit que sur
+ * les parties en mémoire du process courant).
+ */
+export function cancelStaleActiveGames(): number {
+  const info = db
+    .prepare(
+      `UPDATE games SET status = 'cancelled', ended_at = ?
+       WHERE status IN ('registration', 'running')`
+    )
+    .run(Date.now());
+  return info.changes;
+}
+
+/**
+ * Annule la partie active d'un groupe précis en base, si elle existe —
+ * utilisé par le filet de secours manuel `.quizz reset` (voir
+ * gameManager.forceResetGame) pour débloquer une ligne fantôme sans
+ * attendre un redémarrage du process. Retourne true si une ligne a
+ * effectivement été modifiée.
+ */
+export function cancelActiveGameForGroup(groupId: string): boolean {
+  const info = db
+    .prepare(
+      `UPDATE games SET status = 'cancelled', ended_at = ?
+       WHERE group_id = ? AND status IN ('registration', 'running')`
+    )
+    .run(Date.now(), groupId);
+  return info.changes > 0;
+}
+
 export function createGame(groupId: string, phaseCount: number): GameRow {
   const info = db
     .prepare(
@@ -181,6 +221,26 @@ export function getCorrectAnswersOrdered(
     player_id: number;
     answered_at: number;
   }[];
+}
+
+/**
+ * IDs des joueurs ayant répondu FAUX (réponse enregistrée mais
+ * incorrecte) à une question — distinct de "n'a pas répondu du tout",
+ * pour permettre au récapitulatif de fin de question de distinguer ❌
+ * (a répondu, s'est trompé) de ➖ (n'a pas participé à cette question).
+ */
+export function getWrongAnswerPlayerIds(
+  gameId: number,
+  phase: number,
+  questionIndex: number
+): number[] {
+  const rows = db
+    .prepare(
+      `SELECT player_id FROM answers
+       WHERE game_id = ? AND phase = ? AND question_index = ? AND is_correct = 0`
+    )
+    .all(gameId, phase, questionIndex) as { player_id: number }[];
+  return rows.map((r) => r.player_id);
 }
 
 export function updateAnswerPoints(

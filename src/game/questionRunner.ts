@@ -155,7 +155,7 @@ export function startQuestion(
           ? {
               jid: p.jid,
               name: p.display_name,
-              isCorrect: s.isCorrect,
+              outcome: s.outcome,
               points: s.points,
               speedBonus: s.speedBonus,
               majorityBonus: s.majorityBonus,

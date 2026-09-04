@@ -3,6 +3,7 @@ import { runInTransaction } from '../db/database';
 import {
   addPhaseBonus,
   getCorrectAnswersOrdered,
+  getWrongAnswerPlayerIds,
   getPerfectPhasePlayers,
   getPlayerCount,
   getPlayers,
@@ -13,15 +14,18 @@ import {
 
 /**
  * Une ligne par joueur INSCRIT à la partie (pas seulement ceux qui ont
- * répondu correctement) : le produit veut désormais un récapitulatif
- * complet ✅/❌ par question plutôt qu'une réaction ✅/❌ individuelle sur
- * chaque message de réponse (voir game/questionRunner.tryHandleAnswer,
- * qui réagit uniquement avec 🔄 pour accuser réception, sans révéler la
- * correction avant la fin du décompte).
+ * répondu correctement) : le produit veut un récapitulatif à TROIS
+ * états par question — ✅ trouvé, ❌ répondu mais faux, ➖ pas répondu du
+ * tout — plutôt qu'une réaction ✅/❌ individuelle sur chaque message de
+ * réponse (voir game/questionRunner.tryHandleAnswer, qui réagit
+ * uniquement avec 🔄 pour accuser réception, sans révéler la correction
+ * avant la fin du décompte).
  */
+export type QuestionOutcome = 'correct' | 'wrong' | 'no_answer';
+
 export interface QuestionSummaryEntry {
   playerId: number;
-  isCorrect: boolean;
+  outcome: QuestionOutcome;
   points: number;
   speedBonus: number;
   /** true si ce point provient du barème "majorité ratée" (voir config.majorityMissThreshold). */
@@ -41,7 +45,8 @@ export interface QuestionSummaryEntry {
  * réponse) pour construire le récapitulatif de fin de question envoyé
  * en un seul message groupé, plutôt qu'une réaction individuelle par
  * réponse. Les joueurs corrects sont en tête (dans l'ordre de rapidité),
- * suivis des joueurs en échec (dans l'ordre d'inscription).
+ * suivis des joueurs en échec (répondu faux, puis pas répondu), dans
+ * l'ordre d'inscription au sein de chaque groupe.
  */
 export function settleQuestionScores(
   gameId: number,
@@ -72,7 +77,7 @@ export function settleQuestionScores(
       correctPlayerIds.add(answer.player_id);
       summary.push({
         playerId: answer.player_id,
-        isCorrect: true,
+        outcome: 'correct',
         points,
         speedBonus,
         majorityBonus: majorityMissed,
@@ -80,13 +85,19 @@ export function settleQuestionScores(
     });
   });
 
-  // Complète avec tous les joueurs inscrits qui n'ont PAS de réponse
-  // correcte (réponse fausse ou pas de réponse du tout) : le
-  // récapitulatif doit montrer qui a raté, pas seulement qui a gagné des
-  // points.
+  // Joueurs ayant répondu FAUX : présents dans `answers` mais pas dans
+  // `correctPlayerIds`.
+  const wrongPlayerIds = new Set(
+    getWrongAnswerPlayerIds(gameId, phase, questionIndex).filter((id) => !correctPlayerIds.has(id))
+  );
+  for (const playerId of wrongPlayerIds) {
+    summary.push({ playerId, outcome: 'wrong', points: 0, speedBonus: 0, majorityBonus: false });
+  }
+
+  // Le reste des joueurs inscrits n'a tout simplement pas répondu.
   for (const player of getPlayers(gameId)) {
-    if (!correctPlayerIds.has(player.id)) {
-      summary.push({ playerId: player.id, isCorrect: false, points: 0, speedBonus: 0, majorityBonus: false });
+    if (!correctPlayerIds.has(player.id) && !wrongPlayerIds.has(player.id)) {
+      summary.push({ playerId: player.id, outcome: 'no_answer', points: 0, speedBonus: 0, majorityBonus: false });
     }
   }
 

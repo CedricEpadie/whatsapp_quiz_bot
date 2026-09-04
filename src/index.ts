@@ -1,8 +1,8 @@
 import { initDb, flushDbToDisk } from './db/database';
-import { pruneOldGames } from './db/gameRepository';
+import { pruneOldGames, cancelStaleActiveGames } from './db/gameRepository';
 import { config } from './config/config';
 import { loadAllThemes } from './questions/questionLoader';
-import { setThemesCache } from './game/gameManager';
+import { setThemesCache, cancelAllActiveGamesOnDisconnect } from './game/gameManager';
 import { startBot } from './bot/connection';
 import { logger } from './utils/logger';
 import { startKeepAlive } from './utils/keepAlive';
@@ -28,15 +28,28 @@ function pruneOldGamesSafely(): void {
 // sql.js travaille en mémoire : on doit s'assurer que les dernières
 // écritures en attente (debounce de 500ms, voir db/database.ts) sont
 // bien flushées sur disque avant que le process ne s'arrête.
+//
+// On marque aussi toute partie en mémoire ('registration'/'running')
+// comme annulée AVANT de quitter : sans ça, un redémarrage volontaire
+// (redéploiement) pendant une partie active laisse une ligne bloquée en
+// base, et `.quizz` refuse ensuite de démarrer dans ce groupe en disant
+// "une partie est déjà en cours" — alors qu'il n'y en a plus aucune
+// (voir aussi cancelStaleActiveGames, filet de sécurité complémentaire
+// pour le cas d'un arrêt NON propre, ex. crash/kill, appelé au
+// démarrage).
 function registerGracefulShutdown(): void {
   const shutdown = (signal: string) => {
     logger.info(`Signal ${signal} reçu, sauvegarde de la base avant arrêt...`);
-    try {
-      flushDbToDisk();
-    } catch (err) {
-      logger.error('Échec de la sauvegarde finale de la base', { error: String(err) });
-    }
-    process.exit(0);
+    cancelAllActiveGamesOnDisconnect()
+      .catch((err) => logger.error("Échec de l'annulation des parties en cours", { error: String(err) }))
+      .finally(() => {
+        try {
+          flushDbToDisk();
+        } catch (err) {
+          logger.error('Échec de la sauvegarde finale de la base', { error: String(err) });
+        }
+        process.exit(0);
+      });
   };
   process.on('SIGINT', () => shutdown('SIGINT'));
   process.on('SIGTERM', () => shutdown('SIGTERM'));
@@ -45,6 +58,22 @@ function registerGracefulShutdown(): void {
 async function main(): Promise<void> {
   await initDb(); // doit être attendu avant tout accès à la base (sql.js s'initialise de façon asynchrone)
   registerGracefulShutdown();
+
+  // Filet de sécurité pour un arrêt NON propre du process précédent
+  // (crash, kill -9, coupure d'alimentation, panel d'hébergement qui
+  // redémarre le service) : registerGracefulShutdown() ne peut rien
+  // faire dans ce cas puisqu'aucun signal n'est reçu. Un process qui
+  // démarre repart TOUJOURS avec un état mémoire vide (game/gameManager
+  // .runtimeGames), donc toute ligne encore 'registration'/'running' en
+  // base à ce stade est nécessairement une partie fantôme d'un process
+  // précédent — jamais une partie réellement en cours de celui-ci.
+  const staleCount = cancelStaleActiveGames();
+  if (staleCount > 0) {
+    logger.warn(
+      `${staleCount} partie(s) fantôme(s) d'un précédent démarrage annulée(s) (arrêt non propre du process précédent)`
+    );
+  }
+
   pruneOldGamesSafely();
   setInterval(pruneOldGamesSafely, PRUNE_INTERVAL_MS);
 

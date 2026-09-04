@@ -2,6 +2,7 @@ import { config } from '../config/config';
 import {
   createGame,
   getActiveGame,
+  cancelActiveGameForGroup,
   getPlayers,
   setGameProgress,
   setGameStatus,
@@ -331,6 +332,39 @@ export async function stopQuizz(groupId: string, actions: Actions): Promise<bool
   runtimeGames.delete(groupId);
   await actions.send(templates.gameStopped());
   return true;
+}
+
+/**
+ * Filet de secours manuel (commande ".quizz reset", admin uniquement) :
+ * contrairement à `stopQuizz`, agit MÊME si aucune partie n'existe en
+ * mémoire pour ce groupe — utile quand `.quizz` répond à tort "une
+ * partie est déjà en cours" alors qu'aucune partie n'est réellement
+ * active (ligne bloquée en base suite à un arrêt non propre du process,
+ * ou traitement en double d'une commande suite à une re-livraison
+ * WhatsApp — voir markProcessed en bot/commandRouter.ts). Sans cette
+ * commande, la seule façon de débloquer la situation était d'attendre
+ * un redémarrage du bot (qui, lui, nettoie les parties fantômes au
+ * démarrage, voir db/gameRepository.cancelStaleActiveGames).
+ */
+export async function forceResetGame(groupId: string, actions: Actions): Promise<void> {
+  const runtime = runtimeGames.get(groupId);
+  if (runtime) {
+    runtime.cancelled = true;
+    runtime.registrationWindow?.timer.cancel();
+    runtime.registrationWindow?.stopReminders();
+    runtime.activeQuestion?.cancel();
+    runtime.cancelSleep?.();
+    runtimeGames.delete(groupId);
+  }
+
+  const dbRowCleared = cancelActiveGameForGroup(groupId);
+
+  if (!runtime && !dbRowCleared) {
+    await actions.send(templates.noActiveGameToStop());
+    return;
+  }
+
+  await actions.send(templates.gameForceReset());
 }
 
 /**

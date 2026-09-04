@@ -101,7 +101,7 @@ export const templates = {
     summary: {
       jid: string;
       name: string;
-      isCorrect: boolean;
+      outcome: 'correct' | 'wrong' | 'no_answer';
       points: number;
       speedBonus: number;
       majorityBonus: boolean;
@@ -116,10 +116,13 @@ export const templates = {
       text += `\n\n😅 Personne n'a participé à cette question...`;
       return { text, mentions: [] };
     }
+    // Nomenclature à trois états : ✅ trouvé, ❌ répondu mais faux,
+    // ➖ pas répondu du tout — pour ne pas confondre "s'est trompé" et
+    // "n'a pas participé" dans le récapitulatif.
     const lines = summary.map((s) => {
-      const icon = s.isCorrect ? '✅' : '❌';
+      const icon = s.outcome === 'correct' ? '✅' : s.outcome === 'wrong' ? '❌' : '➖';
       let line = `${icon} ${mentionOf(s.jid)}`;
-      if (s.isCorrect) {
+      if (s.outcome === 'correct') {
         line += ` — +${s.points} pt${s.points > 1 ? 's' : ''}`;
         if (s.speedBonus > 0) line += ` ⚡+${s.speedBonus}`;
         if (s.majorityBonus) line += ` 👥`;
@@ -171,6 +174,9 @@ export const templates = {
   gameStopped: (): string => `🛑 *Partie arrêtée.* À bientôt pour une revanche ! 👋`,
 
   noActiveGameToStop: (): string => `ℹ️ Il n'y a pas de partie en cours à arrêter.`,
+
+  gameForceReset: (): string =>
+    `🧹 *État de partie réinitialisé pour ce groupe.* Tu peux relancer \`.quizz\` normalement.`,
 
   rules: (): string =>
     `📜 *RÈGLES DU QUIZZ* 📜\n\n` +

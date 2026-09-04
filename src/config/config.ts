@@ -60,7 +60,7 @@ export const config = {
   // latence de livraison WhatsApp) a encore une chance d'être prise en
   // compte, sans que les joueurs ne voient de différence à l'écran (le
   // message "🛑 STOP" est déjà affiché pendant ce délai).
-  answerGraceMs: Number(process.env.ANSWER_GRACE_MS ?? 5_000),
+  answerGraceMs: Number(process.env.ANSWER_GRACE_MS ?? 3_000),
   countdownTickMs: 1_000, // fréquence de mise à jour du décompte affiché
   interPhaseBreakMs: 18_000, // entre 15 et 20s, cf. cahier des charges
   phaseSummaryPauseMs: 6_000, // laisser le temps de lire le classement de fin de phase

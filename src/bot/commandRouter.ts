@@ -1,7 +1,7 @@
 import type { WASocket, WAMessage } from '@whiskeysockets/baileys';
 import { config } from '../config/config';
 import { templates } from '../messages/templates';
-import { startQuizz, stopQuizz, routeGroupMessage, isQuestionLiveInGroup } from '../game/gameManager';
+import { startQuizz, stopQuizz, forceResetGame, routeGroupMessage, isQuestionLiveInGroup } from '../game/gameManager';
 import { logger } from '../utils/logger';
 import { Semaphore } from '../utils/semaphore';
 import { resolveSenderJids } from '../utils/jid';
@@ -24,6 +24,42 @@ import type { Actions, SentMessage } from './actions';
  */
 const sentMessageIds = new Set<string>();
 const SENT_ID_TTL_MS = 60_000;
+
+/**
+ * IDs des messages ENTRANTS déjà traités, tous types confondus (commande
+ * ou réponse de joueur), pour ne jamais exécuter deux fois la même
+ * action derrière un même message.
+ *
+ * Pourquoi c'est nécessaire : WhatsApp peut redistribuer un message déjà
+ * livré (rattrapage "hors ligne" après une reconnexion, en particulier
+ * quand la synchronisation d'état de Baileys est cassée — voir les logs
+ * "failed to sync state from version" observés en production). Sans ce
+ * filet, une commande ".quizz" tapée une seule fois peut être exécutée
+ * deux fois si WhatsApp la re-livre, ce qui déclenche à tort "une partie
+ * est déjà en cours" juste après le lancement — y compris dans un groupe
+ * qui n'a jamais vu le bot auparavant, puisque ce n'est pas un problème
+ * d'état stocké par groupe mais de LIVRAISON DUPLIQUÉE du même message.
+ * Clé = remoteJid + id (l'ID seul n'est unique que par conversation).
+ */
+const processedIncomingIds = new Set<string>();
+const PROCESSED_INCOMING_TTL_MS = 5 * 60_000;
+
+function markProcessed(msg: WAMessage): boolean {
+  const id = msg.key.id;
+  const remoteJid = msg.key.remoteJid;
+  if (!id || !remoteJid) return true; // pas assez d'info pour dédupliquer, on laisse passer
+  const dedupeKey = `${remoteJid}:${id}`;
+  if (processedIncomingIds.has(dedupeKey)) {
+    logger.warn('Message entrant déjà traité, ignoré (probable re-livraison WhatsApp)', {
+      remoteJid,
+      id,
+    });
+    return false;
+  }
+  processedIncomingIds.add(dedupeKey);
+  setTimeout(() => processedIncomingIds.delete(dedupeKey), PROCESSED_INCOMING_TTL_MS);
+  return true;
+}
 
 /**
  * Toutes les requêtes sortantes vers WhatsApp (envoi, édition,
@@ -75,10 +111,10 @@ function makeActions(sock: WASocket, groupId: string): Actions {
   };
 }
 
-/** Parse ".quizz", ".quizz rules", ".quizz stop" ou ".quizz <nombre de phases>". */
+/** Parse ".quizz", ".quizz rules", ".quizz stop", ".quizz reset" ou ".quizz <nombre de phases>". */
 function parseQuizzCommand(
   text: string
-): { kind: 'start'; phaseCount?: number } | { kind: 'rules' } | { kind: 'stop' } | null {
+): { kind: 'start'; phaseCount?: number } | { kind: 'rules' } | { kind: 'stop' } | { kind: 'reset' } | null {
   const parts = text.trim().split(/\s+/);
   if (parts[0]?.toLowerCase() !== '.quizz') return null;
 
@@ -86,6 +122,7 @@ function parseQuizzCommand(
   if (!arg) return { kind: 'start' };
   if (arg === 'rules') return { kind: 'rules' };
   if (arg === 'stop') return { kind: 'stop' };
+  if (arg === 'reset') return { kind: 'reset' };
 
   const n = Number(arg);
   return { kind: 'start', phaseCount: Number.isFinite(n) ? n : Number.NaN };
@@ -94,6 +131,7 @@ function parseQuizzCommand(
 export async function handleIncomingMessage(sock: WASocket, msg: WAMessage): Promise<void> {
   const msgId = msg.key.id;
   if (msgId && sentMessageIds.has(msgId)) return; // écho d'un de nos propres envois
+  if (!markProcessed(msg)) return; // déjà traité (re-livraison WhatsApp) — voir markProcessed
 
   // Diagnostic : un message que Baileys n'a pas réussi à déchiffrer
   // ("No session found to decrypt message", voir logs internes en
@@ -146,6 +184,21 @@ export async function handleIncomingMessage(sock: WASocket, msg: WAMessage): Pro
       return;
     }
     await stopQuizz(groupId, actions);
+    return;
+  }
+
+  if (command?.kind === 'reset') {
+    // Filet de secours manuel — admin uniquement (comme "stop"), voir
+    // gameManager.forceResetGame pour le contexte détaillé. Utile en
+    // attendant un correctif définitif si ".quizz" répond à tort "une
+    // partie est déjà en cours" sans qu'aucune partie ne tourne
+    // réellement (ligne fantôme en base, ou commande traitée en double
+    // suite à une re-livraison WhatsApp).
+    if (!allowed) {
+      await actions.send(templates.notAllowed());
+      return;
+    }
+    await forceResetGame(groupId, actions);
     return;
   }
 

@@ -147,9 +147,11 @@ export function getPlayerCount(gameId: number): number {
 }
 
 /**
- * Marqueur du message d'erreur levé par sql.js quand une contrainte
- * UNIQUE est violée (sql.js n'expose pas de classe d'erreur typée avec
- * un `.code` comme better-sqlite3 : on doit distinguer par le message).
+ * Marqueur du message d'erreur levé par SQLite quand une contrainte
+ * UNIQUE est violée. `node:sqlite` expose bien un `.errcode` numérique
+ * (2067 = SQLITE_CONSTRAINT_UNIQUE) en plus du message, mais la
+ * détection par message reste portable si le moteur SQLite venait à
+ * changer à nouveau, donc on la garde telle quelle.
  */
 const UNIQUE_CONSTRAINT_MARKER = 'UNIQUE constraint failed';
 
@@ -283,12 +285,10 @@ export function addPhaseBonus(gameId: number, playerId: number, phase: number, p
  * Supprime les parties terminées/annulées plus vieilles que `maxAgeMs`
  * (et, par cascade FK, leurs joueurs/réponses/bonus associés).
  *
- * Pourquoi c'est nécessaire : sql.js réexporte et réécrit l'INTÉGRALITÉ
- * du fichier .db à chaque flush (voir db/database.ts, persistNow). Ce
- * coût croît avec la taille totale de la base, pas avec la taille de la
- * dernière écriture — contrairement à un vrai fichier SQLite avec WAL.
- * Sans purge, un bot qui tourne des mois voit ce coût dériver lentement
- * et invisiblement à mesure que l'historique de parties s'accumule.
+ * Reste utile même avec `node:sqlite` (qui écrit directement sur disque,
+ * sans le coût de réécriture intégrale qu'avait sql.js) : ça garde le
+ * fichier .db compact et les requêtes de classement/historique rapides
+ * à mesure que l'historique de parties s'accumule sur des mois.
  *
  * Retourne le nombre de parties supprimées (utile pour le logging).
  */

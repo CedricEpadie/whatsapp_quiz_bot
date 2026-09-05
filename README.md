@@ -10,14 +10,19 @@ avec bonus de rapidité et sans-faute, classements SQLite.
   (WebSocket natif, plus léger et stable que whatsapp-web.js pour une
   session longue avec des timers serrés — voir justification donnée
   en amont)
-- **sql.js** (SQLite compilé en WebAssembly) pour l'état de partie, les
-  scores et l'historique des réponses — choisi pour ne nécessiter aucune
-  compilation native au déploiement (contrairement à better-sqlite3),
-  ce que beaucoup d'hébergeurs de bots bloquent. Tourne en mémoire et
-  persiste sur disque après chaque écriture (voir `db/database.ts`).
+- **node:sqlite** (module SQLite intégré à Node.js >= 22.13, aucune
+  dépendance externe) pour l'état de partie, les scores et l'historique
+  des réponses — choisi pour ne nécessiter aucune compilation native au
+  déploiement (contrairement à better-sqlite3), ce que beaucoup
+  d'hébergeurs de bots bloquent, tout en écrivant directement sur disque
+  comme un vrai fichier SQLite (contrairement à l'ancien choix sql.js,
+  entièrement en mémoire — voir `db/database.ts`).
 - **TypeScript** strict
 
 ## 1. Installation
+
+Nécessite **Node.js >= 22.13** (module `node:sqlite` intégré, voir
+Stack ci-dessus).
 
 ```bash
 npm install
@@ -271,7 +276,7 @@ Pensé pour rester fluide même avec beaucoup de joueurs inscrits :
   (renégociations de clés, messages perdus) — augmentez cette valeur
   prudemment si vous testez avec un très grand groupe et une connexion
   stable, ou baissez-la si vous observez des soucis de session.
-- **SQLite synchrone** (`better-sqlite3`) pour les écritures de score :
+- **SQLite synchrone** (`node:sqlite`) pour les écritures de score :
   pas d'overhead de promesses/event-loop sur le chemin critique d'une
   réponse de joueur.
 - **Décompte à coût constant** : le décompte affiché s'appuie sur

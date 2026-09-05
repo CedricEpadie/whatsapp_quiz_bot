@@ -1,4 +1,4 @@
-import initSqlJs, { type Database as SqlJsDatabase } from 'sql.js';
+import { DatabaseSync, type StatementSync } from 'node:sqlite';
 import fs from 'fs';
 import path from 'path';
 import { config } from '../config/config';
@@ -11,16 +11,23 @@ import { config } from '../config/config';
  * pour tout ce qui doit survivre à la partie et permettre les calculs de
  * classement/scores/historique de façon fiable et requêtable.
  *
- * --- Pourquoi sql.js et pas better-sqlite3 ---
+ * --- Pourquoi node:sqlite et pas better-sqlite3 ni sql.js ---
  * better-sqlite3 est un module natif : il doit être recompilé (node-gyp)
- * pour la plateforme de déploiement. Beaucoup d'hébergeurs de bots
- * bloquent ou n'autorisent pas ce type de build. sql.js est SQLite
- * compilé en WebAssembly : aucune compilation native n'est nécessaire,
- * au prix d'une contrepartie qu'il faut gérer explicitement ici :
- * sql.js travaille entièrement EN MÉMOIRE et n'écrit jamais seul sur
- * disque. C'est donc ce module qui est responsable de recharger le
- * fichier .db au démarrage et de le réécrire après chaque écriture
- * (voir schedulePersist / flushDbToDisk plus bas).
+ * pour la plateforme de déploiement, ce que beaucoup d'hébergeurs de bots
+ * bloquent. On utilisait donc sql.js (SQLite compilé en WebAssembly, zéro
+ * compilation native) en échange d'une contrepartie lourde à maintenir :
+ * une base entièrement EN MÉMOIRE, à réexporter et réécrire intégralement
+ * sur disque après chaque écriture.
+ *
+ * `node:sqlite` (module intégré à Node.js lui-même depuis la version
+ * 22.5, stable sans flag depuis 22.13/23.4) règle les deux problèmes à la
+ * fois : c'est un vrai moteur SQLite natif comme better-sqlite3 (fichier
+ * sur disque, écritures directes et incrémentales, pas de réécriture
+ * complète à chaque flush), mais compilé DANS le binaire Node lui-même —
+ * donc aucune installation ni compilation côté hébergeur, exactement
+ * comme pour n'importe quel autre module du cœur de Node (`fs`, `path`,
+ * etc.). Nécessite Node.js >= 22.13 (>= 22.5 avec le flag
+ * `--experimental-sqlite`).
  */
 
 interface RunResult {
@@ -53,28 +60,25 @@ function notInitialized(): never {
 }
 
 // Reste un objet "sûr" tant qu'initDb() n'a pas tourné, pour échouer vite
-// et clairement plutôt que de planter avec une erreur sql.js obscure si
-// un appel arrivait trop tôt.
+// et clairement plutôt que de planter avec une erreur obscure si un appel
+// arrivait trop tôt.
 export let db: DbShim = {
   prepare: notInitialized,
   exec: notInitialized,
   pragma: notInitialized,
 };
 
-let raw: SqlJsDatabase | undefined;
-let dbFilePath = '';
-let saveTimer: NodeJS.Timeout | undefined;
+let raw: DatabaseSync | undefined;
 
 /**
- * Cache des statements sql.js compilés, indexé par le texte SQL exact.
- * Défini au niveau module (et non dans buildShim) car `persistNow()` doit
- * pouvoir le vider : `Database.prototype.export()` de sql.js libère
- * (`.free()`) TOUS les statements ouverts et remplace le pointeur de
- * connexion bas niveau avant de sérialiser — voir persistNow() ci-dessous
- * pour le détail. Sans ce vidage, le prochain appel réutiliserait un
- * statement déjà finalisé et sql.js lèverait `"Statement closed"`.
+ * Cache des statements compilés, indexé par le texte SQL exact. Simple
+ * optimisation (évite de recompiler la même requête à chaque appel) :
+ * contrairement à l'ancien shim sql.js, il n'y a ici aucune contrainte
+ * d'invalidation — `node:sqlite` écrit directement sur disque à chaque
+ * requête, il n'y a pas d'étape "export" qui finalise les statements en
+ * cours de route.
  */
-const stmtCache = new Map<string, ReturnType<SqlJsDatabase['prepare']>>();
+const stmtCache = new Map<string, StatementSync>();
 
 function ensureDirExists(filePath: string): void {
   const dir = path.dirname(filePath);
@@ -83,41 +87,8 @@ function ensureDirExists(filePath: string): void {
   }
 }
 
-/** Persistance différée (debounce 500ms) pour absorber les rafales
- * d'écritures (ex: plusieurs joueurs qui répondent en même temps) sans
- * réécrire le fichier entier à chaque INSERT. */
-function schedulePersist(): void {
-  if (saveTimer) return;
-  saveTimer = setTimeout(() => {
-    saveTimer = undefined;
-    persistNow();
-  }, 500);
-}
-
-function persistNow(): void {
-  if (!raw) return;
-  const data = raw.export();
-  // sql.js's export() finalizes (`.free()`) every statement it has ever
-  // prepared and reopens the connection under a new low-level pointer.
-  // Tout statement mis en cache est donc mort après cet appel : on vide
-  // le cache pour forcer une re-préparation fraîche au prochain appel
-  // plutôt que de réutiliser un objet déjà finalisé (voir buildShim).
-  stmtCache.clear();
-  fs.writeFileSync(dbFilePath, Buffer.from(data));
-}
-
-/** À appeler explicitement à l'arrêt du process pour ne pas perdre les
- * dernières écritures encore en attente dans le debounce. */
-export function flushDbToDisk(): void {
-  if (saveTimer) {
-    clearTimeout(saveTimer);
-    saveTimer = undefined;
-  }
-  persistNow();
-}
-
-function buildShim(rawDb: SqlJsDatabase): DbShim {
-  function getCompiledStmt(sql: string): ReturnType<SqlJsDatabase['prepare']> {
+function buildShim(rawDb: DatabaseSync): DbShim {
+  function getCompiledStmt(sql: string): StatementSync {
     let stmt = stmtCache.get(sql);
     if (!stmt) {
       stmt = rawDb.prepare(sql);
@@ -130,58 +101,32 @@ function buildShim(rawDb: SqlJsDatabase): DbShim {
     prepare(sql: string): StatementShim {
       return {
         get(...params: unknown[]) {
-          const stmt = getCompiledStmt(sql);
-          try {
-            stmt.bind(params as never);
-            if (stmt.step()) {
-              return stmt.getAsObject();
-            }
-            return undefined;
-          } finally {
-            stmt.reset();
-          }
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          return getCompiledStmt(sql).get(...(params as any[]));
         },
         all(...params: unknown[]) {
-          const stmt = getCompiledStmt(sql);
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          const rows: any[] = [];
-          try {
-            stmt.bind(params as never);
-            while (stmt.step()) {
-              rows.push(stmt.getAsObject());
-            }
-            return rows;
-          } finally {
-            stmt.reset();
-          }
+          return getCompiledStmt(sql).all(...(params as any[])) as any[];
         },
         run(...params: unknown[]) {
-          const stmt = getCompiledStmt(sql);
-          try {
-            stmt.bind(params as never);
-            stmt.step();
-            const changes = rawDb.getRowsModified();
-            let lastInsertRowid = 0;
-            const res = rawDb.exec('SELECT last_insert_rowid() AS id');
-            if (res.length && res[0].values.length) {
-              lastInsertRowid = res[0].values[0][0] as number;
-            }
-            return { changes, lastInsertRowid };
-          } finally {
-            stmt.reset();
-            schedulePersist();
-          }
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          const info = getCompiledStmt(sql).run(...(params as any[]));
+          // node:sqlite retourne des `number | bigint` (bigint seulement
+          // si la valeur dépasse Number.MAX_SAFE_INTEGER, ce qui n'arrive
+          // jamais ici vu les volumes en jeu) — on normalise en `number`
+          // pour garder exactement le même contrat que l'ancien shim.
+          return {
+            changes: Number(info.changes),
+            lastInsertRowid: Number(info.lastInsertRowid),
+          };
         },
       };
     },
     exec(sql: string): void {
-      rawDb.run(sql);
-      schedulePersist();
+      rawDb.exec(sql);
     },
     pragma(sql: string): void {
-      // WAL n'a pas de sens pour une base entièrement en mémoire : seul
-      // 'foreign_keys' (utilisé plus bas) a un effet réel ici.
-      rawDb.run(`PRAGMA ${sql}`);
+      rawDb.exec(`PRAGMA ${sql}`);
     },
   };
 }
@@ -213,33 +158,32 @@ function columnExists(table: string): (column: string) => boolean {
 }
 
 /**
- * Initialise sql.js, recharge le fichier .db existant s'il y en a un
- * (sql.js lit nativement le format de fichier SQLite standard, donc un
- * fichier créé par better-sqlite3 est compatible tel quel), sinon crée
- * une base neuve. Doit être attendu (await) avant tout import qui
- * utilise `db` — voir src/index.ts.
+ * Ouvre (ou crée) le fichier SQLite via `node:sqlite`, et s'assure que
+ * le schéma existe / est à jour. Le fichier est lu et écrit directement
+ * sur disque par le moteur SQLite lui-même — pas de rechargement manuel
+ * en mémoire à gérer ici (contrairement à l'ancien shim sql.js).
+ *
+ * Reste `async` (même si `node:sqlite` est entièrement synchrone) pour
+ * ne pas devoir changer la signature attendue par les appelants
+ * existants (voir src/index.ts : `await initDb()`).
  */
 export async function initDb(filePath: string = config.dbPath): Promise<void> {
-  dbFilePath = filePath;
   ensureDirExists(filePath);
 
-  const wasmPath = require.resolve('sql.js/dist/sql-wasm.wasm');
-  const SQL = await initSqlJs({ locateFile: () => wasmPath });
-
-  if (fs.existsSync(filePath)) {
-    const fileBuffer = fs.readFileSync(filePath);
-    raw = new SQL.Database(fileBuffer);
-  } else {
-    raw = new SQL.Database();
-  }
+  raw = new DatabaseSync(filePath);
 
   // Sécurité si initDb() est rappelé avec une nouvelle connexion (ex: en
   // tests) : les statements déjà en cache seraient liés à l'ancienne
-  // connexion sql.js désormais obsolète.
+  // connexion désormais fermée/obsolète.
   stmtCache.clear();
 
   db = buildShim(raw);
   db.pragma('foreign_keys = ON');
+  // WAL : plusieurs lecteurs/écrivains concurrents ne posent aucun
+  // problème pour ce bot (un seul process y accède), mais WAL réduit
+  // aussi la latence des écritures synchrones (une seule fsync en fin de
+  // checkpoint plutôt qu'à chaque transaction) — gratuit à activer ici.
+  db.pragma('journal_mode = WAL');
 
   db.exec(`
     CREATE TABLE IF NOT EXISTS games (
@@ -312,8 +256,16 @@ export async function initDb(filePath: string = config.dbPath): Promise<void> {
   if (!answersHasColumn('message_key')) {
     db.exec('ALTER TABLE answers ADD COLUMN message_key TEXT');
   }
+}
 
-  // Toute écriture faite pendant l'initialisation (migrations) doit être
-  // sur disque avant que le reste de l'appli ne commence à tourner.
-  flushDbToDisk();
+/**
+ * Conservée pour ne pas devoir modifier ses appelants (voir
+ * src/index.ts, appelée à l'arrêt du process). Ne fait plus rien : avec
+ * `node:sqlite`, chaque écriture est déjà directement persistée sur
+ * disque par le moteur SQLite lui-même (comme better-sqlite3), il n'y a
+ * plus de tampon en mémoire à vider manuellement (contrairement à
+ * l'ancien shim sql.js).
+ */
+export function flushDbToDisk(): void {
+  // no-op intentionnel — voir commentaire ci-dessus.
 }

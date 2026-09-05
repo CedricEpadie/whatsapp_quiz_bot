@@ -25,14 +25,13 @@ function pruneOldGamesSafely(): void {
   }
 }
 
-// sql.js travaille en mémoire : on doit s'assurer que les dernières
-// écritures en attente (debounce de 500ms, voir db/database.ts) sont
-// bien flushées sur disque avant que le process ne s'arrête.
-//
-// On marque aussi toute partie en mémoire ('registration'/'running')
-// comme annulée AVANT de quitter : sans ça, un redémarrage volontaire
-// (redéploiement) pendant une partie active laisse une ligne bloquée en
-// base, et `.quizz` refuse ensuite de démarrer dans ce groupe en disant
+// node:sqlite écrit directement sur disque à chaque requête (voir
+// db/database.ts) : flushDbToDisk() n'est plus qu'un no-op conservé pour
+// compat. Ce qui reste réellement nécessaire ici, c'est de marquer toute
+// partie en mémoire ('registration'/'running') comme annulée AVANT de
+// quitter : sans ça, un redémarrage volontaire (redéploiement) pendant
+// une partie active laisse une ligne bloquée en base, et `.quizz` refuse
+// ensuite de démarrer dans ce groupe en disant
 // "une partie est déjà en cours" — alors qu'il n'y en a plus aucune
 // (voir aussi cancelStaleActiveGames, filet de sécurité complémentaire
 // pour le cas d'un arrêt NON propre, ex. crash/kill, appelé au
@@ -56,7 +55,7 @@ function registerGracefulShutdown(): void {
 }
 
 async function main(): Promise<void> {
-  await initDb(); // doit être attendu avant tout accès à la base (sql.js s'initialise de façon asynchrone)
+  await initDb(); // doit être attendu avant tout accès à la base (ouverture du fichier)
   registerGracefulShutdown();
 
   // Filet de sécurité pour un arrêt NON propre du process précédent
